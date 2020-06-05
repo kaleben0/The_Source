@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "The Source"
+AuthUserFile /var/www/html/sub/the_source/.htpasswd
+Require valid-user

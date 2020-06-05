@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand&display=swap);
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: Quicksand, sans-serif;
+}
+a {
+  text-decoration: none;
+  color:#fff;
+}
+a:active, a:hover, a:link, a:visited {
+  text-decoration: none !important;
+  color: #fff;
+}
+a:hover {
+  color: #999;
+}
+th {
+  color:#fff;
+}
+.mte_content {
+	color: #696969;
+	font-size: 10pt;
+	margin:0;
+}
+.mte_head_1 {
+	font-size: 20pt;
+	font-weight: bold;
+	margin: 10px 0 20px 0;
+}
+.mte_head {
+	font-weight:bold;
+	color: #fff;
+}
+a.mte_head {
+	color: #fff;
+}
+.info_table td {
+  color:#fff;
+  text-align:center;
+}
+.info_table {
+  width: 750px;
+}
+.mte_mess {
+	font-size: 10pt;
+	padding: 10px; 
+	color:#fff; 
+	font-weight: bold
+}
+.mte_content table {
+  color: #000;
+}
+.mte_content td {
+	vertical-align: top;
+	font-size: 15px;
+}
+.mte_content input {
+	border: 1px solid #B9B9B9;
+	padding-left: 2px;
+	font-size: 18px;
+	height: 26px;
+	min-width: 100px;
+  font-family: Quicksand, sans-serif;
+}
+.mte_content textarea {
+	border: 1px solid #B9B9B9;
+	padding-left: 2px;
+	font-size: 18px;
+  font-family: Quicksand, sans-serif;
+  height: 26px !important;
+}
+select {
+	border: 0; 
+	font-size: 18px;
+	height: 30px;
+	min-width: 100px;
+  font-family: Quicksand, sans-serif;
+}
+button {
+	border: 1px solid #B9B9B9; 
+	min-width: 100px;
+	font-size: 16px;
+	height: 26px;
+  font-family: Quicksand, sans-serif;
+}
+.mce-tinymce button {
+	border: 0; 
+	min-width: 1px;
+	font-size: 16px;
+	height: 26px;
+}
+
+.mte_req {
+	background: #ffcfcf;
+}
+.mte_content td.mte_nav {
+	width:22px;
+	height:20px;
+	vertical-align: middle; 
+	text-align:center;
+	border:1px solid #ccc; 
+	font-size:11pt; 
+}
+.mte_nav a { 
+	color: #000;
+	font-size:11pt; 
+}
+.mte_nav_prev_next { 
+	color: #fff;
+}
+.icons {
+	width: 22px;
+	height: auto;
+	border: 0;
+} 
