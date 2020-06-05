@@ -335,8 +335,6 @@ function netflix() {
   }
 }
 
-
-
 function reddit() {
   if ($("#myonoffswitch").is(':not(:checked')) {
     window.open('https://www.reddit.com', '_blank');
@@ -488,6 +486,7 @@ function justwatch() {
 // Key Functions
 
 
+
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "1") {
     toggle_book();
@@ -529,21 +528,19 @@ document.addEventListener("keydown", function (zEvent) {
   }
 });
 
-
 function edit_book() {
-  window.open('db_index.php?&start=0&s=&f=&sort=id&ad=a', '_blank');
+  window.open('./functions/db_index.php?&start=0&s=&f=&sort=id&ad=a', '_blank');
 }
-
 
 //Header Toggles
 
-function toggleadmin() {
+function togglefavorite() {
   if (event.altKey) {
     location.reload();
   } else {
     $('#search_section,#env_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
-    $('#admin_section,.g_form,#letter_mobile,.letters').show();
-    $('#admin').toggle();
+    $('#favorite_section,.g_form,#letter_mobile,.letters').show();
+    $('#favorite').toggle();
   }
 }
 
@@ -551,9 +548,9 @@ function toggledesign() {
   if (event.altKey) {
     location.reload();
   } else {
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-      $(".admin,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
-    $('#search_section,#env_section,#network_section,#letter_mobile,#admin_section,.servers,.letter_title,.letters').hide();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
+      $(".favorite,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
+    $('#search_section,#env_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#design').toggle();
   }
@@ -563,9 +560,9 @@ function toggleenvironmental() {
   if (event.altKey) {
     location.reload();
   } else {
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-      $(".admin,.design,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
-    $('#search_section,#network_section,#letter_mobile, #bookmark_section,#admin_section,.servers,.letter_title,.letters').hide();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
+      $(".favorite,.design,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
+    $('#search_section,#network_section,#letter_mobile, #bookmark_section,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section').show();
     $('#env_section,#directory_section,#enviro,.g_form').show();
   }
@@ -575,9 +572,9 @@ function togglegame() {
   if (event.altKey) {
     location.reload();
   } else {
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-      $(".admin,.design,.finance,.environmental,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
-    $('#search_section,#env_section,#network_section,#letter_mobile,#admin_section,.servers,.letter_title,.letters').hide();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
+      $(".favorite,.design,.finance,.environmental,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
+    $('#search_section,#env_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#game').toggle();
   }
@@ -587,9 +584,9 @@ function togglemedia() {
   if (event.altKey) {
     location.reload();
   } else {
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-      $(".admin,.design,.finance,.game,.environmental,.medical,.network,.productivity,.web,.letter_head").toggle();
-    $('#search_section,#env_section,#network_section,#letter_mobile,#admin_section,.servers,.letter_title,.letters').hide();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
+      $(".favorite,.design,.finance,.game,.environmental,.medical,.network,.productivity,.web,.letter_head").toggle();
+    $('#search_section,#env_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#media').toggle();
   }
@@ -599,9 +596,9 @@ function togglemedical() {
   if (event.altKey) {
     location.reload();
   } else {
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-      $(".admin, .design,.finance,.game,.media,.environmental,.network,.productivity,.web,.letter_head").toggle();
-    $('#search_section,#env_section,#network_section,#letter_mobile,#admin_section,.servers,.letter_title,.letters').hide();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
+      $(".favorite, .design,.finance,.game,.media,.environmental,.network,.productivity,.web,.letter_head").toggle();
+    $('#search_section,#env_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#medical').toggle();
   }
@@ -611,9 +608,9 @@ function togglefinance() {
   if (event.altKey) {
     location.reload();
   } else {
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-      $(".admin, .design,.environmental,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
-    $('#search_section,#env_section,#network_section,#letter_mobile,#admin_section,.servers,.letter_title,.letters').hide();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
+      $(".favorite, .design,.environmental,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
+    $('#search_section,#env_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#finance').toggle();
   }
@@ -623,9 +620,9 @@ function togglenetwork() {
   if (event.altKey) {
     location.reload();
   } else {
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-      $(".admin, .design,.finance,.game,.media,.medical,.environmental,.productivity,.web,.letter_head").toggle();
-    $('#search_section,#env_section,#letter_mobile,#admin_section,.servers,.letter_title,.letters').hide();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
+      $(".favorite, .design,.finance,.game,.media,.medical,.environmental,.productivity,.web,.letter_head").toggle();
+    $('#search_section,#env_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section').show();
     $('#network_section,#directory_section,#network,.g_form').show(),
       $('#search_section, #env_section,#bookmark_section,#letter_mobile').hide();
@@ -636,9 +633,9 @@ function toggleproductivity() {
   if (event.altKey) {
     location.reload();
   } else {
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-      $(".admin,.design,.finance,.game,.media,.medical,.network,.environmental,.web,.letter_head").toggle();
-    $('#search_section,#env_section,#network_section,#letter_mobile,#admin_section,.servers,.letter_title,.letters').hide();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
+      $(".favorite,.design,.finance,.game,.media,.medical,.network,.environmental,.web,.letter_head").toggle();
+    $('#search_section,#env_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#product').toggle();
   }
@@ -648,9 +645,9 @@ function toggleweb() {
   if (event.altKey) {
     location.reload();
   } else {
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-      $(".admin,.design,.finance,.game,.media,.medical,.network,.productivity,.environmental,.letter_head").toggle();
-    $('#search_section,#env_section,#network_section,#letter_mobile,#admin_section,.servers,.letter_title,.letters').hide();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
+      $(".favorite,.design,.finance,.game,.media,.medical,.network,.productivity,.environmental,.letter_head").toggle();
+    $('#search_section,#env_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#web').toggle();
   }
@@ -677,7 +674,7 @@ function clear_box2() {
 
 function directory_toggle() {
   $('.letter_title,#directory_section,#up_bar').show(),
-    $(".admin, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web").show();
+    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web").show();
 }
 function toggle_book() {
   $(".win_book").toggle();
@@ -697,34 +694,50 @@ function search_toggle() {
 function toggle_spot() {
   $('.win_spot').toggle();
 }
-function toggle_term() {
-  $(".win_ssh").toggle();
-}
 function toggle_sc() {
   $('.win_sc').toggle();
+}
+function toggle_set() {
+  $('.win_set').toggle();
 }
 
 function favorite_edit() {
 if($(".book_icon i").is(":visible")){
-  $('.favorite').show();
+  $('.favorite_icon').show();
   $('.book_icon i').hide();
   $('.remove').hide();
 } else {
   $('.book_icon i').show();
-  $('.favorite').hide();
+  $('.favorite_icon').hide();
   $('.remove').hide();
 }
 }
 function delete_edit() {
 if($(".book_icon i").is(":visible")){
   $('.remove').show();
-  $('.favorite').hide();
+  $('.favorite_icon').hide();
   $('.book_icon i').hide();
 } else {
   $('.book_icon i').show();
   $('.remove').hide();
-  $('.favorite').hide();
+  $('.favorite_icon').hide();
 }
+}
+
+function set_media_toggle() {
+  $('#set_media').show();
+  $('#set_main').hide();
+  $('#set_feature').hide();
+}
+function set_main_toggle() {
+  $('#set_main').show();
+  $('#set_media').hide();
+  $('#set_feature').hide();
+}
+function set_feature_toggle() {
+  $('#set_feature').show();
+  $('#set_main').hide();
+  $('#set_media').hide();
 }
 
 //Bookmark Add
@@ -772,32 +785,29 @@ function populateform(enterlength) {
 $(document).ready(function () {
   $(".win_book").draggable();
 });
-
 $(document).ready(function () {
   $(".win_cal").draggable();
 });
-
 $(document).ready(function () {
   $(".win_pass").draggable();
 });
-
 $(document).ready(function () {
   $(".win_ssh").draggable();
 });
-
 $(document).ready(function () {
   $(".win_spot").draggable();
 });
-
 $(document).ready(function () {
   $(".win_search").draggable();
 });
-
 $(document).ready(function () {
   $(".win_bin").draggable();
 });
 $(document).ready(function () {
   $(".win_sc").draggable();
+});
+$(document).ready(function () {
+  $(".win_set").draggable();
 });
 
 // Frames
@@ -805,6 +815,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.exit_term').click(function () {
     $('.win_ssh').css('display', 'none');
+    $('.ssh_frame').attr('src', '');
   });
 });
 $(document).ready(function () {
@@ -843,6 +854,11 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.exit_sc').click(function () {
     $('.win_sc').css('display', 'none');
+  });
+});
+$(document).ready(function () {
+  $('.exit_set').click(function () {
+    $('.win_set').css('display', 'none');
   });
 });
 //Clock

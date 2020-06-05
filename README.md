@@ -2,10 +2,6 @@
 
 <h3>Built with PHP/HTML/CSS/JS/JQuery</h3>
 
-Demo - https://thesource.rednet.dev
-* Username - the_demo
-* password - thedemo
-
 Software/Plugins Utilized
 * Tipr - https://tipue.com/tipr/
 * MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/
@@ -13,6 +9,16 @@ Software/Plugins Utilized
 * JQueryUI 1.12.1
 * Google Font - QuickSand
 * Font Awesome - https://fontawesome.com/
+
+Features
+* Clock
+* Weather
+* Message / Wallpaper / Highlight changes based on time of day
+* Mobile View
+* Password Generator
+* Spotify Playlist Player
+* Google Calendar Embed
+* Shortcut Navigation Keys
 
 Requirements
 * Webserver (Apache or Nginx will work)

@@ -108,8 +108,8 @@ class MySQLtabledit {
 	function do_it() {
 	################
 		
-		require_once("./lang/en.php");
-		require_once("./lang/" . $this->language . ".php");
+		require_once("../lang/en.php");
+		require_once("../lang/" . $this->language . ".php");
 
 		// Don't edit everything if fields_to_edit is array
 		if (is_array($this->fields_to_edit)) $this->edit_all = false;
@@ -265,11 +265,11 @@ class MySQLtabledit {
 
 							// sorting
 							if ($_GET['sort'] == $key && $_GET['ad'] == 'a') {
-								$sort_image = "<img src='$this->url_base/images/sort_a.png' style='width:9px;height:8px' alt=''>";
+								$sort_image = "<img src='../images/sort_a.png' style='width:9px;height:8px' alt=''>";
 								$ad = 'd';
 							}
 							if ($_GET['sort'] == $key && $_GET['ad'] == 'd') {
-								$sort_image = "<img src='$this->url_base/images/sort_d.png' style='width:9px;height:8px' alt=''>";
+								$sort_image = "<img src='../images/sort_d.png' style='width:9px;height:8px' alt=''>";
 								$ad = 'a';
 							}
 
@@ -279,7 +279,7 @@ class MySQLtabledit {
 							$head .= "<td nowrap><a href='$this->url_script?$query_sort' class='mte_head'>$show_key</a> $sort_image</td>";
 						}
 						if ($key == $this->primary_key) {
-							$buttons = "<td nowrap><a href='javascript:void(0)' onclick='del_confirm($value)' title='Delete {$this->show_text_listview[$key]} $value'><img src='$this->url_base/images/del.png' class='icons' title='{$this->text['Delete']}'></a>&nbsp;&nbsp;<a href='?$query_string&mte_a=edit&id=$value' title='Edit {$this->show_text_listview[$key]} $value'><img src='$this->url_base/images/edit.png' class='icons' title='{$this->text['Edit']}'></a></td>";
+							$buttons = "<td nowrap><a href='javascript:void(0)' onclick='del_confirm($value)' title='Delete {$this->show_text_listview[$key]} $value'><img src='../images/del.png' class='icons' title='{$this->text['Delete']}'></a>&nbsp;&nbsp;<a href='?$query_string&mte_a=edit&id=$value' title='Edit {$this->show_text_listview[$key]} $value'><img src='../images/edit.png' class='icons' title='{$this->text['Edit']}'></a></td>";
 							$this_row .= "<td>$value</td>";
 						}
 						else {
@@ -859,7 +859,7 @@ class MySQLtabledit {
 				$this->javascript
 			</script>
 
-			<link href='$this->url_base/css/mte.css' rel='stylesheet' type='text/css'>
+			<link href='../css/mte.css' rel='stylesheet' type='text/css'>
 
 			<style type='text/css'>
 				.mte_content input {

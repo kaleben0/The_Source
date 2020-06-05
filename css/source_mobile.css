@@ -13,6 +13,7 @@
 }
 #directory_section {
   display: flex;
+  width: 520px;
 }
 #head_image {
   display: none;
@@ -48,7 +49,7 @@
 .exit_search, .search_head {
   display:none;
 }
-.win_search, .letter_center {
+.win_search, .letter_center, #rednet_header {
   display: block;
 }
 #up_bar {
