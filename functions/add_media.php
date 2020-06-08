@@ -7,8 +7,6 @@ echo "<meta http-equiv='refresh' content='2; url=https://$main/' />";
 ?>
 <link rel="stylesheet" href="../css/source.css" >
 <title>Media Settings</title>
-<link rel="manifest" crossorigin="use-credentials" href="./manifest.json" type="application/json">
-<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 <link rel="stylesheet" href="../css/all.css" >
 <html>
 <body class="quickpage">
@@ -25,13 +23,15 @@ if(isset($_POST['submit']))
         $day = $_POST['day'];
         $dusk = $_POST['dusk'];
         $evening = $_POST['evening']; 
+        $font = $_POST['font']; 
         
         $morning = trim($morning);
         $day = trim($day);
         $dusk = trim($dusk);
         $evening = trim($evening);
+        $font = trim($font);
 
-     $sql = "UPDATE settings SET morning_message='$morning' , day_message='$day' , dusk_message='$dusk' , evening_message='$evening' WHERE id='$id' ";
+     $sql = "UPDATE settings SET morning_message='$morning' , day_message='$day' , dusk_message='$dusk' , evening_message='$evening', font='$font' WHERE id='$id' ";
 } 
 if (mysqli_query($conn, $sql)) {
     echo "Media Settings Updated";
