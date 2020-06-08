@@ -7,7 +7,7 @@ Software/Plugins Utilized
 * MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/
 * JQuery 3.2.1
 * JQueryUI 1.12.1
-* Google Font - QuickSand
+* Google Fonts
 * Font Awesome - https://fontawesome.com/
 
 Features
