@@ -1,5 +1,24 @@
 @charset "utf-8";
-@import url(https://fonts.googleapis.com/css?family=Quicksand&display=swap);
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand-Regular.ttf);
+}
+@font-face {
+  font-family: ComicNeue;
+  src: url(../fonts/ComicNeue-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: SourceSansPro;
+  src: url(../fonts/SourceSansPro-Regular.ttf);
+}
 ::-webkit-scrollbar {
   width: 1px;
   height: 0px;
@@ -116,7 +135,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
-  max-width: 1300px;
+  max-width: 1500px;
 }
 .favorite_container {
   align-items: center;
@@ -180,7 +199,6 @@
 .book_fields {
   background-position: left;
   border: 0;
-  font-family: Quicksand, sans-serif;
   font-size: 18px;
   height: 25px;
   width: 280px;
@@ -357,7 +375,6 @@
   padding: 2px 2px 1px;
 }
 .google_clear {
-  font-family: Quicksand, sans-serif;
   font-size: 16px;
   margin-right: auto;
   padding: 5px 10px;
@@ -372,7 +389,6 @@
 .googlesearch {
   background-position: left;
   border: 0;
-  font-family: Quicksand, sans-serif;
   font-size: 18px;
   height: 36px;
   margin-left: -30px;
@@ -387,7 +403,6 @@
   border: 0;
   border: 1px solid #555;
   color: #fff;
-  font-family: Quicksand, sans-serif;
   font-size: 18px;
   height: 30px;
   margin-left: -30px;
@@ -629,7 +644,6 @@
   background-color: transparent;
   border: 1px solid transparent;
   color: #fff;
-  font-family: Quicksand, sans-serif;
   font-size: 14px;
   margin-left: 20px;
   margin-right: 20px;
@@ -726,7 +740,6 @@
 .pass_put {
   background-position: left;
   border: 0;
-  font-family: Quicksand, sans-serif;
   font-size: 18px;
   height: 30px;
   text-align: center;
@@ -802,7 +815,7 @@
 }
 .sc_function {
   display: inline-block;
-  font-size: 24px;
+  font-size: 22px;
   margin-right: 40px;
   padding: 6px 15px;
   width: 530px;
@@ -918,7 +931,6 @@
 .set_fields {
   background-position: left;
   border: 0;
-  font-family: Quicksand, sans-serif;
   font-size: 18px;
   height: 25px;
   width: 400px;
@@ -929,6 +941,7 @@
   margin-right: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 14px;
 }
 .side_icon {
   font-size: 20px;
@@ -978,7 +991,6 @@
   width: 100%;
 }
 .tzone {
-  font-family: Quicksand, sans-serif;
   font-size: 20px;
   position: fixed;
   right: 80px;
@@ -1128,6 +1140,7 @@
 }
 .win_spot {
   background-color: #383838eb;
+  box-shadow: -4px 3px 7px #000;
   cursor: move;
   display: none;
   left: 785px;
@@ -1175,7 +1188,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  font-family: Quicksand, sans-serif;
   margin-left: 0;
   padding-top: 35px;
 }

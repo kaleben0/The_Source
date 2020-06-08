@@ -31,7 +31,7 @@
 </div>
 <div id="set_media"> 
 <form action="./functions/add_media.php" method="post">
-<h3>Messages</h3>
+<h3>Messages & Font</h3>
 <h5>Note - No Double or Single Quotes</h5>
 <div class="set_label">Morning Message</div><input type="text" class="set_fields long" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
 <br/>
@@ -40,6 +40,16 @@
 <div class="set_label">Dusk Message</div><input type="text" class="set_fields long" name="dusk" value="<?php include './functions/config.php';echo"$dusk"?>">
 <br/>
 <div class="set_label">Evening Message</div><input type="text" class="set_fields long" name="evening" value="<?php include './functions/config.php';echo"$evening" ?>">
+<br/>
+<div class="set_label">Font Selection</div>
+<select name="font" class="set_fields" class="set_fields">
+              <option value=' ' disabled selected>Font</option>
+              <option value='ComicNeue'>Comic Neue</option>
+              <option value='OpenSans'>Open Sans</option>
+              <option value='Quicksand'>Quicksand</option>
+              <option value='Roboto'>Roboto</option>
+              <option value='SourceSansPro'>Source Sans Pro</option>
+            </select>
 <br/>
 <br/>
 <input type="submit" class="mybutton" name="submit" value="Update">
