@@ -96,6 +96,7 @@ CREATE TABLE `settings` (
   `shellinabox_url` varchar(255) DEFAULT NULL,
   `google_embed` varchar(10000) DEFAULT NULL,
   `pagetitle` varchar(30) DEFAULT NULL,
+  `font` varchar(30) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -106,7 +107,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'Your Domain Here','Your City Here','Your State Here','Your Zip Here','Your Country Here','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://www.spotify.com','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https//calendar.google.com','The Source');
+INSERT INTO `settings` VALUES (1,'thesource.rednet.dev','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://www.spotify.com','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https//calendar.google.com','The Source','Quicksand');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -127,4 +128,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-08 12:12:12
+-- Dump completed on 2020-06-08 15:43:47
