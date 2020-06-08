@@ -54,6 +54,7 @@ include './functions/win_spotify.php';
 include './functions/win_settings.php';
 include './functions/background_script.php';
 include './functions/search_css.php';
+include './functions/font.php';
 ?>
 </body>
 </html>
