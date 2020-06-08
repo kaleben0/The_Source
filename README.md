@@ -35,7 +35,7 @@ Installation
 * Git Pull into the web directory of your choice
 * Create a DB in MySQL
 * Import the_source.sql into your new db (usually something like (without quotes) 'mysql -u "username" -p "new database name" < the_source.sql')
-* Update source_db.php, db_index.php, & /config/settings.php with your database settings (database name, host, username, password)
+* Update source_db.php, db_index.php with your database settings (database name, host, username, password)
 * Click the Gear icon in the upper right corner and edit the record with your settings.
 * Click the Edit icon in the upper left under the top nav bar to open the master directory where you can add/remove/change/favorite bookmarks
 
