@@ -1,7 +1,7 @@
 <div class="win_set"><span class="exit_set" ><i class="fas fa-window-close fa-lg"></i></span>
   <div class="set_head">Settings</div>
   <div class="set_bar"><input type="button" class="set_button" value="Main" onclick="set_main_toggle();" /><input type="button" class="set_button" value="Media" onclick="set_media_toggle();" /><input type="button" class="set_button" value="Features" onclick="set_feature_toggle();" /></div>
-<div id="set_main">  
+<div id="set_main">
 <form action="./functions/add_main.php" method="post">
 <h3>Geographic</h3>
 <div class="set_label">Main URL - no http:// or https://</div><input type="text" class="set_fields" name="main" value="<?php include './functions/config.php';echo$main ?>">
@@ -29,17 +29,17 @@
 <input type="submit" class="mybutton" name="submit" value="Update">
 </form>
 </div>
-<div id="set_media"> 
+<div id="set_media">
 <form action="./functions/add_media.php" method="post">
 <h3>Messages & Font</h3>
 <h5>Note - No Double or Single Quotes</h5>
-<div class="set_label">Morning Message</div><input type="text" class="set_fields long" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
+<div class="set_label">Morning Message | 5am-9am </div><input type="text" class="set_fields long" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
 <br/>
-<div class="set_label">Day Message</div><input type="text" class="set_fields long" name="day" value="<?php include './functions/config.php';echo"$day" ?>">
+<div class="set_label">Day Message | 9am-5pm</div><input type="text" class="set_fields long" name="day" value="<?php include './functions/config.php';echo"$day" ?>">
 <br/>
-<div class="set_label">Dusk Message</div><input type="text" class="set_fields long" name="dusk" value="<?php include './functions/config.php';echo"$dusk"?>">
+<div class="set_label">Dusk Message | 5pm-10pm</div><input type="text" class="set_fields long" name="dusk" value="<?php include './functions/config.php';echo"$dusk"?>">
 <br/>
-<div class="set_label">Evening Message</div><input type="text" class="set_fields long" name="evening" value="<?php include './functions/config.php';echo"$evening" ?>">
+<div class="set_label">Evening Message | 10pm-5am</div><input type="text" class="set_fields long" name="evening" value="<?php include './functions/config.php';echo"$evening" ?>">
 <br/>
 <div class="set_label">Font Selection</div>
 <select name="font" class="set_fields" class="set_fields">
@@ -92,18 +92,18 @@
     <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
 </div>
-<div id="set_feature"> 
+<div id="set_feature">
 <h3>Features</h3>
 <div class="feat_box">
-<?php 
-include './functions/features.php'; 
+<?php
+include './functions/features.php';
 ?>
 </div>
 <hr/>
 <h3>Search</h3>
 <div class="feat_search_box">
-<?php 
-include './functions/search_features.php'; 
+<?php
+include './functions/search_features.php';
 ?>
 </div>
 
