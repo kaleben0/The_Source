@@ -579,9 +579,7 @@
   color: #b37d1a;
 }
 .mybutton {
-  background: linear-gradient(to bottom, #324e58 5%, #408c99 100%);
-  background-color: #599bb3;
-  border: 0;
+  background-color: #5f5f5fa8;
   color: #fff;
   cursor: pointer;
   font-size: 17px;
@@ -595,12 +593,11 @@
   top: 1px;
 }
 .mybutton:hover {
-  background: linear-gradient(to bottom, #408c99 5%, #272727 100%);
-  background-color: #408c99;
+  background: linear-gradient(to bottom, #4b5a5d 5%, #272727 100%);
+  background-color: #4b5a5d;
 }
 .mybutton_wall {
-  background: linear-gradient(to bottom, #324e58 5%, #408c99 100%);
-  background-color: #599bb3;
+  background-color: #5f5f5fa8;
   border: 0;
   color: #fff;
   cursor: pointer;
@@ -616,8 +613,8 @@
   top: 1px;
 }
 .mybutton_wall:hover {
-  background: linear-gradient(to bottom, #408c99 5%, #272727 100%);
-  background-color: #408c99;
+  background: linear-gradient(to bottom, #4b5a5d 5%, #272727 100%);
+  background-color: #4b5a5d;
 }
 .nav_label {
   margin-left: 35px;
