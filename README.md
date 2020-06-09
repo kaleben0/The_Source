@@ -39,6 +39,11 @@ Installation
 * Click the Gear icon in the upper right corner and edit the record with your settings.
 * Click the Edit icon in the upper left under the top nav bar to open the master directory where you can add/remove/change/favorite bookmarks
 
+Modify your php.ini (for image uploads)
+* file_uploads = On
+* upload_max_filesize = 20M
+* post_max_size = 20M
+
 <h2>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h2>
 (Unless it is not accessible from the internet, then you are probably fine)
 
