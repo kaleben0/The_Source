@@ -34,8 +34,8 @@ echo "<meta http-equiv='refresh' content='2; url=https://$main/' />";
         $errors[] = "This file extension is not allowed. Please upload a JPEG or PNG file";
       }
 
-      if ($fileSize > 4000000) {
-        $errors[] = "File exceeds maximum size (4MB)";
+      if ($fileSize > 20000000) {
+        $errors[] = "File exceeds maximum size (20MB)";
       }
 
       if (empty($errors)) {

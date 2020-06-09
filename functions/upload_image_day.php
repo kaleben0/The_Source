@@ -1,7 +1,7 @@
 <!DOCTYPE HTML >
 <html lang="en">
 <head>
-<?php 
+<?php
 include 'config.php';
 echo "<meta http-equiv='refresh' content='2; url=https://$main/' />";
 ?>
@@ -18,7 +18,7 @@ echo "<meta http-equiv='refresh' content='2; url=https://$main/' />";
 
     $errors = []; // Store errors here
 
-    $fileExtensionsAllowed = ['jpeg','jpg','png']; // These will be the only file extensions allowed 
+    $fileExtensionsAllowed = ['jpeg','jpg','png']; // These will be the only file extensions allowed
 
     $fileName = $_FILES['the_file']['name'];
     $fileSize = $_FILES['the_file']['size'];
@@ -26,7 +26,7 @@ echo "<meta http-equiv='refresh' content='2; url=https://$main/' />";
     $fileType = $_FILES['the_file']['type'];
     $fileExtension = strtolower(end(explode('.',$fileName)));
 
-    $uploadPath = $currentDirectory . $uploadDirectory . basename('$fileName'); 
+    $uploadPath = $currentDirectory . $uploadDirectory . basename('$fileName');
 
     if (isset($_POST['submit'])) {
 
@@ -34,8 +34,8 @@ echo "<meta http-equiv='refresh' content='2; url=https://$main/' />";
         $errors[] = "This file extension is not allowed. Please upload a JPEG or PNG file";
       }
 
-      if ($fileSize > 4000000) {
-        $errors[] = "File exceeds maximum size (4MB)";
+      if ($fileSize > 20000000) {
+        $errors[] = "File exceeds maximum size (20MB)";
       }
 
       if (empty($errors)) {
