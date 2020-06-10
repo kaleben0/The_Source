@@ -44,6 +44,10 @@ Modify your php.ini (for image uploads)
 * upload_max_filesize = 20M
 * post_max_size = 20M
 
+Permissions
+* chmod -R 755 the_source/images/
+* chown -R www-data:www-data the_source <--- Might be different based on your webserver of choice
+
 <h2>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h2>
 (Unless it is not accessible from the internet, then you are probably fine)
 
