@@ -91,6 +91,13 @@
     &nbsp;
     <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
+<div class="wall_box">
+  <div class="wall_head">Mobile Wallaper<span class="current"><a href="./images/background-mobile.png" download>Current</a></span></div>
+  <form action="./functions/upload_image_mobile.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="the_file" id="fileToUploadmobile">
+    &nbsp;
+    <input type="submit" name="submit" value="Upload" >
+  &nbsp;</form></div>
 </div>
 <div id="set_feature">
 <h3>Features</h3>

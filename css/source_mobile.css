@@ -184,6 +184,7 @@ display:block;
 }
 
 body {
+background-image: url(../images/background-mobile.png) !important;
 background-repeat:repeat repeat;
 background-size:auto;
 padding:30px;
