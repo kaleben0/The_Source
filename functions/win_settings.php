@@ -33,9 +33,9 @@
 <form action="./functions/add_media.php" method="post">
 <h3>Messages & Font</h3>
 <h5>Note - No Double or Single Quotes</h5>
-<div class="set_label">Morning Message | 5am-9am </div><input type="text" class="set_fields long" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
+<div class="set_label">Morning Message | 5am-10am </div><input type="text" class="set_fields long" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
 <br/>
-<div class="set_label">Day Message | 9am-5pm</div><input type="text" class="set_fields long" name="day" value="<?php include './functions/config.php';echo"$day" ?>">
+<div class="set_label">Day Message | 10am-5pm</div><input type="text" class="set_fields long" name="day" value="<?php include './functions/config.php';echo"$day" ?>">
 <br/>
 <div class="set_label">Dusk Message | 5pm-10pm</div><input type="text" class="set_fields long" name="dusk" value="<?php include './functions/config.php';echo"$dusk"?>">
 <br/>
