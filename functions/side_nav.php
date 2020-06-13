@@ -1,3 +1,4 @@
+<?php ?>
 <div id="sidenav" >
 <ul class="header_block" >
 <div class="nav_mini_header">

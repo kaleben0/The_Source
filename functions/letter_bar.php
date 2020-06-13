@@ -1,3 +1,4 @@
+<?php ?>
    <div id="letter_row">
       <div class="letter_center">
      <div class="letters" >

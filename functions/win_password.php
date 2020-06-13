@@ -1,3 +1,4 @@
+<?php ?>
 <div class="win_pass" class="pass_gen"><span class="exit_pass" ><i class="fas fa-window-close fa-lg"></i></span>
   <div class="pass_head">Password Generator</div>
   <form name="pgenerate">

@@ -1,3 +1,4 @@
+<?php ?>
 <div class="win_search">
   <div class="row"> <span class="exit_search" ><i class="fas fa-window-close fa-lg"></i></span>
     <div class="search_head">Search</div>
