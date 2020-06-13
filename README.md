@@ -25,6 +25,7 @@ Planned Features (Hopefully)
 * Watchlist (Like a custom ToDo list)
 * Google Authentication
 * Calculator
+* NotePad
 
 Requirements
 * Webserver (Apache or Nginx will work)
