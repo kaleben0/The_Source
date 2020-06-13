@@ -1,4 +1,4 @@
-<?php ?>
+<?php ?> 
 <div class="win_sc"><span class="exit_sc"><i class="fas fa-window-close fa-lg"></i></span>
   <div id="scwinheader" class="sc_head" >Shortcut Keys</div>
   <hr>
