@@ -13,7 +13,8 @@ Software/Plugins Utilized
 Features
 * Clock
 * Weather
-* Message / Wallpaper / Highlight changes based on time of day
+* Message / Wallpaper changes based on time of day
+* Wallpaper now supports animated GIF format
 * Mobile View
 * Password Generator
 * Spotify Playlist Player
