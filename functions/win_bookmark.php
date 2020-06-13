@@ -2,29 +2,36 @@
   <div class="book_head">Add Bookmark</div>
   <form action="./functions/add_book.php" method="post">
     <div>
-          <input type="text" name="letter" class="book_fields" placeholder="First Letter"><br/>
-          <input type="text" name="title" class="book_fields" placeholder="Name"><br/>
-<select name="category" class="book_fields">
-              <option value=' ' disabled selected>Category</option>
-              <option value='design'>design</option>
-              <option value='environmental'>environmental</option>
-              <option value='finance'>finance</option>
-              <option value='game'>game</option>
-              <option value='media'>media</option>
-              <option value='medical'>medical</option>
-              <option value='network'>network</option>
-              <option value='productivity'>productivity</option>
-              <option value='web'>web</option>
-            </select><br/>
-          <input type="ur" name="url" class="book_fields" placeholder="Full URL"><br/>
-          <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome"><br/>
-          <input type="text" name="hashtag" class="book_fields" placeholder="#HashTag"><br/>
-          <select name="favorite" class="book_fields"><br/>
-              <option value=' ' disabled selected>Favorite</option>
-              <option value='yes'>yes</option>
-              <option value='no'>no</option>
-            </select>
-            </div>
+      <input type="text" name="letter" class="book_fields" placeholder="First Letter">
+      <br/>
+      <input type="text" name="title" class="book_fields" placeholder="Name">
+      <br/>
+      <select name="category" class="book_fields">
+        <option value=' ' disabled selected>Category</option>
+        <option value='design'>design</option>
+        <option value='environmental'>environmental</option>
+        <option value='finance'>finance</option>
+        <option value='game'>game</option>
+        <option value='media'>media</option>
+        <option value='medical'>medical</option>
+        <option value='network'>network</option>
+        <option value='productivity'>productivity</option>
+        <option value='web'>web</option>
+      </select>
+      <br/>
+      <input type="ur" name="url" class="book_fields" placeholder="Full URL">
+      <br/>
+      <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome">
+      <br/>
+      <input type="text" name="hashtag" class="book_fields" placeholder="#HashTag">
+      <br/>
+      <select name="favorite" class="book_fields">
+        <br/>
+        <option value=' ' disabled selected>Favorite</option>
+        <option value='yes'>yes</option>
+        <option value='no'>no</option>
+      </select>
+    </div>
     <br/>
     <div>
     <table class='info_table'>

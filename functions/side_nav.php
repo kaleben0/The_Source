@@ -35,6 +35,7 @@
 <li class="header_menu" title="Web" onclick="toggleweb();"><i class="fas fa-globe icons3"></i>
   <div class="nav_label">Web</div>
 </li>
+</ul>
 <ul class="sub_block" >
   <div class="nav_mini_header">
     <hr class="side_nav_hr_left"/>

@@ -6,6 +6,7 @@
       <br/>
       <br/>
       <input type="text" size=18 id="pass_gen_output" name="output" class="pass_put" >
-      <i class="fas fa-cogs" onClick="populateform(thelength)"></i> </div>
+      <i class="fas fa-cogs" onClick="populateform(thelength)"></i>
   </form>
+  </div>
 </div>

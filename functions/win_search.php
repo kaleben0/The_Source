@@ -1,6 +1,5 @@
 <div class="win_search">
-  <div class="row">
-    <span class="exit_search" ><i class="fas fa-window-close fa-lg"></i></span>
+  <div class="row"> <span class="exit_search" ><i class="fas fa-window-close fa-lg"></i></span>
     <div class="search_head">Search</div>
     <div class="category_block"> </div>
     <div class="google_shell" id="mobile_google">
@@ -177,6 +176,6 @@
           <div class="search_text">WowHead</div>
         </div>
       </div>
-        </div>
+    </div>
   </div>
-  </div>
+</div>

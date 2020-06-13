@@ -1,5 +1,4 @@
-   <div class="container" id="letter_row">
-    <div class="row">
+   <div id="letter_row">
       <div class="letter_center">
      <div class="letters" >
         <div class="letter_space"><a class="js-scroll-trigger letter_btn" onclick="directory_toggle();" href="#directory_box"><i class="far fa-edit fa-sm"></i></a></div>
@@ -29,8 +28,6 @@
         <div class="letter_space"><a class="js-scroll-trigger letter_btn" onclick="directory_toggle();" href="#x">X</a> </div>
         <div class="letter_space"><a class="js-scroll-trigger letter_btn" onclick="directory_toggle();" href="#y">Y</a> </div>
         <div class="letter_space"><a class="js-scroll-trigger letter_btn" onclick="directory_toggle();" href="#z">Z</a> </div>
-      </div>
-      <br/>
       </div>
     </div>
   </div>
