@@ -29,7 +29,7 @@ echo "<meta http-equiv='refresh' content='2; url=https://$main/' />";
     if (isset($_POST['submit'])) {
 
       if (! in_array($fileExtension,$fileExtensionsAllowed)) {
-        $errors[] = "This file extension is not allowed. Please upload a JPEG or PNG file";
+        $errors[] = "This file extension is not allowed. Please upload a GIF, JPG, JPEG or PNG file";
       }
 
       if ($fileSize > 10000000) {
