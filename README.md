@@ -24,6 +24,8 @@ Requirements
 * Webserver (Apache or Nginx will work)
 * MySQL Server
 * Latest Version of PHP
+
+Integration Requirements
 * PrivateBin - https://privatebin.info/
 * Shellinabox (Recommend Reverse Proxy) - https://github.com/shellinabox/shellinabox
 * Embed code of your Google Calendar - https://calendar.google.com/calendar/embedhelper
