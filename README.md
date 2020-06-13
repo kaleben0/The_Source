@@ -24,7 +24,7 @@ Planned Features (Hopefully)
 * RRD Graph Integation
 * Watchlist (Like a custom ToDo list)
 * Google Authentication
-* 
+* Calculator
 
 Requirements
 * Webserver (Apache or Nginx will work)
