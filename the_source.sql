@@ -107,7 +107,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'thesource.rednet.dev','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://www.spotify.com','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https//calendar.google.com','The Source','Quicksand');
+INSERT INTO `settings` VALUES (1,'Your Domain Here','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://www.spotify.com','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https//calendar.google.com','The Source','Quicksand');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
