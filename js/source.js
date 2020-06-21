@@ -1,485 +1,290 @@
 // JavaScript Document
 // Google Searches
 function google_search() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.google.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.google.com/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function calendar() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://calendar.google.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://calendar.google.com/calendar/r/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function contact() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://contacts.google.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://contacts.google.com/search/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function drive() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://drive.google.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://drive.google.com/drive/u/0/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function earth() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://earth.google.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://earth.google.com/web/search/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function keep() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://keep.google.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://keep.google.com/u/0/#search/text%253D";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function gmail() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://mail.google.com/mail/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://mail.google.com/mail/u/0/#search/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function hangouts() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://hangouts.google.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://mail.google.com/mail/u/0/#search/in%3Achats+";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function maps() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.google.com/maps', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.google.com/maps/place/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function music() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://play.google.com/music/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://play.google.com/music/listen?u=0#/sr/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function photo() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://photos.google.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://photos.google.com/search/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function play() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://play.google.com/store/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://play.google.com/store/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function scholar() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://scholar.google.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function gtranslate() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://translate.google.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://translate.google.com/#auto/en/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function youtube() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.youtube.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.youtube.com/results?search_query=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 // Non-Google Searches
 
 function amazon() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.amazon.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function bing() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.bing.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.bing.com/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function codepen() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://codepen.io/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://codepen.io/search/pens?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function duckduckgo() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://duckduckgo.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://duckduckgo.com/?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function ebay() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.ebay.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313.TR11.TRC2.A0.H0.XSTuff.TRS1&_nkw=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function fontawesome() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://fontawesome.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://fontawesome.com/icons?d=gallery&m=free&q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
-}
+ }
 
 function giphy() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://giphy.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://giphy.com/search/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function github() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://github.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://github.com/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function hulu() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.hulu.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.hulu.com/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function imdb() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('http://www.imdb.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "http://www.imdb.com/find?ref_=nv_sr_fn&q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function imgur() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://imgur.com/new/time', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://imgur.com/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function netflix() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.netflix.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.netflix.com/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function reddit() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.reddit.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.reddit.com/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function spotify() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://open.spotify.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://open.spotify.com/search/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function stackoverflow() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://stackoverflow.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://stackoverflow.com/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function steam() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('http://store.steampowered.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "http://store.steampowered.com/search/?term=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
 function tumblr() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.tumblr.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.tumblr.com/search/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function versus() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://versusutil.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://versusutil.com/?seed=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function wallhaven() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://wallhaven.cc', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://wallhaven.cc/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function wikipedia() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://en.wikipedia.org', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://en.wikipedia.org/wiki/";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function wolframalpha() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('http://www.wolframalpha.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "http://www.wolframalpha.com/input/?i=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function wowhead() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('http://www.wowhead.com/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "http://www.wowhead.com/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function wowpedia() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://wow.gamepedia.com', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://wow.gamepedia.com/index.php?search=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 function justwatch() {
-  if ($("#myonoffswitch").is(':not(:checked')) {
-    window.open('https://www.justwatch.com/us/', '_blank');
-  } else {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.justwatch.com/us/search?q=";
     var boxfin = boxurl + box;
-
     window.open(boxfin, '_blank');
-  }
 }
 
 
@@ -880,4 +685,3 @@ function checkTime(i) {
   };
   return i;
 }
-

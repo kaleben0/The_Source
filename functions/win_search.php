@@ -9,20 +9,6 @@
         <input required name="q" type="text" id="gsearch"  class="googlesearch" placeholder="Google"  />
       </form>
     </div>
-    <div class="switches" >
-      <div class="onoffswitch">
-        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
-        <label class="onoffswitch-label" for="myonoffswitch"> <span class="onoffswitch-inner"></span> <span class="onoffswitch-switch"></span> </label>
-      </div>
-      <div class="reset_button_border" onclick="clear_box();"> <i class="fas fa-sync" ></i>
-        <input type="button" class="reset_button" value="Reset" />
-      </div>
-    </div>
-    <div class="letter_head2">
-      <hr class="blue-line3"/>
-      <i class="fab fa-google"></i>
-      <hr class="blue-line4"/>
-    </div>
     <div class="search_center">
       <div id="search_row"  class="search"  >
         <div class="search_space" onclick="calendar();" id="cal_search">
