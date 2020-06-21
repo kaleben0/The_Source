@@ -65,6 +65,6 @@ Permissions
 
 <h2>ScreenShots</h2>
 
-![SS1](/screenshots/Capture.PNG)
+![SS1](/screenshots/capture.png)
 
-![SS2](/screenshots/Capture2.PNG)
+![SS2](/screenshots/capture-search.png)
