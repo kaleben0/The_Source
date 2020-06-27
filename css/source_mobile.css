@@ -80,6 +80,12 @@
   .favorite {
     display: none;
   }
+  .favorite_icon {
+    float: left;
+    left: 14px;
+    position: relative;
+    z-index: 100;
+  }  
   .googlesearch {
     margin-left: auto;
     margin-right: auto;
@@ -119,6 +125,10 @@
   }
   .remove {
     display: none;
+    float: left;
+    left: 15px;
+    position: relative;
+    z-index: 100;
   }
   .reset_button_border {
     margin-left: 60%;
