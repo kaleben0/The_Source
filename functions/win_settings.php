@@ -64,35 +64,35 @@
     <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Morning Wallaper<span class="current"><a href="./images/background-morning.png" download>Current</a></span></div>
+  <div class="wall_head">Morning Wallpaper<span class="current"><a href="./images/background-morning.png" download>Current</a></span></div>
   <form action="./functions/upload_image_morn.php" method="post" enctype="multipart/form-data">
     <input type="file" name="the_file" id="fileToUploadmorn">
     &nbsp;
     <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Day Wallaper<span class="current"><a href="./images/background-day.png" download>Current</a></span></div>
+  <div class="wall_head">Day Wallpaper<span class="current"><a href="./images/background-day.png" download>Current</a></span></div>
   <form action="./functions/upload_image_day.php" method="post" enctype="multipart/form-data">
     <input type="file" name="the_file" id="fileToUploadday">
     &nbsp;
     <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Dusk Wallaper<span class="current"><a href="./images/background-dusk.png" download>Current</a></span></div>
+  <div class="wall_head">Dusk Wallpaper<span class="current"><a href="./images/background-dusk.png" download>Current</a></span></div>
   <form action="./functions/upload_image_dusk.php" method="post" enctype="multipart/form-data">
     <input type="file" name="the_file" id="fileToUploaddusk">
     &nbsp;
     <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Evening Wallaper<span class="current"><a href="./images/background-night.png" download>Current</a></span></div>
+  <div class="wall_head">Evening Wallpaper<span class="current"><a href="./images/background-night.png" download>Current</a></span></div>
   <form action="./functions/upload_image_evening.php" method="post" enctype="multipart/form-data">
     <input type="file" name="the_file" id="fileToUploadevening">
     &nbsp;
     <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Mobile Wallaper<span class="current"><a href="./images/background-mobile.png" download>Current</a></span></div>
+  <div class="wall_head">Mobile Wallpaper<span class="current"><a href="./images/background-mobile.png" download>Current</a></span></div>
   <form action="./functions/upload_image_mobile.php" method="post" enctype="multipart/form-data">
     <input type="file" name="the_file" id="fileToUploadmobile">
     &nbsp;
