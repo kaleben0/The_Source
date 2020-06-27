@@ -34,7 +34,7 @@
         $queryy = "SELECT * FROM bookmark WHERE letter = 'y' AND status = 'enabled' ORDER BY title";
         $queryz = "SELECT * FROM bookmark WHERE letter = 'z' AND status = 'enabled' ORDER BY title";
 
-        
+
         echo "<div class='letter_title' id='a'>";
         echo "<hr class='blue-line'/>";
         echo "A";
@@ -44,14 +44,14 @@
 
         if ( $result = $mysqli->query( $querya ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -65,7 +65,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -79,14 +79,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryb ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -100,14 +100,14 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
         }
 
-        
+
         echo "<div class='letter_title' id='c'>";
         echo "<hr class='blue-line'/>";
         echo "C";
@@ -115,14 +115,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryc ) ) {
           while ( $row = $result->fetch_assoc() ) {
-       	    $id = $row[ "id" ];	
+       	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -136,14 +136,14 @@
              echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
         }
 
-        
+
         echo "<div class='letter_title' id='d'>";
         echo "<hr class='blue-line'/>";
         echo "D";
@@ -151,14 +151,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryd ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -172,7 +172,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -186,14 +186,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $querye ) ) {
           while ( $row = $result->fetch_assoc() ) {
-       	    $id = $row[ "id" ];	
+       	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -207,7 +207,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -221,14 +221,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryf ) ) {
           while ( $row = $result->fetch_assoc() ) {
-        	  $id = $row[ "id" ];	
+        	  $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -242,7 +242,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -256,14 +256,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryg ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -277,7 +277,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -291,14 +291,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryh ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -309,10 +309,10 @@
 	            }
             echo "<div class='$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";          
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -326,14 +326,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryi ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -347,7 +347,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -361,14 +361,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryj ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -379,10 +379,10 @@
 	            }
             echo "<div class='$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";            
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -396,14 +396,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryk ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -417,7 +417,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -431,14 +431,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryl ) ) {
           while ( $row = $result->fetch_assoc() ) {
-       	    $id = $row[ "id" ];	
+       	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -452,7 +452,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -466,14 +466,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $querym ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -487,7 +487,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -501,14 +501,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryn ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -522,7 +522,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -536,14 +536,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryo ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -557,7 +557,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -571,14 +571,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryp ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -592,7 +592,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -606,14 +606,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryq ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -627,7 +627,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -641,14 +641,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryr ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
       	    $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-		        $favor = $row[ "favorite" ];             
+		        $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -662,7 +662,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -676,14 +676,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $querys ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-		          $favor = $row[ "favorite" ];             
+		          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -697,7 +697,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -711,14 +711,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryt ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -732,7 +732,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -746,14 +746,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryu ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -767,7 +767,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -781,14 +781,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryv ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -802,7 +802,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -816,14 +816,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryw ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -837,7 +837,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -851,14 +851,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryx ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -872,7 +872,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -886,14 +886,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryy ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -907,7 +907,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }
@@ -921,14 +921,14 @@
         echo "</div>";
         if ( $result = $mysqli->query( $queryz ) ) {
           while ( $row = $result->fetch_assoc() ) {
-      	    $id = $row[ "id" ];	
+      	    $id = $row[ "id" ];
             $letter = $row[ "letter" ];
             $category = $row[ "category" ];
             $url = $row[ "url" ];
             $fonta = $row[ "fonta" ];
             $hashtag = $row[ "hashtag" ];
             $title = $row[ "title" ];
-	          $favor = $row[ "favorite" ];             
+	          $favor = $row[ "favorite" ];
 	          if ($favor == 'yes'){
 	            $sub_icon = 'fas fa-star fa-2x';
 	            $change = './functions/remove_fav.php';
@@ -942,7 +942,7 @@
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
-            echo "<hr/>";
+            echo "<hr class='dir_hr' />";
             echo "<div class='tip' data-tip='$hashtag'>$title</div>";
             echo "</div></div>";
           }

@@ -46,16 +46,16 @@
   <li class="header_menu" title="Calendar" onclick="toggle_cal();" id="calendar"> <i class="fas fa-calendar-alt icons3"></i>
     <div class="nav_label">Calendar</div>
   </li>
-  <li class="header_menu" title="Password" onclick="toggle_pass();" ><i class="fas fa-unlock-alt icons3"></i>
+  <li class="header_menu" title="Password" onclick="toggle_pass();" id="password_nav"><i class="fas fa-unlock-alt icons3"></i>
     <div class="nav_label">Password</div>
   </li>
   <li class="header_menu" title="PrivateBin" onclick="toggle_bin();" id="privatebin"> <i class="far fa-clipboard icons3"></i>
     <div class="nav_label">PrivateBin</div>
   </li>
-  <li class="header_menu" title="Search" onclick="search_toggle();"> <i class="fas fa-search icons3"></i>
+  <li class="header_menu" title="Search" onclick="search_toggle();" id="search_nav"> <i class="fas fa-search icons3"></i>
     <div class="nav_label">Search</div>
   </li>
-  <li class="header_menu" title="Shortcuts" onclick="toggle_sc();"> <i class="fas fa-reply fa-flip-horizontal icons3"></i>
+  <li class="header_menu" title="Shortcuts" onclick="toggle_sc();" id="shortcut_nav"> <i class="fas fa-reply fa-flip-horizontal icons3"></i>
     <div class="nav_label">Shortcuts</div>
   </li>
   <li class="header_menu" title="Spotify" onclick="toggle_spot();" id="spotify"> <i class="fab fa-spotify side_icon"></i>

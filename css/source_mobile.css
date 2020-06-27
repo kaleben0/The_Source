@@ -1,201 +1,177 @@
 @media screen and (max-width:500px) {
-#blank_line,#bookmark,#category,#category_head,#filter_box,#gsearch2,#net_box,#sidenav,#spyglass,.cal_agenda,.google_clear,.header_search,.letter_space2,.sm_weather,.tipr_content,.top_nav {
-display:none;
-}
-
-#bookmark_add {
-display:none;
-}
-
-#directory_box,#letter_row,#mobile_google {
-padding-bottom:10px;
-}
-
-#directory_section {
-display:flex;
-width:520px;
-}
-
-#favorite_section {
-display:none;
-}
-
-#head_image {
-display:none;
-margin-left:auto;
-margin-right:auto;
-}
-
-#letter_row2 {
-display:none;
-justify-content:center;
-margin-left:auto;
-margin-right:auto;
-max-width:355px;
-padding-top:6px;
-width:260px;
-}
-
-#search {
-padding-top:10px;
-}
-
-#up_bar {
-display:block;
-right:35px;
-}
-
-.a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m,.misc,.n,.o,.p,.q,.r,.s,.t,.u,.v,.w,.x,.y,.z {
-margin-left:auto;
-margin-right:auto;
-}
-
-.admin,.finance,.design,.environmental,.game,.media,.medical,.network,.productivity,.web {
-margin-left:auto;
-margin-right:auto;
-margin-top:2px;
-width:225px;
-}
-
-.container {
-padding-left:5px!important;
-}
-
-.directory_bar {
-display:flex;
-justify-content:space-around;
-padding:10px;
-text-align:center;
-}
-
-.directory_block {
-justify-content:center;
-margin-left:0;
-padding:5px;
-}
-
-.editor {
-padding-top:10px;
-}
-
-.exit_search,.search_head {
-display:none;
-}
-
-.favorite {
-display:none;
-}
-
-.googlesearch {
-margin-left:auto;
-margin-right:auto;
-width:300px;
-}
-
-.letter_center {
-display:none;
-}
-
-.letter_head {
-display:none;
-text-align:center;
-}
-
-.letter_head2 {
-width:unset;
-}
-
-.letter_space {
-padding:2px;
-}
-
-.letter_title {
-display:block;
-}
-
-.main {
-margin-left:0;
-}
-
-.net_graph_text {
-font-family:Quicksand,sans-serif;
-font-size:12px;
-margin-left:auto;
-margin-right:auto;
-padding:2px;
-width:60px;
-}
-
-.net_graphs img {
-width:300px;
-}
-
-.onoffswitch {
-margin-left:15%;
-}
-
-.remove {
-display:none;
-}
-
-.reset_button_border {
-margin-left:60%;
-}
-
-.search_center {
-max-width:335px;
-}
-
-.search_space {
-padding-right:20px;
-}
-
-.search_text {
-width:70px;
-}
-
-.servers {
-display:flex;
-}
-
-.tzone {
-display:none;
-right:35px;
-top:10px;
-}
-
-.win_search {
-background-color:transparent;
-border:none;
-box-shadow:none;
-left:unset;
-margin-left:auto;
-margin-right:auto;
-padding:0;
-position:unset;
-text-align:center;
-top:unset;
-width:unset;
-z-index:1000;
-}
-
-.win_search,.letter_center {
-display:block;
-}
-
-body {
-background-image: url(../images/background-mobile.png) !important;
-background-repeat:repeat repeat;
-background-size:auto;
-padding:30px;
-width:340px;
-}
-
-html {
-min-height:100%;
-}
-
-iframe {
-max-width:350px;
-}
+  #blank_line, #bookmark, #category, #category_head, #filter_box, #gsearch2, #net_box, #sidenav, #spyglass, .cal_agenda, .google_clear, .header_search, .letter_space2, .sm_weather, .tipr_content, .top_nav {
+    display: none;
+  }
+  #bookmark_add {
+    display: none;
+  }
+  #directory_box, #letter_row, #mobile_google {
+    padding-bottom: 10px;
+  }
+  #directory_section {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #favorite_section {
+    display: none;
+  }
+  #head_image {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #letter_row {
+    display: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 355px;
+    padding-top: 6px;
+    width: 260px;
+  }
+  #search {
+    padding-top: 10px;
+  }
+  #up_bar {
+    display: none;
+    right: 35px;
+  }
+  .a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .misc, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .admin, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    width: 260px;
+    height: 40px;
+    max-width: 254px;
+  }
+  .book_icon {
+    margin-left: 0;
+  }
+  .container {
+    padding-left: 5px !important;
+  }
+  .directory_bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    max-width: 290px;
+    min-width: 290px;
+  }
+  .directory_block {
+    justify-content: center;
+    margin-left: 0;
+    padding: 5px;
+  }
+  .dir_hr {
+    display:none;
+  }
+  .editor {
+    padding-top: 10px;
+  }
+  .exit_search, .search_head {
+    display: none;
+  }
+  .favorite {
+    display: none;
+  }
+  .googlesearch {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  .letter_center {
+    display: none;
+  }
+  .letter_head {
+    display: none;
+    text-align: center;
+  }
+  .letter_head2 {
+    width: unset;
+  }
+  .letter_space {
+    padding: 2px;
+  }
+  .letter_title {
+    display: block;
+  }
+  .main {
+    margin-left: 0;
+  }
+  .net_graph_text {
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    width: 60px;
+  }
+  .net_graphs img {
+    width: 300px;
+  }
+  .onoffswitch {
+    margin-left: 15%;
+  }
+  .remove {
+    display: none;
+  }
+  .reset_button_border {
+    margin-left: 60%;
+  }
+  .search_center {
+    max-width: 335px;
+  }
+  .search_space {
+    padding-right: 20px;
+  }
+  .search_text {
+    width: 70px;
+  }
+  .servers {
+    display: flex;
+  }
+  .tip {
+    margin-top: -28px;
+    margin-left: 60px;
+    text-align: left;
+  }
+  .tzone {
+    display: none;
+    right: 35px;
+    top: 10px;
+  }
+  .win_search {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    left: unset;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: unset;
+    text-align: center;
+    top: unset;
+    width: unset;
+    z-index: 1000;
+  }
+  .win_search, .letter_center {
+    display: block;
+    backdrop-filter:none;
+  }
+  body {
+    background-image: url(../images/background-mobile.png) !important;
+    background-repeat: repeat repeat;
+    background-size: auto;
+    padding: 30px;
+    max-width: 340px;
+    min-width: 340px;
+  }
+  iframe {
+    max-width: 350px;
+  }
 }
