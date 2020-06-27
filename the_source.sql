@@ -60,7 +60,7 @@ CREATE TABLE `features` (
   `type` varchar(20) DEFAULT NULL,
   `title` varchar(30) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -69,7 +69,7 @@ CREATE TABLE `features` (
 
 LOCK TABLES `features` WRITE;
 /*!40000 ALTER TABLE `features` DISABLE KEYS */;
-INSERT INTO `features` VALUES (1,'#calendar','block','feature','Google Calendar'),(2,'#privatebin','block','feature','PrivateBin'),(3,'#spotify','block','feature','Spotify'),(4,'#terminal','block','feature','Terminal'),(5,'#cal_search','block','search','Google Calendar'),(6,'#contacts','block','search','Google Contacts'),(7,'#drive','block','search','Google Drive'),(8,'#earth','block','search','Google Earth'),(9,'#keep','block','search','Google Keep'),(10,'#gmail','block','search','Google Keep'),(11,'#hangouts','block','search','Google Hangouts'),(12,'#maps','block','search','Google Maps'),(13,'#photos','block','search','Google Photos'),(14,'#play','block','search','Google Play'),(15,'#scholar','block','search','Google Scholar'),(16,'#g_search','block','search','Google Search'),(17,'#translate','block','search','Google Translate'),(18,'#youtube','block','search','YouTube'),(19,'#amazon','block','search','Amazon'),(20,'#awesome','block','search','Font Awesome'),(21,'#bing','block','search','Bing'),(22,'#codepen','block','search','CodePen'),(23,'#giphy','block','search','Giphy'),(24,'#hulu','block','search','Hulu'),(25,'#imdb','block','search','IMDB'),(26,'#imgur','block','search','Imgur'),(28,'#netflix','block','search','Netflix'),(30,'#overflow','block','search','Stack Overflow'),(31,'#reddit','block','search','Reddit'),(32,'#g_spotify','block','search','Spotify'),(33,'#steam','block','search','Steam'),(34,'#versus','block','search','Versus'),(35,'#wallhaven','block','search','WallHaven'),(36,'#watch','block','search','Just Watch'),(37,'#wikipedia','block','search','Wikipedia'),(38,'#wolfram','block','search','Wolfram Alpha'),(39,'#wowhead','block','search','Wowhead'),(40,'#github','block','search','GitHub');
+INSERT INTO `features` VALUES (1,'#calendar','block','feature','Google Calendar'),(2,'#privatebin','block','feature','PrivateBin'),(3,'#spotify','block','feature','Spotify'),(4,'#terminal','block','feature','Terminal'),(5,'#cal_search','block','search','Google Calendar'),(6,'#contacts','block','search','Google Contacts'),(7,'#drive','block','search','Google Drive'),(8,'#earth','block','search','Google Earth'),(9,'#keep','block','search','Google Keep'),(10,'#gmail','block','search','Google Keep'),(11,'#hangouts','block','search','Google Hangouts'),(12,'#maps','block','search','Google Maps'),(13,'#photos','block','search','Google Photos'),(14,'#play','block','search','Google Play'),(15,'#scholar','block','search','Google Scholar'),(16,'#g_search','block','search','Google Search'),(17,'#translate','block','search','Google Translate'),(18,'#youtube','block','search','YouTube'),(19,'#amazon','block','search','Amazon'),(20,'#awesome','block','search','Font Awesome'),(21,'#bing','block','search','Bing'),(22,'#codepen','block','search','CodePen'),(23,'#giphy','block','search','Giphy'),(24,'#hulu','block','search','Hulu'),(25,'#imdb','block','search','IMDB'),(26,'#imgur','block','search','Imgur'),(28,'#netflix','block','search','Netflix'),(30,'#overflow','block','search','Stack Overflow'),(31,'#reddit','block','search','Reddit'),(32,'#g_spotify','block','search','Spotify'),(33,'#steam','block','search','Steam'),(34,'#versus','block','search','Versus'),(35,'#wallhaven','block','search','WallHaven'),(36,'#watch','block','search','Just Watch'),(37,'#wikipedia','block','search','Wikipedia'),(38,'#wolfram','block','search','Wolfram Alpha'),(39,'#wowhead','block','search','Wowhead'),(40,'#github','block','search','GitHub'),(41,'#shortcut_nav','block','feature','Shortcuts'),(42,'#password_nav','block','feature','Password'),(43,'#search_nav','block','feature','Search');
 /*!40000 ALTER TABLE `features` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -107,7 +107,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'Your Domain Here','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://www.spotify.com','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https//calendar.google.com','The Source','Quicksand');
+INSERT INTO `settings` VALUES (1,'Your Domain Here','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://www.spotify.com','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https//calendar.google.com','The Source','OpenSans');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -128,4 +128,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-08 15:43:47
+-- Dump completed on 2020-06-27 10:54:09
