@@ -1,9 +1,10 @@
+<?php ?>
 <div class="win_set"><span class="exit_set" ><i class="fas fa-window-close fa-lg"></i></span>
   <div class="set_head">Settings</div>
   <div class="set_bar"><input type="button" class="set_button" value="Main" onclick="set_main_toggle();" /><input type="button" class="set_button" value="Media" onclick="set_media_toggle();" /><input type="button" class="set_button" value="Features" onclick="set_feature_toggle();" /></div>
 <div id="set_main">
 <form action="./functions/add_main.php" method="post">
-<h3>Geographic</h3>
+<div class="section_label">Geographic</div>
 <div class="set_label">Main URL - no http:// or https://</div><input type="text" class="set_fields" name="main" value="<?php include './functions/config.php';echo$main ?>">
 <br/>
 <div class="set_label">Page Title</div><input type="text" class="set_fields" name="pagetitle" value="<?php include './functions/config.php';echo$pagetitle ?>">
@@ -16,7 +17,7 @@
 <br/>
 <div class="set_label">Country Code - Lowercase, 2 Charater Max</div><input type="text" class="set_fields" name="cc" value="<?php include './functions/config.php';echo$cc ?>">
 <hr/>
-<h3>Feature URLs</h3>
+<div class="section_label">Feature URLs</div>
 <div class="set_label">Spotify Playlist</div><input type="text" class="set_fields long" name="spot" value="<?php include './functions/config.php';echo$spot ?>">
 <br/>
 <div class="set_label">PrivateBin URL</div><input type="text" class="set_fields long" name="privatebin" value="<?php include './functions/config.php';echo$privatebin ?>">
@@ -30,19 +31,50 @@
 </form>
 </div>
 <div id="set_media">
-<form action="./functions/add_media.php" method="post">
-<h3>Messages & Font</h3>
-<h5>Note - No Double or Single Quotes</h5>
-<div class="set_label">Morning Message | 5am-10am </div><input type="text" class="set_fields long" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
+<form action="./functions/add_media.php" method="post" id="media_form"></form>
 <br/>
-<div class="set_label">Day Message | 10am-5pm</div><input type="text" class="set_fields long" name="day" value="<?php include './functions/config.php';echo"$day" ?>">
-<br/>
-<div class="set_label">Dusk Message | 5pm-10pm</div><input type="text" class="set_fields long" name="dusk" value="<?php include './functions/config.php';echo"$dusk"?>">
-<br/>
-<div class="set_label">Evening Message | 10pm-5am</div><input type="text" class="set_fields long" name="evening" value="<?php include './functions/config.php';echo"$evening" ?>">
-<br/>
+<div class="set_label">Morning 5am-10am</div>
+<div class="wall_head">Message</div><input type="text" class="set_fields long" form="media_form" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
+<div class="wall_box">
+  <div class="wall_head">Wallpaper<span class="current"><a href="./images/background-morning.png" download>Current</a></span></div>
+  <form action="./functions/upload_image_morn.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="the_file" id="fileToUploadmorn">
+    &nbsp;
+    <input type="submit" name="submit" value="Upload" >
+  &nbsp;</form></div>
+  <hr/>
+<div class="set_label">Day 10am-5pm</div>
+<div class="wall_head">Message</div><input type="text" class="set_fields long" form="media_form" name="day" value="<?php include './functions/config.php';echo"$day" ?>">
+<div class="wall_box">
+  <div class="wall_head">Wallpaper<span class="current"><a href="./images/background-day.png" download>Current</a></span></div>
+  <form action="./functions/upload_image_day.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="the_file" id="fileToUploadday">
+    &nbsp;
+    <input type="submit" name="submit" value="Upload" >
+  &nbsp;</form></div>
+    <hr/>
+<div class="set_label">Dusk 5pm-10pm</div>
+<div class="wall_head">Message</div><input type="text" class="set_fields long" form="media_form" name="dusk" value="<?php include './functions/config.php';echo"$dusk"?>">
+<div class="wall_box">
+  <div class="wall_head">Wallpaper<span class="current"><a href="./images/background-dusk.png" download>Current</a></span></div>
+  <form action="./functions/upload_image_dusk.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="the_file" id="fileToUploaddusk">
+    &nbsp;
+    <input type="submit" name="submit" value="Upload" >
+  &nbsp;</form></div>
+    <hr/>
+<div class="set_label">Evening 10pm-5am</div>
+<div class="wall_head">Message</div><input type="text" class="set_fields long" form="media_form" name="evening" value="<?php include './functions/config.php';echo"$evening" ?>">
+<div class="wall_box">
+  <div class="wall_head">Wallpaper<span class="current"><a href="./images/background-night.png" download>Current</a></span></div>
+  <form action="./functions/upload_image_evening.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="the_file" id="fileToUploadevening">
+    &nbsp;
+    <input type="submit" name="submit" value="Upload" >
+  &nbsp;</form></div>
+    <hr/>
 <div class="set_label">Font Selection</div>
-<select name="font" class="set_fields" class="set_fields">
+<select name="font" class="set_fields" class="set_fields" form="media_form">
               <option value=' ' disabled selected>Font</option>
               <option value='ComicNeue'>Comic Neue</option>
               <option value='OpenSans'>Open Sans</option>
@@ -52,47 +84,18 @@
             </select>
 <br/>
 <br/>
-<input type="submit" class="mybutton" name="submit" value="Update">
-</form>
+<input type="submit" class="mybutton" name="submit" value="Update" form="media_form">
 <hr/>
-<h3>Logo & Wallpapers</h3>
+<div class="section_label">Logo & Mobile</div>
 <div class="wall_box">
-  <div class="wall_head">Logo (100x100)<span class="current"><a href="./images/logo.png" download>Current</a></span></div>
+  <div class="wall_head">Logo<span class="current"><a href="./images/logo.png" download>Current</a></span></div>
   <form action="./functions/upload_image_logo.php" method="post" enctype="multipart/form-data">
     <input type="file" name="the_file" id="fileToUploadlogo">
     &nbsp;
     <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Morning Wallpaper<span class="current"><a href="./images/background-morning.png" download>Current</a></span></div>
-  <form action="./functions/upload_image_morn.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploadmorn">
-    &nbsp;
-    <input type="submit" name="submit" value="Upload" >
-  &nbsp;</form></div>
-<div class="wall_box">
-  <div class="wall_head">Day Wallpaper<span class="current"><a href="./images/background-day.png" download>Current</a></span></div>
-  <form action="./functions/upload_image_day.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploadday">
-    &nbsp;
-    <input type="submit" name="submit" value="Upload" >
-  &nbsp;</form></div>
-<div class="wall_box">
-  <div class="wall_head">Dusk Wallpaper<span class="current"><a href="./images/background-dusk.png" download>Current</a></span></div>
-  <form action="./functions/upload_image_dusk.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploaddusk">
-    &nbsp;
-    <input type="submit" name="submit" value="Upload" >
-  &nbsp;</form></div>
-<div class="wall_box">
-  <div class="wall_head">Evening Wallpaper<span class="current"><a href="./images/background-night.png" download>Current</a></span></div>
-  <form action="./functions/upload_image_evening.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploadevening">
-    &nbsp;
-    <input type="submit" name="submit" value="Upload" >
-  &nbsp;</form></div>
-<div class="wall_box">
-  <div class="wall_head">Mobile Wallpaper<span class="current"><a href="./images/background-mobile.png" download>Current</a></span></div>
+  <div class="wall_head">Mobile<span class="current"><a href="./images/background-mobile.png" download>Current</a></span></div>
   <form action="./functions/upload_image_mobile.php" method="post" enctype="multipart/form-data">
     <input type="file" name="the_file" id="fileToUploadmobile">
     &nbsp;
@@ -100,14 +103,14 @@
   &nbsp;</form></div>
 </div>
 <div id="set_feature">
-<h3>Features</h3>
+<div class="section_label">Features</div>
 <div class="feat_box">
 <?php
 include './functions/features.php';
 ?>
 </div>
 <hr/>
-<h3>Search</h3>
+<div class="section_label">Search</div>
 <div class="feat_search_box">
 <?php
 include './functions/search_features.php';

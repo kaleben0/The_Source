@@ -247,9 +247,10 @@
   margin-right: 10px;
 }
 .current {
-  float: right;
   border: 1px solid #fff;
   padding: 1px 5px 1px 5px;
+  margin-left: 20px;
+  font-size: 17px;
 }
 .current:hover {
   background-color: #fff;
@@ -564,7 +565,7 @@
   width: 40px;
 }
 .long {
-  width: 760px !important;
+  width:500px !important;
 }
 .main_key {
   background-color: #fff;
@@ -835,6 +836,12 @@
   text-align: center;
   width: 35px;
 }
+.section_label {
+  text-align:left;
+  font-size:18px;
+  margin-top:5px;
+  margin-bottom:10px;
+}
 .servers {
   display: none;
   flex-flow: row wrap;
@@ -878,7 +885,7 @@
   margin-right: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .side_icon {
   font-size: 20px;
@@ -960,10 +967,8 @@
   border-color: #7b847b;
 }
 .wall_box {
-  margin-left: 10px;
   margin-right: 10px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
   text-align: center;
 }
 .wall_head {
@@ -971,7 +976,8 @@
   margin-right: 10px;
   text-align: left;
   float: left;
-  width: 230px;
+  width: 70px;
+  font-size: 17px;
 }
 .win_bin {
   background-color: #0e0e0e99;
