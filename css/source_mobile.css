@@ -189,4 +189,11 @@
 .favorite_center {
   max-width: 900px;
 }
+.directory_block {
+  margin-left:210px;
+}
+.directory_bar {
+  max-width:1030px;
+  min-width:820px;
+}
 }
