@@ -3,6 +3,7 @@
   <form autocomplete="off" method="get" action="https://google.com/search"  target="_blank" class="g_form" >
     <i class="fas fa-search g_clear" id="spyglass" onclick="clear_box2();"></i>
     <input required name="q" type="text" id="gsearch2"  class="googlesearch2" placeholder="Google"  />
+    <i class="fas fa-search-plus g_clear_search" id="spyglassplus" onclick="search_toggle();"></i>
   </form>
   <div class="letter_head" id="favorite"><i class="far fa-star icons3"></i></div>
   <div class="letter_head" id="design">Design</div>

@@ -368,8 +368,13 @@
   margin-top: -5px;
   position: relative;
 }
-.g_clear, a:link, a:visited {
+.g_clear, .g_clear_search, a:link, a:visited {
   color: #fff;
+}
+.g_clear_search {
+  margin-left: -30px;
+  margin-top: -5px;
+  position: relative;
 }
 .g_form {
   margin-left: 200px;

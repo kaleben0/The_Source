@@ -33,6 +33,9 @@
   #search {
     padding-top: 10px;
   }
+  #spyglassplus{
+  display:none;
+  }
   #up_bar {
     display: none;
     right: 35px;
