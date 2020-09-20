@@ -78,10 +78,6 @@
           <div class="search_btn" title="Amazon" ><i class="fab fa-amazon"></i> </div>
           <div class="search_text">Amazon</div>
         </div>
-        <div class="search_space" onclick="fontawesome();" id="awesone">
-          <div class="search_btn" title="FontAwesome" ><i  class="fab fa-font-awesome-flag"></i></div>
-          <div class="search_text">Awesome</div>
-        </div>
         <div class="search_space" onclick="bing();" id="bing">
           <div class="search_btn" title="Bing" ><i class="fas fa-search"></i></div>
           <div class="search_text">Bing</div>
@@ -97,6 +93,10 @@
         <div class="search_space" onclick="ebay();" id="ebay">
           <div class="search_btn" title="eBay" ><i class="fab fa-ebay"></i> </div>
           <div class="search_text">eBay</div>
+        </div>
+        <div class="search_space" onclick="fontawesome();" id="awesone">
+          <div class="search_btn" title="FontAwesome" ><i  class="fab fa-font-awesome-flag"></i></div>
+          <div class="search_text">Font Awesome</div>
         </div>
         <div class="search_space" onclick="github();" id="github">
           <div class="search_btn" title="GitHub" ><i class="fab fa-github"></i></div>
@@ -117,6 +117,10 @@
         <div class="search_space" onclick="imgur();" id="imgur">
           <div class="search_btn" title="Imgur"><i class="fas fa-arrow-alt-circle-up"></i></div>
           <div class="search_text">Imgur</div>
+        </div>
+        <div class="search_space" onclick="justwatch();" id="watch">
+          <div class="search_btn" title="Just Watch" ><i class="fas fa-photo-video"></i></div>
+          <div class="search_text">Just Watch</div>
         </div>
         <div class="search_space" onclick="netflix();" id="netflix" >
           <div class="search_btn" title="Netflix" ><i class="fas fa-film"></i></div>
@@ -145,10 +149,6 @@
         <div class="search_space" onclick="wallhaven();" id="wallhaven">
           <div class="search_btn" title="Wallhaven"><i class="far fa-file-image"></i></div>
           <div class="search_text">Wallhaven</div>
-        </div>
-        <div class="search_space" onclick="justwatch();" id="watch">
-          <div class="search_btn" title="Just Watch" ><i class="fas fa-photo-video"></i></div>
-          <div class="search_text">Watch</div>
         </div>
         <div class="search_space" onclick="wikipedia();" id="wikipedia">
           <div class="search_btn" title="Wikipedia"><i  class="fab fa-wikipedia-w"></i></div>
