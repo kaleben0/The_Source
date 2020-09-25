@@ -548,23 +548,23 @@ function set_feature_toggle() {
 //Bookmark Add
 $(document).ready(function () {
   $('.googlesearch').focus(function () {
-    $('.g_clear').css('color', '#000');
+    $('.g_clear, .g_clear_search').css('color', '#000');
   });
 });
 $(document).ready(function () {
   $('.googlesearch').focusout(function () {
-    $('.g_clear').css('color', '#fff');
+    $('.g_clear, .g_clear_search').css('color', '#fff');
   });
 });
 
 $(document).ready(function () {
   $('.googlesearch2').focus(function () {
-    $('.g_clear').css('color', '#000');
+    $('.g_clear, .g_clear_search').css('color', '#000');
   });
 });
 $(document).ready(function () {
   $('.googlesearch2').focusout(function () {
-    $('.g_clear').css('color', '#fff');
+    $('.g_clear, .g_clear_search').css('color', '#fff');
   });
 });
 
