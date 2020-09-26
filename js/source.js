@@ -1,4 +1,14 @@
 // JavaScript Document
+
+// Clear Search Boxes
+
+$(document).ready(function(){
+  var interval = 300000;
+  setInterval(function(){
+    $("#gsearch2, #gsearch").val('');
+  }, interval);
+});
+
 // Google Searches
 function google_search() {
     var box = document.getElementById("gsearch").value;
