@@ -137,13 +137,14 @@
     margin-left: 60%;
   }
   .search_center {
-    max-width: 335px;
+    width: 350px;
   }
   .search_space {
     padding-right: 20px;
   }
   .search_text {
-    width: 70px;
+    width: 96px;
+    padding-left:0;
   }
   .servers {
     display: flex;
