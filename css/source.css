@@ -594,7 +594,7 @@
   color: #fff;
   cursor: pointer;
   font-size: 17px;
-  padding: 7px 17px;
+  padding: 2px 17px;
   text-decoration: none;
   text-shadow: 2px 1px #000;
   border-radius: 5px;
@@ -842,7 +842,7 @@
   width: 35px;
 }
 .section_label {
-  text-align:left;
+  text-align:center;
   font-size:18px;
   margin-top:5px;
   margin-bottom:10px;
@@ -882,7 +882,7 @@
   border: 0;
   font-size: 18px;
   height: 25px;
-  width: 400px;
+  width: 300px;
   margin-left: 15px;
   box-shadow: 2px 2px #000;
 }
@@ -1078,7 +1078,7 @@
   background-color: #0e0e0e99;
   box-shadow: -4px 3px 7px #000;
   display: none;
-  height: 815px;
+  height: 800px;
   left: 545px;
   margin-right: auto;
   max-width: 800px;
