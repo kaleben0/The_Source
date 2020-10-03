@@ -308,12 +308,9 @@
 }
 .exit_term, .exit_pass, .exit_book, .exit_cal, .exit_search, .exit_spot, .exit_bin, .exit_sc, .exit_set {
   float: right;
-  margin-right: 5px;
-  margin-top: -15px;
+  margin-right: -5px;
+  margin-top: 0px;
   text-shadow: 2px 2px #000;
-}
-.exit_search {
-  margin-top: -5px;
 }
 .fa, .fab, .far, .fas {
   vertical-align: middle;
