@@ -85,7 +85,7 @@
 <br/>
 <input type="submit" class="mybutton" name="submit" value="Update" form="media_form">
 <hr/>
-<div class="section_label">Logo & Mobile</div>
+<div class="section_label">Logo & Mobile Wallpaper</div>
 <div class="wall_box">
   <div class="wall_head">Logo<span class="current"><a href="./images/logo.png" download>Current</a></span></div>
   <form action="./functions/upload_image_logo.php" method="post" enctype="multipart/form-data">
