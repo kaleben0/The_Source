@@ -4,7 +4,6 @@
   <div class="set_bar"><input type="button" class="set_button" value="Main" onclick="set_main_toggle();" /><input type="button" class="set_button" value="Media" onclick="set_media_toggle();" /><input type="button" class="set_button" value="Features" onclick="set_feature_toggle();" /></div>
 <div id="set_main">
 <form action="./functions/add_main.php" method="post">
-<div class="section_label">Geographic</div>
 <div class="set_label">Main URL - no http:// or https://</div><input type="text" class="set_fields" name="main" value="<?php include './functions/config.php';echo$main ?>">
 <br/>
 <div class="set_label">Page Title</div><input type="text" class="set_fields" name="pagetitle" value="<?php include './functions/config.php';echo$pagetitle ?>">
