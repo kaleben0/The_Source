@@ -18,7 +18,7 @@
 <li class="header_menu" title="Financial" onclick="togglefinance();" ><i class="fas fa-file-invoice-dollar  icons3"></i>
   <div class="nav_label">Finance</div>
 </li>
-<li class="header_menu" title="Game" onclick="togglegame();" ><i class="fas fa-gamepad icons3"></i>
+<li class="header_menu" title="Games" onclick="togglegame();" ><i class="fas fa-gamepad icons3"></i>
   <div class="nav_label">Games</div>
 </li>
 <li class="header_menu" title="Media" onclick="togglemedia();" ><i class="fas fa-photo-video icons3"></i>
