@@ -108,8 +108,9 @@
     padding: 2px;
   }
   .letter_title {
-    display: block;
-  }
+     display: block;
+     text-align: center;
+   }
   .main {
     margin-left: 0;
   }

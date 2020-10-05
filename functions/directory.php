@@ -36,9 +36,7 @@
 
 
         echo "<div class='letter_title' id='a'>";
-        echo "<hr class='blue-line'/>";
         echo "A";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
 
 
@@ -73,9 +71,7 @@
         }
 
         echo "<div class='letter_title' id='b'>";
-        echo "<hr class='blue-line'/>";
         echo "B";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryb ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -109,9 +105,7 @@
 
 
         echo "<div class='letter_title' id='c'>";
-        echo "<hr class='blue-line'/>";
         echo "C";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryc ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -145,9 +139,7 @@
 
 
         echo "<div class='letter_title' id='d'>";
-        echo "<hr class='blue-line'/>";
         echo "D";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryd ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -180,9 +172,7 @@
         }
 
         echo "<div class='letter_title' id='e'>";
-        echo "<hr class='blue-line'/>";
         echo "E";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $querye ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -215,9 +205,7 @@
         }
 
         echo "<div class='letter_title' id='f'>";
-        echo "<hr class='blue-line'/>";
         echo "F";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryf ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -250,9 +238,7 @@
         }
 
         echo "<div class='letter_title' id='g'>";
-        echo "<hr class='blue-line'/>";
         echo "G";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryg ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -285,9 +271,7 @@
         }
 
         echo "<div class='letter_title' id='h'>";
-        echo "<hr class='blue-line'/>";
         echo "H";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryh ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -320,9 +304,7 @@
         }
 
         echo "<div class='letter_title' id='i'>";
-        echo "<hr class='blue-line'/>";
         echo "I";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryi ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -355,9 +337,7 @@
         }
 
         echo "<div class='letter_title' id='j'>";
-        echo "<hr class='blue-line'/>";
         echo "J";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryj ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -390,9 +370,7 @@
         }
 
         echo "<div class='letter_title' id='k'>";
-        echo "<hr class='blue-line'/>";
         echo "K";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryk ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -425,9 +403,7 @@
         }
 
         echo "<div class='letter_title' id='l'>";
-        echo "<hr class='blue-line'/>";
         echo "L";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryl ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -460,9 +436,7 @@
         }
 
         echo "<div class='letter_title' id='m'>";
-        echo "<hr class='blue-line'/>";
         echo "M";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $querym ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -495,9 +469,7 @@
         }
 
         echo "<div class='letter_title' id='n'>";
-        echo "<hr class='blue-line'/>";
         echo "N";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryn ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -530,9 +502,7 @@
         }
 
         echo "<div class='letter_title' id='o'>";
-        echo "<hr class='blue-line'/>";
         echo "O";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryo ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -565,9 +535,7 @@
         }
 
         echo "<div class='letter_title' id='p'>";
-        echo "<hr class='blue-line'/>";
         echo "P";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryp ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -600,9 +568,7 @@
         }
 
         echo "<div class='letter_title' id='q'>";
-        echo "<hr class='blue-line'/>";
         echo "Q";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryq ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -635,9 +601,7 @@
         }
 
         echo "<div class='letter_title' id='r'>";
-        echo "<hr class='blue-line'/>";
         echo "R";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryr ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -670,9 +634,7 @@
         }
 
         echo "<div class='letter_title' id='s'>";
-        echo "<hr class='blue-line'/>";
         echo "S";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $querys ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -705,9 +667,7 @@
         }
 
         echo "<div class='letter_title' id='t'>";
-        echo "<hr class='blue-line'/>";
         echo "T";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryt ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -740,9 +700,7 @@
         }
 
         echo "<div class='letter_title' id='u'>";
-        echo "<hr class='blue-line'/>";
         echo "U";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryu ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -775,9 +733,7 @@
         }
 
         echo "<div class='letter_title' id='v'>";
-        echo "<hr class='blue-line'/>";
         echo "V";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryv ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -810,9 +766,7 @@
         }
 
         echo "<div class='letter_title' id='w'>";
-        echo "<hr class='blue-line'/>";
         echo "W";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryw ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -845,9 +799,7 @@
         }
 
         echo "<div class='letter_title' id='x'>";
-        echo "<hr class='blue-line'/>";
         echo "X";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryx ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -880,9 +832,7 @@
         }
 
         echo "<div class='letter_title' id='y'>";
-        echo "<hr class='blue-line'/>";
         echo "Y";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryy ) ) {
           while ( $row = $result->fetch_assoc() ) {
@@ -915,9 +865,7 @@
         }
 
         echo "<div class='letter_title' id='z'>";
-        echo "<hr class='blue-line'/>";
         echo "Z";
-        echo "<hr class='blue-line2'/>";
         echo "</div>";
         if ( $result = $mysqli->query( $queryz ) ) {
           while ( $row = $result->fetch_assoc() ) {

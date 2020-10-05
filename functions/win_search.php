@@ -9,6 +9,9 @@
         <input required name="q" type="text" id="gsearch"  class="googlesearch" placeholder="Google"  />
       </form>
     </div>
+    <div class="letter_head2">
+  <i class="fab fa-google"></i>
+</div>
     <div class="search_center">
       <div id="search_row"  class="search"  >
         <div class="search_space" onclick="calendar();" id="cal_search">
@@ -69,9 +72,7 @@
         </div>
       </div>
       <div class="letter_head2">
-        <hr class="blue-line3"/>
         <i class="fas fa-globe"></i>
-        <hr class="blue-line4"/>
       </div>
       <div id="search_row"  class="search" >
         <div class="search_space" onclick="amazon();"id="amazon" >

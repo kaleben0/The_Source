@@ -189,16 +189,8 @@
   font-size: 15px;
   margin-left: 20px;
   margin-right: auto;
-  margin-top: 6px;
+  margin-top: 7px;
   text-align: left;
-}
-.blue-line, .blue-line4 {
-  float: left;
-  width: 40%;
-}
-.blue-line2, .blue-line3 {
-  float: right;
-  width: 40%;
 }
 .book_fields {
   background-position: left;
@@ -543,7 +535,7 @@
   display: none;
   font-size: 30px;
   padding: 10px 5px;
-  text-align: center;
+  text-align: left;
   width: 100%;
   text-shadow: 2px 2px #000;
 }
@@ -591,7 +583,7 @@
   color: #fff;
   cursor: pointer;
   font-size: 17px;
-  padding: 2px 17px;
+  padding: 4px 17px;
   text-decoration: none;
   text-shadow: 2px 1px #000;
   border-radius: 5px;
