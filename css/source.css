@@ -244,12 +244,12 @@
 }
 .current {
   border: 0;
-  padding: 1px 5px 1px 5px;
   margin-left: 20px;
-  font-size: 17px;
+  font-size: 19px;
   float:right;
+  margin-top: -3px;
 }
-.current:hover, .fa-upload:hover {
+.current:hover, .fa-save:hover, .fa-upload:hover {
   background-color: #fff;
   color: #000;
 }
@@ -309,7 +309,7 @@
   margin-top: 0px;
   text-shadow: 2px 2px #000;
 }
-.fa, .fab, .far, .fas, .fa-upload {
+.fa, .fab, .far, .fas, .fa-upload, .fa-save {
   font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   vertical-align: middle;
 }
@@ -318,6 +318,13 @@
   border: none;
   color: #fff;
   font-size: 19px;
+}
+.fa-save {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  float:right;
 }
 .faded {
   opacity: .2;
