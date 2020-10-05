@@ -249,7 +249,7 @@
   font-size: 17px;
   float:right;
 }
-.current:hover {
+.current:hover, .fa-upload:hover {
   background-color: #fff;
   color: #000;
 }
@@ -309,8 +309,15 @@
   margin-top: 0px;
   text-shadow: 2px 2px #000;
 }
-.fa, .fab, .far, .fas {
+.fa, .fab, .far, .fas, .fa-upload {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   vertical-align: middle;
+}
+.fa-upload {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 19px;
 }
 .faded {
   opacity: .2;
@@ -974,13 +981,14 @@
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  max-width:550px;
 }
 .wall_head {
   margin-left: 10px;
   margin-right: 10px;
   text-align: left;
   float: left;
-  width: 300px;
+  width: 200px;
   font-size: 17px;
 }
 .win_bin {

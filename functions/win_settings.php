@@ -35,54 +35,57 @@
 </form>
 </div>
 <div id="set_media">
-<form action="./functions/add_media.php" method="post" id="media_form"></form>
 <div class="section_label">Media</div>
 <div class="wall_box">
   <div class="wall_head">Morning Wallpaper<span class="current"><a href="./images/background-morning.png" download><i class="fas fa-download"></i></a></span></div>
-  <form action="./functions/upload_image_morn.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploadmorn">
+  <form action="./functions/upload_image_morn.php" method="post" id="uploadmorn" enctype="multipart/form-data">
+      <input type="submit" title="Upload" name="submit" class="fas fa-upload" value="&#xf093" >
+      <input type="file" name="the_file" id="fileToUploadmorn" >
     &nbsp;
-    <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
   <hr/>
 <div class="wall_box">
   <div class="wall_head">Day Wallpaper<span class="current"><a href="./images/background-day.png" download><i class="fas fa-download"></i></a></span></div>
-  <form action="./functions/upload_image_day.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploadday">
+  <form action="./functions/upload_image_day.php" method="post" id="uploadday" enctype="multipart/form-data">
+      <input type="submit" title="Upload" name="submit" class="fas fa-upload" value="&#xf093" >
+    <input type="file" name="the_file" id="fileToUploadday" >
     &nbsp;
-    <input type="submit" name="submit" value="Upload" >
   &nbsp;</form></div>
     <hr/>
 <div class="wall_box">
   <div class="wall_head">Dusk Wallpaper<span class="current"><a href="./images/background-dusk.png" download><i class="fas fa-download"></i></a></span></div>
-  <form action="./functions/upload_image_dusk.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploaddusk">
+  <form action="./functions/upload_image_dusk.php" method="post" id="uploaddusk" enctype="multipart/form-data">
+      <input type="submit" title="Upload" name="submit" class="fas fa-upload" value="&#xf093" >
+    <input type="file" name="the_file" id="fileToUploaddusk" >
     &nbsp;
-    <input type="submit" name="submit" value="Upload" >
+
   &nbsp;</form></div>
     <hr/>
 <div class="wall_box">
   <div class="wall_head">Evening Wallpaper<span class="current"><a href="./images/background-night.png" download><i class="fas fa-download"></i></a></span></div>
-  <form action="./functions/upload_image_evening.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploadevening">
+  <form action="./functions/upload_image_evening.php" method="post" id="uploadevening" enctype="multipart/form-data">
+      <input type="submit" title="Upload" name="submit" class="fas fa-upload" value="&#xf093" >
+    <input type="file" name="the_file" id="fileToUploadevening" >
     &nbsp;
-    <input type="submit" name="submit" value="Upload" >
+
   &nbsp;</form></div>
     <hr/>
 <div class="wall_box">
   <div class="wall_head">Mobile Wallpaper<span class="current"><a href="./images/background-mobile.png" download><i class="fas fa-download"></i></a></span></div>
-  <form action="./functions/upload_image_mobile.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploadmobile">
+  <form action="./functions/upload_image_mobile.php" method="post" id="uploadmobile" enctype="multipart/form-data">
+      <input type="submit" title="Upload" name="submit" class="fas fa-upload" value="&#xf093" >
+    <input type="file" name="the_file" id="fileToUploadmobile" >
     &nbsp;
-    <input type="submit" name="submit" value="Upload" >
+
   &nbsp;</form></div>
   <hr/>
 <div class="wall_box">
   <div class="wall_head">Logo<span class="current"><a href="./images/logo.png" download><i class="fas fa-download"></i></a></span></div>
-  <form action="./functions/upload_image_logo.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="the_file" id="fileToUploadlogo">
+  <form action="./functions/upload_image_logo.php" method="post" id="uploadlogo" enctype="multipart/form-data">
+      <input type="submit" title="Upload" name="submit" class="fas fa-upload" value="&#xf093" >
+    <input type="file" name="the_file" id="fileToUploadlogo"  >
     &nbsp;
-    <input type="submit" name="submit" value="Upload" >
+
   &nbsp;</form></div>
    <hr/>
 </div>
