@@ -8,7 +8,7 @@
   <input type="button" class="set_button" value="Features" onclick="set_feature_toggle();" /></div>
 <div id="set_main">
 <form action="./functions/add_main.php" method="post">
-<div class="section_label">General<input type="submit" class="mybutton" name="submit" value="Update"></div>
+<div class="section_label">General<input type="submit" name="submit" class="far fa-save" value="&#xf0c7"></div>
 <div class="set_label">Main URL (no http:// or https://)</div><input type="text" class="set_fields" name="main" value="<?php include './functions/config.php';echo$main ?>">
 <br/>
 <div class="set_label">Page Title</div><input type="text" class="set_fields" name="pagetitle" value="<?php include './functions/config.php';echo$pagetitle ?>">
@@ -21,7 +21,7 @@
 <br/>
 <div class="set_label">Country Code (Lowercase, 2 Charater Max)</div><input type="text" class="set_fields" name="cc" value="<?php include './functions/config.php';echo$cc ?>">
 <hr/>
-<div class="section_label">Feature URLs<input type="submit" class="mybutton" name="submit" value="Update"></div>
+<div class="section_label">Feature URLs<input type="submit" name="submit" class="far fa-save" value="&#xf0c7"></div>
 <div class="set_label">Spotify Playlist</div><input type="text" class="set_fields long" name="spot" value="<?php include './functions/config.php';echo$spot ?>">
 <br/>
 <div class="set_label">PrivateBin URL</div><input type="text" class="set_fields long" name="privatebin" value="<?php include './functions/config.php';echo$privatebin ?>">
@@ -92,7 +92,7 @@
 
 <div id="set_messages">
 <form action="./functions/add_media.php" method="post" id="media_form"></form>
-<div class="section_label">Messages<input type="submit" class="mybutton" name="submit" value="Update" form="media_form"></div>
+<div class="section_label">Messages<input type="submit" name="submit" class="far fa-save" value="&#xf0c7"></div>
 <div class="set_label">Morning 5am-10am</div>
 <input type="text" class="set_fields long" form="media_form" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
   <hr/>
