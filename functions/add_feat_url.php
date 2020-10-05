@@ -19,24 +19,22 @@ if (!$conn) {
 if(isset($_POST['submit']))
 {
         $id='1';
-        $main = $_POST['main'];
-        $city = $_POST['city'];
-        $state = $_POST['state'];
-        $zip = $_POST['zip'];
-        $cc = $_POST['cc'];
-        $pagetitle = $_POST['pagetitle'];
+        $spot = $_POST['spot'];
+        $private = $_POST['privatebin'];
+        $shell = $_POST['shellinabox'];
+        $google = $_POST['google'];
 
-        $main = trim($main);
-        $city = trim($city);
-        $state = trim($state);
-        $zip = trim($zip);
-        $cc = trim($cc);
-        $pagetitle = trim($pagetitle);
 
-     $sql = "UPDATE settings SET main_url='$main' , city='$city' , state='$state' , zip_code='$zip' , country_code='$cc' , pagetitle='$pagetitle' WHERE id='$id' ";
+        $spot = trim($spot);
+        $private = trim($private);
+        $shell = trim($shell);
+        $google = trim($google);
+
+
+     $sql = "UPDATE settings SET spot_url='$spot' , privatebin_url='$private' , shellinabox_url='$shell', google_embed='$google' WHERE id='$id' ";
 }
 if (mysqli_query($conn, $sql)) {
-    echo "General Settings Updated";
+    echo "Feature URLs Updated";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
