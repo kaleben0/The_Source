@@ -78,16 +78,12 @@
 <div class="section_label">Messages<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes"></div>
 <div class="set_label">Morning 5am-10am</div>
 <input type="text" class="set_fields long" form="media_form" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
-  <hr/>
 <div class="set_label">Day 10am-5pm</div>
 <input type="text" class="set_fields long" form="media_form" name="day" value="<?php include './functions/config.php';echo"$day" ?>">
-    <hr/>
 <div class="set_label">Dusk 5pm-10pm</div>
 <input type="text" class="set_fields long" form="media_form" name="dusk" value="<?php include './functions/config.php';echo"$dusk"?>">
-    <hr/>
 <div class="set_label">Evening 10pm-5am</div>
 <input type="text" class="set_fields long" form="media_form" name="evening" value="<?php include './functions/config.php';echo"$evening" ?>">
-    <hr/>
 <div class="set_label">Font Selection</div>
 <select name="font" class="set_fields" class="set_fields" form="media_form">
               <option value='ComicNeue'>Comic Neue</option>
@@ -96,7 +92,6 @@
               <option value='Roboto'>Roboto</option>
               <option value='SourceSansPro'>Source Sans Pro</option>
             </select>
-<hr/>
 </div>
 <div id="set_feature">
 <div class="section_label">Features</div>

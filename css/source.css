@@ -899,7 +899,7 @@
 }
 .set_label {
   margin-right: 10px;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-bottom: 5px;
   font-size: 14px;
 }
@@ -1092,7 +1092,7 @@
   background-color: #0e0e0e99;
   box-shadow: -4px 3px 7px #000;
   display: none;
-  height: 820px;
+  height: 750px;
   left: 545px;
   margin-right: auto;
   max-width: 800px;
