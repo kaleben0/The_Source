@@ -74,7 +74,7 @@
 </div>
 
 <div id="set_messages">
-<form action="./functions/add_media.php" method="post" id="media_form"></form>
+<form action="./functions/add_media.php" method="post" id="media_form">
 <div class="section_label">Messages<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes"></div>
 <div class="set_label">Morning 5am-10am</div>
 <input type="text" class="set_fields long" form="media_form" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
@@ -92,7 +92,9 @@
               <option value='Roboto'>Roboto</option>
               <option value='SourceSansPro'>Source Sans Pro</option>
             </select>
+</form>
 </div>
+
 <div id="set_feature">
 <div class="section_label">Features</div>
 <div class="feat_box">
