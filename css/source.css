@@ -42,6 +42,10 @@
   display: none;
   margin-top: -20px;
 }
+#set_messages {
+  display: none;
+  margin-top: -20px;
+}
 #set_feature {
   display: none;
   margin-top: -20px;
@@ -239,10 +243,11 @@
   margin-right: 10px;
 }
 .current {
-  border: 1px solid #fff;
+  border: 0;
   padding: 1px 5px 1px 5px;
   margin-left: 20px;
   font-size: 17px;
+  float:right;
 }
 .current:hover {
   background-color: #fff;
@@ -588,7 +593,9 @@
   text-decoration: none;
   text-shadow: 2px 1px #000;
   border-radius: 5px;
-}
+  float:right;
+  margin-right: 30px;
+  }
 .mybutton:active {
   position: relative;
   top: 1px;
@@ -832,10 +839,10 @@
   width: 35px;
 }
 .section_label {
-  text-align:center;
-  font-size:18px;
-  margin-top:5px;
-  margin-bottom:10px;
+  text-align:left;
+  font-size:20px;
+  margin-top:20px;
+  margin-bottom:20px;
 }
 .servers {
   display: none;
@@ -859,8 +866,8 @@
   border-left: none;
   border-right: none;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-bottom: 20px;
 }
 .set_button:hover {
@@ -871,7 +878,7 @@
   background-position: left;
   border: 0;
   font-size: 18px;
-  height: 25px;
+  height: 27px;
   width: 300px;
   margin-left: 15px;
   box-shadow: 2px 2px #000;
@@ -880,7 +887,7 @@
   margin-right: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .side_icon {
   font-size: 20px;
@@ -964,7 +971,8 @@
 }
 .wall_box {
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .wall_head {
@@ -972,7 +980,7 @@
   margin-right: 10px;
   text-align: left;
   float: left;
-  width: 70px;
+  width: 300px;
   font-size: 17px;
 }
 .win_bin {
@@ -1069,7 +1077,7 @@
   background-color: #0e0e0e99;
   box-shadow: -4px 3px 7px #000;
   display: none;
-  height: 800px;
+  height: 820px;
   left: 545px;
   margin-right: auto;
   max-width: 800px;

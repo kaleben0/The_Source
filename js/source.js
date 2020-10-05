@@ -543,17 +543,27 @@ function set_media_toggle() {
   $('#set_media').show();
   $('#set_main').hide();
   $('#set_feature').hide();
+  $('#set_messages').hide();
 }
 function set_main_toggle() {
   $('#set_main').show();
   $('#set_media').hide();
   $('#set_feature').hide();
+  $('#set_messages').hide();
 }
 function set_feature_toggle() {
   $('#set_feature').show();
   $('#set_main').hide();
   $('#set_media').hide();
+  $('#set_messages').hide();
 }
+function set_messages_toggle() {
+  $('#set_messages').show();
+  $('#set_feature').hide();
+  $('#set_main').hide();
+  $('#set_media').hide();
+}
+
 
 //Bookmark Add
 $(document).ready(function () {
