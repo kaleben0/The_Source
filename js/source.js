@@ -354,7 +354,7 @@ function togglefavorite() {
     location.reload();
   } else {
     $('#search_section,#env_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
-    $('#favorite_section,.g_form,#letter_mobile,.letters').show();
+    $('#favorite_section,.g_form,#letter_mobile,.letters,.favorite_center').show();
     $('#favorite').toggle();
   }
 }
@@ -490,6 +490,7 @@ function clear_box2() {
 function directory_toggle() {
   $('.letter_title,#directory_section,#up_bar').show(),
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web").show();
+    $(".letter_head, .favorite_center ").hide();
 }
 function toggle_book() {
   $(".win_book").toggle();

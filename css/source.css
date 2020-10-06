@@ -267,17 +267,17 @@
   color: #0b5ea7;
 }
 .directory_bar {
-  background-color: #0e0e0e99;
-  height: 45px;
-  font-size: 22px;
-  padding-top: 10px;
-  padding-right: 10px;
-  text-align: center;
-  max-width: 1400px;
-  min-width: 1380px;
-  margin-bottom: 10px;
-  box-shadow: 2px 2px #000;
-  backdrop-filter: blur(10px);
+    height: 45px;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px #000;
+    position: fixed;
+    top: -1px;
+    z-index: 100;
+    right: 24%;
 }
 .directory_block {
   display: flex;
@@ -604,17 +604,18 @@
   color: #b37d1a;
 }
 .mybutton {
-  background-color: #5f5f5fa8;
-  color: #fff;
-  cursor: pointer;
-  font-size: 17px;
-  padding: 4px 17px;
-  text-decoration: none;
-  text-shadow: 2px 1px #000;
-  border-radius: 5px;
-  float:right;
-  margin-right: 30px;
-  }
+    background-color: #5f5f5fa8;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+    text-shadow: 2px 1px #000;
+    border-radius: 5px;
+    float: right;
+    margin-right: 30px;
+    width: 30px;
+    text-align: center;
+}
 .mybutton:active {
   position: relative;
   top: 1px;
