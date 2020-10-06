@@ -190,15 +190,27 @@
     max-width: 350px;
   }
 }
-@media (min-width:501px) and (max-width:1300px) {
-.favorite_center {
-  max-width: 900px;
-}
-.directory_block {
-  margin-left:210px;
+@media (min-width:551px) and (max-width:899px) {
+#spyglass, #spyglassplus {
+  display:none;
 }
 .directory_bar {
-  max-width:1030px;
-  min-width:820px;
+  display:none;
+}
+.directory_block {
+  margin-left:50px;
+  margin-right:10px;
+}
+.googlesearch2 {
+  display:none;
+}
+.letter_head {
+  display:none;
+}
+.sub_block {
+  display:none;
+}
+.letter_title {
+  width:93%;
 }
 }
