@@ -64,6 +64,7 @@
   .directory_block {
     justify-content: center;
     margin-left: 0;
+    margin-right: 0;
     padding: 5px;
   }
   .dir_hr {
