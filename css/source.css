@@ -274,7 +274,7 @@
     text-align: right;
     margin-bottom: 10px;
     position: fixed;
-    top: -1px;
+    top: -5px;
     z-index: 100;
     right: 24%;
 }
@@ -603,17 +603,16 @@
   color: #b37d1a;
 }
 .mybutton {
-    background-color: #5f5f5fa8;
-    color: #fff;
-    cursor: pointer;
-    font-size: 17px;
-    text-decoration: none;
-    text-shadow: 2px 1px #000;
-    border-radius: 5px;
-    float: right;
-    margin-right: 30px;
-    width: 30px;
-    text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  text-decoration: none;
+  text-shadow: 2px 1px #000;
+  float: right;
+  margin-right: 30px;
+  width: 30px;
+  text-align: center;
+  border: 1px solid #5f5f5fa8;
 }
 .mybutton:active {
   position: relative;
