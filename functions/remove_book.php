@@ -23,13 +23,12 @@ $title = $_GET['title'];
 $sql = "DELETE FROM bookmark WHERE id=$id";
 
 if (mysqli_query($conn, $sql)) {
-    echo "Bookmark '$title' Removed";
+    echo "<div class='message_change'>Bookmark '$title' Removed</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 mysqli_close($conn);
 ?>
 <br/>
-<i class="far fa-star"></i>
 </html>
 </body>
