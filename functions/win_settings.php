@@ -111,7 +111,7 @@ include './functions/features.php';
 <br/>
 <div class="set_label">Shellinabox URL</div><input type="text" class="set_fields long" name="shellinabox" value="<?php include './functions/config.php';echo$shellinabox ?>">
 <br/>
-<div class="set_label"><a href='https://calendar.google.com' target="blank">Google Calendar URL</a></div><input type="text" class="set_fields long" name="google" value="<?php include './functions/config.php';echo$google ?>">
+<div class="set_label">Google Embed Calendar URL</div><input type="text" class="set_fields long" name="google" value="<?php include './functions/config.php';echo$google ?>">
 </div>
 </form>
 <div id="set_search">
