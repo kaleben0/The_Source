@@ -24,7 +24,7 @@ $status = $_GET['status'];
 $sql = "UPDATE features SET status ='none' WHERE id=$id";
 
 if (mysqli_query($conn, $sql)) {
-    echo "'$title' Disabled";
+    echo "<div class='message_change'>'$title' Disabled</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
