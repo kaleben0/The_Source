@@ -1,5 +1,15 @@
 // JavaScript Document
 
+// Refresh Db
+
+function update_db() {
+     $.get("./functions/features.php", function(data) {
+        $(".feat_box").html(data)}),
+     $.get("./functions/search_features.php", function(data) {
+        $(".feat_search_box").html(data)}),
+     $("#css_search").load('./functions/search_css.php');
+}
+
 // Clear Search Boxes
 
 $(document).ready(function(){

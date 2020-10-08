@@ -10,7 +10,7 @@
   </div>
 <div id="set_main">
 <form action="./functions/add_main.php" method="post" target="_blank">
-<div class="section_label">General<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes"></div>
+<div class="section_label">General<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'></div>
 <div class="set_label">Main URL (no http:// or https://)</div><input type="text" class="set_fields" name="main" value="<?php include './functions/config.php';echo$main ?>">
 <br/>
 <div class="set_label">Page Title</div><input type="text" class="set_fields" name="pagetitle" value="<?php include './functions/config.php';echo$pagetitle ?>">
@@ -75,7 +75,7 @@
 
 <div id="set_messages">
 <form action="./functions/add_media.php" method="post" id="media_form" target="_blank">
-<div class="section_label">Messages<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes"></div>
+<div class="section_label">Messages<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'></div>
 <div class="set_label">Morning 5am-10am</div>
 <input type="text" class="set_fields long" form="media_form" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
 <div class="set_label">Day 10am-5pm</div>
@@ -104,7 +104,7 @@ include './functions/features.php';
 </div>
 <hr/>
 <form action="./functions/add_feat_url.php" method="post" target="_blank">
-<div class="section_label">Feature URLs<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes"></div>
+<div class="section_label">Feature URLs<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'></div>
 <div class="set_label">Spotify Playlist</div><input type="text" class="set_fields long" name="spot" value="<?php include './functions/config.php';echo$spot ?>">
 <br/>
 <div class="set_label">PrivateBin URL</div><input type="text" class="set_fields long" name="privatebin" value="<?php include './functions/config.php';echo$privatebin ?>">
