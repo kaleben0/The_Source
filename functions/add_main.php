@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <?php
+include 'font.php';
 include 'config.php';
 ?>
 <link rel="stylesheet" href="../css/source.css" >
@@ -38,7 +39,7 @@ if(isset($_POST['submit']))
      $sql = "UPDATE settings SET main_url='$main' , city='$city' , state='$state' , zip_code='$zip' , country_code='$cc' , pagetitle='$pagetitle' WHERE id='$id' ";
 }
 if (mysqli_query($conn, $sql)) {
-    echo "General Settings Updated";
+    echo "<div class='message_change'>General Settings Updated</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

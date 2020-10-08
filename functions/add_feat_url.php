@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <?php
+include 'font.php';
 include 'config.php';
 ?>
 <link rel="stylesheet" href="../css/source.css" >
@@ -36,7 +37,7 @@ if(isset($_POST['submit']))
      $sql = "UPDATE settings SET spot_url='$spot' , privatebin_url='$private' , shellinabox_url='$shell', google_embed='$google' WHERE id='$id' ";
 }
 if (mysqli_query($conn, $sql)) {
-    echo "Feature URLs Updated";
+    echo "<div class='message_change'>Feature URLs Updated</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

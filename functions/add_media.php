@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <?php
+include 'font.php';
 include 'config.php';
 ?>
 <link rel="stylesheet" href="../css/source.css" >
@@ -36,7 +37,7 @@ if(isset($_POST['submit']))
      $sql = "UPDATE settings SET morning_message='$morning' , day_message='$day' , dusk_message='$dusk' , evening_message='$evening', font='$font' WHERE id='$id' ";
 }
 if (mysqli_query($conn, $sql)) {
-    echo "Message Settings Updated";
+    echo "<div class='message_change'>Message Settings Updated</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

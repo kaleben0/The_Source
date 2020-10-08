@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
 <?php
+include 'font.php';
 include 'config.php';
 ?>
 <link rel="stylesheet" href="../css/source.css" >
 <title>Image Upload</title>
-<link rel="manifest" crossorigin="use-credentials" href="./manifest.json" type="application/json">
-<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 <link rel="stylesheet" href="../css/all.css" >
 <script>
 setTimeout("self.close()", 3000 )
@@ -33,20 +32,20 @@ setTimeout("self.close()", 3000 )
     if (isset($_POST['submit'])) {
 
       if (! in_array($fileExtension,$fileExtensionsAllowed)) {
-        $errors[] = "This file extension is not allowed. Please upload a GIF, JPG, JPEG or PNG file";
+        $errors[] = "<div class='message_change'>This file extension is not allowed. Please upload a GIF, JPG, JPEG or PNG file</div>";
       }
 
-      if ($fileSize > 20000000) {
-        $errors[] = "File exceeds maximum size (20MB)";
+      if ($fileSize > 10000000) {
+        $errors[] = "<div class='message_change'>File exceeds maximum size (10MB)</div>";
       }
 
       if (empty($errors)) {
         $didUpload = move_uploaded_file($fileTmpName, '../images/background-night.png');
 
         if ($didUpload) {
-          echo "The image has been uploaded";
+          echo "<div class='message_change'>The image has been uploaded</div>";
         } else {
-          echo "An error occurred. Please contact the administrator.";
+          echo "<div class='message_change'>An error occurred. Please contact the administrator.</div>";
         }
       } else {
         foreach ($errors as $error) {

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <?php
+include 'font.php';
 include 'config.php';
 ?>
 <link rel="stylesheet" href="../css/source.css" >

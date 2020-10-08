@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <?php
+include 'font.php';
 include 'config.php';
 ?>
 <link rel="stylesheet" href="../css/source.css" >
@@ -33,7 +34,7 @@ if(isset($_POST['submit']))
      VALUES ('$letter','$category','$url','$fonta','$hashtag','$title','$status','$favorite')";
 }
 if (mysqli_query($conn, $sql)) {
-    echo "Bookmark '$title' created successfully";
+    echo "<div class='message_change'>Bookmark '$title' created successfully</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
