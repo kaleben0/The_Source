@@ -31,6 +31,5 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 ?>
 <br/>
-<i class="fas fa-search"></i>
 </html>
 </body>
