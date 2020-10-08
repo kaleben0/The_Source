@@ -7,6 +7,11 @@ function update_db() {
         $(".feat_box").html(data)}),
      $.get("./functions/search_features.php", function(data) {
         $(".feat_search_box").html(data)}),
+     $.get("./functions/features.php", function(data) {
+        $(".feat_box").html(data)}),
+     $.get("./functions/search_features.php", function(data) {
+        $(".feat_search_box").html(data)}),
+     $("#css_search").load('./functions/search_css.php');
      $("#css_search").load('./functions/search_css.php');
 }
 

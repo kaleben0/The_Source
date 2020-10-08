@@ -10,12 +10,12 @@
             $type=$row["type"];
             $title=$row["title"];
 	          if ($status == 'block'){
-	            $sub_icon = 'fas fa-toggle-on fa-2x';
+	            $sub_icon = 'fas fa-check-square fa-2x';
 	            $color = 'green';
 	            $change = './functions/remove_feat.php';
 	            }
 	            elseif ($status == 'none') {
-	            $sub_icon = 'fas fa-toggle-off fa-2x';
+	            $sub_icon = 'far fa-check-square fa-2x';
 	            $color = 'red';
 	            $change = './functions/add_feat.php';
 	            }
