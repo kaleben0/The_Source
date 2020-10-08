@@ -24,7 +24,7 @@ $title = $_GET['title'];
 $sql = "UPDATE bookmark SET favorite = 'no' WHERE id=$id";
 
 if (mysqli_query($conn, $sql)) {
-    echo "<div class='message_change'>Favorite '$title' Removed</div>";
+    echo "<div class='message_change'>$title Un-Favorited</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

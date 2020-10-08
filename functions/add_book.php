@@ -34,7 +34,7 @@ if(isset($_POST['submit']))
      VALUES ('$letter','$category','$url','$fonta','$hashtag','$title','$status','$favorite')";
 }
 if (mysqli_query($conn, $sql)) {
-    echo "<div class='message_change'>Bookmark '$title' created successfully</div>";
+    echo "<div class='message_change'>$title Bookmarked</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

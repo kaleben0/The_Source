@@ -25,7 +25,7 @@ $status = $_GET['status'];
 $sql = "UPDATE features SET status ='block' WHERE id=$id";
 
 if (mysqli_query($conn, $sql)) {
-    echo "<div class='message_change'>'$title' Enabled</div>";
+    echo "<div class='message_change'>$title Enabled</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
