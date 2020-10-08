@@ -34,6 +34,16 @@ $(document).ready(function() {
           'speed': 300
      });
 });
+$(document).ready(function(){
+    var interval = 5000;
+  setInterval(function(){
+     $.get("./functions/features.php", function(data) {
+        $(".feat_box").html(data)}),
+     $.get("./functions/search_features.php", function(data) {
+        $(".feat_search_box").html(data)}),
+     $("#css_search").load('./functions/search_css.php');
+     }, interval);
+});
 </script>
 </head>
 <body id='page-top' onload="startTime()">
@@ -53,7 +63,9 @@ include './functions/win_shortcut.php';
 include './functions/win_spotify.php';
 include './functions/win_settings.php';
 include './functions/background_script.php';
+echo "<div id='css_search'>";
 include './functions/search_css.php';
+echo "</div>";
 include './functions/font.php';
 ?>
 </body>
