@@ -1,7 +1,7 @@
 <?php ?>
 <div class="win_book"><span class="update_book" onclick="edit_book();" title="Update Bookmarks"><i class="far fa-edit fa-lg"></i></span><span class="exit_book" ><i class="fas fa-window-close fa-lg"></i></span>
   <div class="book_head">Add Bookmark</div>
-  <form action="./functions/add_book.php" method="post">
+  <form action="./functions/add_book.php" method="post" target="_blank">
     <div>
       <input type="text" name="letter" class="book_fields" placeholder="First Letter">
       <br/>
@@ -80,7 +80,7 @@
       </tbody>
     </table>
     <br/>
-    <input type="submit" class="mybutton" name="submit" value="Add">
+    <input type="submit" class="mybutton button_add" name="submit" value="Add">
   </form>
 </div>
 </div>

@@ -3,11 +3,13 @@
 <head>
 <?php
 include 'config.php';
-echo "<meta http-equiv='refresh' content='2; url=https://$main/' />";
 ?>
 <link rel="stylesheet" href="../css/source.css" >
 <title>Media Settings</title>
 <link rel="stylesheet" href="../css/all.css" >
+<script>
+setTimeout("self.close()", 3000 )
+</script>
 <html>
 <body class="quickpage">
 <?php

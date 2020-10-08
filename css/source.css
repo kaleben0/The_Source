@@ -239,6 +239,10 @@
   font-size: 16px;
   font-weight: 100;
 }
+.button_add {
+  min-width: 50px;
+  height: 30px;
+}
 .chicago {
   color: #920000;
 }
