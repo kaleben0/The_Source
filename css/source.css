@@ -557,14 +557,18 @@
   padding-top: 1px;
   width: 40px;
   box-shadow: 2px 2px #000;
+  background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .25s ease;
 }
 .letter_space2 {
   display: none;
   padding: 6px;
 }
 .letter_space:hover {
-  background-color: #fff;
   color: #000;
+  background-position: right bottom;
 }
 .letter_title {
   display: none;
