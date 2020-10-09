@@ -25,7 +25,7 @@
 <script src="./js/source.js"></script>
 <script>
 $(document).ready(function() {
-     $('.tip').tipr({
+     $('.url_box').tipr({
           'alt': false,
           'marginAbove': 7,
           'marginBelow': 7,

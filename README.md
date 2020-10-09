@@ -3,7 +3,7 @@
 <h3>Built with PHP/HTML/CSS/JS/JQuery</h3>
 
 Software/Plugins Utilized
-* Tipr - https://tipue.com/tipr/
+* Tipr - https://github.com/lt1946/Tipr
 * MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/
 * JQuery 3.2.1
 * JQueryUI 1.12.1
