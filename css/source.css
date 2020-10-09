@@ -121,12 +121,14 @@
   width: 200px;
   box-shadow: 2px 2px #000;
   backdrop-filter: blur(10px);
+  background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .25s ease;
 }
 .favorite:hover, .finance:hover, .design:hover, .environmental:hover, .game:hover, .media:hover, .medical:hover, .network:hover, .productivity:hover, .web:hover {
-  background-color: #fff;
   color: #000;
-  transform: translate(-2px, 2px);
-  transition: .5s;
+  background-position: right bottom;
 }
 .favorite_btn {
   flex-grow: 1;
@@ -184,12 +186,16 @@
   text-shadow: 2px 2px #000;
   box-shadow: 2px 2px #000;
   backdrop-filter: blur(10px);
+  background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position:left bottom;
+  margin-left:10px;
+  transition:all .25s ease;
 }
 .favorite_space:hover {
-  background-color: #fff;
   color: #000;
-  transition: 1s;
   text-shadow: none;
+  background-position:right bottom;
 }
 .favorite_text {
   background-color: transparent;
