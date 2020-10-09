@@ -141,6 +141,7 @@
   text-decoration: none;
   vertical-align: middle;
   width: 20px;
+  margin-top: 2px;
 }
 .favorite_center {
   display: flex;
