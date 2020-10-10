@@ -273,8 +273,7 @@
   margin-top: -3px;
 }
 .current:hover, .fa-save:hover, .fa-upload:hover {
-  background-color: #fff;
-  color: #000;
+  font-weight: bold;
 }
 .dallas {
   color: #0f9b0f;
@@ -539,6 +538,7 @@
 }
 .letter_btn2:hover, .letter_btn:hover, .search_space:hover {
   transition: 1s;
+  color: #000;
 }
 .letter_head {
   font-size: 30px;
@@ -1194,11 +1194,8 @@
   box-shadow: inset 0 0 6px #fff;
 }
 a:active, a:hover, a:link, a:visited {
-  color: #fff;
   text-decoration: none;
-}
-a:hover {
-  color: #000;
+  color:#ffffff; 
 }
 body {
   background-attachment: fixed;
