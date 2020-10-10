@@ -347,7 +347,7 @@
 }
 .favorite_icon {
   float: left;
-  left: 85px;
+  left: 82px;
   position: relative;
   z-index: 100;
   display: none;
@@ -748,7 +748,7 @@
 }
 .remove {
   float: right;
-  left: -85px;
+  left: -82px;
   position: relative;
   z-index: 100;
   display: none;
