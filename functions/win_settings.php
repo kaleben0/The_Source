@@ -105,7 +105,7 @@ include './functions/features.php';
 <hr/>
 <form action="./functions/add_feat_url.php" method="post" target="_blank">
 <div class="section_label">Feature URLs<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'></div>
-<div class="set_label">Spotify Playlist <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your Spotify playlist here</span></div></div><input type="text" class="set_fields long" name="spot" value="<?php include './functions/config.php';echo$spot ?>">
+<div class="set_label">Spotify Playlist <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your Spotify playlist URL here</span></div></div><input type="text" class="set_fields long" name="spot" value="<?php include './functions/config.php';echo$spot ?>">
 <br/>
 <div class="set_label">PrivateBin URL <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your PrivateBin URL here</span></div></div><input type="text" class="set_fields long" name="privatebin" value="<?php include './functions/config.php';echo$privatebin ?>">
 <br/>
