@@ -13,7 +13,7 @@
       <br/>
       <input type="text" name="hashtag" class="book_fields" placeholder="#HashTag (9 Char Max)">
       <br/>
-      <select name="category" class="book_fields">
+      <select name="category" class="book_fields picker">
         <option value=' ' disabled selected>Category</option>
         <option value='design'>design</option>
         <option value='environmental'>environmental</option>
@@ -26,7 +26,7 @@
         <option value='web'>web</option>
       </select>
       <br/>
-      <select name="favorite" class="book_fields">
+      <select name="favorite" class="book_fields picker">
         <br/>
         <option value=' ' disabled selected>Favorite</option>
         <option value='yes'>yes</option>

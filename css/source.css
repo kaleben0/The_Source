@@ -719,6 +719,10 @@
   text-align: center;
   width: 200px;
 }
+.picker {
+  height: 30px !important;
+  width: 285px !important;
+}
 .qa_btn {
   background-color: #00000091;
   flex-grow: 1;
