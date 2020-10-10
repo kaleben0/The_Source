@@ -539,6 +539,7 @@
 .letter_btn2:hover, .letter_btn:hover, .search_space:hover {
   transition: 1s;
   color: #000;
+  background-position: right bottom;
 }
 .letter_head {
   font-size: 30px;
@@ -856,6 +857,10 @@
   user-select: none;
   vertical-align: middle;
   box-shadow: 2px 2px #000;
+  background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .25s ease;
 }
 .search_text {
   background-color: transparent;
@@ -1195,7 +1200,7 @@
 }
 a:active, a:hover, a:link, a:visited {
   text-decoration: none;
-  color:#ffffff; 
+  color:#ffffff;
 }
 body {
   background-attachment: fixed;
