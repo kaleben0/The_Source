@@ -239,8 +239,8 @@
   width: 60px;
   text-shadow: 2px 2px #000;
 }
-.book_put2, .pass_put2 {
-  width: 50px;
+.pass_put2 {
+    width: 50px !important;
 }
 .book_td_header {
   font-size: 16px;
