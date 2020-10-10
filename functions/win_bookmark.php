@@ -3,13 +3,13 @@
   <div class="book_head">Add Bookmark</div>
   <form action="./functions/add_book.php" method="post" target="_blank">
     <div>
-      <input type="text" name="letter" class="book_fields" placeholder="First Letter">
+      <input type="text" name="letter" class="book_fields" placeholder="First Letter of Name (lowercase)">
       <br/>
       <input type="text" name="title" class="book_fields" placeholder="Name">
       <br/>
-            <input type="ur" name="url" class="book_fields" placeholder="Full URL">
+      <input type="ur" name="url" class="book_fields" placeholder="Full URL (with https:// or http://)">
       <br/>
-      <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome">
+      <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome Icon">
       <br/>
       <input type="text" name="hashtag" class="book_fields" placeholder="#HashTag (9 Char Max)">
       <br/>
