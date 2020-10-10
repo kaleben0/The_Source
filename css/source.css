@@ -1180,6 +1180,7 @@ body {
 }
 hr {
   width: 95%;
+  margin-left: 1px;
 }
 html {
   scroll-behavior: smooth;
