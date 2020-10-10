@@ -214,6 +214,7 @@
   height: 25px;
   width: 280px;
   margin-top: 10px;
+  text-indent: 4px;
 }
 .set_fields, .book_fields, .googlesearch, .letter_space, .pass_put {
   background-color: #0e0e0e99;
@@ -970,6 +971,27 @@
   width: 100%;
   backdrop-filter: blur(10px);
   z-index:100;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 .tzone {
   font-size: 20px;
