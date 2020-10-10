@@ -11,7 +11,7 @@
       <br/>
       <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome">
       <br/>
-      <input type="text" name="hashtag" class="book_fields" placeholder="#HashTag">
+      <input type="text" name="hashtag" class="book_fields" placeholder="#HashTag (9 Char Max)">
       <br/>
       <select name="category" class="book_fields">
         <option value=' ' disabled selected>Category</option>
