@@ -223,6 +223,12 @@
 .set_fields:focus, .book_fields:focus, .pass_put:focus {
   outline: 0;
 }
+.add_event {
+  float: left;
+  margin-right: -10px;
+  margin-top: 5px;
+  text-shadow: 2px 2px #000;
+}
 .book_head, .pass_head, .red_head, .cal_head, .search_head, .spot_head, .bin_head, .set_head {
   cursor: move;
   font-size: 30px;
@@ -1002,7 +1008,7 @@
   top: 8px;
   user-select: none;
 }
-.update_book, .add_event {
+.update_book {
   float: left;
   margin-right: -10px;
   text-shadow: 2px 2px #000;
