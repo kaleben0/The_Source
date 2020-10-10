@@ -28,7 +28,7 @@
 <div id="set_media">
 <div class="section_label">Media <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">File Types - jpg, jpeg, png, or gif Only</span></div></div>
 <div class="wall_box">
-  <div class="wall_head">Morning Wallpaper<span class="current"><a title="Download Current Wallpaper" href="./images/background-morning.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Morning Wallpaper div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-morning.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_morn.php" method="post" id="uploadmorn" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Wallpaper" name="submit" class="fas fa-upload" value="&#xf093" >
       <input type="file" name="the_file" id="fileToUploadmorn" >
@@ -36,7 +36,7 @@
   &nbsp;</form></div>
 
 <div class="wall_box">
-  <div class="wall_head">Day Wallpaper<span class="current"><a title="Download Current Wallpaper" href="./images/background-day.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Day Wallpaper div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-day.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_day.php" method="post" id="uploadday" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Wallpaper" name="submit" class="fas fa-upload" value="&#xf093" >
     <input type="file" name="the_file" id="fileToUploadday" >
@@ -44,28 +44,28 @@
   &nbsp;</form></div>
 
 <div class="wall_box">
-  <div class="wall_head">Dusk Wallpaper<span class="current"><a title="Download Current Wallpaper" href="./images/background-dusk.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Dusk Wallpaper div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-dusk.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_dusk.php" method="post" id="uploaddusk" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Wallpaper" name="submit" class="fas fa-upload" value="&#xf093" >
     <input type="file" name="the_file" id="fileToUploaddusk" >
     &nbsp;
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Evening Wallpaper<span class="current"><a title="Download Current Wallpaper" href="./images/background-night.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Evening Wallpaper <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-night.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_evening.php" method="post" id="uploadevening" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Wallpaper" name="submit" class="fas fa-upload" value="&#xf093" >
     <input type="file" name="the_file" id="fileToUploadevening" >
     &nbsp;
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Mobile Wallpaper<span class="current"><a title="Download Current Wallpaper" href="./images/background-mobile.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Mobile Wallpaper <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~500x800</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-mobile.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_mobile.php" method="post" id="uploadmobile" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Wallpaper" name="submit" class="fas fa-upload" value="&#xf093" >
     <input type="file" name="the_file" id="fileToUploadmobile" >
     &nbsp;
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Logo<span class="current"><a title="Download Current Wallpaper" href="./images/logo.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Logo <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Dimensions must be 40x40 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/logo.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_logo.php" method="post" id="uploadlogo" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Logo" name="submit" class="fas fa-upload" value="&#xf093" >
     <input type="file" name="the_file" id="fileToUploadlogo"  >
