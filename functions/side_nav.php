@@ -9,31 +9,31 @@
 <li class="header_menu" title="Favorite" onclick="togglefavorite();"> <i class="far fa-star icons3"></i>
   <div class="nav_label">Favorite</div>
 </li>
-<li class="header_menu" title="Design" onclick="toggledesign();" ><i class="far fa-object-group icons3"></i>
+<li class="header_menu" title="Design" onclick="toggledesign();" id="design_toggle" ><i class="far fa-object-group icons3"></i>
   <div class="nav_label">Design</div>
 </li>
-<li class="header_menu" title="Environmental" onclick="toggleenvironmental();" ><i class="fas fa-cloud-sun icons3"></i>
+<li class="header_menu" title="Environmental" onclick="toggleenvironmental();" id="enviro_toggle" ><i class="fas fa-cloud-sun icons3"></i>
   <div class="nav_label">Environmental</div>
 </li>
-<li class="header_menu" title="Financial" onclick="togglefinance();" ><i class="fas fa-file-invoice-dollar  icons3"></i>
+<li class="header_menu" title="Financial" onclick="togglefinance();" id="finance_toggle" ><i class="fas fa-file-invoice-dollar  icons3"></i>
   <div class="nav_label">Finance</div>
 </li>
-<li class="header_menu" title="Games" onclick="togglegame();" ><i class="fas fa-gamepad icons3"></i>
+<li class="header_menu" title="Games" onclick="togglegame();" id="game_toggle" ><i class="fas fa-gamepad icons3"></i>
   <div class="nav_label">Games</div>
 </li>
-<li class="header_menu" title="Media" onclick="togglemedia();" ><i class="fas fa-photo-video icons3"></i>
+<li class="header_menu" title="Media" onclick="togglemedia();" id="media_toggle" ><i class="fas fa-photo-video icons3"></i>
   <div class="nav_label">Media</div>
 </li>
-<li class="header_menu" title="Medical" onclick="togglemedical();" ><i class="far fa-hospital icons3"></i>
+<li class="header_menu" title="Medical" onclick="togglemedical();" id="medical_toggle" ><i class="far fa-hospital icons3"></i>
   <div class="nav_label">Medical</div>
 </li>
-<li class="header_menu" title="Network" onclick="togglenetwork()" ><i class="fas fa-network-wired  icons3"></i>
+<li class="header_menu" title="Network" onclick="togglenetwork()" id="network_toggle" ><i class="fas fa-network-wired  icons3"></i>
   <div class="nav_label">Network</div>
 </li>
-<li class="header_menu" title="Productitiy" onclick="toggleproductivity();"><i class="far fa-address-card icons3"></i>
+<li class="header_menu" title="Productitiy" onclick="toggleproductivity();" id="prod_toggle"><i class="far fa-address-card icons3"></i>
   <div class="nav_label">Productivity</div>
 </li>
-<li class="header_menu" title="Web" onclick="toggleweb();"><i class="fas fa-globe icons3"></i>
+<li class="header_menu" title="Web" onclick="toggleweb();" id="web_toggle"><i class="fas fa-globe icons3"></i>
   <div class="nav_label">Web</div>
 </li>
 </ul>

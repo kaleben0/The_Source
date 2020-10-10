@@ -71,7 +71,14 @@
     <input type="file" name="the_file" id="fileToUploadlogo"  >
     &nbsp;
   &nbsp;</form></div>
-</div>
+  <hr/>
+  <div class="section_label">Categories</div>
+  <div class="cat_box">
+  <?php
+  include './functions/categories.php';
+  ?>
+  </div>
+  </div>
 
 <div id="set_messages">
 <form action="./functions/add_media.php" method="post" id="media_form" target="_blank">

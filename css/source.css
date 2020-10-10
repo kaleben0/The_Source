@@ -258,8 +258,25 @@
   height: 30px;
   background-color: #0e0e0e99;
 }
-.chicago {
-  color: #920000;
+.cat_box {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 180px;
+  margin-left: 15px;
+}
+.cat_title {
+  float: left;
+}
+.cat_url {
+  float: right;
+  margin-top: -4px;
+  text-shadow: 2px 1px #000;
+  z-index: 10;
+}
+.cat_container {
+  max-width: 200px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 .confirm {
   margin-left: 10px;
@@ -275,14 +292,8 @@
 .current:hover, .fa-save:hover, .fa-upload:hover {
   font-weight: bold;
 }
-.dallas {
-  color: #0f9b0f;
-}
 .day {
   color: #05895e;
-}
-.dexter {
-  color: #0b5ea7;
 }
 .directory_bar {
     height: 45px;
@@ -871,9 +882,6 @@
   padding-left: 10px;
   text-align: left;
   width: 105px;
-}
-.seattle {
-  color: #6c3dfd;
 }
 .sec_key {
   background-color: #da4453;
