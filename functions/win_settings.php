@@ -36,7 +36,7 @@
   &nbsp;</form></div>
 
 <div class="wall_box">
-  <div class="wall_head">Day Wallpaper div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-day.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Day Wallpaper <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-day.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_day.php" method="post" id="uploadday" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Wallpaper" name="submit" class="fas fa-upload" value="&#xf093" >
     <input type="file" name="the_file" id="fileToUploadday" >
@@ -44,7 +44,7 @@
   &nbsp;</form></div>
 
 <div class="wall_box">
-  <div class="wall_head">Dusk Wallpaper div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-dusk.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Dusk Wallpaper <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-dusk.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_dusk.php" method="post" id="uploaddusk" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Wallpaper" name="submit" class="fas fa-upload" value="&#xf093" >
     <input type="file" name="the_file" id="fileToUploaddusk" >
