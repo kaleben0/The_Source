@@ -11,22 +11,22 @@
 <div id="set_main">
 <form action="./functions/add_main.php" method="post" target="_blank">
 <div class="section_label">General<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'></div>
-<div class="set_label">Main URL (no http:// or https://)</div><input type="text" class="set_fields" name="main" value="<?php include './functions/config.php';echo$main ?>">
+<div class="set_label">Main URL <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">no http:// or https://</span></div></div><input type="text" class="set_fields" name="main" value="<?php include './functions/config.php';echo$main ?>">
 <br/>
 <div class="set_label">Page Title</div><input type="text" class="set_fields" name="pagetitle" value="<?php include './functions/config.php';echo$pagetitle ?>">
 <br/>
-<div class="set_label">City (Lowercase)</div><input type="text" class="set_fields" name="city" value="<?php include './functions/config.php';echo$city ?>">
+<div class="set_label">City <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">All lowercase</span></div></div><input type="text" class="set_fields" name="city" value="<?php include './functions/config.php';echo$city ?>">
 <br/>
-<div class="set_label">State (Lowercase, 2 Charater Max)</div><input type="text" class="set_fields" name="state" value="<?php include './functions/config.php';echo$state ?>">
+<div class="set_label">State <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">All lowercase. 2 Characters Max</span></div></div><input type="text" class="set_fields" name="state" value="<?php include './functions/config.php';echo$state ?>">
 <br/>
-<div class="set_label">Zip Code (Lowercase, 10 Charater Max)</div><input type="text" class="set_fields" name="zip" value="<?php include './functions/config.php';echo$zip ?>">
+<div class="set_label">Zip Code <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Numbers Only</span></div></div><input type="text" class="set_fields" name="zip" value="<?php include './functions/config.php';echo$zip ?>">
 <br/>
-<div class="set_label">Country Code (Lowercase, 2 Charater Max)</div><input type="text" class="set_fields" name="cc" value="<?php include './functions/config.php';echo$cc ?>">
+<div class="set_label">Country Code <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">All lowercase. 2 Characters Max</span></div></div><input type="text" class="set_fields" name="cc" value="<?php include './functions/config.php';echo$cc ?>">
 
 </form>
 </div>
 <div id="set_media">
-<div class="section_label">Media</div>
+<div class="section_label">Media <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">File Types - jpg, jpeg, png, or gif Only</span></div></div>
 <div class="wall_box">
   <div class="wall_head">Morning Wallpaper<span class="current"><a title="Download Current Wallpaper" href="./images/background-morning.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_morn.php" method="post" id="uploadmorn" enctype="multipart/form-data" target="_blank">
@@ -105,13 +105,13 @@ include './functions/features.php';
 <hr/>
 <form action="./functions/add_feat_url.php" method="post" target="_blank">
 <div class="section_label">Feature URLs<input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'></div>
-<div class="set_label">Spotify Playlist</div><input type="text" class="set_fields long" name="spot" value="<?php include './functions/config.php';echo$spot ?>">
+<div class="set_label">Spotify Playlist <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your Spotify playlist here</span></div></div><input type="text" class="set_fields long" name="spot" value="<?php include './functions/config.php';echo$spot ?>">
 <br/>
-<div class="set_label">PrivateBin URL</div><input type="text" class="set_fields long" name="privatebin" value="<?php include './functions/config.php';echo$privatebin ?>">
+<div class="set_label">PrivateBin URL <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your PrivateBin URL here</span></div></div><input type="text" class="set_fields long" name="privatebin" value="<?php include './functions/config.php';echo$privatebin ?>">
 <br/>
-<div class="set_label">Shellinabox URL</div><input type="text" class="set_fields long" name="shellinabox" value="<?php include './functions/config.php';echo$shellinabox ?>">
+<div class="set_label">Shellinabox URL <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add Shellinabox URL here</span></div></div><input type="text" class="set_fields long" name="shellinabox" value="<?php include './functions/config.php';echo$shellinabox ?>">
 <br/>
-<div class="set_label">Google Embed Calendar URL</div><input type="text" class="set_fields long" name="google" value="<?php include './functions/config.php';echo$google ?>">
+<div class="set_label">Google Calendar URL <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your Google Calendar Embed URL here</span></div></div><input type="text" class="set_fields long" name="google" value="<?php include './functions/config.php';echo$google ?>">
 </div>
 </form>
 <div id="set_search">
