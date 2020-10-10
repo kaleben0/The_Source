@@ -7,6 +7,12 @@
       <br/>
       <input type="text" name="title" class="book_fields" placeholder="Name">
       <br/>
+            <input type="ur" name="url" class="book_fields" placeholder="Full URL">
+      <br/>
+      <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome">
+      <br/>
+      <input type="text" name="hashtag" class="book_fields" placeholder="#HashTag">
+      <br/>
       <select name="category" class="book_fields">
         <option value=' ' disabled selected>Category</option>
         <option value='design'>design</option>
@@ -19,12 +25,6 @@
         <option value='productivity'>productivity</option>
         <option value='web'>web</option>
       </select>
-      <br/>
-      <input type="ur" name="url" class="book_fields" placeholder="Full URL">
-      <br/>
-      <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome">
-      <br/>
-      <input type="text" name="hashtag" class="book_fields" placeholder="#HashTag">
       <br/>
       <select name="favorite" class="book_fields">
         <br/>
