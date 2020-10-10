@@ -978,7 +978,6 @@
 .update_book, .add_event {
   float: left;
   margin-right: -10px;
-  margin-top: -15px;
   text-shadow: 2px 2px #000;
 }
 .url_box {
