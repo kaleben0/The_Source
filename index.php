@@ -34,16 +34,6 @@ $(document).ready(function() {
           'speed': 300
      });
 });
-$(document).ready(function(){
-    var interval = 5000;
-  setInterval(function(){
-     $.get("./functions/features.php", function(data) {
-        $(".feat_box").html(data)}),
-     $.get("./functions/search_features.php", function(data) {
-        $(".feat_search_box").html(data)}),
-     $("#css_search").load('./functions/search_css.php');
-     }, interval);
-});
 </script>
 </head>
 <body id='page-top' onload="startTime()">
