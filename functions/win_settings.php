@@ -28,7 +28,7 @@
 <div id="set_media">
 <div class="section_label">Media <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">File Types - jpg, jpeg, png, or gif Only</span></div></div>
 <div class="wall_box">
-  <div class="wall_head">Morning Wallpaper div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-morning.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Morning Wallpaper <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div><span class="current"><a title="Download Current Wallpaper" href="./images/background-morning.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_morn.php" method="post" id="uploadmorn" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Wallpaper" name="submit" class="fas fa-upload" value="&#xf093" >
       <input type="file" name="the_file" id="fileToUploadmorn" >
