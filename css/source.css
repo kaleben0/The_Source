@@ -1217,6 +1217,7 @@ hr {
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 45px;
 }
 input:focus {
   outline: 0;
