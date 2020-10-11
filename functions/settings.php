@@ -101,7 +101,7 @@
     &nbsp;
   &nbsp;</form></div>
 <div class="wall_box">
-  <div class="wall_head">Logo <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Dimensions must be 40x40 or smaller</span></div><span class="current"><a title="View Current Wallpaper" href="./images/logo.png" target="_blank"><i class="fas fa-eye"></i>&nbsp; | &nbsp;<a title="Download Current Wallpaper" href="./images/logo.png" download><i class="fas fa-download"></i></a></span></div>
+  <div class="wall_head">Logo <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~40x40</span></div><span class="current"><a title="View Current Wallpaper" href="./images/logo.png" target="_blank"><i class="fas fa-eye"></i>&nbsp; | &nbsp;<a title="Download Current Wallpaper" href="./images/logo.png" download><i class="fas fa-download"></i></a></span></div>
   <form action="./functions/upload_image_logo.php" method="post" id="uploadlogo" enctype="multipart/form-data" target="_blank">
       | &nbsp;<input type="submit" title="Upload Logo" name="submit" class="fas fa-upload" value="&#xf093" >
     <input type="file" name="the_file" id="fileToUploadlogo"  >
