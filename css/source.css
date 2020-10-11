@@ -901,6 +901,10 @@
   display: flex;
   flex-flow: column wrap;
 }
+.settings_toggle_box {
+  display: flex;
+  flex-flow: column wrap;
+}
 .settings_height {
   max-height: 600px;
 }
