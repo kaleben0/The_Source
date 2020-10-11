@@ -389,121 +389,81 @@ function togglefavorite() {
 }
 
 function toggledesign() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
       $(".favorite,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
     $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#design').toggle();
-  }
 }
 
 function toggleenvironmental() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
       $(".favorite,.design,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
     $('#search_section,#network_section,#settings_section,#letter_mobile, #bookmark_section,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section').show();
     $('#env_section,#directory_section,#enviro,.g_form').show();
-  }
 }
 
 function togglegame() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
       $(".favorite,.design,.finance,.environmental,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
     $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#game').toggle();
-  }
 }
 
 function togglemedia() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
       $(".favorite,.design,.finance,.game,.environmental,.medical,.network,.productivity,.web,.letter_head").toggle();
     $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#media').toggle();
-  }
 }
 
 function togglemedical() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
       $(".favorite, .design,.finance,.game,.media,.environmental,.network,.productivity,.web,.letter_head").toggle();
     $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#medical').toggle();
-  }
 }
 
 function togglefinance() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
       $(".favorite, .design,.environmental,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
     $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#finance').toggle();
-  }
 }
 
 function togglenetwork() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
       $(".favorite, .design,.finance,.game,.media,.medical,.environmental,.productivity,.web,.letter_head").toggle();
     $('#search_section,#env_section,#settings_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section').show();
     $('#network_section,#directory_section,#network,.g_form').show(),
       $('#search_section, #env_section,#bookmark_section,#letter_mobile').hide();
-  }
 }
 
 function toggleproductivity() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
       $(".favorite,.design,.finance,.game,.media,.medical,.network,.environmental,.web,.letter_head").toggle();
     $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#product').toggle();
-  }
 }
 
 function toggleweb() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
       $(".favorite,.design,.finance,.game,.media,.medical,.network,.productivity,.environmental,.letter_head").toggle();
     $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
     $('#directory_section,.g_form').show();
     $('#web').toggle();
-  }
 }
 function togglesettings() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $('#search_section,#env_section,#settings_section,#favorite_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
     $('#settings_section,.g_form,#letter_mobile,.letters,.favorite_center').show();
     $('#settings').toggle();
-  }
 }
 
 // Google Search Box
