@@ -362,6 +362,11 @@ document.addEventListener("keydown", function (zEvent) {
   }
 });
 document.addEventListener("keydown", function (zEvent) {
+  if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "8") {
+    togglesettings();
+  }
+});
+document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "0") {
     toggle_sc();
   }
