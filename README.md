@@ -1,6 +1,6 @@
 <h1>The Source - A Customizable Startpage</h1>
 
-<h3>Built with PHP/HTML/CSS/JS/JQuery</h3>
+<h4>Built with HTML/CSS/PHP/JS/JQuery</h4>
 
 Software/Plugins Utilized
 * Tipr - https://github.com/lt1946/Tipr
