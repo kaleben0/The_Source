@@ -83,14 +83,12 @@
   </form>
 </div>
 <br/>
-<div class="section_label">Media
-  <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">File Types - jpg, jpeg, png, or gif Only</span></div>
-</div>
+<div class="section_label">Media</div>
 <hr/>
 <div class="settings_box">
   <div class="wall_box">
     <div class="wall_head">Morning Wallpaper
-      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div>
+      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller. File Types - jpg, jpeg, png, or gif only</span></div>
       <span class="current"><a title="View Current Wallpaper" href="./images/background-morning.png" target="_blank"><i class="fas fa-eye"></i>&nbsp; | &nbsp;<a title="Download Current Wallpaper" href="./images/background-morning.png" download><i class="fas fa-download"></i></a></span></div>
     <form action="./functions/upload_image_morn.php" method="post" id="uploadmorn" enctype="multipart/form-data" target="_blank">
       | &nbsp;
@@ -102,7 +100,7 @@
   </div>
   <div class="wall_box">
     <div class="wall_head">Day Wallpaper
-      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div>
+      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller. File Types - jpg, jpeg, png, or gif only</span></div>
       <span class="current"><a title="View Current Wallpaper" href="./images/background-day.png" target="_blank"><i class="fas fa-eye"></i>&nbsp; | &nbsp;<a title="Download Current Wallpaper" href="./images/background-day.png" download><i class="fas fa-download"></i></a></span></div>
     <form action="./functions/upload_image_day.php" method="post" id="uploadday" enctype="multipart/form-data" target="_blank">
       | &nbsp;
@@ -114,7 +112,7 @@
   </div>
   <div class="wall_box">
     <div class="wall_head">Dusk Wallpaper
-      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div>
+      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller. File Types - jpg, jpeg, png, or gif only</span></div>
       <span class="current"><a title="View Current Wallpaper" href="./images/background-dusk.png" target="_blank"><i class="fas fa-eye"></i>&nbsp; | &nbsp;<a title="Download Current Wallpaper" href="./images/background-dusk.png" download><i class="fas fa-download"></i></a></span></div>
     <form action="./functions/upload_image_dusk.php" method="post" id="uploaddusk" enctype="multipart/form-data" target="_blank">
       | &nbsp;
@@ -126,7 +124,7 @@
   </div>
   <div class="wall_box">
     <div class="wall_head">Evening Wallpaper
-      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller</span></div>
+      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~1920x1080 or smaller. File Types - jpg, jpeg, png, or gif only</span></div>
       <span class="current"><a title="View Current Wallpaper" href="./images/background-night.png" target="_blank"><i class="fas fa-eye"></i>&nbsp; | &nbsp;<a title="Download Current Wallpaper" href="./images/background-night.png" download><i class="fas fa-download"></i></a></span></div>
     <form action="./functions/upload_image_evening.php" method="post" id="uploadevening" enctype="multipart/form-data" target="_blank">
       | &nbsp;
@@ -138,7 +136,7 @@
   </div>
   <div class="wall_box">
     <div class="wall_head">Mobile Wallpaper
-      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~500x800</span></div>
+      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~500x800. File Types - jpg, jpeg, png, or gif only</span></div>
       <span class="current"><a title="View Current Wallpaper" href="./images/background-mobile.png" target="_blank"><i class="fas fa-eye"></i>&nbsp; | &nbsp;<a title="Download Current Wallpaper" href="./images/background-mobile.png" download><i class="fas fa-download"></i></a></span></div>
     <form action="./functions/upload_image_mobile.php" method="post" id="uploadmobile" enctype="multipart/form-data" target="_blank">
       | &nbsp;
@@ -150,7 +148,7 @@
   </div>
   <div class="wall_box">
     <div class="wall_head">Logo
-      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~40x40</span></div>
+      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: ~40x40. File Types - jpg, jpeg, png, or gif only</span></div>
       <span class="current"><a title="View Current Wallpaper" href="./images/logo.png" target="_blank"><i class="fas fa-eye"></i>&nbsp; | &nbsp;<a title="Download Current Wallpaper" href="./images/logo.png" download><i class="fas fa-download"></i></a></span></div>
     <form action="./functions/upload_image_logo.php" method="post" id="uploadlogo" enctype="multipart/form-data" target="_blank">
       | &nbsp;
@@ -160,7 +158,8 @@
       &nbsp;
     </form>
   </div>
-  <br/>
+</div>
+<br/>
   <div class="section_label">Categories</div>
   <hr/>
   <div class="settings_categories" id="#refresh_db">
