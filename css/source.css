@@ -901,6 +901,9 @@
   display: flex;
   flex-flow: column wrap;
 }
+.settings_height {
+  max-height: 600px;
+}
 .servers {
   display: none;
   flex-flow: row wrap;
