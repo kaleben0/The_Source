@@ -112,7 +112,7 @@
 
 <div class="section_label">Categories</div>
 <hr/>
-<div class="settings_box">
+<div class="settings_categories" id="#refresh_db">
 <?php
 include './functions/categories.php';
 ?>
@@ -122,7 +122,7 @@ include './functions/categories.php';
 
 <div class="section_label">Features</div>
 <hr/>
-<div class="settings_box">
+<div class="settings_features" >
 <?php
 include './functions/features.php';
 ?>
@@ -132,9 +132,10 @@ include './functions/features.php';
 
 <div class="section_label">Search</div>
 <hr/>
-<div class="settings_box settings_height">
+<div class="settings_search_features settings_height" >
 <?php
 include './functions/search_features.php';
 ?>
  </div>
+
  </div>

@@ -905,6 +905,18 @@
   display: flex;
   flex-flow: column wrap;
 }
+.settings_categories {
+  display: flex;
+  flex-flow: column wrap;
+}
+.settings_features {
+  display: flex;
+  flex-flow: column wrap;
+}
+.settings_search_features {
+  display: flex;
+  flex-flow: column wrap;
+}
 .settings_height {
   max-height: 600px;
 }
