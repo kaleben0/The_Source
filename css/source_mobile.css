@@ -187,30 +187,35 @@
   }
 }
 @media (min-width:900px) and (max-width:1300px) {
-.favorite_center {
-  max-width: 900px;
-}
-.directory_block {
-  margin-left:210px;
-}
-.directory_bar {
-  max-width:1030px;
-  min-width:820px;
-}
-.admin, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
-    width: 185px;
-    max-width: 185px;
-}
-.dir_hr {
-    width:95%;
-}
-.url_box {
-  max-width:180px;
-}
-#txt {
-  display:none;
-}
-}
+  .favorite_center {
+    max-width: 900px;
+  }
+  .directory_block {
+    margin-left:210px;
+  }
+  .directory_bar {
+    max-width: 80px;
+    position: absolute;
+    top: 80px;
+    right: 40px;
+  }
+  .editor {
+    margin-bottom: 10px;
+  }
+  .admin, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
+      width: 185px;
+      max-width: 185px;
+  }
+  .dir_hr {
+      width:95%;
+  }
+  .url_box {
+    max-width:180px;
+  }
+  .googlesearch2 {
+    width: 250px;
+  }
+  }
 @media (min-width:551px) and (max-width:899px) {
 #spyglass, #spyglassplus {
   display:none;
