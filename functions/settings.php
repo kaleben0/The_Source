@@ -57,6 +57,7 @@
   </div>
   <input type="text" class="set_fields long" name="google" value="<?php include './functions/config.php';echo$google ?>">
   </div>
+</form>
   <br/>
   <div class="settings_box">
   <form action="./functions/add_media.php" method="post" id="media_form">
