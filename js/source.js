@@ -3,11 +3,33 @@
 // Database Updates
 
 $(document).ready(function() {
-    $('#general_form, #media_form, #featureurl_form, #morn_form, #day_form, #dusk_form, #evening_form').submit(function() {
+    $('#general_form, #media_form, #featureurl_form, #morn_form, #day_form, #dusk_form, #evening_form, #search_feature_form').submit(function() {
         window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
         this.target = 'formpopup';
     });
 });
+
+$(document).ready(function() {
+    $(document).on('click',  '#search_feature_form', function() {
+        window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
+        this.target = 'formpopup';
+    });
+});
+
+$(document).ready(function() {
+    $(document).on('click',  '#feature_form', function() {
+        window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
+        this.target = 'formpopup';
+    });
+});
+
+$(document).ready(function() {
+    $(document).on('click',  '#category_form', function() {
+        window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
+        this.target = 'formpopup';
+    });
+});
+
 
 
 function update_db() {

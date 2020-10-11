@@ -19,7 +19,7 @@
 	            $color = 'red';
 	            $change = './functions/add_feat.php';
 	            }
-        echo "<div class='feat_container'><div class='feat_title'>$title</div><div class='feat_url' onclick='update_db();' ><a href='$change?id=$id&title=$title&status=$status' id="feature_form" ><i class='$sub_icon' style='color:$color !important;'></i></a></div></div>";
+        echo "<div class='feat_container'><div class='feat_title'>$title</div><div class='feat_url' onclick='update_db();' ><a href='$change?id=$id&title=$title&status=$status' target='_blank' id='feature_form' ><i class='$sub_icon' style='color:$color !important;'></i></a></div></div>";
           }
           $result->free();
         }
