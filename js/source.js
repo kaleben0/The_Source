@@ -4,17 +4,17 @@
 
 function update_db() {
      $.get("./functions/features.php", function(data) {
-        $(".settings_feat_box").html(data)}),
+        $(".settings_box").html(data)}),
      $.get("./functions/search_features.php", function(data) {
-        $(".settings_search_box").html(data)}),
+        $(".settings_box").html(data)}),
      $.get("./functions/categories.php", function(data) {
-        $(".cat_box").html(data)}),
+        $(".settings_box").html(data)}),
      $.get("./functions/features.php", function(data) {
-        $(".settings_feat_box").html(data)}),
+        $(".settings_box").html(data)}),
      $.get("./functions/search_features.php", function(data) {
-        $(".settings_search_box").html(data)}),
+        $(".settings_box").html(data)}),
      $.get("./functions/categories.php", function(data) {
-        $(".settings_cat_box").html(data)}),
+        $(".settings_box").html(data)}),
      $("#css_search").load('./functions/search_css.php');
      $("#css_search").load('./functions/search_css.php');
 }
