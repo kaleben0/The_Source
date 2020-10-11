@@ -4,6 +4,7 @@
 
 Software/Plugins Utilized
 * Tipr - https://github.com/lt1946/Tipr
+* HTAM - https://github.com/Maxelweb/HTAM
 * MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/
 * JQuery 3.2.1
 * JQueryUI 1.12.1
