@@ -18,7 +18,6 @@ function update_db() {
      $("#css_search").load('./functions/search_css.php');
      $("#css_search").load('./functions/search_css.php');
 }
-
 // Clear Search Boxes
 
 $(document).ready(function(){
