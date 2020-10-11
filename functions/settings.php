@@ -132,7 +132,7 @@ include './functions/features.php';
 
 <div class="section_label">Search</div>
 <hr/>
-<div class="settings_search_features settings_height" >
+<div class="settings_search_features settings_search_container" >
 <?php
 include './functions/search_features.php';
 ?>
