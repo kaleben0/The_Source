@@ -226,7 +226,14 @@
   display:none;
 }
 .letter_head {
-  display:none;
+  display:none !important;
+}
+.long {
+  width: 500px !important;
+}
+.settings_center {
+  max-width:700px;
+  margin-left:90px;
 }
 .sub_block {
   display:none;
