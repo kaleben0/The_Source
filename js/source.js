@@ -461,7 +461,7 @@ function toggleweb() {
     $('#web').toggle();
 }
 function togglesettings() {
-    $('#search_section,#env_section,#settings_section,#favorite_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
+    $('#search_section,#env_section,#settings_section,#favorite_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,.letter_row,#up_bar').hide();
     $('#settings_section,.g_form,#letter_mobile,.letters,.favorite_center').show();
     $('#settings').toggle();
 }
