@@ -138,4 +138,6 @@ include './functions/search_features.php';
 ?>
  </div>
 
- </div>
+</div>
+</div>
+</div>
