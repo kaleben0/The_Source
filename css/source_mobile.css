@@ -232,16 +232,16 @@
   width: 500px !important;
 }
 .settings_center {
-  max-width:700px;
+  max-width:650px;
   margin-left:90px;
+}
+.settings_search_features {
+  max-width: 650px;
 }
 .sub_block {
   display:none;
 }
 .letter_title {
   width:93%;
-}
-#txt {
-  display:none;
 }
 }
