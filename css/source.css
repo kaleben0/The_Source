@@ -899,6 +899,7 @@
 .settings_box {
   display: flex;
   flex-flow: column wrap;
+  margin-top: 10px;
 }
 .settings_toggle_box {
   display: flex;
