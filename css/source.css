@@ -917,9 +917,10 @@
   display: flex;
   flex-flow: column wrap;
 }
-.settings_height {
-  max-height: 600px;
-}
+.settings_search_container {
+    max-height: 400px;
+    max-width: 740px;
+  }
 .servers {
   display: none;
   flex-flow: row wrap;
