@@ -32,7 +32,7 @@
   width: 610px;
   backdrop-filter: blur(10px);
 }
-#search, #design, #directory_section, #env_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #settings_section,#network_section, #product, #custom_servers, #web, #logo_header {
+#search, #design, #directory_section, #env_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #settings, #settings_section, #network_section, #product, #custom_servers, #web, #logo_header {
   display: none;
 }
 #set_main {
