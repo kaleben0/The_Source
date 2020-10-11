@@ -6,7 +6,7 @@ include 'font.php';
 include 'config.php';
 ?>
 <link rel="stylesheet" href="../css/source.css" >
-<title>Media Settings</title>
+<title>General Settings</title>
 <link rel="stylesheet" href="../css/all.css" >
 <script>
 setTimeout("self.close()", 3000 )

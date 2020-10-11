@@ -32,7 +32,7 @@
   width: 610px;
   backdrop-filter: blur(10px);
 }
-#search, #design, #directory_section, #env_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #network_section, #product, #custom_servers, #web, #logo_header {
+#search, #design, #directory_section, #env_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #settings_section,#network_section, #product, #custom_servers, #web, #logo_header {
   display: none;
 }
 #set_main {
@@ -258,12 +258,6 @@
   height: 30px;
   background-color: #0e0e0e99;
 }
-.cat_box {
-  display: flex;
-  flex-flow: column wrap;
-  max-height: 180px;
-  margin-left: 15px;
-}
 .cat_title {
   float: left;
 }
@@ -378,18 +372,6 @@
   position: relative;
   z-index: 100;
   text-shadow: 2px 2px #000;
-}
-.feat_search_box {
-  display: flex;
-  flex-flow: column wrap;
-  max-height: 390px;
-  margin-left: 15px;
-}
-.feat_box {
-  display: flex;
-  flex-flow: column wrap;
-  max-height: 435px;
-  margin-left: 15px;
 }
 .feat_title {
   float: left;
@@ -617,7 +599,7 @@
   width: 40px;
 }
 .long {
-  width:500px !important;
+  width:685px !important;
 }
 .main_key {
   background-color: #fff;
@@ -901,6 +883,26 @@
   margin-top:20px;
   margin-bottom:20px;
 }
+.settings_center {
+  flex-flow: row wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  max-width: 745px;
+}
+.settings_container {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: auto;
+  transition: .5s;
+}
+.settings_box {
+  display: flex;
+  flex-flow: column wrap;
+}
 .servers {
   display: none;
   flex-flow: row wrap;
@@ -937,14 +939,13 @@
   font-size: 18px;
   height: 32px;
   width: 300px;
-  margin-left: 15px;
   box-shadow: 2px 2px #000;
 }
 .set_label {
   margin-right: 10px;
-  margin-top: 20px;
-  margin-bottom: 5px;
+  margin-top: 10px;
   font-size: 14px;
+  text-align: left;
 }
 .side_icon {
   font-size: 20px;
@@ -1049,8 +1050,6 @@
 }
 .wall_box {
   margin-right: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   text-align: center;
   max-width:650px;
 }
@@ -1142,21 +1141,6 @@
   background-color: #0e0e0e99;
   box-shadow: -4px 3px 7px #000;
   display: none;
-  left: 545px;
-  margin-right: auto;
-  max-width: 800px;
-  padding: 20px;
-  position: fixed;
-  top: 50px;
-  width: 100%;
-  z-index: 1000;
-  backdrop-filter: blur(10px);
-}
-.win_set {
-  background-color: #0e0e0e99;
-  box-shadow: -4px 3px 7px #000;
-  display: none;
-  height: 750px;
   left: 545px;
   margin-right: auto;
   max-width: 800px;
