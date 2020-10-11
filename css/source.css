@@ -108,7 +108,7 @@
 }
 .favorite, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
   background-color: #0e0e0e99;
-  border:0px solid transparent;
+  border: 0px solid transparent;
   flex-grow: 1;
   height: 80px;
   margin: 2px;
@@ -189,14 +189,14 @@
   backdrop-filter: blur(10px);
   background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
   background-size: 200% 100%;
-  background-position:left bottom;
-  margin-left:10px;
-  transition:all .25s ease;
+  background-position: left bottom;
+  margin-left: 10px;
+  transition: all .25s ease;
 }
 .favorite_space:hover {
   color: #000;
   text-shadow: none;
-  background-position:right bottom;
+  background-position: right bottom;
 }
 .favorite_text {
   background-color: transparent;
@@ -247,7 +247,7 @@
   text-shadow: 2px 2px #000;
 }
 .pass_put2 {
-    width: 50px !important;
+  width: 50px !important;
 }
 .book_td_header {
   font-size: 16px;
@@ -280,7 +280,7 @@
   border: 0;
   margin-left: 20px;
   font-size: 19px;
-  float:right;
+  float: right;
   margin-top: -3px;
 }
 .current:hover, .fa-save:hover, .fa-upload:hover {
@@ -290,16 +290,16 @@
   color: #05895e;
 }
 .directory_bar {
-    height: 45px;
-    font-size: 22px;
-    padding-top: 10px;
-    padding-right: 10px;
-    text-align: right;
-    margin-bottom: 10px;
-    position: fixed;
-    top: -5px;
-    z-index: 100;
-    right: 24%;
+  height: 45px;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: right;
+  margin-bottom: 10px;
+  position: fixed;
+  top: -5px;
+  z-index: 100;
+  right: 24%;
 }
 .directory_block {
   display: flex;
@@ -350,7 +350,7 @@
   border: none;
   color: #fff;
   font-size: 30px;
-  float:right;
+  float: right;
   margin-right: 30px;
 }
 .faded {
@@ -430,7 +430,6 @@
   text-indent: 35px;
   width: 40%;
   box-shadow: 2px 2px #000;
-
 }
 .googlesearch2 {
   background-color: #383535ba;
@@ -599,7 +598,7 @@
   width: 40px;
 }
 .long {
-  width:685px !important;
+  width: 685px !important;
 }
 .main_key {
   background-color: #fff;
@@ -918,9 +917,9 @@
   flex-flow: column wrap;
 }
 .settings_search_container {
-    max-height: 400px;
-    max-width: 740px;
-  }
+  max-height: 400px;
+  max-width: 740px;
+}
 .servers {
   display: none;
   flex-flow: row wrap;
@@ -1007,14 +1006,13 @@
   top: 0;
   width: 100%;
   backdrop-filter: blur(10px);
-  z-index:100;
+  z-index: 100;
 }
 .tooltip {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
 }
-
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 230px;
@@ -1027,7 +1025,6 @@
   z-index: 1;
   font-size: 15px;
 }
-
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
@@ -1069,7 +1066,7 @@
 .wall_box {
   margin-right: 10px;
   text-align: center;
-  max-width:650px;
+  max-width: 650px;
 }
 .wall_head {
   margin-left: 10px;
@@ -1209,7 +1206,7 @@
 }
 a:active, a:hover, a:link, a:visited {
   text-decoration: none;
-  color:#ffffff;
+  color: #ffffff;
 }
 body {
   background-attachment: fixed;

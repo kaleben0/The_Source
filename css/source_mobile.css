@@ -33,8 +33,8 @@
   #search {
     padding-top: 10px;
   }
-  #spyglassplus{
-  display:none;
+  #spyglassplus {
+    display: none;
   }
   #up_bar {
     display: none;
@@ -68,7 +68,7 @@
     padding: 5px;
   }
   .dir_hr {
-    display:none;
+    display: none;
   }
   .editor {
     padding-top: 10px;
@@ -104,9 +104,9 @@
     padding: 2px;
   }
   .letter_title {
-     display: block;
-     text-align: center;
-   }
+    display: block;
+    text-align: center;
+  }
   .main {
     margin-left: 0;
   }
@@ -141,7 +141,7 @@
   }
   .search_text {
     width: 96px;
-    padding-left:0;
+    padding-left: 0;
   }
   .servers {
     display: flex;
@@ -172,7 +172,7 @@
   }
   .win_search, .letter_center {
     display: block;
-    backdrop-filter:none;
+    backdrop-filter: none;
   }
   body {
     background-image: url(../images/background-mobile.png) !important;
@@ -191,7 +191,7 @@
     max-width: 900px;
   }
   .directory_block {
-    margin-left:210px;
+    margin-left: 210px;
   }
   .directory_bar {
     max-width: 80px;
@@ -203,53 +203,53 @@
     margin-bottom: 10px;
   }
   .admin, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
-      width: 185px;
-      max-width: 185px;
+    width: 185px;
+    max-width: 185px;
   }
   .dir_hr {
-      width:95%;
+    width: 95%;
   }
   .url_box {
-    max-width:180px;
+    max-width: 180px;
   }
   .googlesearch2 {
     width: 250px;
   }
-  }
+}
 @media (min-width:551px) and (max-width:899px) {
-#spyglass, #spyglassplus {
-  display:none;
-}
-.directory_bar {
-  display:none;
-}
-.directory_block {
-  margin-left:50px;
-  margin-right:10px;
-}
-.googlesearch2 {
-  display:none;
-}
-.letter_head {
-  display:none !important;
-}
-.long {
-  width: 500px !important;
-}
-.settings_center {
-  max-width:635px;
-  margin-left:90px;
-}
-.settings_search_features {
-  max-width: 600px;
-}
-.sub_block {
-  display:none;
-}
-.letter_title {
-  width:93%;
-}
-.wall_head {
-  width:265px;
-}
+  #spyglass, #spyglassplus {
+    display: none;
+  }
+  .directory_bar {
+    display: none;
+  }
+  .directory_block {
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+  .googlesearch2 {
+    display: none;
+  }
+  .letter_head {
+    display: none !important;
+  }
+  .long {
+    width: 500px !important;
+  }
+  .settings_center {
+    max-width: 635px;
+    margin-left: 90px;
+  }
+  .settings_search_features {
+    max-width: 600px;
+  }
+  .sub_block {
+    display: none;
+  }
+  .letter_title {
+    width: 93%;
+  }
+  .wall_head {
+    width: 265px;
+  }
 }
