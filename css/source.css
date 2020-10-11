@@ -880,8 +880,6 @@
 .section_label {
   text-align:left;
   font-size:20px;
-  margin-top:20px;
-  margin-bottom:20px;
 }
 .settings_center {
   flex-flow: row wrap;
