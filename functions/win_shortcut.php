@@ -9,7 +9,8 @@
     <div class="sc_box"><span class="sc_function">Password Generator</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">3</span> </div>
     <div class="sc_box"><span class="sc_function">PrivateBin</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">4</span> </div>
     <div class="sc_box"><span class="sc_function">Search</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">5</span> </div>
-    <div class="sc_box"><span class="sc_function">Spotify</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">6</span> </div>
-    <div class="sc_box"><span class="sc_function">Terminal</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">7</span></div>
+    <div class="sc_box"><span class="sc_function">Settings</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">6</span></div>
+    <div class="sc_box"><span class="sc_function">Spotify</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">7</span> </div>
+    <div class="sc_box"><span class="sc_function">Terminal</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">8</span></div
   </div>
 </div>

@@ -353,17 +353,17 @@ document.addEventListener("keydown", function (zEvent) {
 });
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "6") {
-    toggle_spot();
+    togglesettings();
   }
 });
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "7") {
-    toggle_term();
+    toggle_spot();
   }
 });
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "8") {
-    togglesettings();
+    toggle_term();
   }
 });
 document.addEventListener("keydown", function (zEvent) {
