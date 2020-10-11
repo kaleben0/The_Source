@@ -3,7 +3,7 @@
 // Database Updates
 
 $(document).ready(function() {
-    $('#general_form, #media_form, #featureurl_form, #morn_form, #day_form, #dusk_form, #evening_form, #search_feature_form').submit(function() {
+    $('#general_form, #media_form, #featureurl_form, #morn_form, #day_form, #dusk_form, #evening_form, #search_feature_form, #book_add_form').submit(function() {
         window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
         this.target = 'formpopup';
     });
@@ -25,6 +25,18 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $(document).on('click',  '#category_form', function() {
+        window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
+        this.target = 'formpopup';
+    });
+});
+$(document).ready(function() {
+    $(document).on('click',  '#add_form', function() {
+        window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
+        this.target = 'formpopup';
+    });
+});
+$(document).ready(function() {
+    $(document).on('click',  '#remove_form', function() {
         window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
         this.target = 'formpopup';
     });
