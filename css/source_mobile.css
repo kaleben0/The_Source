@@ -237,11 +237,11 @@
   width: 500px !important;
 }
 .settings_center {
-  max-width:650px;
+  max-width:635px;
   margin-left:90px;
 }
 .settings_search_features {
-  max-width: 650px;
+  max-width: 600px;
 }
 .sub_block {
   display:none;
