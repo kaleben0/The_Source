@@ -618,7 +618,8 @@
   margin-right: 30px;
   width: 30px;
   text-align: center;
-  border: 1px solid #5f5f5fa8;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .mybutton:active {
   position: relative;
