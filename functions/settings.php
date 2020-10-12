@@ -30,7 +30,7 @@
     <hr/>
     <div class="settings_box">
     <div class="set_label">Weather
-      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Create a 110px width Weather Widget at <a href="https://weatherwidget.io/" target="_blank" style="font-weight:bold;">Weatherwidget.io</a> and paste your code here</span></div>
+      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Create a 110px wide Widget at <a href="https://weatherwidget.io/" target="_blank" style="font-weight:bold;">Weatherwidget.io</a> and paste your code here</span></div>
     </div>
     <textarea type="text" class="set_fields long box" name="weather" placeholder="Paste WeatherWidget.io Code Here"></textarea>
   </form>
