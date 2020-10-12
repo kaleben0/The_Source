@@ -14,3 +14,4 @@
     <div class="sc_box"><span class="sc_function">Terminal</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">8</span></div
   </div>
 </div>
+</div>
