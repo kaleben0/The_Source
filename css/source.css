@@ -714,7 +714,7 @@
 }
 .pass_put {
   background-position: left;
-  border: 0;
+  border: 1px solid #7d7474;
   font-size: 18px;
   height: 30px;
   text-align: center;
