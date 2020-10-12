@@ -418,7 +418,8 @@
 }
 .googlesearch {
   background-position: left;
-  border: 1px solid #7d7474;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
   font-size: 18px;
   height: 36px;
   margin-left: -30px;
@@ -431,7 +432,8 @@
   background-color: #383535ba;
   background-position: left;
   border: 0;
-  border: 1px solid #555;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
   color: #fff;
   font-size: 18px;
   height: 30px;
@@ -1091,6 +1093,8 @@
   width: 100%;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .win_book {
   background-color: #0e0e0e99;
@@ -1106,6 +1110,8 @@
   z-index: 1000;
   text-align: center;
   backdrop-filter: blur(10px);
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .win_cal {
   background-color: #0e0e0e99;
@@ -1122,6 +1128,8 @@
   width: 100%;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .win_pass {
   background-color: #0e0e0e99;
@@ -1136,6 +1144,8 @@
   width: 400px;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .win_sc {
   background-color: #0e0e0e99;
@@ -1152,6 +1162,8 @@
   width: 100%;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .win_search {
   background-color: #0e0e0e99;
@@ -1166,6 +1178,8 @@
   width: 100%;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .win_spot {
   background-color: #0e0e0e99;
@@ -1178,6 +1192,8 @@
   top: 50px;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .win_ssh {
   background-color: #0e0e0e99;
@@ -1193,6 +1209,8 @@
   width: 100%;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 ::-webkit-scrollbar {
   background: #fff;
