@@ -220,6 +220,7 @@
 .set_fields, .book_fields, .googlesearch, .letter_space, .pass_put {
   background-color: #0e0e0e99;
   color: #fff;
+  border: 1px solid #7d7474;
 }
 .set_fields:focus, .book_fields:focus, .pass_put:focus {
   outline: 0;
