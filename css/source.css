@@ -949,6 +949,7 @@
   width: 300px;
   box-shadow: 2px 2px #000;
   border: 1px solid #7d7474;
+  text-indent: 5px;
 }
 .set_label {
   margin-right: 10px;
