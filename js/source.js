@@ -507,6 +507,10 @@ function togglesettings() {
     $('#settings_section,.g_form,#letter_mobile,.letters,.favorite_center').show();
     $('#settings').toggle();
 }
+function toggle_weather() {
+  $('.weather').fadeToggle("slow", "linear");
+}
+
 
 // Google Search Box
 function google_box_clear() {

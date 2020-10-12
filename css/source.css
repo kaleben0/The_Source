@@ -1071,6 +1071,7 @@
     border-radius: 10px;
     z-index: 50;
     backdrop-filter: blur(10px);
+    display:none;
 }
 .win_bin {
   background-color: #0e0e0e99;
