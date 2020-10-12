@@ -97,6 +97,7 @@ CREATE TABLE `settings` (
   `google_embed` varchar(10000) DEFAULT NULL,
   `pagetitle` varchar(30) DEFAULT NULL,
   `font` varchar(30) DEFAULT NULL,
+  `weather` varchar(2000) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -107,7 +108,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'thesource.rednet.dev','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://www.spotify.com','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https//calendar.google.com','The Source','Quicksand');
+INSERT INTO `settings` VALUES (1,'thesource.rednet.dev','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://www.spotify.com','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https//calendar.google.com','The Source','Quicksand','<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/42d28n83d74/ann-arbor/?unit=us\" data-font=\"Fira Sans\" data-icons=\"Climacons Animated\" data-mode=\"Current\" data-theme=\"dark\" data-basecolor=\"\" >Ann Arbor, MI, USA</a>\r\n<script>\r\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');\r\n</script>');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -128,4 +129,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-10 18:35:43
+-- Dump completed on 2020-10-12 11:52:58
