@@ -108,7 +108,7 @@
 }
 .favorite, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
   background-color: #0e0e0e99;
-  border: 0px solid transparent;
+  border: 1px solid #7d7474;
   flex-grow: 1;
   height: 80px;
   margin: 2px;
@@ -192,6 +192,7 @@
   background-position: left bottom;
   margin-left: 10px;
   transition: all .25s ease;
+  border: 1px solid #7d7474;
 }
 .favorite_space:hover {
   color: #000;
@@ -958,6 +959,7 @@
   height: 32px;
   width: 300px;
   box-shadow: 2px 2px #000;
+  border: 1px solid #7d7474;
 }
 .set_label {
   margin-right: 10px;
