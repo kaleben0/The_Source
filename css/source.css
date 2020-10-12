@@ -23,15 +23,6 @@
   width: 1px;
   height: 0px;
 }
-#radar, #traffic, .weather {
-  background-color: #0e0e0e99;
-  box-shadow: -4px 3px 7px #000;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  width: 610px;
-  backdrop-filter: blur(10px);
-}
 #search, #design, #directory_section, #env_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #settings, #settings_section, #network_section, #product, #custom_servers, #web, #logo_header {
   display: none;
 }
@@ -609,13 +600,6 @@
   margin-right: 5px;
   padding: 5px;
 }
-.mini_weather {
-  height: 31px;
-  position: fixed;
-  right: -92px;
-  top: 5px;
-  width: 178px;
-}
 .morning {
   color: #b37d1a;
 }
@@ -980,14 +964,6 @@
 }
 .side_nav_hr_right, .side_nav_hr_left {
   width: 70px;
-}
-.sm_weather {
-  display: none;
-  position: fixed;
-  right: 0;
-  text-align: right;
-  top: 30px;
-  width: 230px;
 }
 .ssh_frame {
   overflow-x: hidden;
