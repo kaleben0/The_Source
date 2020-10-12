@@ -23,20 +23,14 @@ if(isset($_POST['submit']))
 {
         $id='1';
         $main = $_POST['main'];
-        $city = $_POST['city'];
-        $state = $_POST['state'];
-        $zip = $_POST['zip'];
-        $cc = $_POST['cc'];
+        $weather = $_POST['weather'];
         $pagetitle = $_POST['pagetitle'];
 
         $main = trim($main);
-        $city = trim($city);
-        $state = trim($state);
-        $zip = trim($zip);
-        $cc = trim($cc);
+        $weather = AddSlashes($weather);
         $pagetitle = trim($pagetitle);
 
-     $sql = "UPDATE settings SET main_url='$main' , city='$city' , state='$state' , zip_code='$zip' , country_code='$cc' , pagetitle='$pagetitle' WHERE id='$id' ";
+     $sql = "UPDATE settings SET main_url='$main' , weather='$weather' , pagetitle='$pagetitle' WHERE id='$id' ";
 }
 if (mysqli_query($conn, $sql)) {
     echo "<div class='message_change'>General Settings Updated</div>";
