@@ -13,9 +13,14 @@
       <div class="set_label">Page Title </div>
       <input type="text" class="set_fields" name="pagetitle" value="<?php include './functions/config.php';echo$pagetitle ?>">
 
-      <div class="set_label">Weather <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Create a 110px width Weather Widget at https://weatherwidget.io/ and paste your code here</span></div>
-      </div>
-      <textarea type="text" class="set_fields long box" name="weather" placeholder="Paste WeatherWidget.io Code Here"></textarea>
+      <div class="set_label">Font Selection</div>
+      <select name="font" class="set_fields" class="set_fields" form="general_form">
+      <option value='ComicNeue'>Comic Neue</option>
+      <option value='OpenSans'>Open Sans</option>
+      <option value='Quicksand' selected>Quicksand</option>
+      <option value='Roboto'>Roboto</option>
+      <option value='SourceSansPro'>Source Sans Pro</option>
+      </select>
     </form>
   </div>
   <br/>
@@ -48,30 +53,22 @@
 </form>
   <br/>
   <div class="settings_box">
-  <form action="./functions/add_media.php" method="post" id="media_form">
-    <div class="section_label">Messages
-      <input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
-    </div>
-    <hr/>
-    <div class="set_label">Morning 5am-10am</div>
-    <input type="text" class="set_fields long" form="media_form" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
-    <div class="set_label">Day 10am-5pm</div>
-    <input type="text" class="set_fields long" form="media_form" name="day" value="<?php include './functions/config.php';echo"$day" ?>">
-    <div class="set_label">Dusk 5pm-10pm</div>
-    <input type="text" class="set_fields long" form="media_form" name="dusk" value="<?php include './functions/config.php';echo"$dusk"?>">
-    <div class="set_label">Evening 10pm-5am</div>
-    <input type="text" class="set_fields long" form="media_form" name="evening" value="<?php include './functions/config.php';echo"$evening" ?>">
-    <div class="set_label">Font Selection</div>
-    <select name="font" class="set_fields" class="set_fields" form="media_form">
-    <option value='ComicNeue'>Comic Neue</option>
-    <option value='OpenSans'>Open Sans</option>
-    <option value='Quicksand' selected>Quicksand</option>
-    <option value='Roboto'>Roboto</option>
-    <option value='SourceSansPro'>Source Sans Pro</option>
-    </select>
-  </form>
-</div>
-<br/>
+    <form action="./functions/add_media.php" method="post" id="media_form" >
+      <div class="section_label">Messages
+        <input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
+      </div>
+      <hr/>
+      <div class="set_label">Morning 5am-10am</div>
+      <input type="text" class="set_fields long" form="media_form" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">
+      <div class="set_label">Day 10am-5pm</div>
+      <input type="text" class="set_fields long" form="media_form" name="day" value="<?php include './functions/config.php';echo"$day" ?>">
+      <div class="set_label">Dusk 5pm-10pm</div>
+      <input type="text" class="set_fields long" form="media_form" name="dusk" value="<?php include './functions/config.php';echo"$dusk"?>">
+      <div class="set_label">Evening 10pm-5am</div>
+      <input type="text" class="set_fields long" form="media_form" name="evening" value="<?php include './functions/config.php';echo"$evening" ?>">
+    </form>
+  </div>
+  <br/>
 <div class="section_label">Media</div>
 <hr/>
 <div class="settings_box">

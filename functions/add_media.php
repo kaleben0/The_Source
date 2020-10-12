@@ -26,15 +26,14 @@ if(isset($_POST['submit']))
         $day = $_POST['day'];
         $dusk = $_POST['dusk'];
         $evening = $_POST['evening'];
-        $font = $_POST['font'];
+
 
         $morning = trim($morning);
         $day = trim($day);
         $dusk = trim($dusk);
         $evening = trim($evening);
-        $font = trim($font);
 
-     $sql = "UPDATE settings SET morning_message='$morning' , day_message='$day' , dusk_message='$dusk' , evening_message='$evening', font='$font' WHERE id='$id' ";
+     $sql = "UPDATE settings SET morning_message='$morning' , day_message='$day' , dusk_message='$dusk' , evening_message='$evening' WHERE id='$id' ";
 }
 if (mysqli_query($conn, $sql)) {
     echo "<div class='message_change'>Message Settings Updated</div>";

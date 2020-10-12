@@ -6,7 +6,7 @@ include 'font.php';
 include 'config.php';
 ?>
 <link rel="stylesheet" href="../css/source.css" >
-<title>General Settings</title>
+<title>Weather Settings</title>
 <link rel="stylesheet" href="../css/all.css" >
 <script>
 setTimeout("self.close()", 3000 )
@@ -22,18 +22,14 @@ if (!$conn) {
 if(isset($_POST['submit']))
 {
         $id='1';
-        $main = $_POST['main'];
-        $pagetitle = $_POST['pagetitle'];
-        $font = $_POST['font'];
+        $weather = $_POST['weather'];
 
-        $main = trim($main);
-        $pagetitle = trim($pagetitle);
-        $font = trim($font);
+        $weather = AddSlashes($weather);
 
-     $sql = "UPDATE settings SET main_url='$main' , pagetitle='$pagetitle' , font='$font' WHERE id='$id' ";
+     $sql = "UPDATE settings SET weather='$weather' WHERE id='$id' ";
 }
 if (mysqli_query($conn, $sql)) {
-    echo "<div class='message_change'>General Settings Updated</div>";
+    echo "<div class='message_change'>Weather Settings Updated</div>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
