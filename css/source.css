@@ -1231,3 +1231,6 @@ html {
 input:focus {
   outline: 0;
 }
+input[type="file"] {
+  border: 1px solid #7d7474;
+}
