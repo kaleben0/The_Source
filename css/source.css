@@ -1016,7 +1016,7 @@
 .tzone {
   font-size: 20px;
   position: fixed;
-  right: 80px;
+  right: 10px;
   text-align: center;
   top: 8px;
   user-select: none;
