@@ -99,7 +99,8 @@
 }
 .favorite, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
   background-color: #0e0e0e99;
-  border: 1px solid #7d7474;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
   flex-grow: 1;
   height: 80px;
   margin: 2px;
@@ -183,7 +184,8 @@
   background-position: left bottom;
   margin-left: 10px;
   transition: all .25s ease;
-  border: 1px solid #7d7474;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .favorite_space:hover {
   color: #000;
@@ -841,7 +843,8 @@
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all .25s ease;
-  border: 1px solid #7d7474;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
 .search_text {
   background-color: transparent;
@@ -1155,7 +1158,7 @@
   display: none;
   left: 545px;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 805px;
   padding: 20px;
   position: fixed;
   top: 50px;
