@@ -955,7 +955,8 @@
   height: 32px;
   width: 300px;
   box-shadow: 2px 2px #000;
-  border: 1px solid #7d7474;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
   text-indent: 5px;
 }
 .set_label {
@@ -1251,5 +1252,6 @@ input:focus {
   outline: 0;
 }
 input[type="file"] {
-  border: 1px solid #7d7474;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
 }
