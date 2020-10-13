@@ -59,7 +59,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -92,7 +92,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -126,7 +126,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -160,7 +160,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -193,7 +193,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -226,7 +226,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -259,7 +259,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -292,7 +292,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -325,7 +325,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -358,7 +358,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -391,7 +391,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -424,7 +424,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -457,7 +457,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -490,7 +490,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -523,7 +523,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -556,7 +556,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -589,7 +589,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -622,7 +622,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -655,7 +655,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -688,7 +688,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -721,7 +721,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -754,7 +754,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -787,7 +787,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -820,7 +820,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -853,7 +853,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();
@@ -886,7 +886,7 @@
             echo "<div class='url_box' data-tip='$hashtag' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
-            echo "<div class='tip''>$title</div>";
+            echo "<div class='tip'>$title</div>";
             echo "</div></div>";
           }
           $result->free();

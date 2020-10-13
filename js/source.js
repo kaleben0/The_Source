@@ -1,5 +1,15 @@
 // JavaScript Document
 
+// Directory Toggle
+
+$(document).ready(function() {
+     $("#list_toggle").click(function(){
+      $("#list_css").prop('disabled', function () {
+          return ! $(this).prop('disabled');
+});
+});
+});
+
 // Database Updates
 
 $(document).ready(function() {
