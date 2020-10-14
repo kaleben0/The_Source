@@ -22,8 +22,8 @@ Features
 * Google Calendar Embed
 * Shortcut Navigation Keys
 
-Planned Features (Hopefully)
-* RRD Graph Integation
+Planned Features
+* RRD Graph Integration
 * Watchlist (Like a custom ToDo list)
 * Google Authentication
 * Calculator
@@ -34,7 +34,7 @@ Requirements
 * MySQL Server
 * Latest Version of PHP
 
-Integration Requirements
+Feature Integration Requirements (Optional)
 * PrivateBin - https://privatebin.info/
 * Shellinabox (Recommend Reverse Proxy) - https://github.com/shellinabox/shellinabox
 * Embed URL of your Google Calendar - https://calendar.google.com/calendar/embedhelper
@@ -43,8 +43,8 @@ Integration Requirements
 Installation
 * Install MySQL Server, PHP, and your webserver
 * Install Shellinabox & PrivateBin per their instructions
-* Git Pull into the web directory of your choice
-* Create a DB in MySQL
+* git clone https://github.com/kaleben0/The_Source.git in your webserver directory
+* Create a DB & User in MySQL
 * Import the_source.sql into your new db (usually something like (without quotes) 'mysql -u "username" -p "new database name" < the_source.sql')
 * Update /functions/source_db.php, /functions/db_index.php with your database settings (database name, host, username, password)
 * Click the Gear icon in the upper right corner and edit the record with your settings.
