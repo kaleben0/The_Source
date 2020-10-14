@@ -658,7 +658,9 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".win_sc").draggable();
 });
-
+$(document).ready(function () {
+  $(".weather").draggable();
+});
 
 // Frames
 

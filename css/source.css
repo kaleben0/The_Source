@@ -1075,7 +1075,7 @@
     right: 155px;
     top: 50px;
     background: #0e0e0e99;
-    border: 1px solid #7d7474;
+    border: 5px solid #7d7474;
     border-radius: 10px;
     z-index: 50;
     backdrop-filter: blur(10px);
