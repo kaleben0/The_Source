@@ -30,7 +30,7 @@
     <hr/>
     <div class="settings_box">
     <div class="set_label">Weather
-      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Create a 110px widget at <a href="https://weatherwidget.io/" target="_blank" style="font-weight:bold;">Weatherwidget.io</a> and paste your code here</span></div>
+      <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Create a 110px widget at <a href="https://weatherwidget.io/" target="_blank" style="font-weight:bold;font-style: italic;">Weatherwidget.io</a> and paste your code here</span></div>
     </div>
     <textarea type="text" class="set_fields long box" name="weather" placeholder="Paste WeatherWidget.io Code Here"></textarea>
   </form>
@@ -43,10 +43,8 @@
   </div>
   <hr/>
   <div class="set_label">Spotify Playlist
-    <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your Spotify playlist URL here</span></div>
+    <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Copy your Spotify Playlist Link to the <a href="https://developer.spotify.com/documentation/widgets/generate/embed/" target="_blank" style="font-weight:bold;font-style: italic;">Spotify Developers</a> page and create an embed widget. <br/> Copy the Src part of the widget here (without quotes)</span></div>
   </div>
-  <input type="text" class="set_fields long" name="spot" value="<?php include './functions/config.php';echo$spot ?>">
-  <br/>
   <div class="set_label">PrivateBin URL
     <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your PrivateBin URL here</span></div>
   </div>
