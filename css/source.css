@@ -471,7 +471,7 @@
   user-select: none;
 }
 .header_menu:hover {
-  color: #08d1ff;
+  border-right: 5px solid #fff;
 }
 .header_text {
   font-size: 21px;

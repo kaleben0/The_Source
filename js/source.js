@@ -614,6 +614,7 @@ $(document).ready(function () {
   });
 });
 
+ //Password Generator
 
 function generatepass(plength) {
 
