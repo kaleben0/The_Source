@@ -97,6 +97,12 @@
 .a:hover ~ .favorite, .b:hover ~ .favorite, .c:hover ~ .favorite, .d:hover ~ .favorite, .e:hover ~ .favorite, .f:hover ~ .favorite, .g:hover ~ .favorite, .h:hover ~ .favorite, .i:hover ~ .favorite, .j:hover ~ .favorite, .k:hover ~ .favorite, .l:hover ~ .favorite, .m:hover ~ .favorite, .misc:hover ~ .favorite, .n:hover ~ .favorite, .o:hover ~ .favorite, .p:hover ~ .favorite, .q:hover ~ .favorite, .r:hover ~ .favorite, .s:hover ~ .favorite, .t:hover ~ .favorite, .u:hover ~ .favorite, .v:hover ~ .favorite, .w:hover ~ .favorite, .x:hover ~ .favorite, .y:hover ~ .favorite, .z:hover ~ .favorite {
   color: #000;
 }
+.add_event {
+  float: left;
+  margin-right: -10px;
+  margin-top: 5px;
+  text-shadow: 2px 2px #000;
+}
 .book_fields {
   background-position: left;
   border: 0;
@@ -106,12 +112,14 @@
   margin-top: 10px;
   text-indent: 4px;
 }
-
-.add_event {
-  float: left;
-  margin-right: -10px;
-  margin-top: 5px;
-  text-shadow: 2px 2px #000;
+.book_fields, .set_fields, .googlesearch, .letter_space, .pass_put {
+  background-color: #0e0e0e99;
+  color: #fff;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
+}
+.book_fields:focus, .set_fields:focus, .pass_put:focus {
+  outline: 0;
 }
 .book_head, .pass_head, .red_head, .cal_head, .search_head, .spot_head, .bin_head, .set_head {
   cursor: move;
@@ -130,12 +138,12 @@
   width: 60px;
   text-shadow: 2px 2px #000;
 }
-.box {
-  height: 170px !important;
-}
 .book_td_header {
   font-size: 16px;
   font-weight: 100;
+}
+.box {
+  height: 170px !important;
 }
 .button_add {
   min-width: 50px;
@@ -868,15 +876,6 @@
 .section_label {
   text-align: center;
   font-size: 25px;
-}
-.set_fields, .book_fields, .googlesearch, .letter_space, .pass_put {
-  background-color: #0e0e0e99;
-  color: #fff;
-  border: 2px solid #7d7474;
-  border-radius: 10px;
-}
-.set_fields:focus, .book_fields:focus, .pass_put:focus {
-  outline: 0;
 }
 .settings_center {
   flex-flow: row wrap;
