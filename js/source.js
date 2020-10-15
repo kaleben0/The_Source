@@ -436,13 +436,9 @@ function edit_book() {
 //Header Toggles
 
 function togglefavorite() {
-  if (event.altKey) {
-    location.reload();
-  } else {
     $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
     $('#favorite_section,.g_form,#letter_mobile,.letters,.favorite_center,#letter_row').show();
     $('#favorite').toggle();
-  }
 }
 
 function toggledesign() {
