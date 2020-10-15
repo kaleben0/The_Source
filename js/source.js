@@ -390,31 +390,36 @@ document.addEventListener("keydown", function (zEvent) {
 });
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "3") {
-    toggle_pass();
+    togglefavorite();
   }
 });
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "4") {
-    toggle_bin();
+    toggle_pass();
   }
 });
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "5") {
-    search_toggle();
+    toggle_bin();
   }
 });
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "6") {
-    togglesettings();
+    search_toggle();
   }
 });
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "7") {
-    toggle_spot();
+    togglesettings();
   }
 });
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "8") {
+    toggle_spot();
+  }
+});
+document.addEventListener("keydown", function (zEvent) {
+  if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "9") {
     toggle_term();
   }
 });
