@@ -97,110 +97,6 @@
 .a:hover ~ .favorite, .b:hover ~ .favorite, .c:hover ~ .favorite, .d:hover ~ .favorite, .e:hover ~ .favorite, .f:hover ~ .favorite, .g:hover ~ .favorite, .h:hover ~ .favorite, .i:hover ~ .favorite, .j:hover ~ .favorite, .k:hover ~ .favorite, .l:hover ~ .favorite, .m:hover ~ .favorite, .misc:hover ~ .favorite, .n:hover ~ .favorite, .o:hover ~ .favorite, .p:hover ~ .favorite, .q:hover ~ .favorite, .r:hover ~ .favorite, .s:hover ~ .favorite, .t:hover ~ .favorite, .u:hover ~ .favorite, .v:hover ~ .favorite, .w:hover ~ .favorite, .x:hover ~ .favorite, .y:hover ~ .favorite, .z:hover ~ .favorite {
   color: #000;
 }
-.favorite, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
-  background-color: #0e0e0e99;
-  border: 2px solid #7d7474;
-  border-radius: 10px;
-  flex-grow: 1;
-  height: 80px;
-  margin: 2px;
-  max-width: 195px;
-  padding-top: 5px;
-  position: relative;
-  text-align: center;
-  user-select: none;
-  vertical-align: middle;
-  width: 200px;
-  box-shadow: 2px 2px #000;
-  backdrop-filter: blur(10px);
-  background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
-  background-size: 200% 100%;
-  background-position: left bottom;
-  transition: all .25s ease;
-}
-.favorite:hover, .finance:hover, .design:hover, .environmental:hover, .game:hover, .media:hover, .medical:hover, .network:hover, .productivity:hover, .web:hover {
-  color: #000;
-  background-position: right bottom;
-}
-.favorite_btn {
-  flex-grow: 1;
-  float: left;
-  font-size: 19px;
-  height: 35px;
-  margin-left: 20px;
-  margin-right: auto;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-  width: 20px;
-  margin-top: 2px;
-}
-.favorite_center {
-  display: flex;
-  flex-flow: row wrap;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  max-width: 1400px;
-}
-.favorite_container {
-  align-items: center;
-  display: flex;
-  flex-flow: column wrap;
-  margin-bottom: 20px;
-  margin-left: 0;
-  margin-right: auto;
-  transition: .5s;
-}
-.favorite_fa {
-  margin-right: 5px;
-  margin-top: -5px;
-}
-.favorite_head {
-  font-size: 22px;
-  margin-bottom: 25px;
-  margin-left: 75px;
-  margin-right: auto;
-  text-shadow: 2px 2px #000;
-}
-.fav_icon {
-  margin-bottom: 7px;
-  margin-left: 2px;
-  text-align: center;
-  transition: .5s;
-}
-.favorite_space {
-  background-color: #0e0e0e99;
-  margin: 2px;
-  padding-top: 5px;
-  user-select: none;
-  vertical-align: middle;
-  width: 210px;
-  text-shadow: 2px 2px #000;
-  box-shadow: 2px 2px #000;
-  backdrop-filter: blur(10px);
-  background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
-  background-size: 200% 100%;
-  background-position: left bottom;
-  margin-left: 10px;
-  transition: all .25s ease;
-  border: 2px solid #7d7474;
-  border-radius: 10px;
-}
-.favorite_space:hover {
-  color: #000;
-  text-shadow: none;
-  background-position: right bottom;
-}
-.favorite_text {
-  background-color: transparent;
-  float: left;
-  font-size: 15px;
-  margin-left: 20px;
-  margin-right: auto;
-  margin-top: 7px;
-  text-align: left;
-}
 .book_fields {
   background-position: left;
   border: 0;
@@ -210,15 +106,7 @@
   margin-top: 10px;
   text-indent: 4px;
 }
-.set_fields, .book_fields, .googlesearch, .letter_space, .pass_put {
-  background-color: #0e0e0e99;
-  color: #fff;
-  border: 2px solid #7d7474;
-  border-radius: 10px;
-}
-.set_fields:focus, .book_fields:focus, .pass_put:focus {
-  outline: 0;
-}
+
 .add_event {
   float: left;
   margin-right: -10px;
@@ -351,6 +239,110 @@
 }
 .faded {
   opacity: .2;
+}
+.favorite, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
+  background-color: #0e0e0e99;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
+  flex-grow: 1;
+  height: 80px;
+  margin: 2px;
+  max-width: 195px;
+  padding-top: 5px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+  width: 200px;
+  box-shadow: 2px 2px #000;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .25s ease;
+}
+.favorite:hover, .finance:hover, .design:hover, .environmental:hover, .game:hover, .media:hover, .medical:hover, .network:hover, .productivity:hover, .web:hover {
+  color: #000;
+  background-position: right bottom;
+}
+.favorite_btn {
+  flex-grow: 1;
+  float: right;
+  font-size: 19px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: 15px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 20px;
+  margin-top: 2px;
+}
+.favorite_center {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  max-width: 1400px;
+}
+.favorite_container {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: auto;
+  transition: .5s;
+}
+.favorite_fa {
+  margin-right: 5px;
+  margin-top: -5px;
+}
+.favorite_head {
+  font-size: 22px;
+  margin-bottom: 25px;
+  margin-left: 75px;
+  margin-right: auto;
+  text-shadow: 2px 2px #000;
+}
+.fav_icon {
+  margin-bottom: 7px;
+  margin-left: 2px;
+  text-align: center;
+  transition: .5s;
+}
+.favorite_space {
+  background-color: #0e0e0e99;
+  margin: 2px;
+  padding-top: 5px;
+  user-select: none;
+  vertical-align: middle;
+  width: 210px;
+  text-shadow: 2px 2px #000;
+  box-shadow: 2px 2px #000;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  margin-left: 10px;
+  transition: all .25s ease;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
+}
+.favorite_space:hover {
+  color: #000;
+  text-shadow: none;
+  background-position: right bottom;
+}
+.favorite_text {
+  background-color: transparent;
+  float: left;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 7px;
+  text-align: left;
 }
 .favorite_icon {
   float: left;
@@ -876,6 +868,15 @@
 .section_label {
   text-align: center;
   font-size: 25px;
+}
+.set_fields, .book_fields, .googlesearch, .letter_space, .pass_put {
+  background-color: #0e0e0e99;
+  color: #fff;
+  border: 2px solid #7d7474;
+  border-radius: 10px;
+}
+.set_fields:focus, .book_fields:focus, .pass_put:focus {
+  outline: 0;
 }
 .settings_center {
   flex-flow: row wrap;
