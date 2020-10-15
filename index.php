@@ -47,13 +47,9 @@ include './functions/win_search.php';
 include './functions/directory.php';
 include './functions/settings.php';
 include './functions/win_bookmark.php';
-include './functions/win_calendar.php';
 include './functions/win_password.php';
-include './functions/win_terminal.php';
-include './functions/win_privatebin.php';
 include './functions/win_shortcut.php';
-include './functions/win_spotify.php';
-
+include './functions/win_frames.php';
 include './functions/background_script.php';
 echo "<div id='css_search'>";
 include './functions/search_css.php';
