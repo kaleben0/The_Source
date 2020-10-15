@@ -402,6 +402,9 @@
   padding-top: 10px;
   width: 100%;
   height: 90%;
+}.frame_field {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .g_clear {
   margin-left: 2px;

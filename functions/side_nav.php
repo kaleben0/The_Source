@@ -43,14 +43,8 @@
     <i class="fas fa-tools"></i>
     <hr class="side_nav_hr_right"/>
   </div>
-  <li class="header_menu" title="Calendar" onclick="toggle_cal();" id="calendar"> <i class="fas fa-calendar-alt icons3"></i>
-    <div class="nav_label">Calendar</div>
-  </li>
   <li class="header_menu" title="Password" onclick="toggle_pass();" id="password_nav"><i class="fas fa-unlock-alt icons3"></i>
     <div class="nav_label">Password</div>
-  </li>
-  <li class="header_menu" title="PrivateBin" onclick="toggle_bin();" id="privatebin"> <i class="far fa-clipboard icons3"></i>
-    <div class="nav_label">PrivateBin</div>
   </li>
   <li class="header_menu" title="Search" onclick="search_toggle();" id="search_nav"> <i class="fas fa-search icons3"></i>
     <div class="nav_label">Search</div>
@@ -58,11 +52,20 @@
   <li class="header_menu" title="Shortcuts" onclick="toggle_sc();" id="shortcut_nav"> <i class="fas fa-reply fa-flip-horizontal icons3"></i>
     <div class="nav_label">Shortcuts</div>
   </li>
-  <li class="header_menu" title="Spotify" onclick="toggle_spot();" id="spotify"> <i class="fab fa-spotify side_icon"></i>
-    <div class="nav_label">Spotify</div>
+    <li class="header_menu" title="<?php include './functions/config_frames.php';echo$frame1_title ?>" onclick="toggle_frame1();" > <i class="<?php include './functions/config_frames.php';echo$frame1_icon ?>"></i>
+    <div class="nav_label"><?php include './functions/config_frames.php';echo$frame1_title ?></div>
   </li>
-  <li class="header_menu" title="Terminal" onclick="toggle_term();" id="terminal" ><i class="fas fa-terminal icons3"></i>
-    <div class="nav_label">Terminal</div>
+      <li class="header_menu" title="<?php include './functions/config_frames.php';echo$frame2_title ?>" onclick="toggle_frame2();" > <i class="<?php include './functions/config_frames.php';echo$frame2_icon ?>"></i>
+    <div class="nav_label"><?php include './functions/config_frames.php';echo$frame2_title ?></div>
+  </li>
+      <li class="header_menu" title="<?php include './functions/config_frames.php';echo$frame3_title ?>" onclick="toggle_frame3();" > <i class="<?php include './functions/config_frames.php';echo$frame3_icon ?>"></i>
+    <div class="nav_label"><?php include './functions/config_frames.php';echo$frame3_title ?></div>
+  </li>
+      <li class="header_menu" title="<?php include './functions/config_frames.php';echo$frame4_title ?>" onclick="toggle_frame4();" > <i class="<?php include './functions/config_frames.php';echo$frame4_icon ?>"></i>
+    <div class="nav_label"><?php include './functions/config_frames.php';echo$frame4_title ?></div>
+  </li>
+      <li class="header_menu" title="<?php include './functions/config_frames.php';echo$frame5_title ?>" onclick="toggle_frame5();" > <i class="<?php include './functions/config_frames.php';echo$frame5_icon ?>"></i>
+    <div class="nav_label"><?php include './functions/config_frames.php';echo$frame5_title ?></div>
   </li>
 </ul>
 </div>
