@@ -33,7 +33,7 @@ CREATE TABLE `bookmark` (
   `status` text NOT NULL,
   `favorite` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=270 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=269 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -69,8 +69,56 @@ CREATE TABLE `features` (
 
 LOCK TABLES `features` WRITE;
 /*!40000 ALTER TABLE `features` DISABLE KEYS */;
-INSERT INTO `features` VALUES (1,'#calendar','block','feature','Google Calendar'),(2,'#privatebin','block','feature','PrivateBin'),(3,'#spotify','block','feature','Spotify'),(4,'#terminal','block','feature','Terminal'),(5,'#cal_search','block','search','Google Calendar'),(6,'#contacts','block','search','Google Contacts'),(7,'#drive','block','search','Google Drive'),(8,'#earth','block','search','Google Earth'),(9,'#keep','block','search','Google Keep'),(10,'#gmail','block','search','Google Keep'),(11,'#hangouts','block','search','Google Hangouts'),(12,'#maps','block','search','Google Maps'),(13,'#photos','block','search','Google Photos'),(14,'#play','block','search','Google Play'),(15,'#scholar','block','search','Google Scholar'),(16,'#g_search','block','search','Google Search'),(17,'#translate','block','search','Google Translate'),(18,'#youtube','block','search','YouTube'),(19,'#amazon','block','search','Amazon'),(20,'#awesome','block','search','Font Awesome'),(21,'#bing','block','search','Bing'),(22,'#codepen','block','search','CodePen'),(23,'#giphy','block','search','Giphy'),(24,'#hulu','block','search','Hulu'),(25,'#imdb','block','search','IMDB'),(26,'#imgur','block','search','Imgur'),(28,'#netflix','block','search','Netflix'),(30,'#overflow','block','search','Stack Overflow'),(31,'#reddit','block','search','Reddit'),(32,'#g_spotify','block','search','Spotify'),(33,'#steam','block','search','Steam'),(34,'#versus','block','search','Versus'),(35,'#wallhaven','block','search','WallHaven'),(36,'#watch','block','search','Just Watch'),(37,'#wikipedia','block','search','Wikipedia'),(38,'#wolfram','block','search','Wolfram Alpha'),(39,'#wowhead','block','search','Wowhead'),(40,'#github','block','search','GitHub'),(41,'#shortcut_nav','block','feature','Shortcuts'),(42,'#password_nav','block','feature','Password'),(43,'#search_nav','block','feature','Search'),(44,'#design_toggle','block','category','Design'),(45,'#enviro_toggle','block','category','Environmental'),(46,'#finance_toggle','block','category','Finance'),(47,'#game_toggle','block','category','Games'),(48,'#media_toggle','block','category','Media'),(49,'#medical_toggle','block','category','Medical'),(50,'#network_toggle','block','category','Network'),(51,'#prod_toggle','block','category','Productivity'),(52,'#web_toggle','block','category','Web');
+INSERT INTO `features` VALUES (5,'#cal_search','block','search','Google Calendar'),(6,'#contacts','block','search','Google Contacts'),(7,'#drive','block','search','Google Drive'),(8,'#earth','block','search','Google Earth'),(9,'#keep','block','search','Google Keep'),(10,'#gmail','block','search','Google Keep'),(11,'#hangouts','block','search','Google Hangouts'),(12,'#maps','block','search','Google Maps'),(13,'#photos','block','search','Google Photos'),(14,'#play','block','search','Google Play'),(15,'#scholar','block','search','Google Scholar'),(16,'#g_search','block','search','Google Search'),(17,'#translate','block','search','Google Translate'),(18,'#youtube','block','search','YouTube'),(19,'#amazon','block','search','Amazon'),(20,'#awesome','block','search','Font Awesome'),(21,'#bing','block','search','Bing'),(22,'#codepen','block','search','CodePen'),(23,'#giphy','block','search','Giphy'),(24,'#hulu','block','search','Hulu'),(25,'#imdb','block','search','IMDB'),(26,'#imgur','block','search','Imgur'),(28,'#netflix','block','search','Netflix'),(30,'#overflow','block','search','Stack Overflow'),(31,'#reddit','block','search','Reddit'),(32,'#g_spotify','block','search','Spotify'),(33,'#steam','block','search','Steam'),(34,'#versus','block','search','Versus'),(35,'#wallhaven','block','search','WallHaven'),(36,'#watch','block','search','Just Watch'),(37,'#wikipedia','block','search','Wikipedia'),(38,'#wolfram','block','search','Wolfram Alpha'),(39,'#wowhead','block','search','Wowhead'),(40,'#github','block','search','GitHub'),(41,'#shortcut_nav','block','feature','Shortcuts'),(42,'#password_nav','block','feature','Password'),(43,'#search_nav','block','feature','Search'),(44,'#design_toggle','block','category','Design'),(45,'#enviro_toggle','block','category','Environmental'),(46,'#finance_toggle','block','category','Finance'),(47,'#game_toggle','block','category','Games'),(48,'#media_toggle','block','category','Media'),(49,'#medical_toggle','block','category','Medical'),(50,'#network_toggle','block','category','Network'),(51,'#prod_toggle','block','category','Productivity'),(52,'#web_toggle','block','category','Web');
 /*!40000 ALTER TABLE `features` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `frames`
+--
+
+DROP TABLE IF EXISTS `frames`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `frames` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `frame1_title` varchar(255) DEFAULT NULL,
+  `frame1_url` varchar(255) DEFAULT NULL,
+  `frame1_width` int(4) DEFAULT NULL,
+  `frame1_height` int(4) DEFAULT NULL,
+  `frame1_icon` varchar(255) DEFAULT NULL,
+  `frame2_title` varchar(255) DEFAULT NULL,
+  `frame2_url` varchar(255) DEFAULT NULL,
+  `frame2_width` int(4) DEFAULT NULL,
+  `frame2_height` int(4) DEFAULT NULL,
+  `frame2_icon` varchar(255) DEFAULT NULL,
+  `frame3_title` varchar(255) DEFAULT NULL,
+  `frame3_url` varchar(255) DEFAULT NULL,
+  `frame3_width` int(4) DEFAULT NULL,
+  `frame3_height` int(4) DEFAULT NULL,
+  `frame3_icon` varchar(255) DEFAULT NULL,
+  `frame4_title` varchar(255) DEFAULT NULL,
+  `frame4_url` varchar(255) DEFAULT NULL,
+  `frame4_width` int(4) DEFAULT NULL,
+  `frame4_height` int(4) DEFAULT NULL,
+  `frame4_icon` varchar(255) DEFAULT NULL,
+  `frame5_title` varchar(255) DEFAULT NULL,
+  `frame5_url` varchar(255) DEFAULT NULL,
+  `frame5_width` int(4) DEFAULT NULL,
+  `frame5_height` int(4) DEFAULT NULL,
+  `frame5_icon` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `frames`
+--
+
+LOCK TABLES `frames` WRITE;
+/*!40000 ALTER TABLE `frames` DISABLE KEYS */;
+INSERT INTO `frames` VALUES (1,'Spotify','https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM',350,500,'fab fa-spotify','PrivateBin','https://privatebin.info',1050,750,'far fa-clipboard','Calendar','https://calendar.google.com/calendar/u/0/embed?src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ',900,750,'fas fa-calendar','Terminal','https://github.com/shellinabox/shellinabox',1050,700,'fas fa-terminal','Just Watch','https://www.justwatch.com/us',900,750,'fas fa-photo-video');
+/*!40000 ALTER TABLE `frames` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -108,7 +156,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'thesource.rednet.dev','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://www.spotify.com','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https//calendar.google.com','The Source','Quicksand','<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/42d28n83d74/ann-arbor/?unit=us\" data-font=\"Fira Sans\" data-icons=\"Climacons Animated\" data-mode=\"Current\" data-theme=\"dark\" data-basecolor=\"\" >Ann Arbor, MI, USA</a>\r\n<script>\r\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');\r\n</script>');
+INSERT INTO `settings` VALUES (1,'thesource.rednet.dev','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https://calendar.google.com/calendar/u/0/embed?src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ','The Source','Quicksand','<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/42d28n83d74/ann-arbor/?unit=us\" data-label_1=\"ANN ARBOR\" data-label_2=\"WEATHER\" data-font=\"Fira Sans\" data-icons=\"Climacons Animated\" data-theme=\"dark\" data-basecolor=\"\" >ANN ARBOR WEATHER</a>\r\n<script>\r\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');\r\n</script>');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -129,4 +177,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-12 11:52:58
+-- Dump completed on 2020-10-15 17:26:02
