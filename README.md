@@ -18,14 +18,11 @@ Features
 * Wallpaper now supports animated GIF format (My collection - https://imgur.com/a/A14dP6h)
 * Mobile View
 * Password Generator
-* Spotify Playlist Player
-* Google Calendar Embed
 * Shortcut Navigation Keys
+* 5 Custom Frames <---New!
 
 Planned Features
-* RRD Graph Integration
 * Watchlist (Like a custom ToDo list)
-* Google Authentication
 * Calculator
 * NotePad
 
@@ -34,15 +31,9 @@ Requirements
 * MySQL Server
 * Latest Version of PHP
 
-Feature Integration Requirements (Optional)
-* PrivateBin - https://privatebin.info/
-* Shellinabox (Recommend Reverse Proxy) - https://github.com/shellinabox/shellinabox
-* Embed URL of your Google Calendar - https://calendar.google.com/calendar/embedhelper
-* Spotify Playlist of your choice - Example - https://open.spotify.com/playlist/37i9dQZF1DXdLEN7aqioXM?si=UCxK2phJRKSXPWJMti0NiA
 
 Installation
 * Install MySQL Server, PHP, and your webserver
-* Install Shellinabox & PrivateBin per their instructions
 * git clone https://github.com/kaleben0/The_Source.git in your webserver directory
 * Create a DB & User in MySQL
 * Import the_source.sql into your new db (usually something like (without quotes) 'mysql -u "username" -p "new database name" < the_source.sql')
@@ -58,11 +49,6 @@ Modify your php.ini (for image uploads)
 Permissions
 * chmod -R 755 the_source/images/
 * chown -R www-data:www-data the_source <--- Might be different based on your webserver of choice
-
-PrivateBin
-* For PrivateBin to display in the iframe, you need to modify this file. '/lib/Controller.php'
-* Comment out this line 'header('X-Frame-Options: DENY');'
-
 
 <h2>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h2>
 (Unless it is not accessible from the internet, then you are probably fine)
