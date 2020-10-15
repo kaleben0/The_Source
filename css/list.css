@@ -35,6 +35,7 @@
 	box-shadow: unset;
 	margin: unset;
 	left: -15px;
+	backdrop-filter: unset;
 }
 .tip {
   text-align: left;
