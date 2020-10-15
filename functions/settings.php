@@ -7,7 +7,7 @@
       <hr/>
       <div class="settings_box">
       <div class="set_label">Main URL
-        <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">no http:// or https://</span></div>
+        <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Domain only. <br/>No http:// or https://</span></div>
       </div>
       <input type="text" class="set_fields" name="main" value="<?php include './functions/config.php';echo$main ?>">
       <div class="set_label">Page Title </div>
@@ -43,7 +43,7 @@
   </div>
   <hr/>
   <div class="set_label">Spotify Playlist
-     <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Copy your Spotify Playlist Link to the <a href="https://developer.spotify.com/documentation/widgets/generate/embed/" target="_blank" style="font-weight:bold;font-style: italic;">Spotify Developers</a> page and create an embed widget. <br/> Copy the Src part of the widget here (without quotes)</span></div>
+     <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Copy your Spotify Playlist Link to the <a href="https://developer.spotify.com/documentation/widgets/generate/embed/" target="_blank" style="font-weight:bold;font-style: italic;">Spotify Developers</a> page and create an embed widget. <br/> Copy the SRC part of the widget here (without quotes)</span></div>
    </div>
    <input type="text" class="set_fields long" name="spot" value="<?php include './functions/config.php';echo$spot ?>">
    <br/>
