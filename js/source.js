@@ -421,7 +421,6 @@ document.addEventListener("keydown", function (zEvent) {
     toggle_frame5();
   }
 });
-
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "0") {
     toggle_sc();
@@ -573,6 +572,7 @@ function toggle_frame5() {
   $(".win_frame5").toggle();
 }
 
+
 function favorite_edit() {
 if($(".book_icon i").is(":visible")){
   $('.favorite_icon').show();
@@ -703,30 +703,31 @@ $(document).ready(function () {
 //Custom Frames
 
 $(document).ready(function () {
-  $('.exit_term1').click(function () {
+  $('.exit_frame1').click(function () {
     $('.win_frame1').css('display', 'none');
   });
 });
 $(document).ready(function () {
-  $('.exit_term2').click(function () {
+  $('.exit_frame2').click(function () {
     $('.win_frame2').css('display', 'none');
   });
 });
 $(document).ready(function () {
-  $('.exit_term3').click(function () {
-    $('.win_frame2').css('display', 'none');
+  $('.exit_frame3').click(function () {
+    $('.win_frame3').css('display', 'none');
   });
 });
 $(document).ready(function () {
-  $('.exit_term4').click(function () {
-    $('.win_frame2').css('display', 'none');
+  $('.exit_frame4').click(function () {
+    $('.win_frame4').css('display', 'none');
   });
 });
 $(document).ready(function () {
-  $('.exit_term5').click(function () {
-    $('.win_frame2').css('display', 'none');
+  $('.exit_frame5').click(function () {
+    $('.win_frame5').css('display', 'none');
   });
 });
+
 
 
 //Clock
