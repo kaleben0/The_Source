@@ -58,7 +58,7 @@
   <input type="text" class="set_fields long" name="shellinabox" value="<?php include './functions/config.php';echo$shellinabox ?>">
   <br/>
   <div class="set_label">Google Calendar Embed Code
-    <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your <a href="https://support.google.com/calendar/answer/41207?hl=en" target="_blank" style="font-weight:bold;font-style: italic;">Google Calendar Embed</a> URL here</span></div>
+    <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add your <a href="https://support.google.com/calendar/answer/41207?hl=en" target="_blank" style="font-weight:bold;font-style: italic;">Google Calendar Embed</a> code here</span></div>
   </div>
   <input type="text" class="set_fields long" name="google" value="<?php include './functions/config.php';echo$google ?>">
   </div>
