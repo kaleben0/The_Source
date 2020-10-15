@@ -5,7 +5,7 @@
     <div>
       <input type="text" name="letter" class="book_fields" placeholder="First Letter of Name (lowercase)">
       <br/>
-      <input type="text" name="title" class="book_fields" placeholder="Name">
+      <input type="text" name="title" class="book_fields" placeholder="Name (19 Char Max)">
       <br/>
       <input type="ur" name="url" class="book_fields" placeholder="Full URL (with https:// or http://)">
       <br/>
