@@ -59,6 +59,12 @@ Permissions
 * chmod -R 755 the_source/images/
 * chown -R www-data:www-data the_source <--- Might be different based on your webserver of choice
 
+<h3>PrivateBin</h3>
+For PrivateBin to display in the iframe, you need to modify this file.
+"/lib/Controller.php"
+Comment out this line header('X-Frame-Options: DENY');"
+
+
 <h2>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h2>
 (Unless it is not accessible from the internet, then you are probably fine)
 
