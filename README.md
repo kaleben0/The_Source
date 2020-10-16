@@ -6,25 +6,25 @@ Software/Plugins Utilized
 * Tipr - https://github.com/lt1946/Tipr
 * HTAM - https://github.com/Maxelweb/HTAM
 * MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/
-* JQuery 3.2.1
-* JQueryUI 1.12.1
-* Google Fonts
+* JQuery - https://jquery.com/
+* JQueryUI - https://jqueryui.com/
+* Google Fonts - https://fonts.google.com/
 * Font Awesome - https://fontawesome.com/
 
 Features
-* Clock
-* Weather
-* Message / Wallpaper changes based on time of day
-* Wallpaper now supports animated GIF format (My collection - https://imgur.com/a/A14dP6h)
-* Mobile View
-* Password Generator
-* Shortcut Navigation Keys
 * 5 Custom Frames <---New!
 * Multi-Search w/ 24 Custom Searches <---New!
 * Customize Your CSS <---New!
+* Clock
+* Weather
+* Password Generator
+* Shortcut Navigation Keys
+* Message / Wallpaper changes based on time of day
+* Mobile View
+* Wallpaper now supports animated GIF format (My collection - https://imgur.com/a/A14dP6h)
 
 Planned Features
-* Watchlist / Custom ToDo list)
+* Watchlist / Custom To Do list
 * Calculator
 * NotePad
 
@@ -32,7 +32,6 @@ Requirements
 * Webserver (Apache or Nginx will work)
 * MySQL Server
 * Latest Version of PHP
-
 
 Installation
 * Install MySQL Server, PHP, and your webserver
@@ -56,7 +55,7 @@ Permissions
 <h2>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h2>
 (Unless it is not accessible from the internet, then you are probably fine)
 
-<h4>Also, this is completely open source and you can do anything you want with it. Some of the software used to make it have their own licenses that you'll have to look at those, but everything I did is open game. Enjoy! </h4>
+<h4>Also, this is completely open source and you can do anything you want with it. Some of the software used to make it have their own licenses that you'll have to look at those, but everything I did is open game. Enjoy!</h4>
 
 <h2>ScreenShots</h2>
 
