@@ -939,7 +939,7 @@
   flex-flow: column wrap;
 }
 .settings_search_container {
-  max-height: 380px;
+  max-height: 400px;
   max-width: 740px;
 }
 .servers {
