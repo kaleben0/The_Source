@@ -1,4 +1,4 @@
-<div class="section_label">Custom Search</div>
+<div class="section_label" onclick="$('#set_cs').toggle();">Custom Search</div>
 <hr/>
 <div class="settings_box" id="set_cs">
 <div class="settings_custom_search" >

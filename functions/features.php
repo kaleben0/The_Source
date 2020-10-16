@@ -1,4 +1,4 @@
-<div class="section_label">Features</div>
+<div class="section_label" onclick="$('#set_feat').toggle();">Features</div>
 <hr/>
 <div class="settings_box" id="set_feat">
 <div class="settings_features" >

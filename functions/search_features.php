@@ -1,4 +1,4 @@
-<div class="section_label">Pre-defined Searchs</div>
+<div class="section_label" onclick="$('#set_pdsearch').toggle();">Pre-defined Searchs</div>
 <hr/>
 <div class="settings_box" id="set_pdsearch">
 <div class="settings_search_features settings_search_container" >

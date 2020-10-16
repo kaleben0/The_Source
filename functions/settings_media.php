@@ -1,5 +1,5 @@
  <?php ?>
- <div class="section_label">Media</div>
+ <div class="section_label" onclick="$('#set_med').toggle();">Media</div>
  <hr/>
 <div class="settings_box" id="set_med">
   <div class="wall_box">
