@@ -942,6 +942,9 @@
   max-height: 400px;
   max-width: 740px;
 }
+.settings_custom_search {
+  max-width: 740px;
+}
 .servers {
   display: none;
   flex-flow: row wrap;

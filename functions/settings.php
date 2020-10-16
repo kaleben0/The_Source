@@ -184,41 +184,42 @@
     </form>
   </div>
 </div>
+
 <br/>
 <div class="section_label">Categories</div>
 <hr/>
-<div class="settings_categories" id="#refresh_db">
-  <?php
+<div class="settings_categories">
+<?php
 include './functions/categories.php';
 ?>
 </div>
+
 <br/>
 <div class="section_label">Features</div>
 <hr/>
 <div class="settings_features" >
-  <?php
+<?php
 include './functions/features.php';
 ?>
 </div>
+
 <br/>
 <div class="section_label">Search</div>
 <hr/>
 <div class="settings_search_features settings_search_container" >
-  <?php
+<?php
 include './functions/search_features.php';
 ?>
 </div>
-<div class="settings_box">
+
 <br/>
-  <div class="section_label">Custom Search
-  </div>
+  <div class="section_label">Custom Search</div>
   <hr/>
-<div class="settings_search_features" >
+<div class="settings_custom_search" >
   <?php
 include './functions/config_search.php';
 ?>
 </div>
-</div>
-</form>
+
 </div>
 </div>
