@@ -627,7 +627,7 @@
   width: 40px;
 }
 .long {
-  width: 685px !important;
+  width: 600px !important;
 }
 .main_key {
   background-color: #fff;
@@ -1005,6 +1005,9 @@
   margin-top: 10px;
   font-size: 20px;
   text-align: left;
+}
+.short {
+  width: 60px !important;
 }
 .side_icon {
   font-size: 20px;
