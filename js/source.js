@@ -272,7 +272,12 @@ function imgur() {
     var boxfin = boxurl + box;
     window.open(boxfin, '_blank');
 }
-
+function justwatch() {
+    var box = document.getElementById("gsearch").value;
+    var boxurl = "https://www.justwatch.com/us/search?q=";
+    var boxfin = boxurl + box;
+    window.open(boxfin, '_blank');
+}
 function netflix() {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.netflix.com/search?q=";
