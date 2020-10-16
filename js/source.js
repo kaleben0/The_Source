@@ -18,8 +18,9 @@ $(document).ready(function() {
         this.target = 'formpopup';
     });
 });
+
 $(document).ready(function() {
-    $('#search_form1, #search_form2, #search_form3, #search_form4, #search_form4, #search_form5, #search_form6, #search_form7, #search_form8').submit(function() {
+    $('#search_form1, #search_form2, #search_form3, #search_form4, #search_form4, #search_form5, #search_form6, #search_form7, #search_form8, #search_form9, #search_form10, #search_form11, #search_form12, #search_form13, #search_form14, #search_form15, #search_form16, #search_form17, #search_form18, #search_form19, #search_form20, #search_form21, #search_form22, #search_form23, #search_form24, #search_form25').submit(function() {
         window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
         this.target = 'formpopup';
     });
