@@ -26,7 +26,7 @@ Features
 Requirements
 * Webserver (Apache or Nginx will work)
 * MySQL Server
-* Latest Version of PHP
+* PHP 7.0+
 
 Installation
 * Install MySQL Server, PHP, and your webserver
