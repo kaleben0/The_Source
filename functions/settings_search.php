@@ -1,5 +1,5 @@
  <?php ?>
-<div class="section_label" onclick="$('#set_cs').toggle();">Custom Search</div>
+<div class="section_label" onclick="$('#set_cs').toggle();">Custom Search <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Change Title to 'empty' (without quotes) to disable</span></div></div>
 <div class="settings_box" id="set_cs">
 <div class="settings_custom_search" >
    <?php
