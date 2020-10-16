@@ -60,7 +60,7 @@ CREATE TABLE `features` (
   `type` varchar(20) DEFAULT NULL,
   `title` varchar(30) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=54 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=56 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -69,7 +69,7 @@ CREATE TABLE `features` (
 
 LOCK TABLES `features` WRITE;
 /*!40000 ALTER TABLE `features` DISABLE KEYS */;
-INSERT INTO `features` VALUES (5,'#cal_search','block','search','Google Calendar'),(6,'#contacts','block','search','Google Contacts'),(7,'#drive','block','search','Google Drive'),(8,'#earth','block','search','Google Earth'),(9,'#keep','block','search','Google Keep'),(10,'#gmail','block','search','Google Keep'),(11,'#hangouts','block','search','Google Hangouts'),(12,'#maps','block','search','Google Maps'),(13,'#photos','block','search','Google Photos'),(14,'#play','block','search','Google Play'),(15,'#scholar','block','search','Google Scholar'),(16,'#g_search','block','search','Google Search'),(17,'#translate','block','search','Google Translate'),(18,'#youtube','block','search','YouTube'),(19,'#amazon','block','search','Amazon'),(20,'#awesome','block','search','Font Awesome'),(22,'#codepen','block','search','CodePen'),(23,'#giphy','block','search','Giphy'),(24,'#hulu','block','search','Hulu'),(25,'#imdb','block','search','IMDB'),(26,'#imgur','block','search','Imgur'),(28,'#netflix','block','search','Netflix'),(30,'#overflow','block','search','Stack Overflow'),(31,'#reddit','block','search','Reddit'),(32,'#g_spotify','block','search','Spotify'),(35,'#wallhaven','block','search','WallHaven'),(37,'#wikipedia','block','search','Wikipedia'),(40,'#github','block','search','GitHub'),(41,'#shortcut_nav','block','feature','Shortcuts'),(42,'#password_nav','block','feature','Password'),(43,'#search_nav','block','feature','Search'),(44,'#design_toggle','block','category','Design'),(45,'#enviro_toggle','block','category','Environmental'),(46,'#finance_toggle','block','category','Finance'),(47,'#game_toggle','block','category','Games'),(48,'#media_toggle','block','category','Media'),(49,'#medical_toggle','block','category','Medical'),(50,'#network_toggle','block','category','Network'),(51,'#prod_toggle','block','category','Productivity'),(52,'#web_toggle','block','category','Web'),(53,'#watch','block','search','Just Watch');
+INSERT INTO `features` VALUES (1,'#cal_search','block','search','Google Calendar'),(2,'#contacts','block','search','Google Contacts'),(3,'#drive','block','search','Google Drive'),(4,'#earth','block','search','Google Earth'),(5,'#keep','block','search','Google Keep'),(6,'#gmail','block','search','Google Keep'),(7,'#hangouts','block','search','Google Hangouts'),(8,'#maps','block','search','Google Maps'),(9,'#photos','block','search','Google Photos'),(10,'#play','block','search','Google Play'),(11,'#scholar','block','search','Google Scholar'),(12,'#g_search','block','search','Google Search'),(13,'#translate','block','search','Google Translate'),(14,'#youtube','block','search','YouTube'),(15,'#amazon','block','search','Amazon'),(16,'#awesome','block','search','Font Awesome'),(17,'#duckduckgo','block','search','DuckDuckGo'),(18,'#ebay','block','search','eBay'),(19,'#codepen','block','search','CodePen'),(20,'#giphy','block','search','Giphy'),(21,'#hulu','block','search','Hulu'),(22,'#imdb','block','search','IMDB'),(23,'#imgur','block','search','Imgur'),(24,'#watch','block','search','Just Watch'),(25,'#netflix','block','search','Netflix'),(26,'#overflow','block','search','Stack Overflow'),(27,'#reddit','block','search','Reddit'),(28,'#g_spotify','block','search','Spotify'),(29,'#wallhaven','block','search','WallHaven'),(30,'#wikipedia','block','search','Wikipedia'),(31,'#github','block','search','GitHub'),(32,'#shortcut_nav','block','feature','Shortcuts'),(33,'#password_nav','block','feature','Password'),(34,'#search_nav','block','feature','Search'),(35,'#design_toggle','block','category','Design'),(36,'#enviro_toggle','block','category','Environmental'),(46,'#finance_toggle','block','category','Finance'),(37,'#game_toggle','block','category','Games'),(38,'#media_toggle','block','category','Media'),(39,'#medical_toggle','block','category','Medical'),(40,'#network_toggle','block','category','Network'),(41,'#prod_toggle','block','category','Productivity'),(42,'#web_toggle','block','category','Web');
 /*!40000 ALTER TABLE `features` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -203,4 +203,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-15 22:46:11
+-- Dump completed on 2020-10-16  7:16:20
