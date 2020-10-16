@@ -16,17 +16,12 @@ Features
 * Multi-Search w/ 24 Custom Searches <---New!
 * Customize Your CSS <---New!
 * Clock
-* Weather
 * Password Generator
-* Shortcut Navigation Keys
+* Keyboard Shortcut Keys
+* Weather Widget - https://weatherwidget.io/
 * Message / Wallpaper changes based on time of day
 * Mobile View
 * Wallpaper now supports animated GIF format (My collection - https://imgur.com/a/A14dP6h)
-
-Planned Features
-* Watchlist / Custom To Do list
-* Calculator
-* NotePad
 
 Requirements
 * Webserver (Apache or Nginx will work)
@@ -56,7 +51,7 @@ Permissions
 
 <h4>This is completely open source and you can do anything you want with it. Some of the software used to make it have their own licenses that you'll have to look at those, but everything I did is open game. Enjoy!</h4>
 
-<h2>ScreenShots</h2>
+<h2>Screen Shots</h2>
 
 ![SS1](/screenshots/capture-main.png)
 
