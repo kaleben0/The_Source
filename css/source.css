@@ -907,6 +907,7 @@
   margin-right: auto;
   margin-top: 25px;
   max-width: 745px;
+  text-shadow: 2px 2px #000;
 }
 .settings_container {
   align-items: center;
