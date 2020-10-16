@@ -1,5 +1,6 @@
 <div class="section_label">Categories</div>
 <hr/>
+<div class="settings_box" id="set_cat">
 <div class="settings_categories">
 <?php
         include 'source_db.php';
@@ -27,4 +28,5 @@
           $result->free();
         }
 ?>
+</div>
 </div>

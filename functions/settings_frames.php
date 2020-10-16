@@ -1,8 +1,9 @@
-<div class="settings_box">
+
 <form action="./functions/add_frames.php" method="post" id="frame_form">
   <div class="section_label">Custom Frames
     <input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
   </div>
+  <div class="settings_box" id="set_frames">
   <hr/>
   <div class="set_label">Frame 1</div>
   <div class="frame_field">Title

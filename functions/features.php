@@ -1,5 +1,6 @@
 <div class="section_label">Features</div>
 <hr/>
+<div class="settings_box" id="set_feat">
 <div class="settings_features" >
 <?php
         include 'source_db.php';
@@ -27,4 +28,5 @@
           $result->free();
         }
 ?>
+</div>
 </div>

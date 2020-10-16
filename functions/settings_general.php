@@ -4,7 +4,7 @@
     <input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
   </div>
   <hr/>
-  <div class="settings_box">
+  <div class="settings_box" id="set_general">
   <div class="set_label">Main URL
     <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Domain only. <br/>
       No http:// or https://</span></div>
