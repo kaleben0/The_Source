@@ -20,11 +20,6 @@ include './functions/settings_general.php';
 </div>
 <br/>
 <div class="settings_box">
-<?php
-include './functions/settings_frames.php';
-?>
-<br/>
-<div class="settings_box">
   <form action="./functions/add_media.php" method="post" id="media_form" >
     <div class="section_label">Messages
       <input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
@@ -70,6 +65,11 @@ include './functions/features.php';
 include './functions/search_features.php';
 ?>
 </div>
+<br/>
+<div class="settings_box">
+<?php
+include './functions/settings_frames.php';
+?>
 <br/>
 <div class="section_label">Custom Search</div>
 <hr/>
