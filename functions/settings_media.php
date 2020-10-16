@@ -1,3 +1,4 @@
+ <?php ?>
 <div class="settings_box">
   <div class="wall_box">
     <div class="wall_head">Morning Wallpaper
