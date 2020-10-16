@@ -15,8 +15,9 @@
      echo "var box = document.getElementById('gsearch').value;var boxurl = '$search_url';var boxfin = boxurl + box;";
      echo "window.open(boxfin, '_blank');}";
      echo "</script>";
+     echo "<input type='hidden' name='id' value='$id'>";
      echo "<div class='search_space' onclick='$titlesquish();' id='$search_title'>";
-     echo "<div class='search_btn'title='$search_title'><i  class='$search_icon'></i></div>";
+     echo "<div class='search_btn'title='$search_title'><i class='$search_icon'></i></div>";
      echo "<div class='search_text'>$search_title</div>";
      echo "</div>";
      }
