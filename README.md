@@ -39,8 +39,7 @@ Installation
 * Create a DB & User in MySQL
 * Import the_source.sql into your new db (usually something like (without quotes) 'mysql -u "username" -p "new database name" < the_source.sql')
 * Update /functions/source_db.php, /functions/db_index.php with your database settings (database name, host, username, password)
-* Click the Gear icon in the upper right corner and edit the record with your settings.
-* Click the Edit icon in the upper left under the top nav bar to open the master directory where you can add/remove/change/favorite bookmarks
+* Click the Gear icon in the upper right corner and edit your settings.
 
 Modify your php.ini (for image uploads)
 * file_uploads = On
@@ -53,9 +52,9 @@ Permissions
 * chown -R www-data:www-data the_source <--- Might be different based on your webserver of choice
 
 <h2>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h2>
-(Unless it is not accessible from the internet, then you are probably fine)
+* The user icon in the upper right side launches HTAM, which you can use to add username & password as well as set up your .htaccess file.
 
-<h4>Also, this is completely open source and you can do anything you want with it. Some of the software used to make it have their own licenses that you'll have to look at those, but everything I did is open game. Enjoy!</h4>
+<h4>This is completely open source and you can do anything you want with it. Some of the software used to make it have their own licenses that you'll have to look at those, but everything I did is open game. Enjoy!</h4>
 
 <h2>ScreenShots</h2>
 
