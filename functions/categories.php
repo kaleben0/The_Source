@@ -1,3 +1,6 @@
+<div class="section_label">Categories</div>
+<hr/>
+<div class="settings_categories">
 <?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
@@ -24,3 +27,4 @@
           $result->free();
         }
 ?>
+</div>

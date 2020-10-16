@@ -1,5 +1,7 @@
-
- <?php
+<div class="section_label">Custom Search</div>
+<hr/>
+<div class="settings_custom_search" >
+   <?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
         $query1 = "SELECT * FROM search";
@@ -20,3 +22,4 @@ echo "</form></br>";
           $result->free();
         }
 ?>
+</div>

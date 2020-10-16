@@ -1,3 +1,6 @@
+<div class="section_label">Pre-defined Searchs</div>
+<hr/>
+<div class="settings_search_features settings_search_container" >
 <?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
@@ -24,3 +27,4 @@
           $result->free();
         }
 ?>
+</div>
