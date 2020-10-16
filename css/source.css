@@ -906,6 +906,12 @@
 .section_label {
   text-align: left;
   font-size: 25px;
+  text-shadow: none;
+  width: 700px;
+  height: 36px;
+  border-radius: 10px;
+  text-indent: 10px;
+  border: 2px solid #7d7474;
 }
 .settings_center {
   flex-flow: row wrap;

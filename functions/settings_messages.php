@@ -2,7 +2,6 @@
   <div class="section_label" onclick="$('#set_mess').toggle();">Messages
     <input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
   </div>
-  <hr/>
   <div class="settings_box" id="set_mess">
   <div class="set_label">Morning 5am-10am</div>
   <input type="text" class="set_fields long" form="media_form" name="morning" value="<?php include './functions/config.php';echo"$morning" ?>">

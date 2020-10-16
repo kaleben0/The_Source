@@ -1,5 +1,4 @@
 <div class="section_label" onclick="$('#set_cat').toggle();">Categories</div>
-<hr/>
 <div class="settings_box" id="set_cat">
 <div class="settings_categories">
 <?php
