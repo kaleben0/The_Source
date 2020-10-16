@@ -69,7 +69,7 @@ CREATE TABLE `features` (
 
 LOCK TABLES `features` WRITE;
 /*!40000 ALTER TABLE `features` DISABLE KEYS */;
-INSERT INTO `features` VALUES (1,'#cal_search','block','search','Google Calendar'),(2,'#contacts','block','search','Google Contacts'),(3,'#drive','block','search','Google Drive'),(4,'#earth','block','search','Google Earth'),(5,'#keep','block','search','Google Keep'),(6,'#gmail','block','search','Google Keep'),(7,'#hangouts','block','search','Google Hangouts'),(8,'#maps','block','search','Google Maps'),(9,'#photos','block','search','Google Photos'),(10,'#play','block','search','Google Play'),(11,'#scholar','block','search','Google Scholar'),(12,'#g_search','block','search','Google Search'),(13,'#translate','block','search','Google Translate'),(14,'#youtube','block','search','YouTube'),(15,'#amazon','block','search','Amazon'),(16,'#awesome','block','search','Font Awesome'),(17,'#duckduckgo','block','search','DuckDuckGo'),(18,'#ebay','block','search','eBay'),(19,'#codepen','block','search','CodePen'),(20,'#giphy','block','search','Giphy'),(21,'#hulu','block','search','Hulu'),(22,'#imdb','block','search','IMDB'),(23,'#imgur','block','search','Imgur'),(24,'#watch','block','search','Just Watch'),(25,'#netflix','block','search','Netflix'),(26,'#overflow','block','search','Stack Overflow'),(27,'#reddit','block','search','Reddit'),(28,'#g_spotify','block','search','Spotify'),(29,'#wallhaven','block','search','WallHaven'),(30,'#wikipedia','block','search','Wikipedia'),(31,'#github','block','search','GitHub'),(32,'#shortcut_nav','block','feature','Shortcuts'),(33,'#password_nav','block','feature','Password'),(34,'#search_nav','block','feature','Search'),(35,'#design_toggle','block','category','Design'),(36,'#enviro_toggle','block','category','Environmental'),(46,'#finance_toggle','block','category','Finance'),(37,'#game_toggle','block','category','Games'),(38,'#media_toggle','block','category','Media'),(39,'#medical_toggle','block','category','Medical'),(40,'#network_toggle','block','category','Network'),(41,'#prod_toggle','block','category','Productivity'),(42,'#web_toggle','block','category','Web');
+INSERT INTO `features` VALUES (1,'#cal_search','block','search','Google Calendar'),(2,'#contacts','block','search','Google Contacts'),(3,'#drive','block','search','Google Drive'),(4,'#earth','block','search','Google Earth'),(5,'#keep','block','search','Google Keep'),(6,'#gmail','block','search','Google Keep'),(7,'#hangouts','block','search','Google Hangouts'),(8,'#maps','block','search','Google Maps'),(9,'#photos','block','search','Google Photos'),(10,'#play','block','search','Google Play'),(11,'#scholar','block','search','Google Scholar'),(12,'#g_search','block','search','Google Search'),(13,'#translate','block','search','Google Translate'),(14,'#youtube','block','search','YouTube'),(32,'#shortcut_nav','block','feature','Shortcuts'),(33,'#password_nav','block','feature','Password'),(34,'#search_nav','block','feature','Search'),(35,'#design_toggle','block','category','Design'),(36,'#enviro_toggle','block','category','Environmental'),(37,'#game_toggle','block','category','Games'),(38,'#media_toggle','block','category','Media'),(39,'#medical_toggle','block','category','Medical'),(40,'#network_toggle','block','category','Network'),(41,'#prod_toggle','block','category','Productivity'),(42,'#web_toggle','block','category','Web'),(46,'#finance_toggle','block','category','Finance');
 /*!40000 ALTER TABLE `features` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -117,7 +117,7 @@ CREATE TABLE `frames` (
 
 LOCK TABLES `frames` WRITE;
 /*!40000 ALTER TABLE `frames` DISABLE KEYS */;
-INSERT INTO `frames` VALUES (1,'Spotify','https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM',350,500,'fab fa-spotify','PrivateBin','https://privatebin.info',1050,750,'far fa-clipboard','Calendar','https://calendar.google.com/calendar/u/0/embed?src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ',900,750,'fas fa-calendar','Terminal','https://github.com/shellinabox/shellinabox',1050,700,'fas fa-terminal','Just Watch','https://www.justwatch.com/us',900,750,'fas fa-photo-video');
+INSERT INTO `frames` VALUES (1,'Spotify','https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM',350,500,'fab fa-spotify','Murmur','https://asoftmurmur.com/',1050,750,'far fa-file-audio','Calendar','https://calendar.google.com/calendar/u/0/embed?src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ',900,750,'fas fa-calendar','Giphy','https://giphy.com/',1050,700,'fas fa-file-image','Just Watch','https://www.justwatch.com/us',900,750,'fas fa-photo-video');
 /*!40000 ALTER TABLE `frames` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -134,7 +134,7 @@ CREATE TABLE `search` (
   `search_icon` varchar(255) DEFAULT NULL,
   `search_url` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -143,7 +143,7 @@ CREATE TABLE `search` (
 
 LOCK TABLES `search` WRITE;
 /*!40000 ALTER TABLE `search` DISABLE KEYS */;
-INSERT INTO `search` VALUES (1,'Bing','fas fa-search','https://www.bing.com/search?q='),(2,'Just Watch','fas fa-film','https://www.justwatch.com/us/search?q='),(3,'Steam','fab fa-steam','http://store.steampowered.com/search/?term='),(4,'Reddit','fab fa-reddit-alien','https://www.reddit.com/search/?q='),(5,'Wolfram','fas fa-superscript','http://www.wolframalpha.com/input/?i='),(6,'Wowhead','fas fa-chess','http://www.wowhead.com/search?q='),(7,'PCParts Picker','fas fa-laptop','https://pcpartpicker.com/search/?q='),(8,'Twitch','fab fa-twitch','https://www.twitch.tv/search?term=');
+INSERT INTO `search` VALUES (1,'Bing','fas fa-search','https://www.bing.com/search?q='),(2,'DeviantArt','fas fa-brush','https://www.deviantart.com/search?q='),(3,'Steam','fab fa-steam','http://store.steampowered.com/search/?term='),(4,'Reddit','fab fa-reddit-alien','https://www.reddit.com/search/?q='),(5,'Wolfram','fas fa-superscript','http://www.wolframalpha.com/input/?i='),(6,'Wowhead','fas fa-chess','http://www.wowhead.com/search?q='),(7,'Amazon','fab fa-amazon','https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords='),(8,'Codepen','fab fa-codepen','https://codepen.io/search/pens?q='),(9,'DuckDuckGo','fab fa-searchengin','https://duckduckgo.com/?q='),(10,'eBay','fab fa-ebay','https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313.TR11.TRC2.A0.H0.XSTuff.TRS1&_nkw='),(11,'Font Awesome','fab fa-font-awesome-flag','https://fontawesome.com/icons?d=gallery&m=free&q='),(12,'GitHub','fab fa-github','https://github.com/search?q='),(13,'Giphy','fas fa-file-image','https://giphy.com/search/'),(14,'Hulu','fas fa-film','https://www.hulu.com/search?q='),(15,'IMDb','fab fa-imdb','http://www.imdb.com/find?ref_=nv_sr_fn&q='),(16,'Imgur','fas fa-arrow-alt-circle-up','https://imgur.com/search?q='),(17,'Just Watch','fas fa-photo-video','https://www.justwatch.com/us/search?q='),(18,'Netflix','fas fa-film','https://www.netflix.com/search?q='),(19,'Stack Overflow','fab fa-stack-overflow','https://open.spotify.com/search/'),(20,'Spotify','fab fa-spotify','https://open.spotify.com/search/'),(21,'Wallhaven','far fa-file-image','https://wallhaven.cc/search?q='),(22,'Wikipedia','fab fa-wikipedia-w','https://en.wikipedia.org/wiki/'),(23,'empty','',''),(24,'empty','','');
 /*!40000 ALTER TABLE `search` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -203,4 +203,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-16  7:16:20
+-- Dump completed on 2020-10-16 11:13:06
