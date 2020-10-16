@@ -20,6 +20,7 @@ Features
 * Password Generator
 * Shortcut Navigation Keys
 * 5 Custom Frames <---New!
+* Multi-Search w/ 8 Custom Searches
 
 Planned Features
 * Watchlist (Like a custom ToDo list)
