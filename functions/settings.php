@@ -42,6 +42,18 @@ include './functions/settings_general.php';
 include './functions/settings_media.php';
 ?>
 <br/>
+<div class="settings_box">
+<?php
+include './functions/settings_frames.php';
+?>
+<br/>
+<div class="section_label">Custom Search</div>
+<hr/>
+<div class="settings_custom_search" >
+  <?php
+include './functions/settings_search.php';
+?>
+</div>
 <div class="section_label">Categories</div>
 <hr/>
 <div class="settings_categories">
@@ -58,7 +70,7 @@ include './functions/features.php';
 ?>
 </div>
 <br/>
-<div class="section_label">Search</div>
+<div class="section_label">Pre-defined Searchs</div>
 <hr/>
 <div class="settings_search_features settings_search_container" >
   <?php
@@ -66,18 +78,6 @@ include './functions/search_features.php';
 ?>
 </div>
 <br/>
-<div class="settings_box">
-<?php
-include './functions/settings_frames.php';
-?>
-<br/>
-<div class="section_label">Custom Search</div>
-<hr/>
-<div class="settings_custom_search" >
-  <?php
-include './functions/settings_search.php';
-?>
-</div>
 </div>
 </div>
 </div>
