@@ -33,7 +33,7 @@ CREATE TABLE `bookmark` (
   `status` text NOT NULL,
   `favorite` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=269 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,7 +42,7 @@ CREATE TABLE `bookmark` (
 
 LOCK TABLES `bookmark` WRITE;
 /*!40000 ALTER TABLE `bookmark` DISABLE KEYS */;
-INSERT INTO `bookmark` VALUES (249,'f','design','https://fontawesome.com/','fab fa-font-awesome','#Font','Font Awesome ','enabled','yes'),(250,'d','environmental','http://www.darksky.net','fas fa-cloud-sun','#Weather','Dark Sky ','enabled','yes'),(251,'p','finance','http://www.paypal.com','fab fa-paypal','#Banking','PayPal ','enabled','yes'),(252,'d','game','https://discordapp.com/login','fab fa-discord','#Comms','Discord ','enabled','yes'),(253,'n','media','http://www.netflix.com','fas fa-film','#Streaming','Netflix','enabled','yes'),(254,'c','medical','https://www.cvs.com/pharmacy/v1/#/rxcenter ','fas fa-file-prescription','#Drugs','CVS','enabled','yes'),(255,'m','network','http://www.mxtoolbox.com','fas fa-network-wired','#IP','MXToolbox ','enabled','yes'),(256,'g','productivity','http://mail.google.com','far fa-envelope','#Comms','Gmail ','enabled','yes'),(257,'n','web','https://nixcraft.tumblr.com','far fa-newspaper','#Fun','NixCraft ','enabled','yes'),(258,'m','environmental','https://google.com/maps','far fa-map','#Navigation','Maps','enabled','yes'),(259,'o','network','https://www.opendns.com/','fas fa-network-wired','#DNS','OpenDNS','enabled','yes'),(260,'c','productivity','https://calendar.google.com/','far fa-address-card','#Calendar','Calendar','enabled','yes'),(262,'h','media','https://www.hulu.com','fas fa-photo-video','#Streaming','Hulu','enabled','yes'),(263,'i','web','https://www.imgur.com','fas fa-globe','#Images','Imgur','enabled','yes'),(264,'r','web','https://www.reddit.com','fab fa-reddit-alien','#FrontPage','Reddit','enabled','yes'),(265,'w','medical','https://www.webmd.com','fas fa-book-medical','#YourDead','WebMD','enabled','yes'),(266,'p','finance','https://pay.google.com','fas fa-file-invoice-dollar','#Money','Pay','enabled','yes'),(267,'s','game','https://store.steampowered.com/','fas fa-gamepad','#EmptyWallet','Steam','enabled','yes'),(268,'d','design','https://www.deviantart.com/','far fa-object-group','#Art','DeviantArt','enabled','yes');
+INSERT INTO `bookmark` VALUES (1,'f','design','https://fontawesome.com/','fab fa-font-awesome','#Font','Font Awesome ','enabled','yes'),(2,'d','environmental','http://www.darksky.net','fas fa-cloud-sun','#Weather','Dark Sky ','enabled','yes'),(3,'p','finance','http://www.paypal.com','fab fa-paypal','#Banking','PayPal ','enabled','yes'),(4,'d','game','https://discordapp.com/login','fab fa-discord','#Comms','Discord ','enabled','yes'),(5,'n','media','http://www.netflix.com','fas fa-film','#Streaming','Netflix','enabled','yes'),(6,'c','medical','https://www.cvs.com ','fas fa-file-prescription','#Drugs','CVS','enabled','yes'),(7,'m','network','http://www.mxtoolbox.com','fas fa-network-wired','#IP','MXToolbox ','enabled','yes'),(8,'g','productivity','http://mail.google.com','far fa-envelope','#Comms','Gmail ','enabled','yes'),(9,'n','web','https://nixcraft.tumblr.com','far fa-newspaper','#Fun','NixCraft ','enabled','yes'),(10,'m','environmental','https://google.com/maps','far fa-map','#Navigation','Maps','enabled','yes'),(11,'o','network','https://www.opendns.com/','fas fa-network-wired','#DNS','OpenDNS','enabled','yes'),(12,'c','productivity','https://calendar.google.com/','far fa-address-card','#Calendar','Calendar','enabled','yes'),(13,'h','media','https://www.hulu.com','fas fa-photo-video','#Streaming','Hulu','enabled','yes'),(14,'i','web','https://www.imgur.com','fas fa-globe','#Images','Imgur','enabled','yes'),(15,'r','web','https://www.reddit.com','fab fa-reddit-alien','#FrontPage','Reddit','enabled','yes'),(16,'w','medical','https://www.webmd.com','fas fa-book-medical','#YourDead','WebMD','enabled','yes'),(17,'p','finance','https://pay.google.com','fas fa-file-invoice-dollar','#Money','Google Pay','enabled','yes'),(18,'s','game','https://store.steampowered.com/','fas fa-gamepad','#EmptyWallet','Steam','enabled','yes'),(19,'d','design','https://www.deviantart.com/','far fa-object-group','#Art','DeviantArt','enabled','yes');
 /*!40000 ALTER TABLE `bookmark` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -157,18 +157,10 @@ DROP TABLE IF EXISTS `settings`;
 CREATE TABLE `settings` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `main_url` varchar(255) DEFAULT NULL,
-  `city` varchar(30) DEFAULT NULL,
-  `state` varchar(20) DEFAULT NULL,
-  `zip_code` varchar(20) DEFAULT NULL,
-  `country_code` varchar(20) DEFAULT NULL,
   `morning_message` varchar(255) DEFAULT NULL,
   `day_message` varchar(255) DEFAULT NULL,
   `dusk_message` varchar(255) DEFAULT NULL,
   `evening_message` varchar(255) DEFAULT NULL,
-  `spot_url` varchar(255) DEFAULT NULL,
-  `privatebin_url` varchar(255) DEFAULT NULL,
-  `shellinabox_url` varchar(255) DEFAULT NULL,
-  `google_embed` varchar(10000) DEFAULT NULL,
   `pagetitle` varchar(30) DEFAULT NULL,
   `font` varchar(30) DEFAULT NULL,
   `weather` varchar(2000) DEFAULT NULL,
@@ -182,7 +174,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'thesource.rednet.dev','ann arbor','mi','48104','us','Good Morning','How are ya Now?','Good Evening','Why are you awake?','https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM','https://privatebin.info/','https://github.com/shellinabox/shellinabox','https://calendar.google.com/calendar/u/0/embed?src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ','The Source','Quicksand','<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/42d28n83d74/ann-arbor/?unit=us\" data-label_1=\"ANN ARBOR\" data-label_2=\"WEATHER\" data-font=\"Fira Sans\" data-icons=\"Climacons Animated\" data-theme=\"dark\" data-basecolor=\"\" >ANN ARBOR WEATHER</a>\r\n<script>\r\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');\r\n</script>');
+INSERT INTO `settings` VALUES (1,'thesource.rednet.dev','Good Morning','How are ya now?','Good Evening','Why are you awake?','The Source','Quicksand','<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/42d28n83d74/ann-arbor/?unit=us\" data-label_1=\"ANN ARBOR\" data-label_2=\"WEATHER\" data-font=\"Fira Sans\" data-icons=\"Climacons Animated\" data-theme=\"dark\" data-basecolor=\"\" >ANN ARBOR WEATHER</a>\r\n<script>\r\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');\r\n</script>');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -203,4 +195,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-16 11:13:06
+-- Dump completed on 2020-10-16 14:34:05
