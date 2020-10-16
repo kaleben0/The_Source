@@ -75,74 +75,7 @@
         <i class="fas fa-globe"></i>
       </div>
       <div class="search" >
-        <div class="search_space" onclick="amazon();"id="amazon" >
-          <div class="search_btn" title="Amazon" ><i class="fab fa-amazon"></i> </div>
-          <div class="search_text">Amazon</div>
-        </div>
-        <div class="search_space" onclick="codepen();" id="codepen">
-          <div class="search_btn" title="Codepen" ><i class="fab fa-codepen"></i> </div>
-          <div class="search_text">CodePen</div>
-        </div>
-        <div class="search_space" onclick="duckduckgo();" id="giphy">
-          <div class="search_btn" title="DuckDuckGo"><i class="fab fa-searchengin"></i></div>
-          <div class="search_text">DuckDuckGo</div>
-        </div>
-        <div class="search_space" onclick="ebay();" id="ebay">
-          <div class="search_btn" title="eBay" ><i class="fab fa-ebay"></i> </div>
-          <div class="search_text">eBay</div>
-        </div>
-        <div class="search_space" onclick="fontawesome();" id="awesone">
-          <div class="search_btn" title="FontAwesome" ><i  class="fab fa-font-awesome-flag"></i></div>
-          <div class="search_text">Font Awesome</div>
-        </div>
-        <div class="search_space" onclick="github();" id="github">
-          <div class="search_btn" title="GitHub" ><i class="fab fa-github"></i></div>
-          <div class="search_text">GitHub</div>
-        </div>
-        <div class="search_space" onclick="giphy();" id="giphy">
-          <div class="search_btn" title="Giphy" ><i class="fas fa-file-image"></i></div>
-          <div class="search_text">Giphy</div>
-        </div>
-        <div class="search_space" onclick="hulu();" id="hulu">
-          <div class="search_btn" title="Hulu" ><i class="fas fa-film"></i></div>
-          <div class="search_text">Hulu</div>
-        </div>
-        <div class="search_space" onclick="imdb();" id="imdb">
-          <div class="search_btn" title="IMDb" ><i class="fab fa-imdb"></i></div>
-          <div class="search_text">IMDB</div>
-        </div>
-        <div class="search_space" onclick="imgur();" id="imgur">
-          <div class="search_btn" title="Imgur"><i class="fas fa-arrow-alt-circle-up"></i></div>
-          <div class="search_text">Imgur</div>
-        </div>
-        <div class="search_space" onclick="justwatch();" id="watch">
-          <div class="search_btn" title="Just Watch" ><i class="fas fa-photo-video"></i></div>
-          <div class="search_text">Just Watch</div>
-        </div>
-        <div class="search_space" onclick="netflix();" id="netflix" >
-          <div class="search_btn" title="Netflix" ><i class="fas fa-film"></i></div>
-          <div class="search_text">Netflix</div>
-        </div>
-        <div class="search_space" onclick="stackoverflow();" id="overflow">
-          <div class="search_btn"  title="Stack Overflow"><i  class="fab fa-stack-overflow"></i></div>
-          <div class="search_text">Overflow</div>
-        </div>
-        <div class="search_space" onclick="spotify();" id="s_spotify">
-          <div class="search_btn" title="Spotify" ><i class="fab fa-spotify"></i></div>
-          <div class="search_text">Spotify</div>
-        </div>
-        <div class="search_space" onclick="wallhaven();" id="wallhaven">
-          <div class="search_btn" title="Wallhaven"><i class="far fa-file-image"></i></div>
-          <div class="search_text">Wallhaven</div>
-        </div>
-        <div class="search_space" onclick="wikipedia();" id="wikipedia">
-          <div class="search_btn" title="Wikipedia"><i  class="fab fa-wikipedia-w"></i></div>
-          <div class="search_text">Wikipedia</div>
-        </div>
-        <div class="letter_head2">
-        <i class="fas fa-cog"></i>
-      </div>
-       <?php
+     <?php
       include './functions/search_custom.php';
         ?>
       </div>
