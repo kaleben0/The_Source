@@ -989,6 +989,7 @@
   margin-top: 10px;
   font-size: 20px;
   text-align: left;
+  max-width: 700px;
 }
 .short {
   width: 60px !important;

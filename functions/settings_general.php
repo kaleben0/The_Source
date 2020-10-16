@@ -1,3 +1,4 @@
+ <?php ?>
 <div>
 <form action="./functions/add_main.php" method="post" id="general_form" >
   <div class="section_label" onclick="$('#set_general').toggle();">General
