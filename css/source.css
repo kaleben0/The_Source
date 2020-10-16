@@ -29,7 +29,7 @@
 #search, #design, #directory_section, #env_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #settings, #settings_section, #network_section, #product, #custom_servers, #web, #logo_header {
   display: none;
 }
-#set_general, #set_weather, #set_mess, #set_med, #set_frames, #set_cs, #set_cat, #set_feat, #set_pdsearch {
+#set_general, #set_weather, #set_mess, #set_med, #set_frames, #set_cs, #set_cat, #set_feat, #set_pdsearch, #set_css_custom {
   display:none;
 }
 #sidenav {

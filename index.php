@@ -13,7 +13,7 @@
 <meta name="robots" content="noindex, nofollow">
 <title><?php include './functions/config.php';echo$pagetitle?></title>
 <link rel="manifest" crossorigin="use-credentials" href="./manifest.json" type="application/json">
-<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link rel="stylesheet" href="./css/custom.css" >
 <link rel="stylesheet" href="./css/source.css" >
 <link rel="stylesheet" href="./css/source_mobile.css" >
 <link rel="stylesheet" href="./css/all.css" >

@@ -36,6 +36,10 @@ include './functions/features.php';
 include './functions/search_features.php';
 ?>
 <br/>
+<?php
+include './functions/css_editor.php';
+?>
+<br/>
 </div>
 </div>
 </div>
