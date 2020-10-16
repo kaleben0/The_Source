@@ -3,8 +3,8 @@
   <div class="section_label">Custom Frames
     <input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
   </div>
-  <div class="settings_box" id="set_frames">
   <hr/>
+  <div class="settings_box" id="set_frames">
   <div class="set_label">Frame 1</div>
   <div class="frame_field">Title
     <input type="text" class="set_fields" name="frame1_title" value="<?php include './functions/config_frames.php';echo$frame1_title ?>">
