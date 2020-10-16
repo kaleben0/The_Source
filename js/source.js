@@ -13,7 +13,13 @@ $(document).ready(function() {
 // Database Updates
 
 $(document).ready(function() {
-    $('#general_form, #weather_form, #media_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #mobile_form, #logo_form, #search_feature_form, #search_form, #book_add_form').submit(function() {
+    $('#general_form, #weather_form, #media_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #mobile_form, #logo_form, #search_feature_form, #book_add_form').submit(function() {
+        window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
+        this.target = 'formpopup';
+    });
+});
+$(document).ready(function() {
+    $('#search_form1, #search_form2, #search_form3, #search_form4, #search_form4, #search_form5, #search_form6, #search_form7, #search_form8').submit(function() {
         window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
         this.target = 'formpopup';
     });
