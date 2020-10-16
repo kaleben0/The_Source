@@ -21,6 +21,7 @@ Features
 * Shortcut Navigation Keys
 * 5 Custom Frames <---New!
 * Multi-Search w/ 24 Custom Searches <---New!
+* Customize Your CSS <---New!
 
 Planned Features
 * Watchlist / Custom ToDo list)
@@ -49,6 +50,7 @@ Modify your php.ini (for image uploads)
 
 Permissions
 * chmod -R 755 the_source/images/
+* chmod 777 the_source/css/custom.css
 * chown -R www-data:www-data the_source <--- Might be different based on your webserver of choice
 
 <h2>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h2>
