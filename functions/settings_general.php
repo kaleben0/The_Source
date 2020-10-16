@@ -1,6 +1,6 @@
 <div>
 <form action="./functions/add_main.php" method="post" id="general_form" >
-  <div class="section_label" onclick="$('#set_general').Toggle();">General
+  <div class="section_label" onclick="$('#set_general').toggle();">General
     <input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
   </div>
   <hr/>
