@@ -1,7 +1,7 @@
  <?php ?>
  <div class="section_label">Media</div>
  <hr/>
-<div class="settings_box" id="set_media">
+<div class="settings_box" id="set_med">
   <div class="wall_box">
     <div class="wall_head">Morning Wallpaper
       <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: 1920x1080 or smaller <br/>
