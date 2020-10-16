@@ -13,11 +13,12 @@ $(document).ready(function() {
 // Database Updates
 
 $(document).ready(function() {
-    $('#general_form, #weather_form, #media_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #search_feature_form, #book_add_form').submit(function() {
+    $('#general_form, #weather_form, #media_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #mobile_form, #logo_form, #search_feature_form, #search_form, #book_add_form').submit(function() {
         window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
         this.target = 'formpopup';
     });
 });
+
 
 $(document).ready(function() {
     $(document).on('click',  '#search_feature_form', function() {
@@ -116,7 +117,6 @@ function drive() {
     window.open(boxfin, '_blank');
 }
 
-
 function earth() {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://earth.google.com/web/search/";
@@ -180,7 +180,6 @@ function scholar() {
     window.open(boxfin, '_blank');
 }
 
-
 function gtranslate() {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://translate.google.com/#auto/en/";
@@ -204,14 +203,6 @@ function amazon() {
     window.open(boxfin, '_blank');
 }
 
-function bing() {
-    var box = document.getElementById("gsearch").value;
-    var boxurl = "https://www.bing.com/search?q=";
-    var boxfin = boxurl + box;
-    window.open(boxfin, '_blank');
-}
-
-
 function codepen() {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://codepen.io/search/pens?q=";
@@ -234,7 +225,6 @@ function ebay() {
     window.open(boxfin, '_blank');
 }
 
-
 function fontawesome() {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://fontawesome.com/icons?d=gallery&m=free&q=";
@@ -256,14 +246,12 @@ function github() {
     window.open(boxfin, '_blank');
 }
 
-
 function hulu() {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.hulu.com/search?q=";
     var boxfin = boxurl + box;
     window.open(boxfin, '_blank');
 }
-
 
 function imdb() {
     var box = document.getElementById("gsearch").value;
@@ -279,7 +267,6 @@ function imgur() {
     window.open(boxfin, '_blank');
 }
 
-
 function netflix() {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://www.netflix.com/search?q=";
@@ -294,7 +281,6 @@ function reddit() {
     window.open(boxfin, '_blank');
 }
 
-
 function spotify() {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://open.spotify.com/search/";
@@ -305,29 +291,6 @@ function spotify() {
 function stackoverflow() {
     var box = document.getElementById("gsearch").value;
     var boxurl = "https://stackoverflow.com/search?q=";
-    var boxfin = boxurl + box;
-    window.open(boxfin, '_blank');
-}
-
-
-function steam() {
-    var box = document.getElementById("gsearch").value;
-    var boxurl = "http://store.steampowered.com/search/?term=";
-    var boxfin = boxurl + box;
-    window.open(boxfin, '_blank');
-}
-
-
-function tumblr() {
-    var box = document.getElementById("gsearch").value;
-    var boxurl = "https://www.tumblr.com/search/";
-    var boxfin = boxurl + box;
-    window.open(boxfin, '_blank');
-}
-
-function versus() {
-    var box = document.getElementById("gsearch").value;
-    var boxurl = "https://versusutil.com/?seed=";
     var boxfin = boxurl + box;
     window.open(boxfin, '_blank');
 }
@@ -346,33 +309,6 @@ function wikipedia() {
     window.open(boxfin, '_blank');
 }
 
-function wolframalpha() {
-    var box = document.getElementById("gsearch").value;
-    var boxurl = "http://www.wolframalpha.com/input/?i=";
-    var boxfin = boxurl + box;
-    window.open(boxfin, '_blank');
-}
-
-function wowhead() {
-    var box = document.getElementById("gsearch").value;
-    var boxurl = "http://www.wowhead.com/search?q=";
-    var boxfin = boxurl + box;
-    window.open(boxfin, '_blank');
-}
-
-function wowpedia() {
-    var box = document.getElementById("gsearch").value;
-    var boxurl = "https://wow.gamepedia.com/index.php?search=";
-    var boxfin = boxurl + box;
-    window.open(boxfin, '_blank');
-}
-
-function justwatch() {
-    var box = document.getElementById("gsearch").value;
-    var boxurl = "https://www.justwatch.com/us/search?q=";
-    var boxfin = boxurl + box;
-    window.open(boxfin, '_blank');
-}
 
 // Key Functions
 

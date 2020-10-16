@@ -10,8 +10,8 @@
       </form>
     </div>
     <div class="letter_head2">
-  <i class="fab fa-google"></i>
-</div>
+      <i class="fab fa-google"></i>
+    </div>
     <div class="search_center">
       <div id="search_row"  class="search"  >
         <div class="search_space" onclick="calendar();" id="cal_search">
@@ -74,14 +74,10 @@
       <div class="letter_head2">
         <i class="fas fa-globe"></i>
       </div>
-      <div id="search_row"  class="search" >
+      <div class="search" >
         <div class="search_space" onclick="amazon();"id="amazon" >
           <div class="search_btn" title="Amazon" ><i class="fab fa-amazon"></i> </div>
           <div class="search_text">Amazon</div>
-        </div>
-        <div class="search_space" onclick="bing();" id="bing">
-          <div class="search_btn" title="Bing" ><i class="fas fa-search"></i></div>
-          <div class="search_text">Bing</div>
         </div>
         <div class="search_space" onclick="codepen();" id="codepen">
           <div class="search_btn" title="Codepen" ><i class="fab fa-codepen"></i> </div>
@@ -131,21 +127,9 @@
           <div class="search_btn"  title="Stack Overflow"><i  class="fab fa-stack-overflow"></i></div>
           <div class="search_text">Overflow</div>
         </div>
-        <div class="search_space" onclick="reddit();" id="reddit">
-          <div class="search_btn" title="Reddit"  ><i class="fab fa-reddit-alien"></i></div>
-          <div class="search_text">Reddit</div>
-        </div>
         <div class="search_space" onclick="spotify();" id="s_spotify">
           <div class="search_btn" title="Spotify" ><i class="fab fa-spotify"></i></div>
           <div class="search_text">Spotify</div>
-        </div>
-        <div class="search_space" onclick="steam();" id="steam">
-          <div class="search_btn"  title="Steam"><i  class="fab fa-steam-symbol"></i></div>
-          <div class="search_text">Steam</div>
-        </div>
-        <div class="search_space" onclick="versus();" id="versus">
-          <div class="search_btn" title="Versus"><i class="fas fa-fist-raised"></i></div>
-          <div class="search_text">Versus</div>
         </div>
         <div class="search_space" onclick="wallhaven();" id="wallhaven">
           <div class="search_btn" title="Wallhaven"><i class="far fa-file-image"></i></div>
@@ -155,14 +139,12 @@
           <div class="search_btn" title="Wikipedia"><i  class="fab fa-wikipedia-w"></i></div>
           <div class="search_text">Wikipedia</div>
         </div>
-        <div class="search_space" onclick="wolframalpha();" id="wolfram" >
-          <div class="search_btn" title="WolfRamAlpha" ><i  class="far fa-sun"></i></div>
-          <div class="search_text">WolfRam</div>
-        </div>
-        <div class="search_space" onclick="wowhead();" id="wowhead">
-          <div class="search_btn" title="WowHead"><i class="fas fa-chess-rook"></i></div>
-          <div class="search_text">WowHead</div>
-        </div>
+        <div class="letter_head2">
+        <i class="fas fa-cog"></i>
+      </div>
+       <?php
+      include './functions/search_custom.php';
+        ?>
       </div>
     </div>
   </div>

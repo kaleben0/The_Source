@@ -208,6 +208,17 @@ include './functions/features.php';
 include './functions/search_features.php';
 ?>
 </div>
+<div class="settings_box">
+<br/>
+  <div class="section_label">Custom Search
+  </div>
+  <hr/>
+<div class="settings_search_features" >
+  <?php
+include './functions/config_search.php';
+?>
 </div>
+</div>
+</form>
 </div>
 </div>
