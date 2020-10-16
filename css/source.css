@@ -26,24 +26,8 @@
 #search, #design, #directory_section, #env_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #settings, #settings_section, #network_section, #product, #custom_servers, #web, #logo_header {
   display: none;
 }
-#set_main {
-  margin-top: -20px;
-}
-#set_media {
-  display: none;
-  margin-top: -20px;
-}
-#set_messages {
-  display: none;
-  margin-top: -20px;
-}
-#set_feature {
-  display: none;
-  margin-top: -20px;
-}
-#set_search {
-  display: none;
-  margin-top: -20px;
+#set_general, #set_weather, #set_mess, #set_med, #set_frames, #set_cs, #set_cat, #set_feat, #set_pdsearch {
+  display:none;
 }
 #sidenav {
   background-color: #0e0e0e99;
