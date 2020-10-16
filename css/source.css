@@ -243,7 +243,8 @@
   color: #fff;
   font-size: 30px;
   float: right;
-  margin-right: 30px;
+  margin-right: 10px;
+  margin-top: 2px;
 }
 .faded {
   opacity: .2;
