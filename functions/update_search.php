@@ -7,7 +7,7 @@ include 'config.php';
 ?>
 <title>Search Settings</title>
 <link rel="stylesheet" href="../css/source.css" >
-<link rel="stylesheet" href="../css/fontawesome/all.css" >
+<link rel="stylesheet" href="../css/all.css" >
 <script>
 setTimeout("self.close()", 3000 )
 </script>
