@@ -39,7 +39,8 @@
       <tbody>
         <tr>
           <th>Catergories</th>
-          <th>Font Awesome Icons <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">These are just suggestions. You can you use any Font Awesome Icon</span></div></th>
+          <th>Font Awesome Icons
+            <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">These are just suggestions. You can you use any Font Awesome Icon</span></div></th>
         </tr>
         <tr>
           <td>design</td>

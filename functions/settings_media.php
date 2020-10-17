@@ -1,5 +1,5 @@
- <?php ?>
- <div class="section_label" onclick="$('#set_med').toggle();">Media</div>
+<?php ?>
+<div class="section_label" onclick="$('#set_med').toggle();">Media</div>
 <div class="settings_box" id="set_med">
   <div class="wall_box">
     <div class="wall_head">Morning Wallpaper

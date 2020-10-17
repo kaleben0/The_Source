@@ -1,41 +1,41 @@
 .dir_hr {
-	display:none;
+  display: none;
 }
 .directory_block {
-	display:grid;
+  display: grid;
 }
 .url_box {
-	height: 0;
+  height: 0;
 }
 .letter_title {
   border-bottom: 1px solid #fff;
   margin-bottom: 15px;
 }
 .favorite_icon, .remove {
-	float: left;
-	left:15px;
-	width: 0;
-	margin-left: auto;
+  float: left;
+  left: 15px;
+  width: 0;
+  margin-left: auto;
   margin-right: auto;
   margin-top: -12px;
 }
 .book_icon {
-    font-size: 26px;
-    height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60px;
-    float: left;
-    margin-top: -10px;
+  font-size: 26px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  float: left;
+  margin-top: -10px;
 }
 .favorite, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
-	border:none;
-	background:none;
-	height:30px;
-	box-shadow: unset;
-	margin: unset;
-	left: -15px;
-	backdrop-filter: unset;
+  border: none;
+  background: none;
+  height: 30px;
+  box-shadow: unset;
+  margin: unset;
+  left: -15px;
+  backdrop-filter: unset;
 }
 .tip {
   text-align: left;
@@ -45,6 +45,5 @@
   left: -130px !important;
 }
 .favorite:hover, .finance:hover, .design:hover, .environmental:hover, .game:hover, .media:hover, .medical:hover, .network:hover, .productivity:hover, .web:hover {
-	color:#fff;
-
+  color: #fff;
 }

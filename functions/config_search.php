@@ -1,5 +1,4 @@
-
- <?php
+<?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
         $query1 = "SELECT * FROM search";

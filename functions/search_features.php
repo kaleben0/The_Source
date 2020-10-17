@@ -1,7 +1,7 @@
 <div class="section_label" onclick="$('#set_pdsearch').toggle();">Pre-defined Searchs</div>
 <div class="settings_box" id="set_pdsearch">
-<div class="settings_search_features settings_search_container" >
-<?php
+  <div class="settings_search_features settings_search_container" >
+    <?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
         $query1 = "SELECT * FROM features WHERE type = 'search' ORDER BY title ";
@@ -27,5 +27,5 @@
           $result->free();
         }
 ?>
-</div>
+  </div>
 </div>

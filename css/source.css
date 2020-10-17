@@ -24,13 +24,13 @@
   height: 0px;
 }
 #empty {
-  display:none;
+  display: none;
 }
 #search, #design, #directory_section, #env_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #settings, #settings_section, #network_section, #product, #custom_servers, #web, #logo_header {
   display: none;
 }
 #set_general, #set_weather, #set_mess, #set_med, #set_frames, #set_cs, #set_cat, #set_feat, #set_pdsearch, #set_css_custom {
-  display:none;
+  display: none;
 }
 #sidenav {
   background-color: #0e0e0e99;
@@ -1100,27 +1100,27 @@
   font-size: 17px;
 }
 .weather {
-    position: absolute;
-    width: 180px;
-    right: 155px;
-    top: 50px;
-    background: #0e0e0e99;
-    border: 5px solid #7d7474;
-    border-radius: 10px;
-    z-index: 50;
-    backdrop-filter: blur(10px);
-    display:none;
+  position: absolute;
+  width: 180px;
+  right: 155px;
+  top: 50px;
+  background: #0e0e0e99;
+  border: 5px solid #7d7474;
+  border-radius: 10px;
+  z-index: 50;
+  backdrop-filter: blur(10px);
+  display: none;
 }
-.win_frame1, .win_frame2,.win_frame3,.win_frame4,.win_frame5 {
+.win_frame1, .win_frame2, .win_frame3, .win_frame4, .win_frame5 {
   background-color: #0e0e0e99;
   box-shadow: -4px 3px 7px #000;
   display: none;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
   padding: 20px;
   position: fixed;
   top: 50px;
-  left:200px;
+  left: 200px;
   width: 100%;
   z-index: 1000;
   backdrop-filter: blur(10px);
@@ -1194,7 +1194,6 @@
   border: 2px solid #7d7474;
   border-radius: 10px;
 }
-
 ::-webkit-scrollbar {
   background: #fff;
   width: 5px;

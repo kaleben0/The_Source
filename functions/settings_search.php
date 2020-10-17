@@ -1,7 +1,7 @@
 <div class="section_label" onclick="$('#set_cs').toggle();">Custom Search </div>
 <div class="settings_box" id="set_cs">
-<div class="settings_custom_search" >
-   <?php
+  <div class="settings_custom_search" >
+    <?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
         $query1 = "SELECT * FROM search";
@@ -22,5 +22,5 @@ echo "</form></br>";
           $result->free();
         }
 ?>
-</div>
+  </div>
 </div>

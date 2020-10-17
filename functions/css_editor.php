@@ -1,4 +1,3 @@
-
 <?php
 if (isset($_POST['submit'])) {
 $open = fopen("./css/custom.css","w+");

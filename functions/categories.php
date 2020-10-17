@@ -1,7 +1,7 @@
 <div class="section_label" onclick="$('#set_cat').toggle();">Categories</div>
 <div class="settings_box" id="set_cat">
-<div class="settings_categories">
-<?php
+  <div class="settings_categories">
+    <?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
         $query1 = "SELECT * FROM features WHERE type = 'category' ORDER BY title ";
@@ -27,5 +27,5 @@
           $result->free();
         }
 ?>
-</div>
+  </div>
 </div>

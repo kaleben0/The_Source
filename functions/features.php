@@ -1,7 +1,7 @@
 <div class="section_label" onclick="$('#set_feat').toggle();">Features</div>
 <div class="settings_box" id="set_feat">
-<div class="settings_features" >
-<?php
+  <div class="settings_features" >
+    <?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
         $query1 = "SELECT * FROM features WHERE type = 'feature' ORDER BY title ";
@@ -27,5 +27,5 @@
           $result->free();
         }
 ?>
-</div>
+  </div>
 </div>

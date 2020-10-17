@@ -5,9 +5,9 @@
 include 'font.php';
 include 'config.php';
 ?>
-<link rel="stylesheet" href="../css/source.css" >
 <title>Bookmark Removed</title>
-<link rel="stylesheet" href="../css/all.css" >
+<link rel="stylesheet" href="../css/source.css" >
+<link rel="stylesheet" href="../css/fontawesome/all.css" >
 <script>
 setTimeout("self.close()", 3000 )
 </script>

@@ -1,5 +1,5 @@
 <div class="directory_block">
-   <?php
+  <?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
         $querya = "SELECT * FROM bookmark WHERE letter = 'a' AND status = 'enabled' ORDER BY title";
@@ -894,4 +894,4 @@
 
 
         ?>
-    </div>
+</div>

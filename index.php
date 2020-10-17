@@ -11,12 +11,14 @@
 <meta name="theme-color" content="#2c5364" />
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="robots" content="noindex, nofollow">
-<title><?php include './functions/config.php';echo$pagetitle?></title>
+<title>
+<?php include './functions/config.php';echo$pagetitle?>
+</title>
 <link rel="manifest" crossorigin="use-credentials" href="./manifest.json" type="application/json">
 <link rel="stylesheet" href="./css/custom.css" >
 <link rel="stylesheet" href="./css/source.css" >
 <link rel="stylesheet" href="./css/source_mobile.css" >
-<link rel="stylesheet" href="./css/all.css" >
+<link rel="stylesheet" href="./css/fontawesome/all.css" >
 <link rel="stylesheet" href="tipr/tipr.css">
 <link rel="stylesheet" id="list_css" href="./css/list.css" disabled />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">

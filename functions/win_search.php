@@ -9,9 +9,7 @@
         <input required name="q" type="text" id="gsearch"  class="googlesearch" placeholder="Google"  />
       </form>
     </div>
-    <div class="letter_head2">
-      <i class="fab fa-google"></i>
-    </div>
+    <div class="letter_head2"> <i class="fab fa-google"></i> </div>
     <div class="search_center">
       <div id="search_row"  class="search"  >
         <div class="search_space" onclick="calendar();" id="cal_search">
@@ -71,11 +69,9 @@
           <div class="search_text">YouTube</div>
         </div>
       </div>
-      <div class="letter_head2">
-        <i class="fas fa-globe"></i>
-      </div>
+      <div class="letter_head2"> <i class="fas fa-globe"></i> </div>
       <div class="search" >
-     <?php
+        <?php
       include './functions/search_custom.php';
         ?>
       </div>

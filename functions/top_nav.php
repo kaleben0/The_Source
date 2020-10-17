@@ -17,8 +17,10 @@
   <div class="letter_head" id="web">Web</div>
   <div class="letter_head" id="settings">Settings</div>
   <div class="tzone"><span id="txt"></span>&nbsp;|&nbsp;<i class="fas fa-cogs fa-1x" title="Settings" onclick="togglesettings();"></i>&nbsp;|&nbsp;<i class="fas fa-cloud-sun fa-1x" title="Weather" onclick="toggle_weather();"></i>&nbsp;|&nbsp;<span id="time_message">Good Morning</span>&nbsp;|&nbsp;<i class="fas fa-user-cog" title="User Management" onclick="window.open('./htam-panel.php','_blank')"></i></div>
-  </div>
-<div class="weather"><?php include './functions/config.php';echo $weather;?></div>
+</div>
+<div class="weather">
+  <?php include './functions/config.php';echo $weather;?>
+</div>
 <div class="main">
 <a id="up_bar" href="#page-top"><i class="fas fa-arrow-circle-up fa-lg"></i></a>
 <div class="letter_head2" id="logo_header">
