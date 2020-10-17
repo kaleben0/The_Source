@@ -516,6 +516,9 @@
 .help_box h2 i {
   margin-top: -5px;
 }
+.help_box p {
+  max-width:800px
+}
 .help_head {
   cursor: move;
   font-size: 30px;

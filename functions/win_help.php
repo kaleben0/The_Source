@@ -89,7 +89,7 @@
     <h4><i class="far fa-file-alt"></i> Page Title</h4>
     <p>Displays in the tab of the page.</p>
     <h4><i class="fas fa-font"></i> Font Selection</h4>
-    <p>Select one of 5 different Google fonts for the page.</p>
+    <p>Select 1 of 5 different Google fonts for the page:</p>
     <ul>
       <li>Comic Neue</li>
       <li>Open Sans</li>
@@ -98,7 +98,8 @@
       <li>Source Sans Pro</li>
     </ul>
     <h3><i class="far fa-file-image"></i> Weather</h3>
-    <p>After configuring a 110px width weather widget from https://weatherwidget.io/ , paste the code here to update the Weather Window.</p>
+    <p>Configure a weather widget (110px width) at <a href="https://weatherwidget.io" target="_blank">Weatherwidget.io</a></p>
+    <p>Paste the code here to update the Weather Widget window.</p>
     <h3><i class="fas fa-envelope-open-text"></i> Messages</h3>
     <p>The message that appears in the Top Navigation Bar can be customized here.</p>
     <p>The message that is displayed is determined by the time of day.</p>
@@ -106,7 +107,7 @@
     <p>Wallpaper, Mobile Wallpaper, and Logo can be customized in the Media section of the Settings Menu.</p>
     <h3><i class="fas fa-window-restore"></i> Custom Frames</h3>
     <p>In the Custom Frames section of the Settings Menu, you can customize 5 different iframes.</p>
-    <p><b>Note: Some websites have restrictions that prevent their pages from displaying in an iframe.<b/></p>
+    <p><b>Note: Some websites have restrictions that prevent their pages from displaying in an iframe.</b></p>
     <p>Customize Options :</p>
     <ul>
       <li>Title</li>
