@@ -56,7 +56,7 @@
     <p>Wallpaper can be customized in the Settings Menu.</p>
     <h3><i class="fas fa-window-restore"></i> Frames</h3>
     <p>The Source will display up to 5 customizable iframes.</p>
-    <p>Content and dimensions of the iframes can be set up in the Settings Menu</p>
+    <p>Content and dimensions of the iframes can be set up in the Settings Menu.</p>
     <h2><i class="fas fa-ellipsis-h"></i> Navigation</h2>
     <h3><i class="fas fa-list"></i> Main Directory</h3>
     <p>The Main Directory will display all bookmarks. </p>
@@ -69,11 +69,11 @@
     <p>Toggles the "Remove" icon to be displayed. Allows the removal of bookmarks.</p>
     <p><b>Warning: Once removed, you will need to re-add the bookmark via the Add Bookmark window.</b></p>
     <h4><i class="far fa-bookmark"></i> Add Bookmark</h4>
-    <p>Add a single bookmark to your collection</p>
+    <p>Add a single bookmark to your collection.</p>
     <h4><i class="far fa-edit"></i> Edit Bookmarks</h4>
     <p>Opens the MTE interface to Add/Remove/Change multiple bookmarks.</p>
     <h4><i class="fas fa-list"></i> List View</h4>
-    <p>Toggles between Grid / List view</p>
+    <p>Toggles between Grid / List view.</p>
     <h3><i class="fas fa-ellipsis-v"></i> Side Menu</h3>
     <p>The Side Menu is a quick menu that allows access to Favorites, Categories, Password Generator, Multi-Search, and your Custom Frames.</p>
     <h3><i class="fas fa-reply fa-flip-horizontal"></i> Keyboard Shortcuts</h3>
@@ -85,9 +85,9 @@
     <h3><i class="fas fa-vector-square"></i> General</h3>
     <h4><i class="fas fa-atlas"></i> Main URL</h4>
     <p>Add your domain here (without the https:// or http://).</p>
-    <p>This is used in different areas of the page
+    <p>This is used in different areas of the page.</p>
     <h4><i class="far fa-file-alt"></i> Page Title</h4>
-    <p>Displays in the tab of the page</p>
+    <p>Displays in the tab of the page.</p>
     <h4><i class="fas fa-font"></i> Font Selection</h4>
     <p>Select one of 5 different Google fonts for the page.</p>
     <ul>
@@ -98,7 +98,7 @@
       <li>Source Sans Pro</li>
     </ul>
     <h3><i class="far fa-file-image"></i> Weather</h3>
-    <p>After configuring a 110px width weather widget from https://weatherwidget.io/ , paste the code here to update the Weather Window</p>
+    <p>After configuring a 110px width weather widget from https://weatherwidget.io/ , paste the code here to update the Weather Window.</p>
     <h3><i class="fas fa-envelope-open-text"></i> Messages</h3>
     <p>The message that appears in the Top Navigation Bar can be customized here.</p>
     <p>The message that is displayed is determined by the time of day.</p>
@@ -124,9 +124,9 @@
       <li>Font Awesome Icon</li>
     </ul>
     <h3><i class="fas fa-th-list"></i> Categories</h3>
-    <p>In the Categories section of the Settings Menu, unused categories can be enabled/disabled</p>
+    <p>In the Categories section of the Settings Menu, unused categories can be enabled/disabled.</p>
     <h3><i class="fas fa-tools"></i> Features</h3>
-    <p>In the Features section of the Settings Menu, unused features can be enabled/disabled</p>
+    <p>In the Features section of the Settings Menu, unused features can be enabled/disabled.</p>
     <h3><i class="fab fa-google"></i> Google Search</h3>
     <p>In the Google Searches section of the Settings Menu, unused Google Searches can be enabled/disabled.</p>
     <p>Customize Options :</p>
