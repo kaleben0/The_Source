@@ -1,6 +1,6 @@
 <?php ?>
 <div class="win_help"><span class="exit_help"><i class="fas fa-window-close fa-lg"></i></span>
-  <div class="help_head" >Help</div>
+  <div class="help_head" >Help</div><br/>
   <div class="help_box">
     <Div class="help_img"><a href="./images/help1.png" target="_blank"><img src="./images/help1.png" width="300px" height="200px" /></a></div>
     <h2>Overview</h2>
