@@ -1,6 +1,7 @@
 <?php ?>
 <div class="win_help"><span class="exit_help"><i class="fas fa-window-close fa-lg"></i></span>
-  <div class="help_head" >Help</div><br/>
+  <div class="help_head" >Help</div>
+  <br/>
   <div class="help_box">
     <Div class="help_img"><a href="./images/help1.png" target="_blank"><img src="./images/help1.png" width="300px" height="200px" /></a></div>
     <h2>Overview</h2>
@@ -143,5 +144,22 @@
     <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
     In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS. <br/>
     <br/>
-  </div>
+    <br/>
+    <h3><i class="fas fa-info-circle"></i> Credits</h3>
+    <h4>The Source</h4>
+    Developed by Doug Redman<br/>
+    GitHub : https://github.com/kaleben0/The_Source<br/>
+    <h5>Software/Plugins Utilized</h5>
+    <ul>
+      <li>Tipr - https://github.com/lt1946/Tipr</li>
+      <li>HTAM - https://github.com/Maxelweb/HTAM</li>
+      <li>MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/</li>
+      <li>JQuery - https://jquery.com/</li>
+      <li>JQueryUI - https://jqueryui.com/</li>
+      <li>Google Fonts - https://fonts.google.com/</li>
+      <li>Font Awesome - https://fontawesome.com/</li>
+      <li>Weather Widget - https://weatherwidget.io/</li>
+    </ul>
+    This is completely open source and you can do anything you want with it. <br/>
+    Some of the software and plugins used to make it have their own licenses, but everything I did is open game. </div>
 </div>
