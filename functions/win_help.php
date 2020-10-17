@@ -9,7 +9,7 @@
     </p>
     <h3><i class="far fa-bookmark"></i> Bookmarks</h3>
     <p>Bookmarks can be managed by accessing the main directory or a category.</p>
-    <p>The main directory can be accessed by clicking a letter on the letter bar.</p>
+    <p>The main directory can be accessed by clicking a letter on the Directory Bar.</p>
     </p>
     <h3><i class="far fa-star"></i> Favorite Section</h3>
     <p>Favorites are bookmarks that have been selected in the directory to display in the Favorite section.</p>
@@ -60,7 +60,7 @@
     <h2><i class="fas fa-ellipsis-h"></i> Navigation</h2>
     <h3><i class="fas fa-list"></i> Main Directory</h3>
     <p>The Main Directory will display all bookmarks. </p>
-    <p>It can be accessed by clicking on one of the letters on the Letter Bar.</p>
+    <p>It can be accessed by clicking on one of the letters on the Directory Bar.</p>
     <p>A control bar will appear at the top of the screen. </p>
     <p>This bar will also appear when accessing a category.</p>
     <h4><i class="far fa-star"></i> Favorite</h4>
