@@ -1261,6 +1261,9 @@ a:active, a:hover, a:link, a:visited {
   text-decoration: none;
   color: #ffffff;
 }
+p {
+  text-indent:25px;
+}
 body {
   background-attachment: fixed;
   background-color: #000;
