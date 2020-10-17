@@ -145,7 +145,7 @@
     In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS. <br/>
     <br/>
     <h3><i class="fas fa-info-circle"></i> Credits</h3>
-    <h4>The Source</h4>
+    <h4>The Source v1.0</h4>
     Developed by Doug Redman<br/>
     GitHub : https://github.com/kaleben0/The_Source<br/>
     <h5>Software/Plugins Utilized</h5>
