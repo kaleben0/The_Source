@@ -523,12 +523,6 @@
 .help_img {
   text-align:center;
 }
-.help_menu {
-  position: absolute;
-  bottom: 60px;
-  left: 25px;
-  font-size: 25px;
-}
 .icons {
   font-size: 2.6rem;
   height: 50px;
@@ -574,6 +568,9 @@
   text-align: center;
   text-decoration: none;
   width: 40px;
+}
+.letter_btn i {
+  margin-top: -2px;
 }
 .letter_btn2:hover, .letter_btn:hover, .search_space:hover {
   color: #000;
