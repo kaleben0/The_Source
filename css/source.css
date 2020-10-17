@@ -494,7 +494,7 @@
   font-size: 17px;
 }
 .help_box {
-  width: 800px;
+  width: 850px;
   height:640px;
   border: 1px solid #7d7474 !important;
   border-radius: 10px;
@@ -1188,7 +1188,7 @@
   height: 700px;
   left: 200px;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 850px;
   padding: 20px;
   position: fixed;
   text-align: left;
