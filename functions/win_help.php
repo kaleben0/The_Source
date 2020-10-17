@@ -151,7 +151,7 @@
     <h4>The Source v1.0</h4>
     <p>Developed by Doug Redman</p>
     <p>GitHub : https://github.com/kaleben0/The_Source</p>
-    <h5>Software/Plugins Utilized</h5>
+    <h4>Software/Plugins Utilized</h4>
     <ul>
       <li>Tipr - https://github.com/lt1946/Tipr</li>
       <li>HTAM - https://github.com/Maxelweb/HTAM</li>
