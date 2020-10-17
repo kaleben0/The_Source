@@ -78,4 +78,5 @@
       </div>
     </li>
   </ul>
+  <div class="help_menu" onclick="toggle_help();"><i class="far fa-question-circle"></i></div>
 </div>
