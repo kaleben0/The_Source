@@ -563,8 +563,8 @@
 .letter_btn {
   display: block;
   flex-grow: 1;
-  font-size: 18px;
-  height: 23px;
+  font-size: 16px;
+  height: 20px;
   text-align: center;
   text-decoration: none;
   width: 40px;
