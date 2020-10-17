@@ -47,7 +47,7 @@ Permissions
 * chmod 777 the_source/css/custom.css
 * chown -R www-data:www-data the_source <--- Might be different based on your webserver of choice
 
-<h2>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h2>
+<h3>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h3>
 * The user icon in the upper right side launches HTAM, which you can use to add username & password as well as set up your .htaccess file.
 
 <h4>This is completely open source and you can do anything you want with it. Some of the software used to make it have their own licenses that you'll have to look at those, but everything I did is open game. Enjoy!</h4>
