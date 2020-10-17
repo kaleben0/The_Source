@@ -28,7 +28,8 @@ Requirements
 * MySQL Server
 * PHP 7.0+
 
-Installation
+<h4>Installation</h4>
+
 * Install MySQL Server, PHP, and your webserver
 * git clone https://github.com/kaleben0/The_Source.git in your webserver directory
 * Create a DB & User in MySQL
