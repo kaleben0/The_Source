@@ -499,6 +499,7 @@
   border: 1px solid #7d7474 !important;
   border-radius: 10px;
   overflow:auto;
+  text-indent:5px;
 }
 .help_box h2 {
   text-align:center;
