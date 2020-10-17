@@ -144,7 +144,6 @@
     <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
     In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS. <br/>
     <br/>
-    <br/>
     <h3><i class="fas fa-info-circle"></i> Credits</h3>
     <h4>The Source</h4>
     Developed by Doug Redman<br/>
