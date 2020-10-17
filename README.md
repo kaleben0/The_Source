@@ -2,6 +2,11 @@
 
 <h4>Built with HTML/CSS/PHP/JS/JQuery</h4>
 
+Requirements
+* Webserver (Apache or Nginx will work)
+* MySQL Server
+* PHP 7.0+
+
 Software/Plugins Utilized
 * Tipr - https://github.com/lt1946/Tipr
 * HTAM - https://github.com/Maxelweb/HTAM
@@ -10,23 +15,19 @@ Software/Plugins Utilized
 * JQueryUI - https://jqueryui.com/
 * Google Fonts - https://fonts.google.com/
 * Font Awesome - https://fontawesome.com/
+* Weather Widget - https://weatherwidget.io/
 
 Features
 * 5 Custom Frames <---New!
 * Multi-Search w/ 24 Custom Searches <---New!
 * Customize Your CSS <---New!
 * Clock
+* Weather
 * Password Generator
 * Keyboard Shortcut Keys
-* Weather Widget - https://weatherwidget.io/
 * Message / Wallpaper changes based on time of day
 * Mobile View
 * Wallpaper now supports animated GIF format (My collection - https://imgur.com/a/A14dP6h)
-
-Requirements
-* Webserver (Apache or Nginx will work)
-* MySQL Server
-* PHP 7.0+
 
 <h3>Installation</h3>
 
