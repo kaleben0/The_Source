@@ -384,6 +384,11 @@ document.addEventListener("keydown", function (zEvent) {
     toggle_sc();
   }
 });
+document.addEventListener("keydown", function (zEvent) {
+  if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "h") {
+    toggle_help();
+  }
+});
 
 function edit_book() {
   window.open('./functions/db_index.php?&start=0&s=&f=&sort=id&ad=a', '_blank');
@@ -520,7 +525,9 @@ function search_toggle() {
 function toggle_sc() {
   $('.win_sc').toggle();
 }
-
+function toggle_help() {
+  $('.win_help').toggle();
+}
 function toggle_frame1() {
   $(".win_frame1").toggle();
 }
@@ -623,6 +630,9 @@ $(document).ready(function () {
   $(".win_sc").draggable();
 });
 $(document).ready(function () {
+  $(".win_help").draggable();
+});
+$(document).ready(function () {
   $(".weather").draggable();
 });
 
@@ -663,13 +673,16 @@ $(document).ready(function () {
     $('.win_search').css('display', 'none');
   });
 });
-
 $(document).ready(function () {
   $('.exit_sc').click(function () {
     $('.win_sc').css('display', 'none');
   });
 });
-
+$(document).ready(function () {
+  $('.exit_help').click(function () {
+    $('.win_help').css('display', 'none');
+  });
+});
 //Custom Frames
 
 $(document).ready(function () {
