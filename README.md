@@ -18,8 +18,8 @@ Software/Plugins Utilized
 * Weather Widget - https://weatherwidget.io/
 
 Features
-* 5 Custom Frames <---New!
-* Multi-Search w/ 24 Custom Searches <---New!
+* 5 Custom Draggable Frames <---New!
+* Google Multi-Search w/ 24 Custom Searches <---New!
 * Customize Your CSS <---New!
 * Clock
 * Weather
