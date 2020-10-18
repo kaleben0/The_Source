@@ -604,6 +604,8 @@
   padding-bottom: 1px;
   padding-top: 1px;
   width: 40px;
+  border-radius: 5px;
+  border: 1px solid #7d7474;
   box-shadow: 2px 2px #000;
   background: linear-gradient(to right, #0e0e0e99 50%, #fff 50%);
   background-size: 200% 100%;
