@@ -6,15 +6,12 @@
     <Div class="help_img"><a href="./images/help1.png" target="_blank"><img src="./images/help1.png" width="300px" height="200px" /></a></div>
     <h2>Overview</h2>
     <p>The Source is a customizable start page that provides quick access to tools, search engines and important websites.</p>
-    </p>
     <h3><i class="far fa-bookmark"></i> Bookmarks</h3>
     <p>Bookmarks can be managed by accessing the main directory or a category.</p>
     <p>The main directory can be accessed by clicking a letter on the Directory Bar.</p>
-    </p>
     <h3><i class="far fa-star"></i> Favorite Section</h3>
     <p>Favorites are bookmarks that have been selected in the directory to display in the Favorite section.</p>
-    The Favorite Section is the first area displayed on page load.
-    </p>
+    <p>The Favorite Section is the first area displayed on page load.</p>
     <h3><i class="fas fa-th-list"></i> Category Section</h3>
     <p>Bookmarks here are sorted by one of 9 different categories. </p>
     <p>Categories can be hidden in the Settings Menu.</p>
