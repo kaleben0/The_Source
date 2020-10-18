@@ -28,7 +28,7 @@ $tabledit->primary_key = 'id';
 
 # the fields you want to see in "list view"
 # Always add the primary key (`employeeNumber)`:
-$tabledit->fields_in_list_view = array('id','letter','category','url','fonta','hashtag','title','status','favorite');
+$tabledit->fields_in_list_view = array('id','letter','category','url','fonta','subcategory','title','status','favorite');
 
 
 
@@ -50,7 +50,7 @@ $tabledit->num_rows_list_view = 50;
 
 
 # required fields in edit or add record:
-$tabledit->fields_required = array('letter','category','url','fonta','hashtag','title','status','favorite');
+$tabledit->fields_required = array('letter','category','url','fonta','subcategory','title','status','favorite');
 
 
 # Fields you want to edit (remove this to edit all the fields).
@@ -74,7 +74,7 @@ $tabledit->show_text = array(
 	'category' => 'Category',
 	'url' => 'URL',
 	'fonta' => 'Font Awesome',
-	'hashtag' => 'Hashtag (include #)',
+	'subcategory' => 'subcategory (include #)',
 	'title' => 'Title',
 	'status' => 'Status (enabled/disabled)',
 	'favorite' => 'Favorite (yes/no)',
@@ -88,7 +88,7 @@ $tabledit->show_text_listview = array(
 	'category' => 'Category',
 	'url' => 'URL',
 	'fonta' => 'Font Awesome',
-	'hashtag' => 'Hashtag',
+	'subcategory' => 'subcategory',
 	'title' => 'Title',
 	'status' => 'Status',
 	'favorite' => 'Favorite',
