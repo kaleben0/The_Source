@@ -56,5 +56,5 @@ setTimeout("self.close()", 3000 )
 
     }
 ?>
-</html>
 </body>
+</html>

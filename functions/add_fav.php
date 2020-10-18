@@ -32,5 +32,5 @@ mysqli_close($conn);
 ?>
 <br/>
 <i class="far fa-star"></i>
-</html>
 </body>
+</html>

@@ -8,7 +8,6 @@
           <input type="text" name="title" class="book_fields" placeholder="Name (19 Char Max)"><br/>
           <input type="ur" name="url" class="book_fields" placeholder="Full URL"><br/>
           <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome Icon"><br/>
-          <input type="text" name="subcategory" class="book_fields" placeholder="Subcategory (10 Char Max)"><br/>
           <select name="category" class="book_fields picker">
               <option value=' ' disabled selected>Category</option>
               <option value='design'>design</option>
@@ -22,11 +21,12 @@
               <option value='web'>web</option>
               <option value='rednet'>rednet</option>
             </select><br/>
-          <select name="favorite" class="book_fields picker"><br/>
+          <input type="text" name="subcategory" class="book_fields" placeholder="Subcategory (10 Char Max)"><br/>
+          <select name="favorite" class="book_fields picker">
               <option value=' ' disabled selected>Favorite</option>
               <option value='yes'>yes</option>
               <option value='no'>no</option>
-            </select>
+            </select><br/>
             </div>
     <br/>
     <div>
