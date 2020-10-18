@@ -556,10 +556,10 @@
   border: 1px solid #555;
   padding-left: 10px;
   padding-right: 20px;
-  text-align: left;
+  text-align: center;
+  border-radius:5px;
 }
 .info_table th {
-  border: 1px solid #555;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
