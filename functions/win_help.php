@@ -72,7 +72,7 @@
     <h4><i class="fas fa-list"></i> List View</h4>
     <p>Toggles between Grid / List view.</p>
     <h3><i class="fas fa-ellipsis-v"></i> Side Menu</h3>
-    <p>The Side Menu is a quick menu that allows access to Favorites, Categories, Password Generator, Multi-Search, and your Custom Frames.</p>
+    <p>The Side Menu is a quick menu that allows access to Categories, Features, and Frames.</p>
     <h3><i class="fas fa-reply fa-flip-horizontal"></i> Keyboard Shortcuts</h3>
     <p>Displays the list of available Keyboard Shortcuts.</p>
     <h3><i class="fas fa-user-cog" ></i> User Management</h3>
