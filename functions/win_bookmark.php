@@ -1,46 +1,40 @@
 <?php ?>
-<div class="win_book"><span class="update_book" onclick="edit_book();" title="Update Bookmarks"><i class="far fa-edit fa-lg"></i></span><span class="exit_book" ><i class="fas fa-window-close fa-lg"></i></span>
+<div class="win_book"><span class="update_book" onclick="edit_book();" title="Update All Bookmarks"><i class="far fa-edit fa-lg"></i></span>
+<span class="exit_book" ><i class="fas fa-window-close fa-lg"></i></span>
   <div class="book_head">Add Bookmark</div>
   <form action="./functions/add_book.php" method="post" target="_blank" id="book_add_form">
     <div>
-      <input type="text" name="letter" class="book_fields" placeholder="First Letter of Name (lowercase)">
-      <br/>
-      <input type="text" name="title" class="book_fields" placeholder="Name (19 Char Max)">
-      <br/>
-      <input type="ur" name="url" class="book_fields" placeholder="Full URL (with https:// or http://)">
-      <br/>
-      <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome Icon">
-      <br/>
-      <input type="text" name="hashtag" class="book_fields" placeholder="#HashTag (9 Char Max)">
-      <br/>
-      <select name="category" class="book_fields picker">
-        <option value=' ' disabled selected>Category</option>
-        <option value='design'>design</option>
-        <option value='environmental'>environmental</option>
-        <option value='finance'>finance</option>
-        <option value='game'>game</option>
-        <option value='media'>media</option>
-        <option value='medical'>medical</option>
-        <option value='network'>network</option>
-        <option value='productivity'>productivity</option>
-        <option value='web'>web</option>
-      </select>
-      <br/>
-      <select name="favorite" class="book_fields picker">
-        <br/>
-        <option value=' ' disabled selected>Favorite</option>
-        <option value='yes'>yes</option>
-        <option value='no'>no</option>
-      </select>
-    </div>
+          <input type="text" name="letter" class="book_fields" placeholder="First Letter of Name (lowercase)"><br/>
+          <input type="text" name="title" class="book_fields" placeholder="Name (19 Char Max)"><br/>
+          <input type="ur" name="url" class="book_fields" placeholder="Full URL"><br/>
+          <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome Icon"><br/>
+          <input type="text" name="subcategory" class="book_fields" placeholder="Subcategory (10 Char Max)"><br/>
+          <select name="category" class="book_fields picker">
+              <option value=' ' disabled selected>Category</option>
+              <option value='design'>design</option>
+              <option value='environmental'>environmental</option>
+              <option value='finance'>finance</option>
+              <option value='game'>game</option>
+              <option value='media'>media</option>
+              <option value='medical'>medical</option>
+              <option value='network'>network</option>
+              <option value='productivity'>productivity</option>
+              <option value='web'>web</option>
+              <option value='rednet'>rednet</option>
+            </select><br/>
+          <select name="favorite" class="book_fields picker"><br/>
+              <option value=' ' disabled selected>Favorite</option>
+              <option value='yes'>yes</option>
+              <option value='no'>no</option>
+            </select>
+            </div>
     <br/>
     <div>
     <table class='info_table'>
       <tbody>
         <tr>
           <th>Catergories</th>
-          <th>Font Awesome Icons
-            <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">These are just suggestions. You can you use any Font Awesome Icon</span></div></th>
+          <th>Font Awesome Icons <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">These are just suggestions. You can you use any Font Awesome Icon</span></div></th>
         </tr>
         <tr>
           <td>design</td>

@@ -28,7 +28,7 @@ CREATE TABLE `bookmark` (
   `category` text NOT NULL,
   `url` varchar(255) DEFAULT NULL,
   `fonta` longtext NOT NULL,
-  `hashtag` text NOT NULL,
+  `subcategory` text,
   `title` text NOT NULL,
   `status` text NOT NULL,
   `favorite` text,
@@ -42,7 +42,7 @@ CREATE TABLE `bookmark` (
 
 LOCK TABLES `bookmark` WRITE;
 /*!40000 ALTER TABLE `bookmark` DISABLE KEYS */;
-INSERT INTO `bookmark` VALUES (1,'f','design','https://fontawesome.com/','fab fa-font-awesome','#Font','Font Awesome ','enabled','yes'),(2,'d','environmental','http://www.darksky.net','fas fa-cloud-sun','#Weather','Dark Sky ','enabled','yes'),(3,'p','finance','http://www.paypal.com','fab fa-paypal','#Banking','PayPal ','enabled','yes'),(4,'d','game','https://discordapp.com/login','fab fa-discord','#Comms','Discord ','enabled','yes'),(5,'n','media','http://www.netflix.com','fas fa-film','#Streaming','Netflix','enabled','yes'),(6,'c','medical','https://www.cvs.com ','fas fa-file-prescription','#Drugs','CVS','enabled','yes'),(7,'m','network','http://www.mxtoolbox.com','fas fa-network-wired','#IP','MXToolbox ','enabled','yes'),(8,'g','productivity','http://mail.google.com','far fa-envelope','#Comms','Gmail ','enabled','yes'),(9,'n','web','https://nixcraft.tumblr.com','far fa-newspaper','#Fun','NixCraft ','enabled','yes'),(10,'m','environmental','https://google.com/maps','far fa-map','#Navigation','Maps','enabled','yes'),(11,'o','network','https://www.opendns.com/','fas fa-network-wired','#DNS','OpenDNS','enabled','yes'),(12,'c','productivity','https://calendar.google.com/','far fa-address-card','#Calendar','Calendar','enabled','yes'),(13,'h','media','https://www.hulu.com','fas fa-photo-video','#Streaming','Hulu','enabled','yes'),(14,'i','web','https://www.imgur.com','fas fa-globe','#Images','Imgur','enabled','yes'),(15,'r','web','https://www.reddit.com','fab fa-reddit-alien','#FrontPage','Reddit','enabled','yes'),(16,'w','medical','https://www.webmd.com','fas fa-book-medical','#YourDead','WebMD','enabled','yes'),(17,'p','finance','https://pay.google.com','fas fa-file-invoice-dollar','#Money','Google Pay','enabled','yes'),(18,'s','game','https://store.steampowered.com/','fas fa-gamepad','#EmptyWallet','Steam','enabled','yes'),(19,'d','design','https://www.deviantart.com/','far fa-object-group','#Art','DeviantArt','enabled','yes');
+INSERT INTO `bookmark` VALUES (1,'f','design','https://fontawesome.com/','fab fa-font-awesome','Font','Font Awesome ','enabled','yes'),(2,'d','environmental','http://www.darksky.net','fas fa-cloud-sun','Weather','Dark Sky ','enabled','yes'),(3,'p','finance','http://www.paypal.com','fab fa-paypal','Banking','PayPal ','enabled','yes'),(4,'d','game','https://discordapp.com/login','fab fa-discord','Comms','Discord ','enabled','yes'),(5,'n','media','http://www.netflix.com','fas fa-film','Streaming','Netflix','enabled','yes'),(6,'c','medical','https://www.cvs.com ','fas fa-file-prescription','Drugs','CVS','enabled','yes'),(7,'m','network','http://www.mxtoolbox.com','fas fa-network-wired','IP','MXToolbox ','enabled','yes'),(8,'g','productivity','http://mail.google.com','far fa-envelope','Comms','Gmail ','enabled','yes'),(9,'n','web','https://nixcraft.tumblr.com','far fa-newspaper','Fun','NixCraft ','enabled','yes'),(10,'m','environmental','https://google.com/maps','far fa-map','Navigation','Maps','enabled','yes'),(11,'o','network','https://www.opendns.com/','fas fa-network-wired','DNS','OpenDNS','enabled','yes'),(12,'c','productivity','https://calendar.google.com/','far fa-address-card','Calendar','Calendar','enabled','yes'),(13,'h','media','https://www.hulu.com','fas fa-photo-video','Streaming','Hulu','enabled','yes'),(14,'i','web','https://www.imgur.com','fas fa-globe','Images','Imgur','enabled','yes'),(15,'r','web','https://www.reddit.com','fab fa-reddit-alien','FrontPage','Reddit','enabled','yes'),(16,'w','medical','https://www.webmd.com','fas fa-book-medical','YourDead','WebMD','enabled','yes'),(17,'p','finance','https://pay.google.com','fas fa-file-invoice-dollar','Money','Google Pay','enabled','yes'),(18,'s','game','https://store.steampowered.com/','fas fa-gamepad','EmptyWallet','Steam','enabled','yes'),(19,'d','design','https://www.deviantart.com/','far fa-object-group','Art','DeviantArt','enabled','yes');
 /*!40000 ALTER TABLE `bookmark` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -195,4 +195,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-16 14:34:05
+-- Dump completed on 2020-10-18 14:34:59

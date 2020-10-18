@@ -5,8 +5,8 @@
 include 'font.php';
 include 'config.php';
 ?>
-<title>Bookmark Added</title>
 <link rel="stylesheet" href="../css/source.css" >
+<title>Bookmark Added</title>
 <link rel="stylesheet" href="../css/all.css" >
 <script>
 setTimeout("self.close()", 3000 )
@@ -25,13 +25,13 @@ if(isset($_POST['submit']))
         $category = $_POST['category'];
         $url = $_POST['url'];
         $fonta = $_POST['fonta'];
-        $hashtag = $_POST['hashtag'];
+        $subcategory = $_POST['subcategory'];
         $title = $_POST['title'];
         $status = 'enabled';
         $favorite = $_POST['favorite'];
 
-     $sql = "INSERT INTO bookmark (letter, category, url, fonta, hashtag, title, status, favorite)
-     VALUES ('$letter','$category','$url','$fonta','$hashtag','$title','$status','$favorite')";
+     $sql = "INSERT INTO bookmark (letter, category, url, fonta, subcategory, title, status, favorite)
+     VALUES ('$letter','$category','$url','$fonta','$subcategory','$title','$status','$favorite')";
 }
 if (mysqli_query($conn, $sql)) {
     echo "<div class='message_change'>$title Bookmarked</div>";
