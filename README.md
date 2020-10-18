@@ -2,7 +2,7 @@
 
 <h4>Built with HTML/CSS/PHP/JS/JQuery</h4>
 
-Demo Site - http://thesourcepage.000webhostapp.com/
+* Demo Site - http://thesourcepage.000webhostapp.com/
 * Username:  the_demo
 * Password: thedemo
 
