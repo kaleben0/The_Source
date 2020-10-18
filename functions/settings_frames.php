@@ -6,7 +6,7 @@
   <div class="settings_box" id="set_frames">
     <div class="set_label">Frame 1</div>
     <div class="frame_field">Title
-      <input type="text" class="set_fields" name="frame1_title" value="<?php include './functions/config_frames.php';echo$frame1_title ?>" maxlength="15" >
+      <input type="text" class="set_fields" name="frame1_title" value="<?php include './functions/config_frames.php';echo$frame1_title ?>" maxlength="16" >
     </div>
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame1_url" value="<?php include './functions/config_frames.php';echo$frame1_url ?>">
@@ -23,7 +23,7 @@
     <br/>
     <div class="set_label">Frame 2</div>
     <div class="frame_field">Title
-      <input type="text" class="set_fields" name="frame2_title" value="<?php include './functions/config_frames.php';echo$frame2_title ?>" maxlength="15">
+      <input type="text" class="set_fields" name="frame2_title" value="<?php include './functions/config_frames.php';echo$frame2_title ?>" maxlength="16">
     </div>
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame2_url" value="<?php include './functions/config_frames.php';echo$frame2_url ?>">
@@ -40,7 +40,7 @@
     <br/>
     <div class="set_label">Frame 3</div>
     <div class="frame_field">Title
-      <input type="text" class="set_fields" name="frame3_title" value="<?php include './functions/config_frames.php';echo$frame3_title ?>" maxlength="15">
+      <input type="text" class="set_fields" name="frame3_title" value="<?php include './functions/config_frames.php';echo$frame3_title ?>" maxlength="16">
     </div>
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame3_url" value="<?php include './functions/config_frames.php';echo$frame3_url ?>">
@@ -57,7 +57,7 @@
     <br/>
     <div class="set_label">Frame 4</div>
     <div class="frame_field">Title
-      <input type="text" class="set_fields" name="frame4_title" value="<?php include './functions/config_frames.php';echo$frame4_title ?>" maxlength="15">
+      <input type="text" class="set_fields" name="frame4_title" value="<?php include './functions/config_frames.php';echo$frame4_title ?>" maxlength="16">
     </div>
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame4_url" value="<?php include './functions/config_frames.php';echo$frame4_url ?>">
@@ -74,7 +74,7 @@
     <br/>
     <div class="set_label">Frame 5</div>
     <div class="frame_field">Title
-      <input type="text" class="set_fields" name="frame5_title" value="<?php include './functions/config_frames.php';echo$frame5_title ?>" maxlength="15">
+      <input type="text" class="set_fields" name="frame5_title" value="<?php include './functions/config_frames.php';echo$frame5_title ?>" maxlength="16">
     </div>
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame5_url" value="<?php include './functions/config_frames.php';echo$frame5_url ?>">
