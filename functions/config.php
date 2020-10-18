@@ -9,7 +9,6 @@
            $day=$row["day_message"];
            $dusk=$row["dusk_message"];
            $evening=$row["evening_message"];
-           $google=$row["google_embed"];
            $pagetitle=$row["pagetitle"];
            $weather=$row["weather"];
          }
