@@ -117,7 +117,7 @@ CREATE TABLE `frames` (
 
 LOCK TABLES `frames` WRITE;
 /*!40000 ALTER TABLE `frames` DISABLE KEYS */;
-INSERT INTO `frames` VALUES (1,'Spotify','https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM',350,500,'fab fa-spotify','Murmur','https://asoftmurmur.com/',1050,750,'far fa-file-audio','Calendar','https://calendar.google.com/calendar/u/0/embed?src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ',900,750,'fas fa-calendar','Giphy','https://giphy.com/',1050,700,'fas fa-file-image','Just Watch','https://www.justwatch.com/us',900,750,'fas fa-photo-video');
+INSERT INTO `frames` VALUES (1,'Spotify','https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM',350,500,'fab fa-spotify','Murmur','https://asoftmurmur.com/',1050,750,'far fa-file-audio','Calendar','https://calendar.google.com/calendar/u/0/embed?src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ',900,750,'fas fa-calendar','MXToolbox','https://www.mxtoolbox.com/',1050,700,'fas fa-network-wired','Just Watch','https://www.justwatch.com/us',900,750,'fas fa-photo-video');
 /*!40000 ALTER TABLE `frames` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -195,4 +195,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-18 14:34:59
+-- Dump completed on 2020-10-18 17:13:57
