@@ -96,13 +96,13 @@
   height: 25px;
   width: 280px;
   margin-top: 10px;
+  border: 1px solid #7d7474;
+  border-radius: 5px;
   text-indent: 4px;
 }
-.book_fields, .set_fields, .googlesearch, .letter_space, .pass_put {
+.book_fields, .set_fields,.googlesearch, .letter_space, .pass_put {
   background-color: #0e0e0e99;
   color: #fff;
-  border: 1px solid #7d7474;
-  border-radius: 10px;
 }
 .book_fields:focus, .set_fields:focus, .pass_put:focus {
   outline: 0;
