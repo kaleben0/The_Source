@@ -3,8 +3,8 @@
 <h4>Built with HTML/CSS/PHP/JS/JQuery</h4>
 
 Demo Site - http://thesourcepage.000webhostapp.com/
-Username:  the_demo
-Password: thedemo
+* Username:  the_demo
+* Password: thedemo
 
 Requirements
 * Webserver (Apache or Nginx will work)
