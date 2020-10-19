@@ -10,7 +10,39 @@ $(document).ready(function () {
   });
 });
 
-// Database Updates
+// Settings - Update Toggles
+
+function update_db() {
+  $.get("./functions/features.php", function (data) {
+      $("#features_box").html(data);
+    }),
+    $.get("./functions/search_features.php", function (data) {
+      $("#search_box").html(data);
+    }),
+    $.get("./functions/categories.php", function (data) {
+      $("#category_box").html(data);
+    }),
+    $.get("./functions/features.php", function (data) {
+      $("#features_box").html(data);
+    }),
+    $.get("./functions/search_features.php", function (data) {
+      $("#search_box").html(data);
+    }),
+    $.get("./functions/categories.php", function (data) {
+      $("#category_box").html(data);
+    }),
+    $.get("./functions/features.php", function (data) {
+      $("#features_box").html(data);
+    }),
+    $.get("./functions/search_features.php", function (data) {
+      $("#search_box").html(data);
+    }),
+    $.get("./functions/categories.php", function (data) {
+      $("#category_box").html(data);
+    }),
+    $("#css_search").load('./functions/search_css.php');
+  $("#css_search").load('./functions/search_css.php');
+}
 
 $(document).ready(function () {
   $('#general_form, #weather_form, #media_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #mobile_form, #logo_form, #search_feature_form, #book_add_form').submit(function () {
@@ -62,37 +94,6 @@ $(document).ready(function () {
 });
 
 
-function update_db() {
-  $.get("./functions/features.php", function (data) {
-      $(".settings_features").html(data)
-    }),
-    $.get("./functions/search_features.php", function (data) {
-      $(".settings_search_features").html(data)
-    }),
-    $.get("./functions/categories.php", function (data) {
-      $(".settings_categories").html(data)
-    }),
-    $.get("./functions/features.php", function (data) {
-      $(".settings_features").html(data)
-    }),
-    $.get("./functions/search_features.php", function (data) {
-      $(".settings_search_features").html(data)
-    }),
-    $.get("./functions/categories.php", function (data) {
-      $(".settings_categories").html(data)
-    }),
-    $.get("./functions/features.php", function (data) {
-      $(".settings_features").html(data)
-    }),
-    $.get("./functions/search_features.php", function (data) {
-      $(".settings_search_features").html(data)
-    }),
-    $.get("./functions/categories.php", function (data) {
-      $(".settings_categories").html(data)
-    }),
-    $("#css_search").load('./functions/search_css.php');
-  $("#css_search").load('./functions/search_css.php');
-}
 // Clear Search Boxes
 
 $(document).ready(function () {

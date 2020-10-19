@@ -1,7 +1,6 @@
 <?php ?>
 <div class="win_sc"><span class="exit_sc"><i class="fas fa-window-close fa-lg"></i></span>
   <div id="scwinheader" class="sc_head" >Keyboard Shortcuts</div>
-  <hr>
   <div class="sc_container">
     <div class="sc_box"><span class="sc_function">Help</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">H</span></div>
     <div class="sc_box"><span class="sc_function">Add Bookmark</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">B</span></div>

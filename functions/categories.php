@@ -22,7 +22,7 @@
 	            $color = 'red';
 	            $change = './functions/add_feat.php';
 	            }
-        echo "<div class='cat_container'><div class='cat_title'>$title</div><div class='cat_url' onclick='update_db();' ><a href='$change?id=$id&title=$title&status=$status' target='_blank' id='category_form' ><i class='$sub_icon' style='color:$color !important;'></i></a></div></div>";
+        echo "<div class='cat_container'><div class='cat_title'>$title</div><div class='cat_url' onclick='update_db();' ><a href='$change?id=$id&title=$title&status=$status' target='_blank' id='category_form' onclick='update_db();' ><i class='$sub_icon' style='color:$color !important;'></i></a></div></div>";
           }
           $result->free();
         }
