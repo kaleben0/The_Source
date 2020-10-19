@@ -4,7 +4,6 @@
   <div class="book_head">Add Bookmark</div>
   <form action="./functions/add_book.php" method="post" target="_blank" id="book_add_form">
     <div>
-          <input type="text" name="letter" class="book_fields" placeholder="First Letter of Name (lowercase)"><br/>
           <input type="text" name="title" class="book_fields" placeholder="Name (20 Char Max)" maxlength="20"><br/>
           <input type="ur" name="url" class="book_fields" placeholder="Full URL"><br/>
           <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome Icon"><br/>

@@ -21,7 +21,6 @@ if (!$conn) {
 }
 if(isset($_POST['submit']))
 {
-        $letter = $_POST['letter'];
         $category = $_POST['category'];
         $url = $_POST['url'];
         $fonta = $_POST['fonta'];
@@ -29,6 +28,9 @@ if(isset($_POST['submit']))
         $title = $_POST['title'];
         $status = 'enabled';
         $favorite = $_POST['favorite'];
+
+        $letter = $title[0];
+        $letter = strtolower($letter);
 
      $sql = "INSERT INTO bookmark (letter, category, url, fonta, subcategory, title, status, favorite)
      VALUES ('$letter','$category','$url','$fonta','$subcategory','$title','$status','$favorite')";
