@@ -1,45 +1,51 @@
 <div class="container" id="settings_section">
-  <div class="settings_center">
-    <?php
+<div class="settings_center">
+<?php
 include './functions/settings_general.php';
 ?>
-    <br/>
-    <?php
+<br/>
+<?php
 include './functions/settings_weather.php';
 ?>
-    <br/>
-    <?php
+<br/>
+<?php
 include './functions/settings_messages.php';
 ?>
-    <br/>
-    <?php
+<br/>
+<?php
 include './functions/settings_media.php';
 ?>
-    <br/>
-    <?php
+<br/>
+<?php
 include './functions/settings_frames.php';
 ?>
-    <br/>
-    <?php
+<br/>
+<?php
 include './functions/settings_search.php';
 ?>
-    <br/>
-    <?php
+<br/>
+<div id="category_box">
+<?php
 include './functions/categories.php';
 ?>
-    <br/>
-    <?php
+</div>
+<br/>
+<div id="features_box">
+<?php
 include './functions/features.php';
 ?>
-    <br/>
-    <?php
+</div>
+<br/>
+<div id="search_box">
+<?php
 include './functions/search_features.php';
 ?>
-    <br/>
-    <?php
+</div>
+<br/>
+<?php
 include './functions/css_editor.php';
 ?>
-    <br/>
-  </div>
+<br/>
+</div>
 </div>
 </div>
