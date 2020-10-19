@@ -209,129 +209,6 @@ function youtube() {
   window.open(boxfin, '_blank');
 }
 
-// Non-Google Searches
-
-function amazon() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function codepen() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://codepen.io/search/pens?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function duckduckgo() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://duckduckgo.com/?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-
-function ebay() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313.TR11.TRC2.A0.H0.XSTuff.TRS1&_nkw=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function fontawesome() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://fontawesome.com/icons?d=gallery&m=free&q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function giphy() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://giphy.com/search/";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function github() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://github.com/search?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function hulu() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://www.hulu.com/search?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function imdb() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "http://www.imdb.com/find?ref_=nv_sr_fn&q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function imgur() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://imgur.com/search?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function justwatch() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://www.justwatch.com/us/search?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function netflix() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://www.netflix.com/search?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function reddit() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://www.reddit.com/search?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function spotify() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://open.spotify.com/search/";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function stackoverflow() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://stackoverflow.com/search?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function wallhaven() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://wallhaven.cc/search?q=";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-function wikipedia() {
-  var box = document.getElementById("gsearch").value;
-  var boxurl = "https://en.wikipedia.org/wiki/";
-  var boxfin = boxurl + box;
-  window.open(boxfin, '_blank');
-}
-
-
 // Key Functions
 
 document.addEventListener("keydown", function (zEvent) {
@@ -387,6 +264,11 @@ document.addEventListener("keydown", function (zEvent) {
 document.addEventListener("keydown", function (zEvent) {
   if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "h") {
     toggle_help();
+  }
+});
+document.addEventListener("keydown", function (zEvent) {
+  if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "b") {
+    toggle_book();
   }
 });
 
