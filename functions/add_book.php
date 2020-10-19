@@ -28,6 +28,11 @@ if(isset($_POST['submit']))
         $title = $_POST['title'];
         $status = 'enabled';
         $favorite = $_POST['favorite'];
+        if(isset($_POST['favorite'])) {
+            $favorite = "yes";
+            } else {
+            $favorite = "no";
+            }
 
         $letter = $title[0];
         $letter = strtolower($letter);

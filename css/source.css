@@ -260,6 +260,12 @@
   color: #000;
   background-position: right bottom;
 }
+.favorite_box {
+  text-align:left;
+  font-size:18px;
+  margin-top: 5px;
+  text-indent: 35px;
+}
 .favorite_btn {
   flex-grow: 1;
   float: right;
@@ -1299,4 +1305,8 @@ input:focus {
 input[type="file"] {
   border: 1px solid #7d7474;
   border-radius: 5px;
+}
+input[type="checkbox"] {
+  width: 30px;
+  height: 20px;
 }

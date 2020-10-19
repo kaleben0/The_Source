@@ -18,16 +18,11 @@
               <option value='network'>network</option>
               <option value='productivity'>productivity</option>
               <option value='web'>web</option>
-              <option value='rednet'>rednet</option>
             </select><br/>
           <input type="text" name="subcategory" class="book_fields" placeholder="Subcategory (10 Char Max)" maxlength="10"><br/>
-          <select name="favorite" class="book_fields picker">
-              <option value=' ' disabled selected>Favorite</option>
-              <option value='yes'>yes</option>
-              <option value='no'>no</option>
-            </select><br/>
+          <div class="favorite_box"><input type="checkbox" name="favorite" value="favorite" checked> Favorite</div>
             </div>
-    <br/>
+      <br/>
     <div>
     <table class='info_table'>
       <tbody>
