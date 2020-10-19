@@ -1268,7 +1268,7 @@ p {
 body {
   background-attachment: fixed;
   background-color: #000;
-  background-image: url(../images/background-night.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
