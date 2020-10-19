@@ -11,31 +11,40 @@ $(document).ready(function () {
 });
 
 // Settings - Update Toggles
-
-function update_db() {
+function update_db_features() {
   $.get("./functions/features.php", function (data) {
       $("#features_box").html(data);
     }),
-    $.get("./functions/search_features.php", function (data) {
-      $("#search_box").html(data);
-    }),
-    $.get("./functions/categories.php", function (data) {
-      $("#category_box").html(data);
+     $.get("./functions/features.php", function (data) {
+      $("#features_box").html(data);
     }),
     $.get("./functions/features.php", function (data) {
       $("#features_box").html(data);
     }),
+    $("#css_search").load('./functions/search_css.php');
+  $("#css_search").load('./functions/search_css.php');
+}
+
+function update_db_search() {
     $.get("./functions/search_features.php", function (data) {
       $("#search_box").html(data);
     }),
+    $.get("./functions/search_features.php", function (data) {
+      $("#search_box").html(data);
+    }),
+    $.get("./functions/search_features.php", function (data) {
+      $("#search_box").html(data);
+    }),
+    $("#css_search").load('./functions/search_css.php');
+  $("#css_search").load('./functions/search_css.php');
+}
+
+function update_db_category() {
     $.get("./functions/categories.php", function (data) {
       $("#category_box").html(data);
     }),
-    $.get("./functions/features.php", function (data) {
-      $("#features_box").html(data);
-    }),
-    $.get("./functions/search_features.php", function (data) {
-      $("#search_box").html(data);
+    $.get("./functions/categories.php", function (data) {
+      $("#category_box").html(data);
     }),
     $.get("./functions/categories.php", function (data) {
       $("#category_box").html(data);
