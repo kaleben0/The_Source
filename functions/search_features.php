@@ -1,7 +1,7 @@
 <div class="section_label" onclick="$('#set_pdsearch').toggle();">Google Searches</div>
 <div class="settings_box" id="set_pdsearch">
-  <div class="settings_search_features settings_search_container" >
-    <?php
+<div class="settings_search_features settings_search_container" >
+<?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
         $query1 = "SELECT * FROM features WHERE type = 'search' ORDER BY title ";
@@ -22,10 +22,10 @@
 	            $color = 'red';
 	            $change = './functions/add_feat.php';
 	            }
-        echo "<div class='feat_container'><div class='feat_title'>$title</div><div class='feat_url' onclick='update_db();'><a href='$change?id=$id&title=$title&status=$status' target='_blank' id='search_feature_form'><i class='$sub_icon' style='color:$color !important;'></i></a></div></div>";
+        echo "<div class='feat_container'><div class='feat_title'>$title</div><div class='feat_url'><a href='$change?id=$id&title=$title&status=$status' target='_blank' id='search_feature_form'><i class='$sub_icon' style='color:$color !important;'></i></a></div></div>";
           }
           $result->free();
         }
 ?>
-  </div>
+</div>
 </div>
