@@ -49,9 +49,6 @@
     <li class="header_menu" title="Search" onclick="search_toggle();" id="search_nav"> <i class="fas fa-search icons3"></i>
       <div class="nav_label">Search</div>
     </li>
-    <li class="header_menu" title="Shortcuts" onclick="toggle_sc();" id="shortcut_nav"> <i class="fas fa-reply fa-flip-horizontal icons3"></i>
-      <div class="nav_label">Shortcuts</div>
-    </li>
     <li class="header_menu" title="<?php include './functions/config_frames.php';echo$frame1_title ?>" onclick="toggle_frame1();" > <i class="<?php include './functions/config_frames.php';echo$frame1_icon ?>"></i>
       <div class="nav_label">
         <?php include './functions/config_frames.php';echo$frame1_title ?>

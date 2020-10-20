@@ -28,7 +28,6 @@
       <div class="letter_space"><a class="letter_btn" onclick="directory_toggle();" href="#x">X</a> </div>
       <div class="letter_space"><a class="letter_btn" onclick="directory_toggle();" href="#y">Y</a> </div>
       <div class="letter_space"><a class="letter_btn" onclick="directory_toggle();" href="#z">Z</a> </div>
-      <div class="letter_space"><a class="letter_btn" onclick="toggle_help();"><i class="far fa-question-circle fa-sm"></i></a></div>
     </div>
   </div>
 </div>
