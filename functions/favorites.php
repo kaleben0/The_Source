@@ -1,9 +1,6 @@
 <div class="container" id="favorite_section">
   <div class="row">
     <div class="favorite_center">
-      <?php
-include './rednet/rednet_favorites.php';
-?>
       <div class="favorite_head" id="design_toggle">
         <div class="fav_icon"> <i class="far fa-object-group favorite_fa"></i> Design</div>
         <div class="favorite_container" >
