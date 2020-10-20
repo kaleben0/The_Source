@@ -127,8 +127,7 @@
 .button_add {
   min-width: 60px;
   height: 35px;
-  background-color: #585555 !important;
-  margin-top: -25px;
+  margin-top: -25px !important;
   margin-right: 45px !important;
   font-size:18px;
 }
@@ -620,13 +619,10 @@
   text-decoration: none;
   text-shadow: 2px 1px #000;
   float: right;
-  margin-right: 30px;
+  margin-right: 15px;
   width: 30px;
   text-align: center;
   border: 1px solid #7d7474;
-  border-radius: 5px;
-  background: #7d7e7d;
-  background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
 }
 .mybutton:hover {
   background: linear-gradient(to bottom, #4b5a5d 5%, #272727 100%);

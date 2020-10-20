@@ -21,7 +21,7 @@
             </select><br/>
           <input type="text" name="subcategory" class="book_fields" placeholder="Subcategory (10 Char Max)" maxlength="10"><br/>
           <div class="favorite_box"><input type="checkbox" name="favorite" value="favorite" checked> Favorite</div>
-          <input type="submit" class="mybutton button_add" name="submit" value="Add">
+          <input type="submit" name="submit" class="far fa-save button_add" value="" title="Save Changes">
             </div>
       <br/>
     <div>
