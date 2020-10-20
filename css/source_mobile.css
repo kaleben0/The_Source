@@ -99,6 +99,7 @@
   }
   .letter_head2 {
     width: unset;
+    display:block;
   }
   .letter_space {
     padding: 2px;

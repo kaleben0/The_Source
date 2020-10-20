@@ -289,7 +289,7 @@ function edit_book() {
 //Header Toggles
 
 function togglefavorite() {
-  $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
   $('#favorite_section,.g_form,#letter_mobile,.letters,.favorite_center,#letter_row').show();
   $('#favorite').toggle();
 }
@@ -297,7 +297,7 @@ function togglefavorite() {
 function toggledesign() {
   $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
     $(".favorite,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
-  $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
   $('#design').toggle();
 }
@@ -307,13 +307,13 @@ function toggleenvironmental() {
     $(".favorite,.design,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
   $('#search_section,#network_section,#settings_section,#letter_mobile, #bookmark_section,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section').show();
-  $('#env_section,#directory_section,#enviro,.g_form').show();
+  $('#directory_section,#enviro,.g_form').show();
 }
 
 function togglegame() {
   $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
     $(".favorite,.design,.finance,.environmental,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
-  $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
   $('#game').toggle();
 }
@@ -321,7 +321,7 @@ function togglegame() {
 function togglemedia() {
   $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
     $(".favorite,.design,.finance,.game,.environmental,.medical,.network,.productivity,.web,.letter_head").toggle();
-  $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
   $('#media').toggle();
 }
@@ -329,7 +329,7 @@ function togglemedia() {
 function togglemedical() {
   $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
     $(".favorite, .design,.finance,.game,.media,.environmental,.network,.productivity,.web,.letter_head").toggle();
-  $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
   $('#medical').toggle();
 }
@@ -337,7 +337,7 @@ function togglemedical() {
 function togglefinance() {
   $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
     $(".favorite, .design,.environmental,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
-  $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
   $('#finance').toggle();
 }
@@ -345,16 +345,16 @@ function togglefinance() {
 function togglenetwork() {
   $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
     $(".favorite, .design,.finance,.game,.media,.medical,.environmental,.productivity,.web,.letter_head").toggle();
-  $('#search_section,#env_section,#settings_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#search_section,#settings_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section').show();
   $('#network_section,#directory_section,#network,.g_form').show(),
-    $('#search_section, #env_section,#bookmark_section,#letter_mobile').hide();
+    $('#search_section,#bookmark_section,#letter_mobile').hide();
 }
 
 function toggleproductivity() {
   $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
     $(".favorite,.design,.finance,.game,.media,.medical,.network,.environmental,.web,.letter_head").toggle();
-  $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
   $('#product').toggle();
 }
@@ -362,13 +362,13 @@ function toggleproductivity() {
 function toggleweb() {
   $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
     $(".favorite,.design,.finance,.game,.media,.medical,.network,.productivity,.environmental,.letter_head").toggle();
-  $('#search_section,#env_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
   $('#web').toggle();
 }
 
 function togglesettings() {
-  $('#search_section,#env_section,#settings_section,#favorite_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#letter_row,#up_bar').hide();
+  $('#search_section,#settings_section,#favorite_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#letter_row,#up_bar').hide();
   $('#settings_section,.g_form,#letter_mobile,.letters,.favorite_center').show();
   $('#settings').toggle();
 }
@@ -401,7 +401,10 @@ function directory_toggle() {
     $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web").show();
   $(".letter_head, .favorite_center ").hide();
 }
-
+function toggle_main_menu() {
+  $(".main_menu_box").fadeToggle("slow", "linear");
+  $(".main_menu").toggle();
+}
 function toggle_book() {
   $(".win_book").toggle();
 }

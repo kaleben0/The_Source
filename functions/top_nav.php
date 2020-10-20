@@ -16,15 +16,23 @@
   <div class="letter_head" id="product">Productivity</div>
   <div class="letter_head" id="web">Web</div>
   <div class="letter_head" id="settings">Settings</div>
-  <div class="tzone"><span id="txt"></span>&nbsp;|&nbsp;<i class="fas fa-cogs fa-1x" title="Settings" onclick="togglesettings();"></i>&nbsp;|&nbsp;<i class="fas fa-cloud-sun fa-1x" title="Weather" onclick="toggle_weather();"></i>&nbsp;|&nbsp;<span id="time_message">Good Morning</span>&nbsp;|&nbsp;<i class="fas fa-user-cog" title="User Management" onclick="window.open('./htam-panel.php','_blank')"></i></div>
-</div>
-<div class="weather">
-  <?php include './functions/config.php';echo $weather;?>
-</div>
+  <div class="tzone"><span id="txt"></span>&nbsp;|&nbsp;<i class="fas fa-cloud-sun fa-1x" title="Weather" onclick="toggle_weather();"></i>&nbsp;|&nbsp;<span id="time_message">Good Morning</span>&nbsp;|&nbsp;&nbsp;<i class="fas fa-bars fa-1x" onclick="toggle_main_menu();"></i>&nbsp;&nbsp;</div>
+  </div>
+<div class="weather"><?php include './functions/config.php';echo $weather;?></div>
 <div class="main">
 <a id="up_bar" href="#page-top"><i class="fas fa-arrow-circle-up fa-lg"></i></a>
-<div class="letter_head2" id="logo_header">
-  <hr class="blue-line3"/>
+<div class="letter_head2" >
   <img src="./images/logo.png" class="logo_icon2" alt="logo"/>
-  <hr class="blue-line4"/>
+</div>
+<div class="main_menu_box" onclick="toggle_main_menu();">
+</div>
+<div class="main_menu">
+<div class="main_menu_item" onclick="togglefavorite();toggle_main_menu();"><i class="far fa-star fa-1x" title="Favorites" ></i>Favorites</div>
+<div class="main_menu_item" onclick="directory_toggle();toggle_main_menu();"><i class="fas fa-th fa-1x" title="Main Directory" ></i>Main Directory</div>
+<div class="main_menu_item" onclick="toggle_book();toggle_main_menu();"><i class="far fa-bookmark fa-1x" title="Add Bookmark"  ></i>Add Bookmark</div>
+<div class="main_menu_item" onclick="edit_book();toggle_main_menu();"><i class="far fa-edit fa-1x" title="Update All Bookmarks" ></i>Update All Bookmarks</div>
+<div class="main_menu_item" onclick="togglesettings();toggle_main_menu();"><i class="fas fa-cogs fa-1x" title="Settings" ></i>Settings</div>
+<div class="main_menu_item" onclick="toggle_main_menu();window.open('./htam-panel.php','_blank');"><i class="fas fa-user-cog fa-1x" title="User Management" ></i>User Managment</div>
+<div class="main_menu_item" onclick="toggle_help();toggle_main_menu();"><i class="far fa-question-circle fa-1x" title="Help"></i>Help</div>
+<div class="main_menu_item" onclick="location.reload();"><i class="fas fa-redo-alt fa-1x" title="Reload"></i>Reload Page</div>
 </div>
