@@ -622,7 +622,6 @@
   margin-right: 15px;
   width: 30px;
   text-align: center;
-  border: 1px solid #7d7474;
 }
 .mybutton:hover {
   background: linear-gradient(to bottom, #4b5a5d 5%, #272727 100%);
