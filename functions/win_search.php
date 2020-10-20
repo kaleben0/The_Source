@@ -9,7 +9,7 @@
         <input required name="q" type="text" id="gsearch"  class="googlesearch" placeholder="Google"  />
       </form>
     </div>
-    <div class="search_head">
+    <div class="search_head_i">
       <i class="fab fa-google"></i>
     </div>
     <div class="search_center">
@@ -71,7 +71,7 @@
           <div class="search_text">YouTube</div>
         </div>
       </div>
-      <div class="search_head">
+      <div class="search_head_i">
         <i class="fas fa-globe"></i>
       </div>
       <div class="search" >
