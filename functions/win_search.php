@@ -1,7 +1,7 @@
 <?php ?>
 <div class="win_search">
   <div class="row"> <span class="exit_search" ><i class="fas fa-window-close fa-lg"></i></span>
-    <div class="search_head">Search</div>
+    <div class="search_head">Search </div>
     <div class="category_block"> </div>
     <div class="google_shell" id="mobile_google">
       <form autocomplete="off" method="get" action="https://google.com/search" target="_blank" >
@@ -9,7 +9,9 @@
         <input required name="q" type="text" id="gsearch"  class="googlesearch" placeholder="Google"  />
       </form>
     </div>
-    <div class="letter_head2"> <i class="fab fa-google"></i> </div>
+    <div class="search_head">
+      <i class="fab fa-google"></i>
+    </div>
     <div class="search_center">
       <div id="search_row"  class="search"  >
         <div class="search_space" onclick="calendar();" id="cal_search">
@@ -69,9 +71,11 @@
           <div class="search_text">YouTube</div>
         </div>
       </div>
-      <div class="letter_head2"> <i class="fas fa-globe"></i> </div>
+      <div class="search_head">
+        <i class="fas fa-globe"></i>
+      </div>
       <div class="search" >
-        <?php
+     <?php
       include './functions/search_custom.php';
         ?>
       </div>

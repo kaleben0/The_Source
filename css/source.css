@@ -728,6 +728,18 @@
   padding-bottom: 5px;
   padding-top: 5px;
 }
+.search_head {
+  font-size: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  text-align: center;
+  width: 800px;
+  text-shadow: 2px 2px #000;
+  display:none;
+}
 .search_space {
   margin: 2px;
   padding-right: 20px;
