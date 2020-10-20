@@ -187,6 +187,7 @@
 .fa, .fab, .far, .fas, .fa-upload, .fa-save {
   font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   vertical-align: middle;
+  transition: all 0.5s ease;
 }
 .fa-upload {
   background: none;
@@ -202,6 +203,10 @@
   float: right;
   margin-right: 10px;
   margin-top: 2px;
+}
+.fa:hover, .fab:hover, .far:hover, .fas:hover, .fa-upload:hover, .fa-save:hover {
+  transform: rotate(-20deg);
+  font-weight: bold;
 }
 .favorite, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
   background-color: #0e0e0e99;
@@ -622,10 +627,11 @@
   margin-right: 15px;
   width: 30px;
   text-align: center;
+  transition: all 0.5s ease;
 }
 .mybutton:hover {
-  background: linear-gradient(to bottom, #4b5a5d 5%, #272727 100%);
-  background-color: #4b5a5d;
+  transform: rotate(-20deg);
+  font-weight: bold;
 }
 .nav_label {
   margin-left: 35px;
