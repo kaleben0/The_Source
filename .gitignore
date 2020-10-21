@@ -1,0 +1,5 @@
+.htaccess
+.htpasswd
+functions/source_db.php
+functions/db_index.php
+images/
