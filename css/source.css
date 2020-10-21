@@ -443,6 +443,7 @@
 }
 .header_menu:hover {
   border-right: 5px solid #fff;
+  font-weight: bold;
 }
 .help_box {
   width: 900px;
@@ -616,6 +617,9 @@
 .main_menu_item {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.main_menu_item:hover {
+  font-weight:bold;
 }
 .mybutton {
   color: #fff;
