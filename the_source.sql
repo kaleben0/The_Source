@@ -60,7 +60,7 @@ CREATE TABLE `features` (
   `type` varchar(20) DEFAULT NULL,
   `title` varchar(30) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=56 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -84,28 +84,28 @@ CREATE TABLE `frames` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `frame1_title` varchar(255) DEFAULT NULL,
   `frame1_url` varchar(255) DEFAULT NULL,
-  `frame1_width` int(4) DEFAULT NULL,
-  `frame1_height` int(4) DEFAULT NULL,
+  `frame1_width` char(4) DEFAULT NULL,
+  `frame1_height` char(4) DEFAULT NULL,
   `frame1_icon` varchar(255) DEFAULT NULL,
   `frame2_title` varchar(255) DEFAULT NULL,
   `frame2_url` varchar(255) DEFAULT NULL,
-  `frame2_width` int(4) DEFAULT NULL,
-  `frame2_height` int(4) DEFAULT NULL,
+  `frame2_width` char(4) DEFAULT NULL,
+  `frame2_height` char(4) DEFAULT NULL,
   `frame2_icon` varchar(255) DEFAULT NULL,
   `frame3_title` varchar(255) DEFAULT NULL,
   `frame3_url` varchar(255) DEFAULT NULL,
-  `frame3_width` int(4) DEFAULT NULL,
-  `frame3_height` int(4) DEFAULT NULL,
+  `frame3_width` char(4) DEFAULT NULL,
+  `frame3_height` char(4) DEFAULT NULL,
   `frame3_icon` varchar(255) DEFAULT NULL,
   `frame4_title` varchar(255) DEFAULT NULL,
   `frame4_url` varchar(255) DEFAULT NULL,
-  `frame4_width` int(4) DEFAULT NULL,
-  `frame4_height` int(4) DEFAULT NULL,
+  `frame4_width` char(4) DEFAULT NULL,
+  `frame4_height` char(4) DEFAULT NULL,
   `frame4_icon` varchar(255) DEFAULT NULL,
   `frame5_title` varchar(255) DEFAULT NULL,
   `frame5_url` varchar(255) DEFAULT NULL,
-  `frame5_width` int(4) DEFAULT NULL,
-  `frame5_height` int(4) DEFAULT NULL,
+  `frame5_width` char(4) DEFAULT NULL,
+  `frame5_height` char(4) DEFAULT NULL,
   `frame5_icon` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
@@ -117,7 +117,7 @@ CREATE TABLE `frames` (
 
 LOCK TABLES `frames` WRITE;
 /*!40000 ALTER TABLE `frames` DISABLE KEYS */;
-INSERT INTO `frames` VALUES (1,'Spotify','https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM',350,500,'fab fa-spotify','Murmur','https://asoftmurmur.com/',1050,750,'far fa-file-audio','Calendar','https://calendar.google.com/calendar/u/0/embed?src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ',900,750,'fas fa-calendar','MXToolbox','https://www.mxtoolbox.com/',1050,700,'fas fa-network-wired','Just Watch','https://www.justwatch.com/us',900,750,'fas fa-photo-video');
+INSERT INTO `frames` VALUES (1,'Spotify','https://open.spotify.com/embed/playlist/37i9dQZF1DXdLEN7aqioXM','350','500','fab fa-spotify','Murmur','https://asoftmurmur.com/','1050','750','far fa-file-audio','Calendar','https://calendar.google.com/calendar/u/0/embed?src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ','900','750','fas fa-calendar','MXToolbox','https://www.mxtoolbox.com/','1050','700','fas fa-network-wired','Just Watch','https://www.justwatch.com/us/','900','780','fas fa-photo-video');
 /*!40000 ALTER TABLE `frames` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -134,7 +134,7 @@ CREATE TABLE `search` (
   `search_icon` varchar(255) DEFAULT NULL,
   `search_url` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -195,4 +195,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-18 17:18:50
+-- Dump completed on 2020-10-21 14:38:14
