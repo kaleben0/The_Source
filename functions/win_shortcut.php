@@ -17,6 +17,5 @@ echo "<div class='sc_box' id='$frame3_title'><span class='sc_function'>$frame3_t
 echo "<div class='sc_box' id='$frame4_title'><span class='sc_function'>$frame4_title</span><span class='main_key'> Ctrl </span><i class='fas fa-plus'></i><span class='main_key'> Alt </span><i class='fas fa-plus'></i><span class='sec_key'>8</span></div>";
 echo "<div class='sc_box' id='$frame5_title'><span class='sc_function'>$frame5_title</span><span class='main_key'> Ctrl </span><i class='fas fa-plus'></i><span class='main_key'> Alt </span><i class='fas fa-plus'></i><span class='sec_key'>9</span></div>";
 ?>
-    <hr/>
   </div>
 </div>
