@@ -4,7 +4,9 @@
     <input type="submit" name="submit" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
   </div>
   <div class="settings_box" id="set_frames">
-    <div class="set_label">Frame 1</div>
+    <div class="set_label">Frame 1
+      <div class='tooltip'><i class='fas fa-info-circle fa-sm'></i><span class='tooltiptext'>Change Title to 'empty' (without quotes) to disable</span></div>
+    </div>
     <div class="frame_field">Title
       <input type="text" class="set_fields" name="frame1_title" value="<?php include './functions/config_frames.php';echo$frame1_title ?>" maxlength="16" >
     </div>
@@ -21,7 +23,9 @@
     </div>
     </br>
     <br/>
-    <div class="set_label">Frame 2</div>
+    <div class="set_label">Frame 2
+      <div class='tooltip'><i class='fas fa-info-circle fa-sm'></i><span class='tooltiptext'>Change Title to 'empty' (without quotes) to disable</span></div>
+    </div>
     <div class="frame_field">Title
       <input type="text" class="set_fields" name="frame2_title" value="<?php include './functions/config_frames.php';echo$frame2_title ?>" maxlength="16">
     </div>
@@ -38,7 +42,9 @@
     </div>
     </br>
     <br/>
-    <div class="set_label">Frame 3</div>
+    <div class="set_label">Frame 3
+      <div class='tooltip'><i class='fas fa-info-circle fa-sm'></i><span class='tooltiptext'>Change Title to 'empty' (without quotes) to disable</span></div>
+    </div>
     <div class="frame_field">Title
       <input type="text" class="set_fields" name="frame3_title" value="<?php include './functions/config_frames.php';echo$frame3_title ?>" maxlength="16">
     </div>
@@ -55,7 +61,9 @@
     </div>
     </br>
     <br/>
-    <div class="set_label">Frame 4</div>
+    <div class="set_label">Frame 4
+      <div class='tooltip'><i class='fas fa-info-circle fa-sm'></i><span class='tooltiptext'>Change Title to 'empty' (without quotes) to disable</span></div>
+    </div>
     <div class="frame_field">Title
       <input type="text" class="set_fields" name="frame4_title" value="<?php include './functions/config_frames.php';echo$frame4_title ?>" maxlength="16">
     </div>
@@ -72,7 +80,9 @@
     </div>
     </br>
     <br/>
-    <div class="set_label">Frame 5</div>
+    <div class="set_label">Frame 5
+      <div class='tooltip'><i class='fas fa-info-circle fa-sm'></i><span class='tooltiptext'>Change Title to 'empty' (without quotes) to disable</span></div>
+    </div>
     <div class="frame_field">Title
       <input type="text" class="set_fields" name="frame5_title" value="<?php include './functions/config_frames.php';echo$frame5_title ?>" maxlength="16">
     </div>

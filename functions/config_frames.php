@@ -30,6 +30,11 @@
            $frame5_height=$row["frame5_height"];
            $frame5_icon=$row["frame5_icon"];
 
+           $frame1_title=trim($frame1_title);
+           $frame2_title=trim($frame2_title);
+           $frame3_title=trim($frame3_title);
+           $frame4_title=trim($frame4_title);
+           $frame5_title=trim($frame5_title);
 
          }
          $result->free();
