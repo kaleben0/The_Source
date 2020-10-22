@@ -1,4 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@charset "utf-8";
+@font-face {
+  font-family: OpenSans;
+  src: url(../plugins/google_fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(../plugins/google_fonts/Quicksand-Regular.ttf);
+}
+@font-face {
+  font-family: ComicNeue;
+  src: url(../plugins/google_fonts/ComicNeue-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../plugins/google_fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: SourceSansPro;
+  src: url(../plugins/google_fonts/SourceSansPro-Regular.ttf);
+}
 /*
 Tipr 4.1
 Copyright (c) 2019 Tipue
@@ -6,7 +26,7 @@ Tipr is released under the MIT License
 http://www.tipue.com/tipr
 */
 .tipr_content {
-  font: 10px 'Open Sans', monospace;
+  font: 10px 'Quicksand', monospace;
   color: #fff;
   background: linear-gradient(#2989d8 0%, #1e5799 100%);
   box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
