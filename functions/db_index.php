@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require_once("../mte/mte.php");
+require_once("../plugins/mte/mte.php");
 $tabledit = new MySQLtabledit();
 
 
