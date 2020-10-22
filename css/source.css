@@ -125,7 +125,9 @@
   text-shadow: 2px 2px #000;
 }
 .box {
-  height: 170px !important;
+  min-height: 170px !important;
+  resize: both;
+  overflow: auto;
 }
 .button_add {
   min-width: 60px;
@@ -579,7 +581,7 @@
   width: 40px;
 }
 .long {
-  width: 600px !important;
+  min-width: 600px !important;
 }
 .main_key {
   background-color: #fff;
