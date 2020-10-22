@@ -29,6 +29,9 @@
 #empty {
   display: none;
 }
+#save_frames, #save_mess, #save_weather, #save_general, #save_css_custom {
+  display:none;
+}
 #search, #design, #directory_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #settings, #settings_section, #network_section, #product, #custom_servers, #web {
   display: none;
 }
