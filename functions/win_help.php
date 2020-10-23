@@ -1,8 +1,9 @@
 <?php ?>
 <div class="win_help"><span class="exit_help"><i class="fas fa-window-close fa-lg"></i></span>
-  <div class="help_head" >Help</div>
+  <div class="help_head">Help</div>
   <br/>
   <div class="help_box">
+    <div id="help-top"></div>
     <ul>
       <li><a href="#help_overview">Overview</a></li>
       <li><a href="#help_navigation">Navigation</a></li>
@@ -199,4 +200,5 @@
     <p>This is completely open source and you can do anything you want with it.</p>
     <p>Some of the software and plugins used to make it have their own licenses, but everything I did is open game.</p>
   </div>
+    <a id="help_up_bar" href="#help-top"><i class="fas fa-arrow-circle-up fa-lg"></i></a>
 </div>

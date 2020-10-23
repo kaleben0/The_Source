@@ -457,6 +457,7 @@
   border-radius: 5px;
   overflow:auto;
   text-indent:5px;
+  scroll-behavior: smooth;
 }
 .help_box h2 {
   text-align:center;
