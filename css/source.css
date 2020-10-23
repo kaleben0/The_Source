@@ -1,23 +1,23 @@
 @charset "utf-8";
 @font-face {
   font-family: OpenSans;
-  src: url(../plugins/google_fonts/OpenSans-Regular.ttf);
+  src: url(/plugins/google_fonts/OpenSans-Regular.ttf);
 }
 @font-face {
   font-family: Quicksand;
-  src: url(../plugins/google_fonts/Quicksand-Regular.ttf);
+  src: url(/plugins/google_fonts/Quicksand-Regular.ttf);
 }
 @font-face {
   font-family: ComicNeue;
-  src: url(../plugins/google_fonts/ComicNeue-Regular.ttf);
+  src: url(/plugins/google_fonts/ComicNeue-Regular.ttf);
 }
 @font-face {
   font-family: Roboto;
-  src: url(../plugins/google_fonts/Roboto-Regular.ttf);
+  src: url(/plugins/google_fonts/Roboto-Regular.ttf);
 }
 @font-face {
   font-family: SourceSansPro;
-  src: url(../plugins/google_fonts/SourceSansPro-Regular.ttf);
+  src: url(/plugins/google_fonts/SourceSansPro-Regular.ttf);
 }
 ::-webkit-scrollbar {
   width: 1px;
