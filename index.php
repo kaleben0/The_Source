@@ -14,18 +14,21 @@
 <title>
 <?php include './functions/config.php';echo$pagetitle?>
 </title>
-<link rel="stylesheet" href="./css/custom.css" >
 <link rel="stylesheet" href="./css/source.css" >
 <link rel="stylesheet" href="./css/source_mobile.css" >
 <link rel="stylesheet" href="./css/all.css" >
-<link rel="stylesheet" id="list_css" href="./css/list.css" disabled />
-<link rel="stylesheet" href="./plugins/tipr/tipr.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="./css/custom.css" >
-<script src="./plugins/tipr/tipr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="./plugins/tipr/tipr.css">
+<script src="./plugins/tipr/tipr.min.js"></script> 
+<link rel="stylesheet" id="list_css" href="./css/list.css" disabled />
+<link rel="stylesheet" href="./plugins/codemirror/codemirror.css">
+<link rel="stylesheet" href="./plugins/codemirror/twilight.css">
+<script type="text/javascript" src="./plugins/codemirror/codemirror.js"></script>
 <script src="./js/source.js"></script>
+<script>
 <script>
 $(document).ready(function() {
      $('.url_box').tipr({

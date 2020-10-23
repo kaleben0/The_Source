@@ -1,5 +1,17 @@
 // JavaScript Document
 
+// Code Mirror
+
+$(document).ready(function() {
+  CodeMirror.fromTextArea(document.getElementById('editor'), {
+    mode: 'css',
+    theme: 'twilight',
+    lineNumbers: true,
+    tabSize: 2,
+    indentWithTabs: 4,
+    });
+});
+
 // Directory Toggle
 
 $(document).ready(function () {

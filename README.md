@@ -12,14 +12,16 @@ Requirements
 * PHP 7.0+
 
 Software/Plugins Utilized
-* Tipr - https://github.com/lt1946/Tipr
-* HTAM - https://github.com/Maxelweb/HTAM
-* MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/
-* JQuery - https://jquery.com/
-* JQueryUI - https://jqueryui.com/
+* CodeMirror - https://codemirror.net/
 * Google Fonts - https://fonts.google.com/
 * Font Awesome - https://fontawesome.com/
+* HTAM - https://github.com/Maxelweb/HTAM
+* JQuery - https://jquery.com/
+* JQueryUI - https://jqueryui.com/
+* MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/
+* Tipr - https://github.com/lt1946/Tipr
 * Weather Widget - https://weatherwidget.io/
+
 
 Features
 * 5 Custom Draggable Frames <---New!
