@@ -24,7 +24,6 @@
     <p>The Favorite Section is the first area displayed on page load.</p>
     <h3><i class="fas fa-th-list"></i> Categories</h3>
     <p>Bookmarks here are sorted by one of 9 different categories. </p>
-    <p>Categories can be hidden in the Settings Menu.</p>
     <p>Categories are :</p>
     <ul>
       <li>Design</li>
@@ -37,6 +36,7 @@
       <li>Productivity</li>
       <li>Web</li>
     </ul>
+    <p><b>Note: Categories can be hidden in the Settings Menu.</b></p>
     <h3><i class="fab fa-google"></i> Google Search</h3>
     <p>The Google Search bar is located on the Quick Access Bar. </p>
     <p>Queries are sent to Google's search engine.</p>
@@ -149,13 +149,13 @@
     </ul>
     <h3><i class="fas fa-search-plus"></i> Custom Search</h3>
     <p>In the Custom Search section of the Settings Menu, you can configure up to 24 different searches that will appear in the Multi-Search Window.</p>
-    <p><b>Note: To disable a search, clear the fields and type empty into the title.</b></p>
     <p>Customize Options :</p>
     <ul>
       <li>Title</li>
       <li>URL</li>
       <li>Font Awesome Icon</li>
     </ul>
+    <p><b>Note: To disable a search, clear the fields and type empty into the title.</b></p>
     <h3><i class="fas fa-th-list"></i> Categories</h3>
     <p>In the Categories section of the Settings Menu, unused categories can be enabled/disabled.</p>
     <h3><i class="fas fa-tools"></i> Features</h3>
