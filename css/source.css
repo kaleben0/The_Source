@@ -29,6 +29,22 @@
 #empty {
   display: none;
 }
+#help_up_bar {
+  background-color: #1d1d1d00;
+  border-radius: 50px;
+  bottom: 25px;
+  padding: 12px;
+  position: fixed;
+  right: 40px;
+  border: 1px solid transparent;
+}
+#help_up_bar:hover {
+  background-color: #ffffff24;
+  box-shadow: inset -1px 1px 6px 1px #000;
+  transition: .5s;
+  border: 1px solid #fff;
+  color: #fff;
+}
 #save_frames, #save_mess, #save_weather, #save_general, #save_css_custom {
   display:none;
 }
