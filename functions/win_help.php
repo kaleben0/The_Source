@@ -13,7 +13,7 @@
     </ul>
     <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_overview"/>
     <br/>
-    <div class="help_img"><a href="./help/help1.png" target="_blank"><img src="./help/help1.png" width="300px" height="200px" /></a></div>
+    <div class="help_img"><a href="./help/help1.png" target="_blank"><img src="./help/help1.png" width="400px" height="200px" /></a></div>
     <h2>Overview</h2>
     <p>The Source is a customizable start page that provides quick access to tools, search engines and important websites.</p>
     <h3><i class="far fa-bookmark"></i> Bookmarks</h3>
@@ -95,7 +95,7 @@
     <p>Reloads the page. </p>
     <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_main">
     <br/>
-    <div class="help_img"><a href="./help/help2.png" target="_blank"><img src="./help/help2.png" width="300px" height="200px" /></a></div>
+    <div class="help_img"><a href="./help/help2.png" target="_blank"><img src="./help/help2.png" width="400px" height="200px" /></a></div>
     <h2><i class="fas fa-th"></i> Main Directory</h2>
     <p>The Main Directory will display all bookmarks. </p>
     <h3><i class="fas fa-ellipsis-h"></i> Control Bar</h3>
