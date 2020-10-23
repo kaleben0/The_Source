@@ -3,7 +3,16 @@
   <div class="help_head" >Help</div>
   <br/>
   <div class="help_box">
-    <Div class="help_img"><a href="./images/help1.png" target="_blank"><img src="./images/help1.png" width="300px" height="200px" /></a></div>
+    <ul>
+      <li><a href="#help_overview">Overview</a></li>
+      <li><a href="#help_navigation">Navigation</a></li>
+      <li><a href="#help_main">Main Directory</a></li>
+      <li><a href="#help_settings">Settings</a></li>
+      <li><a href="#help_credits">Credits</a></li>
+    </ul>
+    <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_overview"/>
+    <br/>
+    <div class="help_img"><a href="./help/help1.png" target="_blank"><img src="./help/help1.png" width="300px" height="200px" /></a></div>
     <h2>Overview</h2>
     <p>The Source is a customizable start page that provides quick access to tools, search engines and important websites.</p>
     <h3><i class="far fa-bookmark"></i> Bookmarks</h3>
@@ -28,7 +37,7 @@
       <li>Web</li>
     </ul>
     <h3><i class="fab fa-google"></i> Google Search</h3>
-    <p>The Google Search bar is located on the Top Navigation Bar. </p>
+    <p>The Google Search bar is located on the Quick Access Bar. </p>
     <p>Queries are sent to Google's search engine.</p>
     <p>The spyglass icon on the left of the bar will clear the input box.</p>
     <p>The spyglass on the right of the bar will launch the Multi-Search window.</p>
@@ -46,19 +55,19 @@
     <p>Characters available: </p>
     <p>abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%&*+-=?@_ </p>
     <h3><i class="fas fa-envelope-open-text"></i> Custom Messages</h3>
-    <p>The Custom Messages is displayed on the Top Navigation Bar. </p>
+    <p>The Custom Messages is displayed on the Quick Access Bar. </p>
     <p>These messages can be configured in the Settings Menu.</p>
     <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
     <p>Customize the CSS for The Source</p>
     <p>This can be configured in the Settings Menu.</p>
-    <h3><i class="far fa-file-image"></i> Wallpaper</h3>
-    <p>Wallpaper can be customized in the Settings Menu.</p>
+    <h3><i class="far fa-file-image"></i> Wallpapers</h3>
+    <p>Wallpapers can be customized in the Settings Menu.</p>
     <h3><i class="fas fa-window-restore"></i> Frames</h3>
     <p>The Source will display up to 5 customizable iframes.</p>
     <p>Content and dimensions of the iframes can be set up in the Settings Menu.</p>
-    <hr style="width:100%;">
+    <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_navigation">
     <h2><i class="far fa-compass"></i> Navigation</h2>
-    <h3><i class="fas fa-ellipsis-h"></i> Top Navigation Bar</h3>
+    <h3><i class="fas fa-ellipsis-h"></i> Quick Access Bar</h3>
     <p>Contains Custom Logo, Google Search Box, Clock, Weather, Custom Message, and Main Menu</p>
     <p><b>Note: Clicking on Custom Logo will reload the page</b></p>
     <h3><i class="fas fa-ellipsis-v"></i> Side Menu</h3>
@@ -83,7 +92,9 @@
     <p>Opens this window. </p>
     <h4><i class="fas fa-redo-alt" ></i> Reload Page</h4>
     <p>Reloads the page. </p>
-    <hr style="width:100%;">
+    <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_main">
+    <br/>
+    <div class="help_img"><a href="./help/help2.png" target="_blank"><img src="./help/help2.png" width="300px" height="200px" /></a></div>
     <h2><i class="fas fa-th"></i> Main Directory</h2>
     <p>The Main Directory will display all bookmarks. </p>
     <h3><i class="fas fa-ellipsis-h"></i> Control Bar</h3>
@@ -100,7 +111,7 @@
     <p>Opens the MTE interface to Add/Remove/Change multiple bookmarks.</p>
     <h4><i class="fas fa-list"></i> List View</h4>
     <p>Toggles between Grid / List view.</p>
-    <hr style="width:100%;">
+    <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_settings">
     <h2><i class="fas fa-cogs"></i> Settings</h2>
     <h3><i class="fas fa-vector-square"></i> General</h3>
     <h4><i class="fas fa-atlas"></i> Main URL</h4>
@@ -121,7 +132,7 @@
     <p>Configure a weather widget (110px width) at <a href="https://weatherwidget.io" target="_blank">Weatherwidget.io</a></p>
     <p>Paste the code here to update the Weather Widget window.</p>
     <h3><i class="fas fa-envelope-open-text"></i> Messages</h3>
-    <p>The message that appears in the Top Navigation Bar can be customized here.</p>
+    <p>The message that appears in the Quick Access Bar can be customized here.</p>
     <p>The message that is displayed is determined by the time of day.</p>
     <h3><i class="fas fa-photo-video"></i> Media</h3>
     <p>Wallpaper, Mobile Wallpaper, and Logo can be customized in the Media section of the Settings Menu.</p>
@@ -168,20 +179,21 @@
     </ul>
     <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
     <p>In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS.</p>
-    <hr style="width:100%;">
+    <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_credits">
     <h2><i class="fas fa-info-circle"></i> Credits</h2>
     <h4>The Source v1.2</h4>
     <p>Developed by Doug Redman</p>
     <p>GitHub : https://github.com/kaleben0/The_Source</p>
     <h4>Software/Plugins Utilized</h4>
     <ul>
-      <li>Tipr - https://github.com/lt1946/Tipr</li>
-      <li>HTAM - https://github.com/Maxelweb/HTAM</li>
-      <li>MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/</li>
-      <li>JQuery - https://jquery.com/</li>
-      <li>JQueryUI - https://jqueryui.com/</li>
+      <li>CodeMirror - https://www.codemirror.net</li>
       <li>Google Fonts - https://fonts.google.com/</li>
       <li>Font Awesome - https://fontawesome.com/</li>
+      <li>HTAM - https://github.com/Maxelweb/HTAM</li>
+      <li>JQuery - https://jquery.com/</li>
+      <li>JQueryUI - https://jqueryui.com/</li>
+      <li>MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/</li>
+      <li>Tipr - https://github.com/lt1946/Tipr</li>
       <li>Weather Widget - https://weatherwidget.io/</li>
     </ul>
     <p>This is completely open source and you can do anything you want with it.</p>
