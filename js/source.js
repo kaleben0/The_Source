@@ -8,9 +8,10 @@ $(document).ready(function() {
     theme: 'twilight',
     lineNumbers: true,
     tabSize: 2,
-    indentWithTabs: 4,
+    lineWrapping: true
     });
 });
+
 
 // Directory Toggle
 

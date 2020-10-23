@@ -7,9 +7,7 @@
     border-radius: 10px;
     border: 1px solid #7d7474;
 }
-.CodeMirror-line {
-    padding-left: 35px !important;
-}
+
 .CodeMirror-linenumbers {
     width:30px !important;
 }
@@ -29,7 +27,7 @@
 }
 .CodeMirror pre.CodeMirror-line,
 .CodeMirror pre.CodeMirror-line-like {
-  padding: 0 4px; /* Horizontal padding of content */
+  padding: 0 0 0 35px; /* Horizontal padding of content */
 }
 
 .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
