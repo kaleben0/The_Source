@@ -9,10 +9,10 @@
     <h3><i class="far fa-bookmark"></i> Bookmarks</h3>
     <p>Bookmarks can be managed by accessing the main directory or a category.</p>
     <p>The main directory can be accessed by clicking a letter on the Directory Bar.</p>
-    <h3><i class="far fa-star"></i> Favorite Section</h3>
+    <h3><i class="far fa-star"></i> Favorites</h3>
     <p>Favorites are bookmarks that have been selected in the directory to display in the Favorite section.</p>
     <p>The Favorite Section is the first area displayed on page load.</p>
-    <h3><i class="fas fa-th-list"></i> Category Section</h3>
+    <h3><i class="fas fa-th-list"></i> Categories</h3>
     <p>Bookmarks here are sorted by one of 9 different categories. </p>
     <p>Categories can be hidden in the Settings Menu.</p>
     <p>Categories are :</p>
@@ -27,7 +27,6 @@
       <li>Productivity</li>
       <li>Web</li>
     </ul>
-    <h2><i class="fas fa-tools"></i> Features</h2>
     <h3><i class="fab fa-google"></i> Google Search</h3>
     <p>The Google Search bar is located on the Top Navigation Bar. </p>
     <p>Queries are sent to Google's search engine.</p>
@@ -49,66 +48,59 @@
     <h3><i class="fas fa-envelope-open-text"></i> Custom Messages</h3>
     <p>The Custom Messages is displayed on the Top Navigation Bar. </p>
     <p>These messages can be configured in the Settings Menu.</p>
+    <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
+    <p>Customize the CSS for The Source</p>
+    <p>This can be configured in the Settings Menu.</p>
     <h3><i class="far fa-file-image"></i> Wallpaper</h3>
     <p>Wallpaper can be customized in the Settings Menu.</p>
     <h3><i class="fas fa-window-restore"></i> Frames</h3>
     <p>The Source will display up to 5 customizable iframes.</p>
     <p>Content and dimensions of the iframes can be set up in the Settings Menu.</p>
-    <h2><i class="fas fa-ellipsis-h"></i> Navigation</h2>
+    <hr style="width:100%;">
+    <h2><i class="far fa-compass"></i> Navigation</h2>
+    <h3><i class="fas fa-ellipsis-h"></i> Top Navigation Bar</h3>
+    <p>Contains Custom Logo, Google Search Box, Clock, Weather, Custom Message, and Main Menu</p>
+    <p><b>Note: Clicking on Custom Logo will reload the page</b></p>
     <h3><i class="fas fa-ellipsis-v"></i> Side Menu</h3>
     <p>The Side Menu is a quick menu that allows access to Categories, Features, and Frames.</p>
-
     <h3><i class="fas fa-bars"></i> Menu Menu</h3>
-
     <h4><i class="far fa-star"></i> Favorites</h4>
     <p>Displays the list of available Keyboard Shortcuts.</p>
-
     <h4><i class="fas fa-th"></i> Main Directory</h4>
     <p>The Main Directory will display all bookmarks. </p>
-
     <h4><i class="far fa-bookmark"></i> Add Bookmark</h4>
     <p>Add a single bookmark to your collection.</p>
-
     <h4><i class="far fa-edit"></i> Edit All Bookmarks</h4>
     <p>Opens the MTE interface to Add/Remove/Change multiple bookmarks.</p>
-
     <h4><i class="fas fa-cogs"></i> Settings</h4>
     <p>Opens the Settings Panel.</p>
-
     <h4><i class="fas fa-reply"></i> Keyboard Shortcuts</h4>
     <p>Displays the list of available Keyboard Shortcuts.</p>
-
     <h4><i class="fas fa-user-cog" ></i> User Management</h4>
     <p>Opens the HTAM (HTAccess Manager). </p>
     <p>Users and security settings can be managed here.</p>
-
     <h4><i class="far fa-question-circle" ></i> Help</h4>
     <p>Opens this window. </p>
-
     <h4><i class="fas fa-redo-alt" ></i> Reload Page</h4>
     <p>Reloads the page. </p>
-
-     <h2><i class="fas fa-th"></i> Main Directory</h2>
+    <hr style="width:100%;">
+    <h2><i class="fas fa-th"></i> Main Directory</h2>
     <p>The Main Directory will display all bookmarks. </p>
+    <h3><i class="fas fa-ellipsis-h"></i> Control Bar</h3>
     <p>A control bar will appear at the top of the screen. </p>
     <p>This bar will also appear when accessing a category.</p>
-
-    <h3><i class="far fa-star"></i> Favorite</h3>
+    <h4><i class="far fa-star"></i> Favorite</h4>
     <p>Toggles the "favorite" icon to be displayed. Allows the selection of favorite bookmarks.</p>
-
-    <h3><i class="far fa-trash-alt"></i> Remove</h3>
+    <h4><i class="far fa-trash-alt"></i> Remove</h4>
     <p>Toggles the "Remove" icon to be displayed. Allows the removal of bookmarks.</p>
     <p><b>Warning: Once removed, you will need to re-add the bookmark via the Add Bookmark window.</b></p>
-
-    <h3><i class="far fa-bookmark"></i> Add Bookmark</h3>
+    <h4><i class="far fa-bookmark"></i> Add Bookmark</h4>
     <p>Add a single bookmark to your collection.</p>
-
-    <h3><i class="far fa-edit"></i> Edit Bookmarks</h3>
+    <h4><i class="far fa-edit"></i> Edit Bookmarks</h4>
     <p>Opens the MTE interface to Add/Remove/Change multiple bookmarks.</p>
-
-    <h3><i class="fas fa-list"></i> List View</h3>
+    <h4><i class="fas fa-list"></i> List View</h4>
     <p>Toggles between Grid / List view.</p>
-
+    <hr style="width:100%;">
     <h2><i class="fas fa-cogs"></i> Settings</h2>
     <h3><i class="fas fa-vector-square"></i> General</h3>
     <h4><i class="fas fa-atlas"></i> Main URL</h4>
@@ -176,7 +168,8 @@
     </ul>
     <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
     <p>In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS.</p>
-    <h3><i class="fas fa-info-circle"></i> Credits</h3>
+    <hr style="width:100%;">
+    <h2><i class="fas fa-info-circle"></i> Credits</h2>
     <h4>The Source v1.2</h4>
     <p>Developed by Doug Redman</p>
     <p>GitHub : https://github.com/kaleben0/The_Source</p>
