@@ -11,22 +11,28 @@
 <meta name="theme-color" content="#2c5364" />
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="robots" content="noindex, nofollow">
-<title>
-<?php include './functions/config.php';echo$pagetitle?>
-</title>
-<link rel="stylesheet" href="./css/source.css" >
-<link rel="stylesheet" href="./css/source_mobile.css" >
-<link rel="stylesheet" href="./css/all.css" >
+<title><?php include './functions/config.php';echo$pagetitle?></title>
+<!-- JQuery -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<!-- Tipr -->
 <link rel="stylesheet" href="./plugins/tipr/tipr.css">
-<script src="./plugins/tipr/tipr.min.js"></script>
+<script src="./plugins/tipr/tipr.min.js"></script> 
+<!-- CodeMirror -->
+<link rel="stylesheet" href="./plugins/codemirror/lib/codemirror.css">
+<link rel="stylesheet" href="./plugins/codemirror/theme/twilight.css">
+<link rel="stylesheet" href="./plugins/codemirror/addon/css-hint.css">
+<script type="text/javascript" src="./plugins/codemirror/lib/codemirror.js"></script>
+<script type="text/javascript" src="./plugins/codemirror/mode/css/css.js"></script>
+<!-- The Source -->
 <link rel="stylesheet" id="list_css" href="./css/list.css" disabled />
-<link rel="stylesheet" href="./plugins/codemirror/codemirror.css">
-<link rel="stylesheet" href="./plugins/codemirror/twilight.css">
-<script type="text/javascript" src="./plugins/codemirror/codemirror.js"></script>
+<link rel="stylesheet" href="./css/source.css" >
+<link rel="stylesheet" href="./css/source_mobile.css" >
 <script src="./js/source.js"></script>
+<!-- FontAwesome -->
+<link rel="stylesheet" href="./css/all.css" >
+<!-- Custom -->
 <link rel="stylesheet" href="./css/custom.css" >
 <script>
 $(document).ready(function() {
