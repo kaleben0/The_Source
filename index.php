@@ -14,7 +14,6 @@
 <title>
 <?php include './functions/config.php';echo$pagetitle?>
 </title>
-<link rel="manifest" crossorigin="use-credentials" href="./manifest.json" type="application/json">
 <link rel="stylesheet" href="./css/custom.css" >
 <link rel="stylesheet" href="./css/source.css" >
 <link rel="stylesheet" href="./css/source_mobile.css" >
