@@ -194,7 +194,10 @@
   margin-left: 235px;
   margin-right: 200px;
   max-width: 1600px;
-  padding: 5px 5px 5px 25px;
+  padding: 5px 5px 5px 5px;
+}
+.dir_hr {
+    width: 195px;
 }
 .editor {
   padding: 6px;

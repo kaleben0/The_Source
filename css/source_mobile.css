@@ -1,4 +1,4 @@
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
   #blank_line, #bookmark, #category, #category_head, #filter_box, #gsearch2, #net_box, #sidenav, #spyglass, .cal_agenda, .google_clear, .header_search, .letter_space2, .sm_weather, .tipr_content, .top_nav {
     display: none;
   }
@@ -9,7 +9,7 @@
     padding-bottom: 10px;
   }
   #directory_section {
-    display: flex;
+    display: flex !important;
     margin-left: auto;
     margin-right: auto;
   }
@@ -73,7 +73,7 @@
   .editor {
     padding-top: 10px;
   }
-  .exit_search, .search_head {
+  .exit_search {
     display: none;
   }
   .favorite {
@@ -99,7 +99,7 @@
   }
   .letter_head2 {
     width: unset;
-    display:block;
+    display: block;
   }
   .letter_space {
     padding: 2px;
@@ -137,6 +137,9 @@
   .search_center {
     width: 365px;
   }
+  .search_head {
+    display: none;
+  }
   .search_space {
     padding-right: 20px;
   }
@@ -151,7 +154,7 @@
     margin-top: -28px;
     margin-left: 60px;
     text-align: left;
-    width:300px
+    width: 300px;
   }
   .tzone {
     display: none;
@@ -172,7 +175,7 @@
     width: unset;
     z-index: 1000;
   }
-  .win_search, .letter_center {
+  .win_search {
     display: block;
     backdrop-filter: none;
   }
@@ -189,11 +192,13 @@
   }
 }
 @media (min-width:900px) and (max-width:1300px) {
-  .favorite_center {
-    max-width: 900px;
+  .admin, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
+    width: 195px;
+    max-width: 195px;
   }
   .directory_block {
-    margin-left: 210px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
   .directory_bar {
     max-width: 80px;
@@ -201,21 +206,24 @@
     top: 80px;
     right: 40px;
   }
+  .dir_hr {
+    width: 192px;
+  }
   .editor {
     margin-bottom: 10px;
   }
-  .admin, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
-    width: 185px;
-    max-width: 185px;
-  }
-  .dir_hr {
-    width: 95%;
-  }
-  .url_box {
-    max-width: 300px;
+  .favorite_center {
+    max-width: 700px;
   }
   .googlesearch2 {
     width: 250px;
+  }
+  .letter_head {
+    display: none !important;
+  }
+  .url_box {
+    max-width: 195px !important;
+    width: 195px !important;
   }
 }
 @media (min-width:551px) and (max-width:899px) {
@@ -235,6 +243,9 @@
   .letter_head {
     display: none !important;
   }
+  .letter_title {
+    width: 93%;
+  }
   .long {
     width: 500px !important;
   }
@@ -247,9 +258,6 @@
   }
   .sub_block {
     display: none;
-  }
-  .letter_title {
-    width: 93%;
   }
   .wall_head {
     width: 265px;
