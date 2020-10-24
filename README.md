@@ -7,11 +7,13 @@
 * Password: thedemo
 
 <h5>Requirements</h5>
+
 * Webserver (Apache/Nginx)
 * MySQL
 * PHP 7.0+
 
 <h5>Software/Plugins Utilized</h5>
+
 * CodeMirror - https://codemirror.net/
 * Google Fonts - https://fonts.google.com/
 * Font Awesome - https://fontawesome.com/
@@ -23,6 +25,7 @@
 * Weather Widget - https://weatherwidget.io/
 
 <h5>Features</h5>
+
 * 5 Custom Draggable Frames <---New!
 * Google Multi-Search w/ 24 Custom Searches <---New!
 * Customize Your CSS <---New!
@@ -44,18 +47,21 @@
 * Click the Gear icon in the upper right corner and edit your settings.
 
 <h5>Modify your php.ini (for image uploads)</h5>
+
 * This sets the max download size as 20Mb, you can make it higher if needed.
+
 `file_uploads = On`
 `upload_max_filesize = 20M`
 `post_max_size = 20M`
 
 <h5>Permissions</h5>
-* Set the owner/group of the directory as the default for your webserver (www-data)
-`chown -R www-data:www-data the_source`
-* Set your images directory as writable so that you can upload your images
-`chmod -R 755 the_source/images/`
-* Set your custom.css file as writable so that you can customize your css
-`chmod 777 the_source/css/custom.css`
+
+* Set the owner/group of the directory as the default for your webserver (www-data) <br>
+`chown -R www-data:www-data the_source`<br>
+* Set your images directory as writable so that you can upload your images<br>
+`chmod -R 755 the_source/images/`<br>
+* Set your custom.css file as writable so that you can customize your css<br>
+`chmod 777 the_source/css/custom.css`<br>
 
 <h3>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h3>
 * HTAM (HTAccess Manager) can be accessed in the Main Menu, which you can use to add username & password as well as set up your .htaccess file.
