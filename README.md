@@ -50,9 +50,9 @@
 
 * This sets the max download size as 20Mb, you can make it higher if needed.
 
-`file_uploads = On`
-`upload_max_filesize = 20M`
-`post_max_size = 20M`
+`file_uploads = On`<br>
+`upload_max_filesize = 20M`<br>
+`post_max_size = 20M`<br>
 
 <h5>Permissions</h5>
 
@@ -64,7 +64,7 @@
 `chmod 777 the_source/css/custom.css`<br>
 
 <h3>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h3>
-* HTAM (HTAccess Manager) can be accessed in the Main Menu, which you can use to add username & password as well as set up your .htaccess file.
+* HTAM (HTAccess Manager) can be accessed in the Main Menu, which you can use to create a .htaccess and add a username & password.
 
 <h2>Screen Shots</h2>
 
