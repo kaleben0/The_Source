@@ -1,4 +1,4 @@
-<h1>The Source - A Customizable Startpage</h1>
+<h1>The Source - Customizable Startpage</h1>
 
 <h4>Built with HTML/CSS/PHP/JS/JQuery</h4>
 
