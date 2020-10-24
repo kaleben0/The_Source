@@ -45,6 +45,17 @@
            $category8_name=trim($category8_name);
            $category9_name=trim($category9_name);
            $category10_name=trim($category10_name);
+
+           $category1_title=strtolower($category1_name);
+           $category2_title=strtolower($category2_name);
+           $category3_title=strtolower($category3_name);
+           $category4_title=strtolower($category4_name);
+           $category5_title=strtolower($category5_name);
+           $category6_title=strtolower($category6_name);
+           $category7_title=strtolower($category7_name);
+           $category8_title=strtolower($category8_name);
+           $category9_title=strtolower($category9_name);
+           $category10_title=strtolower($category10_name);
          }
          $result->free();
        }
