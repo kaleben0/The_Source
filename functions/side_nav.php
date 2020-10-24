@@ -10,26 +10,26 @@
 </li>
 <?php
 include './functions/config_catergories.php';
-echo "<li class='header_menu' title='$catergory1_name' id='#$catergory1_name' onclick='toggle_catergory1();'><i class='$catergory1_fa'></i>";
-echo "<div class='nav_label'>$catergory1_name</div></li>";
-echo "<li class='header_menu' title='$catergory2_name' id='#$catergory2_name' onclick='toggle_catergory2();'><i class='$catergory2_fa'></i>";
-echo "<div class='nav_label'>$catergory2_name</div></li>";
-echo "<li class='header_menu' title='$catergory3_name' id='#$catergory3_name' onclick='toggle_catergory3();'><i class='$catergory3_fa'></i>";
-echo "<div class='nav_label'>$catergory3_name</div></li>";
-echo "<li class='header_menu' title='$catergory4_name' id='#$catergory4_name' onclick='toggle_catergory4();'><i class='$catergory4_fa'></i>";
-echo "<div class='nav_label'>$catergory4_name</div></li>";
-echo "<li class='header_menu' title='$catergory5_name' id='#$catergory5_name' onclick='toggle_catergory5();'><i class='$catergory5_fa'></i>";
-echo "<div class='nav_label'>$catergory5_name</div></li>";
-echo "<li class='header_menu' title='$catergory6_name' id='#$catergory6_name' onclick='toggle_catergory6();'><i class='$catergory6_fa'></i>";
-echo "<div class='nav_label'>$catergory6_name</div></li>";
-echo "<li class='header_menu' title='$catergory7_name' id='#$catergory7_name' onclick='toggle_catergory7();'><i class='$catergory7_fa'></i>";
-echo "<div class='nav_label'>$catergory7_name</div></li>";
-echo "<li class='header_menu' title='$catergory8_name' id='#$catergory8_name' onclick='toggle_catergory8();'><i class='$catergory8_fa'></i>";
-echo "<div class='nav_label'>$catergory8_name</div></li>";
-echo "<li class='header_menu' title='$catergory9_name' id='#$catergory9_name' onclick='toggle_catergory9();'><i class='$catergory9_fa'></i>";
-echo "<div class='nav_label'>$catergory9_name</div></li>";
-echo "<li class='header_menu' title='$catergory10_name' id='#$catergory10_name' onclick='toggle_catergory10();'><i class='$catergory10_fa'></i>";
-echo "<div class='nav_label'>$catergory10_name</div></li>";
+echo "<li class='header_menu' title='$category1_name' id='#$category1_name' onclick='toggle_category1();'><i class='$category1_fa'></i>";
+echo "<div class='nav_label'>$category1_name</div></li>";
+echo "<li class='header_menu' title='$category2_name' id='#$category2_name' onclick='toggle_category2();'><i class='$category2_fa'></i>";
+echo "<div class='nav_label'>$category2_name</div></li>";
+echo "<li class='header_menu' title='$category3_name' id='#$category3_name' onclick='toggle_category3();'><i class='$category3_fa'></i>";
+echo "<div class='nav_label'>$category3_name</div></li>";
+echo "<li class='header_menu' title='$category4_name' id='#$category4_name' onclick='toggle_category4();'><i class='$category4_fa'></i>";
+echo "<div class='nav_label'>$category4_name</div></li>";
+echo "<li class='header_menu' title='$category5_name' id='#$category5_name' onclick='toggle_category5();'><i class='$category5_fa'></i>";
+echo "<div class='nav_label'>$category5_name</div></li>";
+echo "<li class='header_menu' title='$category6_name' id='#$category6_name' onclick='toggle_category6();'><i class='$category6_fa'></i>";
+echo "<div class='nav_label'>$category6_name</div></li>";
+echo "<li class='header_menu' title='$category7_name' id='#$category7_name' onclick='toggle_category7();'><i class='$category7_fa'></i>";
+echo "<div class='nav_label'>$category7_name</div></li>";
+echo "<li class='header_menu' title='$category8_name' id='#$category8_name' onclick='toggle_category8();'><i class='$category8_fa'></i>";
+echo "<div class='nav_label'>$category8_name</div></li>";
+echo "<li class='header_menu' title='$category9_name' id='#$category9_name' onclick='toggle_category9();'><i class='$category9_fa'></i>";
+echo "<div class='nav_label'>$category9_name</div></li>";
+echo "<li class='header_menu' title='$category10_name' id='#$category10_name' onclick='toggle_category10();'><i class='$category10_fa'></i>";
+echo "<div class='nav_label'>$category10_name</div></li>";
 ?>
 </ul>
 <ul class="sub_block" >

@@ -8,16 +8,16 @@
   <div class="letter_head" id="favorite"><i class="far fa-star icons3"></i></div>
   <?php
   include './functions/config_catergories.php';
-  echo"<div class='letter_head' id='#$catergory1_name'>$catergory1_name</div>";
-  echo"<div class='letter_head' id='#$catergory2_name'>$catergory2_name</div>";
-  echo"<div class='letter_head' id='#$catergory3_name'>$catergory3_name</div>";
-  echo"<div class='letter_head' id='#$catergory4_name'>$catergory4_name</div>";
-  echo"<div class='letter_head' id='#$catergory5_name'>$catergory5_name</div>";
-  echo"<div class='letter_head' id='#$catergory6_name'>$catergory6_name</div>";
-  echo"<div class='letter_head' id='#$catergory7_name'>$catergory7_name</div>";
-  echo"<div class='letter_head' id='#$catergory8_name'>$catergory8_name</div>";
-  echo"<div class='letter_head' id='#$catergory9_name'>$catergory9_name</div>";
-  echo"<div class='letter_head' id='#$catergory10_name'>$catergory10_name</div>";
+  echo"<div class='letter_head' id='#$category1_name'>$category1_name</div>";
+  echo"<div class='letter_head' id='#$category2_name'>$category2_name</div>";
+  echo"<div class='letter_head' id='#$category3_name'>$category3_name</div>";
+  echo"<div class='letter_head' id='#$category4_name'>$category4_name</div>";
+  echo"<div class='letter_head' id='#$category5_name'>$category5_name</div>";
+  echo"<div class='letter_head' id='#$category6_name'>$category6_name</div>";
+  echo"<div class='letter_head' id='#$category7_name'>$category7_name</div>";
+  echo"<div class='letter_head' id='#$category8_name'>$category8_name</div>";
+  echo"<div class='letter_head' id='#$category9_name'>$category9_name</div>";
+  echo"<div class='letter_head' id='#$category10_name'>$category10_name</div>";
   ?>
   <div class="letter_head" id="settings">Settings</div>
   <div class="tzone"><span id="txt"></span>&nbsp;|&nbsp;<i class="fas fa-cloud-sun fa-1x" title="Weather" onclick="toggle_weather();"></i>&nbsp;|&nbsp;<span id="time_message">Good Morning</span>&nbsp;|&nbsp;&nbsp;<i class="fas fa-bars fa-1x" onclick="toggle_main_menu();"></i>&nbsp;&nbsp;</div>
