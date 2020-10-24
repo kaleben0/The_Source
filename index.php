@@ -29,7 +29,7 @@
 <link rel="stylesheet" href="./css/source.css" >
 <link rel="stylesheet" href="./css/source_mobile.css" >
 <script src="./js/source.js"></script>
-<link rel="stylesheet" id="list_css" href="./css/list.css" disabled />
+<link rel="stylesheet" id="list_css" href="./css/list.css" <?php include './functions/config.php';echo$list?> />
 <!-- FontAwesome -->
 <link rel="stylesheet" href="./css/all.css" >
 <!-- Custom -->

@@ -11,7 +11,7 @@
            $evening=$row["evening_message"];
            $pagetitle=$row["pagetitle"];
            $weather=$row["weather"];
+           $list=$row["list"];
          }
          $result->free();
        }
-?>

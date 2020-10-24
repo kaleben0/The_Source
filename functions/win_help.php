@@ -182,7 +182,7 @@
     <p>In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS.</p>
     <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_credits">
     <h2><i class="fas fa-info-circle"></i> Credits</h2>
-    <h4>The Source v1.2</h4>
+    <h4>The Source v1.3</h4>
     <p>Developed by Doug Redman</p>
     <p>GitHub : https://github.com/kaleben0/The_Source</p>
     <h4>Software/Plugins Utilized</h4>

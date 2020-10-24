@@ -5,8 +5,8 @@
 include 'font.php';
 include 'config.php';
 ?>
-<title>General Settings</title>
 <link rel="stylesheet" href="../css/source.css" >
+<title>General Settings</title>
 <link rel="stylesheet" href="../css/all.css" >
 <script>
 setTimeout("self.close()", 3000 )
@@ -25,12 +25,18 @@ if(isset($_POST['submit']))
         $main = $_POST['main'];
         $pagetitle = $_POST['pagetitle'];
         $font = $_POST['font'];
+        $list = $_POST['list'];
+        if(isset($_POST['list'])) {
+            $list = "enabled";
+            } else {
+            $list = "disabled";
+            }
 
         $main = trim($main);
         $pagetitle = trim($pagetitle);
         $font = trim($font);
 
-     $sql = "UPDATE settings SET main_url='$main' , pagetitle='$pagetitle' , font='$font' WHERE id='$id' ";
+     $sql = "UPDATE settings SET main_url='$main' , pagetitle='$pagetitle' , font='$font', list='$list' WHERE id='$id' ";
 }
 if (mysqli_query($conn, $sql)) {
     echo "<div class='message_change'>General Settings Updated</div>";
@@ -39,5 +45,5 @@ if (mysqli_query($conn, $sql)) {
 }
 mysqli_close($conn);
 ?>
-</html>
 </body>
+</html>
