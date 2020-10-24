@@ -25,13 +25,16 @@
            $catergory7_name=$row["catergory7_name"];
            $catergory7_number=$row["catergory7_number"];
            $catergory7_fa=$row["catergory7_fa"];
-           $catergory8_name=$row["catergory5_name"];
-           $catergory8_number=$row["catergory5_number"];
-           $catergory8_fa=$row["catergory5_fa"];
-           $catergory9_name=$row["catergory5_name"];
-           $catergory9_number=$row["catergory5_number"];
-           $catergory9_fa=$row["catergory5_fa"];
-
+           $catergory8_name=$row["catergory8_name"];
+           $catergory8_number=$row["catergory8_number"];
+           $catergory8_fa=$row["catergory8_fa"];
+           $catergory9_name=$row["catergory9_name"];
+           $catergory9_number=$row["catergory9_number"];
+           $catergory9_fa=$row["catergory9_fa"];
+           $catergory9_name=$row["catergory10_name"];
+           $catergory9_number=$row["catergory10_number"];
+           $catergory9_fa=$row["catergory10_fa"];
+           
            $catergory1_name=trim($catergory1_name);
            $catergory2_name=trim($catergory2_name);
            $catergory3_name=trim($catergory3_name);
