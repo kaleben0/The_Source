@@ -48,7 +48,7 @@
 #save_frames, #save_mess, #save_weather, #save_general, #save_css_custom {
   display:none;
 }
-#search, #design, #directory_section, #enviro, #finance, #game, #head_image, #media, #medical, #network, #settings, #settings_section, #network_section, #product, #custom_servers, #web {
+ #cat_1,#cat_2,#cat_3,#cat_4,#cat_5,#cat_6,#cat_7,#cat_8,#cat_9,#cat_10, #web #settings, #head_image, #search, #directory_section, #settings_section, #network_section,  #custom_servers {
   display: none;
 }
 #set_general, #set_weather, #set_mess, #set_med, #set_frames, #set_cs, #set_cat, #set_feat, #set_pdsearch, #set_css_custom {
@@ -78,7 +78,7 @@
   left: 76px;
   transition: all .5s ease;
 }
-#sidenav:hover .header_favorite, #sidenav:hover .header_finance, #sidenav:hover .header_design, #sidenav:hover .header_environmental, #sidenav:hover .header_game, #sidenav:hover .header_media, #sidenav:hover .header_medical, #sidenav:hover .header_network, #sidenav:hover .header_productivity, #sidenav:hover .header_web {
+#sidenav:hover .header_cat_1, #sidenav:hover .header_cat_2, #sidenav:hover .header_cat_3, #sidenav:hover .header_cat_4, #sidenav:hover .header_cat_5, #sidenav:hover .header_cat_6, #sidenav:hover .header_cat_7, #sidenav:hover .header_cat_8, #sidenav:hover .header_cat_9, #sidenav:hover .header_cat_10 {
   margin-left: 0;
   transition: all .5s ease;
 }
@@ -232,7 +232,7 @@
   transform: rotate(-20deg);
   font-weight: bold;
 }
-.favorite, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
+.catergoy_1, .catergoy_2, .catergoy_3, .catergoy_4, .catergoy_5, .catergoy_6, .catergoy_7, .catergoy_8, .catergoy_9, .catergoy_10 {
   background-color: #0e0e0e99;
   border: 1px solid #7d7474;
   border-radius: 5px;
@@ -253,7 +253,7 @@
   background-position: left bottom;
   transition: all .25s ease;
 }
-.favorite:hover, .finance:hover, .design:hover, .environmental:hover, .game:hover, .media:hover, .medical:hover, .network:hover, .productivity:hover, .web:hover {
+.category_1:hover, .category_2:hover, .category_3:hover, .category_4:hover, .category_5:hover, .category_6:hover, .category_7:hover, .category_8:hover, .category_9:hover, .category_10:hover {
   color: #000;
   background-position: right bottom;
 }
@@ -446,7 +446,7 @@
   width: 370px;
   box-shadow: 2px 2px #000;
 }
-.googlesearch2:focus, .googlesearch:focus, .header_favorite:hover, .header_finance:hover, .header_design:hover, .header_environmental:hover, .header_game:hover, .header_media:hover, .header_medical:hover, .header_network:hover, .header_productivity:hover, .header_web:hover, .search_space:hover {
+.googlesearch2:focus, .googlesearch:focus, .header_favorite:hover, .search_space:hover, .header_category_1:hover,.header_category_2:hover,.header_category_3:hover,.header_category_4:hover,.header_category_5:hover,.header_category_6:hover,.header_category_7:hover,.header_category_8:hover,.header_category_9:hover,.header_category_10:hover {
   background-color: #fff;
   color: #000;
   outline: 0;

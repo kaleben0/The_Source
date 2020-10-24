@@ -301,83 +301,76 @@ function edit_book() {
 
 //Header Toggles
 
-function togglefavorite() {
-  $('#search_section,#settings_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
-  $('#favorite_section,.g_form,#letter_mobile,.letters,.favorite_center,#letter_row').show();
-  $('#favorite').toggle();
+
+
+function togglecategory_1() {
+$(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),
+$('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+$('#directory_section,.g_form').show();
+  $('.category_1').toggle();
 }
 
-function toggledesign() {
-  $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-    $(".favorite,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
+function togglecategory_2() {
+  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_1, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
   $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
-  $('#design').toggle();
+    $('.category_2').toggle();
 }
 
-function toggleenvironmental() {
-  $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-    $(".favorite,.design,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
-  $('#search_section,#network_section,#settings_section,#letter_mobile, #bookmark_section,#favorite_section,.servers,.letter_title,.letters').hide();
-  $('#directory_section').show();
-  $('#directory_section,#enviro,.g_form').show();
-}
-
-function togglegame() {
-  $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-    $(".favorite,.design,.finance,.environmental,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
+function togglecategory_3() {
+  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_1, .category_2, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
   $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
-  $('#game').toggle();
+    $('.category_3').toggle();
 }
 
-function togglemedia() {
-  $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-    $(".favorite,.design,.finance,.game,.environmental,.medical,.network,.productivity,.web,.letter_head").toggle();
+function togglecategory_4() {
+  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_1, .category_2, .category_3, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
   $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
-  $('#media').toggle();
+    $('.category_4').toggle();
 }
 
-function togglemedical() {
-  $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-    $(".favorite, .design,.finance,.game,.media,.environmental,.network,.productivity,.web,.letter_head").toggle();
+function togglecategory_5() {
+  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
   $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
-  $('#medical').toggle();
+    $('.category_5').toggle();
 }
 
-function togglefinance() {
-  $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-    $(".favorite, .design,.environmental,.game,.media,.medical,.network,.productivity,.web,.letter_head").toggle();
+function togglecategory_6() {
+  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
   $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
-  $('#finance').toggle();
+    $('.category_6').toggle();
 }
 
-function togglenetwork() {
-  $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-    $(".favorite, .design,.finance,.game,.media,.medical,.environmental,.productivity,.web,.letter_head").toggle();
-  $('#search_section,#settings_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
-  $('#directory_section').show();
-  $('#network_section,#directory_section,#network,.g_form').show(),
-    $('#search_section,#bookmark_section,#letter_mobile').hide();
-}
-
-function toggleproductivity() {
-  $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-    $(".favorite,.design,.finance,.game,.media,.medical,.network,.environmental,.web,.letter_head").toggle();
+function togglecategory_7() {
+  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_8, .category_9, .category_10, .letter_head").toggle();
   $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
-  $('#product').toggle();
+    $('.category_7').toggle();
 }
 
-function toggleweb() {
-  $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web,.letter_head").show(),
-    $(".favorite,.design,.finance,.game,.media,.medical,.network,.productivity,.environmental,.letter_head").toggle();
+function togglecategory_8() {
+  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_9, .category_10, .letter_head").toggle();
   $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
   $('#directory_section,.g_form').show();
-  $('#web').toggle();
+    $('.category_8').toggle();
+}
+
+function togglecategory_9() {
+  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_10, .letter_head").toggle();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#directory_section,.g_form').show();
+    $('.category_9').toggle();
+}
+
+function togglecategory_10() {
+  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .letter_head").toggle();
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
+  $('#directory_section,.g_form').show();
+    $('.category_10').toggle();
 }
 
 function togglesettings() {
@@ -385,7 +378,11 @@ function togglesettings() {
   $('#settings_section,.g_form,#letter_mobile,.letters,.favorite_center').show();
   $('#settings').toggle();
 }
-
+function togglefavorite() {
+  $('#search_section,#settings_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
+  $('#favorite_section,.g_form,#letter_mobile,.letters,.favorite_center,#letter_row').show();
+  $('#favorite').toggle();
+}
 function toggle_weather() {
   $('.weather').fadeToggle("slow", "linear");
 }
@@ -411,7 +408,7 @@ function clear_box2() {
 
 function directory_toggle() {
   $('.letter_title,#directory_section,#up_bar').show(),
-    $(".favorite, .design,.environmental,.finance,.game,.media,.medical,.network,.productivity,.web").show();
+    $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, ").show();
   $(".letter_head, .favorite_center ").hide();
 }
 function toggle_main_menu() {

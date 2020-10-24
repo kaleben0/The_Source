@@ -1,7 +1,7 @@
 <div class="container" id="favorite_section">
   <div class="row">
     <div class="favorite_center">
-      <div class="favorite_head" id="design_toggle">
+      <div class="favorite_head" id="category_1_toggle">
         <div class="fav_icon"> <i class="far fa-object-group favorite_fa"></i> Design</div>
         <div class="favorite_container" >
           <?php
@@ -26,7 +26,7 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="enviro_toggle">
+      <div class="favorite_head" id="category_2_toggle">
         <div class="fav_icon"> <i class="fas fa-cloud-sun favorite_fa"></i> Environmental</div>
         <div class="favorite_container" >
           <?php
@@ -51,7 +51,7 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="finance_toggle">
+      <div class="favorite_head" id="category_3_toggle">
         <div class="fav_icon"> <i class="fas fa-file-invoice-dollar  favorite_fa"></i> Finance</div>
         <div class="favorite_container" >
           <?php
@@ -76,7 +76,7 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="game_toggle">
+      <div class="favorite_head" id="category_4_toggle">
         <div class="fav_icon"> <i class="fas fa-gamepad favorite_fa"></i> Games</div>
         <div class="favorite_container" >
           <?php
@@ -101,7 +101,7 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="media_toggle">
+      <div class="favorite_head" id="category_5_toggle">
         <div class="fav_icon"><i class="fas fa-photo-video favorite_fa"></i> Media</div>
         <div class="favorite_container" >
           <?php
@@ -126,7 +126,7 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="medical_toggle">
+      <div class="favorite_head" id="category_6_toggle">
         <div class="fav_icon"><i class="far fa-hospital favorite_fa"></i> Medical</div>
         <div class="favorite_container" >
           <?php
@@ -151,7 +151,7 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="network_toggle">
+      <div class="favorite_head" id="category_7_toggle">
         <div class="fav_icon"><i class="fas fa-network-wired favorite_fa"></i> Network</div>
         <div class="favorite_container" >
           <?php
@@ -176,7 +176,7 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="prod_toggle">
+      <div class="favorite_head" id="category_8_toggle">
         <div class="fav_icon"><i class="far fa-address-card favorite_fa"></i> Productivity</div>
         <div class="favorite_container" >
           <?php
@@ -201,7 +201,7 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="web_toggle">
+      <div class="favorite_head" id="category_9_toggle"
         <div class="fav_icon"><i class="fas fa-globe favorite_fa"></i> Web</div>
         <div class="favorite_container" >
           <?php
@@ -224,6 +224,31 @@
         $result->free();
       }
       ?>
+    </div>
+  </div>
+  <div class="favorite_head" id="category_10_toggle"
+    <div class="fav_icon"><i class="fas fa-globe favorite_fa"></i> Web</div>
+    <div class="favorite_container" >
+      <?php
+  include './functions/source_db.php';
+  $mysqli = new mysqli( "localhost", $username, $password, $dbname );
+  $query10 = "SELECT * FROM bookmark WHERE category = 'web' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+  if ( $result = $mysqli->query( $query10 ) ) {
+    while ( $row = $result->fetch_assoc() ) {
+      $letter = $row[ "letter" ];
+      $category = $row[ "category" ];
+      $url = $row[ "url" ];
+      $fonta = $row[ "fonta" ];
+      $subcategory = $row[ "subcategory" ];
+      $title = $row[ "title" ];
+      echo "<div class='favorite_space' onclick=\"window.open('" . $url . "','_blank')\">";
+      echo "<div class='favorite_btn'  title='$title' ><i class='$fonta'></i></div>";
+      echo "<div class='favorite_text'>$title</div>";
+      echo "</div>";
+    }
+    $result->free();
+  }
+  ?>
         </div>
       </div>
     </div>
