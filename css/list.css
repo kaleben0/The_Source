@@ -1,3 +1,4 @@
+@media screen and (min-width:550px) {
 .dir_hr {
 	display:none;
 }
@@ -53,4 +54,5 @@
 .favorite:hover, .finance:hover, .design:hover, .environmental:hover, .game:hover, .media:hover, .medical:hover, .network:hover, .productivity:hover, .web:hover {
 	color:#fff;
 
+}
 }
