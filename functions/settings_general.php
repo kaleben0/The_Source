@@ -19,6 +19,6 @@
   <option value='Roboto'>Roboto</option>
   <option value='SourceSansPro'>Source Sans Pro</option>
   </select>
-  <div class="set_label">List View - Main Directory <input type="checkbox" name="list" <?php include './functions/config.php';if ($list == "enabled"){ echo "checked='checked'";} ?> ></div>
+  <div class="set_label">Main Directory - List View On/Off <input type="checkbox" name="list" <?php include './functions/config.php';if ($list == "enabled"){ echo "checked='checked'";} ?> ></div>
 </form>
 </div>

@@ -111,7 +111,7 @@
     <h4><i class="far fa-edit"></i> Edit Bookmarks</h4>
     <p>Opens the MTE interface to Add/Remove/Change multiple bookmarks.</p>
     <h4><i class="fas fa-list"></i> List View</h4>
-    <p>Toggles between Grid / List view.</p>
+    <p>Toggles between List/Grid view.</p>
     <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_settings">
     <h2><i class="fas fa-cogs"></i> Settings</h2>
     <h3><i class="fas fa-vector-square"></i> General</h3>
@@ -129,6 +129,8 @@
       <li>Roboto</li>
       <li>Source Sans Pro</li>
     </ul>
+    <h4><i class="fas fa-list"></i> Main Directory - List View On/Off</h4>
+    <p>Sets the default view for the Main Directory (List/Grid)</p>
     <h3><i class="far fa-file-image"></i> Weather</h3>
     <p>Configure a weather widget (110px width) at <a href="https://weatherwidget.io" target="_blank">Weatherwidget.io</a></p>
     <p>Paste the code here to update the Weather Widget window.</p>
