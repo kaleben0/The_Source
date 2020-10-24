@@ -9,7 +9,7 @@
   <div class="nav_label">Favorite</div>
 </li>
 <?php
-include './functions/config_catergories.php';
+include './functions/config_categories.php';
 echo "<li class='header_menu' title='$category1_name' id='$category1_name' onclick='toggle_category1();'><i class='$category1_fa'></i>";
 echo "<div class='nav_label'>$category1_name</div></li>";
 echo "<li class='header_menu' title='$category2_name' id='$category2_name' onclick='toggle_category2();'><i class='$category2_fa'></i>";
