@@ -230,11 +230,14 @@
   #spyglass, #spyglassplus {
     display: none;
   }
+  #letter_row {
+    display:none;
+  }
   .directory_bar {
     display: none;
   }
   .directory_block {
-    margin-left: 50px;
+    margin-left: 100px;
     margin-right: 10px;
   }
   .googlesearch2 {
@@ -246,6 +249,7 @@
   .letter_title {
     width: 93%;
   }
+
   .long {
     width: 500px !important;
   }
