@@ -2,6 +2,7 @@
 <br/>
    <?php
         include 'source_db.php';
+        include './functions/config_categories.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
         $querya = "SELECT * FROM bookmark WHERE letter = 'a' AND status = 'enabled' ORDER BY title";
         $queryb = "SELECT * FROM bookmark WHERE letter = 'b' AND status = 'enabled' ORDER BY title";
@@ -57,7 +58,7 @@
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
-            echo "<div class='$category' >";
+            echo "<div class='category_$category' >";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='_blank' id='add_form'><i class='$sub_icon'></i></a></div>";
             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='_blank' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
