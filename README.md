@@ -6,12 +6,12 @@
 * Username:  the_demo
 * Password: thedemo
 
-Requirements
+<h5>Requirements</h5>
 * Webserver (Apache/Nginx)
 * MySQL
 * PHP 7.0+
 
-Software/Plugins Utilized
+<h5>Software/Plugins Utilized</h5>
 * CodeMirror - https://codemirror.net/
 * Google Fonts - https://fonts.google.com/
 * Font Awesome - https://fontawesome.com/
@@ -22,7 +22,7 @@ Software/Plugins Utilized
 * Tipr - https://github.com/lt1946/Tipr
 * Weather Widget - https://weatherwidget.io/
 
-Features
+<h5>Features</h5>
 * 5 Custom Draggable Frames <---New!
 * Google Multi-Search w/ 24 Custom Searches <---New!
 * Customize Your CSS <---New!
@@ -43,16 +43,19 @@ Features
 * Update /functions/source_db.php, /functions/db_index.php with your database settings (database name, host, username, password)
 * Click the Gear icon in the upper right corner and edit your settings.
 
-Modify your php.ini (for image uploads)
-This sets the max download size as 20Mb, you can make it higher if needed. 
+<h5>Modify your php.ini (for image uploads)</h5>
+* This sets the max download size as 20Mb, you can make it higher if needed.
 `file_uploads = On`
 `upload_max_filesize = 20M`
 `post_max_size = 20M`
 
-Permissions
-* chown -R www-data:www-data the_source
-* chmod -R 755 the_source/images/
-* chmod 777 the_source/css/custom.css
+<h5>Permissions</h5>
+* Set the owner/group of the directory as the default for your webserver (www-data)
+`chown -R www-data:www-data the_source`
+* Set your images directory as writable so that you can upload your images
+`chmod -R 755 the_source/images/`
+* Set your custom.css file as writable so that you can customize your css
+`chmod 777 the_source/css/custom.css`
 
 <h3>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h3>
 * HTAM (HTAccess Manager) can be accessed in the Main Menu, which you can use to add username & password as well as set up your .htaccess file.
