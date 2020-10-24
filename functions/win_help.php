@@ -139,6 +139,8 @@
     <p>The message that is displayed is determined by the time of day.</p>
     <h3><i class="fas fa-photo-video"></i> Media</h3>
     <p>Wallpaper, Mobile Wallpaper, and Logo can be customized in the Media section of the Settings Menu.</p>
+    <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
+    <p>In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS.</p>
     <h3><i class="fas fa-window-restore"></i> Custom Frames</h3>
     <p>In the Custom Frames section of the Settings Menu, you can customize 5 different iframes.</p>
     <p><b>Note: Some websites have restrictions that prevent their pages from displaying in an iframe.</b></p>
@@ -180,8 +182,7 @@
       <li>Google Translate</li>
       <li>YouTube</li>
     </ul>
-    <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
-    <p>In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS.</p>
+
     <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_credits">
     <h2><i class="fas fa-info-circle"></i> Credits</h2>
     <h4>The Source v1.3</h4>
