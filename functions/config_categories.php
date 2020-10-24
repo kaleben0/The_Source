@@ -31,9 +31,9 @@
            $category9_name=$row["category9_name"];
            $category9_number=$row["category9_number"];
            $category9_fa=$row["category9_fa"];
-           $category9_name=$row["category10_name"];
-           $category9_number=$row["category10_number"];
-           $category9_fa=$row["category10_fa"];
+           $category10_name=$row["category10_name"];
+           $category10_number=$row["category10_number"];
+           $category10_fa=$row["category10_fa"];
 
            $category1_name=trim($category1_name);
            $category2_name=trim($category2_name);
