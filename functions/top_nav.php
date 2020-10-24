@@ -7,7 +7,7 @@
   </form>
   <div class="letter_head" id="favorite"><i class="far fa-star icons3"></i></div>
   <?php
-  include './functions/config_catergories.php';
+  include './functions/config_categories.php';
   echo"<div class='letter_head' id='#$category1_name'>$category1_name</div>";
   echo"<div class='letter_head' id='#$category2_name'>$category2_name</div>";
   echo"<div class='letter_head' id='#$category3_name'>$category3_name</div>";
