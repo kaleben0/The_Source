@@ -8,16 +8,16 @@
   <div class="letter_head" id="favorite"><i class="far fa-star icons3"></i></div>
   <?php
   include './functions/config_categories.php';
-  echo"<div class='letter_head' id='#cat_1'>$category1_name</div>";
-  echo"<div class='letter_head' id='#cat_2'>$category2_name</div>";
-  echo"<div class='letter_head' id='#cat_3'>$category3_name</div>";
-  echo"<div class='letter_head' id='#cat_4'>$category4_name</div>";
-  echo"<div class='letter_head' id='#cat_5'>$category5_name</div>";
-  echo"<div class='letter_head' id='#cat_6'>$category6_name</div>";
-  echo"<div class='letter_head' id='#cat_7'>$category7_name</div>";
-  echo"<div class='letter_head' id='#cat_8'>$category8_name</div>";
-  echo"<div class='letter_head' id='#cat_9'>$category9_name</div>";
-  echo"<div class='letter_head' id='#cat_10'>$category10_name</div>";
+  echo"<div class='letter_head' id='cat_1'>$category1_name</div>";
+  echo"<div class='letter_head' id='cat_2'>$category2_name</div>";
+  echo"<div class='letter_head' id='cat_3'>$category3_name</div>";
+  echo"<div class='letter_head' id='cat_4'>$category4_name</div>";
+  echo"<div class='letter_head' id='cat_5'>$category5_name</div>";
+  echo"<div class='letter_head' id='cat_6'>$category6_name</div>";
+  echo"<div class='letter_head' id='cat_7'>$category7_name</div>";
+  echo"<div class='letter_head' id='cat_8'>$category8_name</div>";
+  echo"<div class='letter_head' id='cat_9'>$category9_name</div>";
+  echo"<div class='letter_head' id='cat_10'>$category10_name</div>";
   ?>
   <div class="letter_head" id="settings">Settings</div>
   <div class="tzone"><span id="txt"></span>&nbsp;|&nbsp;<i class="fas fa-cloud-sun fa-1x" title="Weather" onclick="toggle_weather();"></i>&nbsp;|&nbsp;<span id="time_message">Good Morning</span>&nbsp;|&nbsp;&nbsp;<i class="fas fa-bars fa-1x" onclick="toggle_main_menu();"></i>&nbsp;&nbsp;</div>
