@@ -206,9 +206,6 @@
     top: 80px;
     right: 40px;
   }
-  .dir_hr {
-    width: 192px;
-  }
   .editor {
     margin-bottom: 10px;
   }
@@ -249,7 +246,6 @@
   .letter_title {
     width: 93%;
   }
-
   .long {
     width: 500px !important;
   }
