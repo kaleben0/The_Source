@@ -1,7 +1,7 @@
 <?php
        include 'source_db.php';
        $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-       $query1 = "SELECT * FROM catergories";
+       $query1 = "SELECT * FROM categories";
        if ($result=$mysqli->query($query1)){
          while ($row=$result->fetch_assoc()){
            $catergory1_name=$row["catergory1_name"];
@@ -34,7 +34,7 @@
            $catergory9_name=$row["catergory10_name"];
            $catergory9_number=$row["catergory10_number"];
            $catergory9_fa=$row["catergory10_fa"];
-           
+
            $catergory1_name=trim($catergory1_name);
            $catergory2_name=trim($catergory2_name);
            $catergory3_name=trim($catergory3_name);
