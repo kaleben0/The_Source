@@ -39,6 +39,7 @@
 }
 .tip {
   text-align: left;
+  width: 300px;
 }
 .tipr_container_below {
   top: -10px !important;
