@@ -17,6 +17,10 @@ include './functions/settings_media.php';
 ?>
 <br/>
 <?php
+include './functions/css_editor.php';
+?>
+<br/>
+<?php
 include './functions/settings_frames.php';
 ?>
 <br/>
@@ -56,11 +60,7 @@ include './functions/search_features.php';
 </div>
 </div>
 </div>
-<br/>
-<?php
-include './functions/css_editor.php';
-?>
-<br/>
 </div>
+
 </div>
 </div>
