@@ -10,25 +10,25 @@
 </li>
 <?php
 include './functions/config_catergories.php';
-echo "<li class='header_menu' title='$catergory1_name' id='$catergory1_name' onclick='toggle_catergory1();'><i class='$catergory1_fa'></i>";
+echo "<li class='header_menu' title='$catergory1_name' id='#$catergory1_name' onclick='toggle_catergory1();'><i class='$catergory1_fa'></i>";
 echo "<div class='nav_label'>$catergory1_name</div></li>";
-echo "<li class='header_menu' title='$catergory2_name' id='$catergory2_name' onclick='toggle_catergory2();'><i class='$catergory2_fa'></i>";
+echo "<li class='header_menu' title='$catergory2_name' id='#$catergory2_name' onclick='toggle_catergory2();'><i class='$catergory2_fa'></i>";
 echo "<div class='nav_label'>$catergory2_name</div></li>";
-echo "<li class='header_menu' title='$catergory3_name' id='$catergory3_name' onclick='toggle_catergory3();'><i class='$catergory3_fa'></i>";
+echo "<li class='header_menu' title='$catergory3_name' id='#$catergory3_name' onclick='toggle_catergory3();'><i class='$catergory3_fa'></i>";
 echo "<div class='nav_label'>$catergory3_name</div></li>";
-echo "<li class='header_menu' title='$catergory4_name' id='$catergory4_name' onclick='toggle_catergory4();'><i class='$catergory4_fa'></i>";
+echo "<li class='header_menu' title='$catergory4_name' id='#$catergory4_name' onclick='toggle_catergory4();'><i class='$catergory4_fa'></i>";
 echo "<div class='nav_label'>$catergory4_name</div></li>";
-echo "<li class='header_menu' title='$catergory5_name' id='$catergory5_name' onclick='toggle_catergory5();'><i class='$catergory5_fa'></i>";
+echo "<li class='header_menu' title='$catergory5_name' id='#$catergory5_name' onclick='toggle_catergory5();'><i class='$catergory5_fa'></i>";
 echo "<div class='nav_label'>$catergory5_name</div></li>";
-echo "<li class='header_menu' title='$catergory6_name' id='$catergory6_name' onclick='toggle_catergory6();'><i class='$catergory6_fa'></i>";
+echo "<li class='header_menu' title='$catergory6_name' id='#$catergory6_name' onclick='toggle_catergory6();'><i class='$catergory6_fa'></i>";
 echo "<div class='nav_label'>$catergory6_name</div></li>";
-echo "<li class='header_menu' title='$catergory7_name' id='$catergory7_name' onclick='toggle_catergory7();'><i class='$catergory7_fa'></i>";
+echo "<li class='header_menu' title='$catergory7_name' id='#$catergory7_name' onclick='toggle_catergory7();'><i class='$catergory7_fa'></i>";
 echo "<div class='nav_label'>$catergory7_name</div></li>";
-echo "<li class='header_menu' title='$catergory8_name' id='$catergory8_name' onclick='toggle_catergory8();'><i class='$catergory8_fa'></i>";
+echo "<li class='header_menu' title='$catergory8_name' id='#$catergory8_name' onclick='toggle_catergory8();'><i class='$catergory8_fa'></i>";
 echo "<div class='nav_label'>$catergory8_name</div></li>";
-echo "<li class='header_menu' title='$catergory9_name' id='$catergory9_name' onclick='toggle_catergory9();'><i class='$catergory9_fa'></i>";
+echo "<li class='header_menu' title='$catergory9_name' id='#$catergory9_name' onclick='toggle_catergory9();'><i class='$catergory9_fa'></i>";
 echo "<div class='nav_label'>$catergory9_name</div></li>";
-echo "<li class='header_menu' title='$catergory10_name' id='$catergory10_name' onclick='toggle_catergory10();'><i class='$catergory10_fa'></i>";
+echo "<li class='header_menu' title='$catergory10_name' id='#$catergory10_name' onclick='toggle_catergory10();'><i class='$catergory10_fa'></i>";
 echo "<div class='nav_label'>$catergory10_name</div></li>";
 ?>
 </ul>
