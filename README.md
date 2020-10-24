@@ -29,13 +29,14 @@
 * 5 Custom Draggable Frames <---New!
 * Google Multi-Search w/ 24 Custom Searches <---New!
 * Customize Your CSS <---New!
-* Clock
-* Weather Widget from https://weatherwidget.io/
+* Customizable Wallpaper & Logo
+* Wallpaper / Message changes based on time of day
+* Wallpaper now supports animated GIF format (Sample Collection - https://imgur.com/a/A14dP6h)
+* Customizable Weather Widget from https://weatherwidget.io/
 * Password Generator
 * Keyboard Shortcut Keys
 * Mobile View
-* Message / Wallpaper changes based on time of day
-* Wallpaper now supports animated GIF format (My collection - https://imgur.com/a/A14dP6h)
+* Clock
 
 <h3>Installation</h3>
 
