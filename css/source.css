@@ -257,6 +257,10 @@
   color: #000;
   background-position: right bottom;
 }
+.category_field {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .favorite_box {
   text-align:left;
   font-size:18px;

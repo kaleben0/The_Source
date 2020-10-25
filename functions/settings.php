@@ -21,6 +21,10 @@ include './functions/css_editor.php';
 ?>
 <br/>
 <?php
+include './functions/settings_categories.php';
+?>
+<br/>
+<?php
 include './functions/settings_frames.php';
 ?>
 <br/>
