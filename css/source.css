@@ -106,6 +106,13 @@
 .a:hover ~ .favorite, .b:hover ~ .favorite, .c:hover ~ .favorite, .d:hover ~ .favorite, .e:hover ~ .favorite, .f:hover ~ .favorite, .g:hover ~ .favorite, .h:hover ~ .favorite, .i:hover ~ .favorite, .j:hover ~ .favorite, .k:hover ~ .favorite, .l:hover ~ .favorite, .m:hover ~ .favorite, .misc:hover ~ .favorite, .n:hover ~ .favorite, .o:hover ~ .favorite, .p:hover ~ .favorite, .q:hover ~ .favorite, .r:hover ~ .favorite, .s:hover ~ .favorite, .t:hover ~ .favorite, .u:hover ~ .favorite, .v:hover ~ .favorite, .w:hover ~ .favorite, .x:hover ~ .favorite, .y:hover ~ .favorite, .z:hover ~ .favorite {
   color: #000;
 }
+.book_box {
+  overflow: auto;
+  width: 100%;
+  height: 700px;
+  border: 1px solid #7d7474;;
+  border-radius: 5px;
+}
 .book_fields {
   background-position: left;
   font-size: 18px;
@@ -116,12 +123,33 @@
   border-radius: 5px;
   text-indent: 4px;
 }
-.book_fields, .set_fields,.googlesearch, .letter_space, .pass_put {
+.book_fields, .book_update_field, .set_fields,.googlesearch, .letter_space, .pass_put {
   background-color: #0e0e0e99;
   color: #fff;
 }
-.book_fields:focus, .set_fields:focus, .pass_put:focus {
+.book_fields:focus, .book_update_field:focus, .set_fields:focus, .pass_put:focus {
   outline: 0;
+}
+.book_title_field {
+  font-size:18px;
+}
+.book_title {
+  width:280px;
+}
+.book_update_field {
+  background-position: left;
+  font-size: 16px;
+  height: 30px;
+  width: 200px;
+  border: 1px solid #7d7474;
+  border-radius: 5px;
+  text-indent: 4px;
+  float:left;
+  margin-left:10px;
+}
+.book_update_field_box {
+  max-height: 30px;
+  height: 30px;
 }
 .book_head, .pass_head, .red_head, .cal_head, .search_head, .spot_head, .bin_head, .set_head {
   cursor: move;
@@ -140,6 +168,10 @@
   width: 60px;
   text-shadow: 2px 2px #000;
 }
+.book_hr {
+    width:100%;
+    opacity: .5;
+}
 .box {
   min-height: 170px !important;
   resize: both;
@@ -151,6 +183,12 @@
   margin-top: -25px !important;
   margin-right: 45px !important;
   font-size:18px;
+}
+.button_add_update {
+  min-width: 60px;
+  height: 30px;
+  margin-right: 0 !important;
+  float: left !important;
 }
 .cat_title {
   float: left;
@@ -199,10 +237,13 @@
 .dir_hr {
     width: 192px;
 }
+.book_hr {
+    width:100%;
+}
 .editor {
   padding: 6px;
 }
-.exit_pass, .exit_book, .exit_search, .exit_sc, .exit_help, .exit_frame1, .exit_frame2, .exit_frame3, .exit_frame4, .exit_frame5 {
+.exit_pass, .exit_book_add, .exit_book_edit, .exit_search, .exit_sc, .exit_help, .exit_frame1, .exit_frame2, .exit_frame3, .exit_frame4, .exit_frame5 {
   float: right;
   margin-right: -5px;
   margin-top: 0;
@@ -887,6 +928,13 @@
 .sub_block {
   padding: 0 2px;
 }
+.table_head {
+  border: none !important;
+  margin-right: -30px;
+  width: 150px !important;
+  margin-left: 95px;
+  background: none !important;
+}
 .tip {
   font-size: 14px;
   text-align: center;
@@ -993,7 +1041,24 @@
   border-radius: 5px;
   border: 1px solid #7d7474;
 }
-.win_book {
+.win_book_edit {
+  background-color: #0e0e0e99;
+  box-shadow: -4px 3px 7px #000;
+  display: none;
+  left: 200px;
+  margin-right: auto;
+  max-width: 1400px;
+  padding: 20px;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid #7d7474;
+  border-radius: 5px;
+}
+.win_book_add {
   background-color: #0e0e0e99;
   box-shadow: -4px 3px 7px #000;
   display: none;

@@ -34,7 +34,7 @@
 <div class="main_menu_item" onclick="togglefavorite();toggle_main_menu();"><i class="far fa-star fa-1x" title="Favorites" ></i>Favorites</div>
 <div class="main_menu_item" onclick="directory_toggle();toggle_main_menu();"><i class="fas fa-th fa-1x" title="Main Directory" ></i>Main Directory</div>
 <div class="main_menu_item" onclick="toggle_book();toggle_main_menu();"><i class="far fa-bookmark fa-1x" title="Add Bookmark"  ></i>Add Bookmark</div>
-<div class="main_menu_item" onclick="edit_book();toggle_main_menu();"><i class="far fa-edit fa-1x" title="Edit All Bookmarks" ></i>Edit All Bookmarks</div>
+<div class="main_menu_item" onclick="toggle_edit_book();toggle_main_menu();"><i class="far fa-edit fa-1x" title="Edit Bookmarks" ></i>Edit Bookmarks</div>
 <div class="main_menu_item" onclick="toggle_sc();toggle_main_menu();"><i class="fas fa-reply fa-1x" title="Keyboard Shortcuts" ></i>Keyboard Shortcuts</div>
 <div class="main_menu_item" onclick="togglesettings();toggle_main_menu();"><i class="fas fa-cogs fa-1x" title="Settings" ></i>Settings</div>
 <div class="main_menu_item" onclick="toggle_main_menu();window.open('./htam-panel.php','_blank');"><i class="fas fa-user-cog fa-1x" title="User Management" ></i>User Managment</div>

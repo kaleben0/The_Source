@@ -67,7 +67,7 @@ function update_db_category() {
 }
 
 $(document).ready(function () {
-  $('#general_form, #weather_form, #media_form, #cat_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #mobile_form, #logo_form, #search_feature_form, #book_add_form').submit(function () {
+  $('#general_form, #weather_form, #media_form, #cat_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #mobile_form, #logo_form, #search_feature_form, #book_add_form, #book_edit_form').submit(function () {
     window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
     this.target = 'formpopup';
   });
@@ -82,7 +82,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  $(document).on('click', '#search_feature_form', function () {
+  $(document).on('click', '#search_feature_form', '#book_edit_form', function () {
     window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
     this.target = 'formpopup';
   });
@@ -295,9 +295,6 @@ document.addEventListener("keydown", function (zEvent) {
   }
 });
 
-function edit_book() {
-  window.open('./functions/db_index.php?&start=0&s=&f=&sort=id&ad=a', '_blank');
-}
 
 //Header Toggles
 
@@ -417,9 +414,11 @@ function toggle_main_menu() {
   $(".main_menu").toggle();
 }
 function toggle_book() {
-  $(".win_book").toggle();
+  $(".win_book_add").toggle();
 }
-
+function toggle_edit_book() {
+  $(".win_book_edit").toggle();
+}
 function toggle_pass() {
   $(".win_pass").toggle();
 }
@@ -524,7 +523,10 @@ function populateform(enterlength) {
 //Window Drag
 
 $(document).ready(function () {
-  $(".win_book").draggable();
+  $(".win_book_add").draggable();
+});
+$(document).ready(function () {
+  $(".win_book_edit").draggable();
 });
 $(document).ready(function () {
   $(".win_pass").draggable();
@@ -570,8 +572,13 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $('.exit_book').click(function () {
-    $('.win_book').css('display', 'none');
+  $('.exit_book_add').click(function () {
+    $('.win_book_add').css('display', 'none');
+  });
+});
+$(document).ready(function () {
+  $('.exit_book_edit').click(function () {
+    $('.win_book_edit').css('display', 'none');
   });
 });
 $(document).ready(function () {
