@@ -6,14 +6,14 @@ if(strtolower(basename($_SERVER['PHP_SELF'])) == strtolower(basename(__FILE__)))
 
 class MySQLtabledit {
 
-   /**	
+   /**
     * MySQL Edit Table
-	* 
+	*
 	* Copyright (c) 2018 Martin Meijer
-	* 
+	*
 	* https://www.bookman.nl
 	* https://sourceforge.net/projects/sql-edit-table/
-	* 
+	*
 	* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 	* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 	* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -21,13 +21,13 @@ class MySQLtabledit {
 	* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 	* THE SOFTWARE.
-	* 
+	*
 	*/
-	
+
 	var $head_1;
 	var $version = 'Edit Bookmarks';
 
-	# text 
+	# text
 	var $text;
 
 	# language
@@ -45,29 +45,29 @@ class MySQLtabledit {
 
 	# the primary key of the table
 	var $primary_key;
-	
+
 	# the fields you want to see in "list view"
 	var $fields_in_list_view;
 	var $edit_all = true;
-	
+
 	# numbers of rows/records in "list view"
 	var $num_rows_list_view = 15;
 
 	# required fields in edit or add record
 	var $fields_required;
 
-	# Fields you want to edit: 
+	# Fields you want to edit:
 	var $fields_to_edit;
 
-	# help text 
+	# help text
 	var $help_text;
 
 	# visible name of the fields
-	var $show_text;	
+	var $show_text;
 
 	# visible name of the fields in listview
-	var $show_text_listview;	
-	
+	var $show_text_listview;
+
 	var $width_editor = '100%';
 	var $width_input_fields = '500px';
 	var $width_text_fields = '498px';
@@ -97,7 +97,7 @@ class MySQLtabledit {
 	##############################
 	function database_disconnect() {
 	##############################
-	
+
 		mysqli_close($this->mysqli);
 	}
 
@@ -107,7 +107,7 @@ class MySQLtabledit {
 	################
 	function do_it() {
 	################
-		
+
 		require_once("../lang/en.php");
 		require_once("../lang/" . $this->language . ".php");
 
@@ -131,7 +131,7 @@ class MySQLtabledit {
 			header('Pragma: no-cache');
 			header("Cache-control: private");
 		}
-	
+
 		if (!isset($this->url_base)) $this->url_base = '.';
 
 		# name of the script
@@ -153,19 +153,19 @@ class MySQLtabledit {
 
 
 		# GO TO...
-		if ($_GET['mte_a'] == 'edit') { 
-			$this->edit_rec(); 
+		if ($_GET['mte_a'] == 'edit') {
+			$this->edit_rec();
 		}
 		elseif ($_GET['mte_a'] == 'new') {
 			$this->edit_rec();
 		}
 		elseif ($_GET['mte_a'] == 'del') {
-			 $this->del_rec(); 
+			 $this->del_rec();
 		}
 		elseif ($_POST['mte_a'] == 'save') {
 			$this->save_rec();
 		}
-		else { 
+		else {
 			$this->show_list();
 		}
 
@@ -179,34 +179,34 @@ class MySQLtabledit {
 	####################
 	function show_list() {
 	####################
-		
+
 		# message after add or edit
-		if (isset($_SESSION['content_saved'])) $this->content_saved = $_SESSION['content_saved']; 
+		if (isset($_SESSION['content_saved'])) $this->content_saved = $_SESSION['content_saved'];
 		$_SESSION['content_saved'] = '';
-				
+
 		# default sort (a = ascending)
 		$ad = 'a';
 
 		if ($_GET['sort'] && in_array($_GET['sort'],$this->fields_in_list_view,true) ) {
 			if ($_GET['ad'] == 'a') $asc_des = 'ASC';
 			if ($_GET['ad'] == 'd') $asc_des = 'DESC';
-			$order_by = "ORDER by " . $_GET['sort'] . ' ' . $asc_des ;	
+			$order_by = "ORDER by " . $_GET['sort'] . ' ' . $asc_des ;
 		}
 		else {
-			$order_by = "ORDER by $this->primary_key DESC";	
+			$order_by = "ORDER by $this->primary_key DESC";
 		}
 
 
 		# navigation 1/3
 
 		$start = 0;
-		if (isset($_GET["start"])) { 
+		if (isset($_GET["start"])) {
 			$start = $_GET["start"]*1;
 		}
 
 
 
-		
+
 		// build query_string
 		// navigation
 		$query_string = '&start=' . $start;
@@ -214,8 +214,8 @@ class MySQLtabledit {
 		$query_string .= '&ad=' . $_GET['ad']  . '&sort=' . $_GET['sort'] ;
 		// searching
 		$query_string .= '&s=' . $_GET['s']  . '&f=' . $_GET['f'] ;
-		
-		
+
+
 		# search
 		$in_search_field = '';
 		$where_search = '';
@@ -231,14 +231,14 @@ class MySQLtabledit {
 				$where_search = "WHERE $in_search_field LIKE '%$in_search%' ";
 			}
 		}
-		
+
 		# select
 		$sql = "SELECT * FROM `$this->table` $where_search $order_by";
 		$result = mysqli_query($this->mysqli, $sql);
-		
+
 		# navigation 2/3
-		$hits_total = mysqli_num_rows($result); 
-		
+		$hits_total = mysqli_num_rows($result);
+
 		$sql .= " LIMIT $start, $this->num_rows_list_view";
 		$result = mysqli_query($this->mysqli, $sql);
 
@@ -250,16 +250,16 @@ class MySQLtabledit {
 				$count++;
 				$this_row = '';
 				if (!isset($background)) $background = '';
-				if ($background == '#eee') {$background='#fff';} 
+				if ($background == '#eee') {$background='#fff';}
 					else {$background='#eee';}
-							
+
 				foreach ($rij AS $key => $value) {
-					
+
 					$sort_image = '';
 					if (in_array($key, $this->fields_in_list_view,true)) {
 						if ($count == 1) {
-							
-							// show nice text of a value 
+
+							// show nice text of a value
 							if ($this->show_text_listview[$key]) {$show_key = $this->show_text_listview[$key];}
 								else {$show_key = $key;}
 
@@ -274,7 +274,7 @@ class MySQLtabledit {
 							}
 
 							// remove sort  and ad and add new ones
-							$query_sort = preg_replace('/&(sort|ad)=[^&]*/','', $query_string) . "&sort=$key&ad=$ad";	
+							$query_sort = preg_replace('/&(sort|ad)=[^&]*/','', $query_string) . "&sort=$key&ad=$ad";
 
 							$head .= "<td nowrap><a href='$this->url_script?$query_sort' class='mte_head'>$show_key</a> $sort_image</td>";
 						}
@@ -283,14 +283,14 @@ class MySQLtabledit {
 							$this_row .= "<td>$value</td>";
 						}
 						else {
-							
+
 							$this_row .= '<td>' . substr(strip_tags($value), 0, 300) . '</td>';
 						}
 					}
 				}
-				
+
 				$rows .= "<tr style='background:$background'>$buttons $this_row</tr>";
-				
+
 			}
 		}
 		else {
@@ -301,7 +301,7 @@ class MySQLtabledit {
 		# navigation 3/3
 
 		# remove start= from url
-		$query_nav = preg_replace('/&(start|mte_a|id)=[^&]*/','', $query_string );	
+		$query_nav = preg_replace('/&(start|mte_a|id)=[^&]*/','', $query_string );
 
 
 		# this page
@@ -328,10 +328,10 @@ class MySQLtabledit {
 			$nav_toon = $this->num_rows_list_view * ($f-1);
 
 			if ($f == $this_page) {
-				$navigation .= "<td class='mte_nav' style='color:#fff;background: #808080;font-weight: bold'>$f</td> "; 
+				$navigation .= "<td class='mte_nav' style='color:#fff;background: #808080;font-weight: bold'>$f</td> ";
 			}
 			else {
-				$navigation .= "<td class='mte_nav' style='background: #fff'><a href='$this->url_script?$query_nav&start=$nav_toon'>$f</a></td>"; 
+				$navigation .= "<td class='mte_nav' style='background: #fff'><a href='$this->url_script?$query_nav&start=$nav_toon'>$f</a></td>";
 			}
 		}
 		if ($hits_total<$this->num_rows_list_view) { $navigation = '';}
@@ -347,7 +347,7 @@ class MySQLtabledit {
 			$last_page_html = "<a href='$this->url_script?$query_nav&start=$last' class='mte_nav_prev_next'>{$this->text['Previous']}</a>";
 		}
 
-		# Next if: 
+		# Next if:
 		if ($this_page != $last_page && $hits_total>1) {
 			$next =  $start + $this->num_rows_list_view;
 			$next_page_html =  "<a href='$this->url_script?$query_nav&start=$next' class='mte_nav_prev_next'>{$this->text['Next']}</a>";
@@ -362,7 +362,7 @@ class MySQLtabledit {
 						$navigation
 						<td style='padding-left:6px;vertical-align: middle'>$next_page_html</td>
 					</tr>
-				</table>	
+				</table>
 			";
 
 			$this->nav_top = "
@@ -370,7 +370,7 @@ class MySQLtabledit {
 				<center>
 					$nav_table
 				</center>
-				</div>	
+				</div>
 			";
 
 			$this->nav_bottom = "
@@ -381,14 +381,14 @@ class MySQLtabledit {
 				</div>
 			";
 		}
-		
-		
-		
-		
+
+
+
+
 		# Search form + Add Record button
 		$options = '';
 		foreach ($this->fields_in_list_view AS $option) {
-			
+
 			if ($this->show_text_listview[$option]) {$show_option = $this->show_text_listview[$option];}
 			else {$show_option = $option;}
 
@@ -414,20 +414,20 @@ class MySQLtabledit {
 				<td nowrap style='text-align: right'>
 					<form method=get action='$this->url_script' style='padding: 15px'>
 						<input type='text' name='s' value='$in_search_value' style='width:200px;height:24px;border: 0;' placeholder=' {$this->text['Search']}'>
-						<select name='f' style='height:26px;border: 0;'>$options</select> 
+						<select name='f' style='height:26px;border: 0;'>$options</select>
 						<input type='submit' value='Search' style='width:40px;min-width:80px;border: 0;'>
 					</form>
-			"; 	
+			";
 
-		
-		if ($_GET['s'] && $_GET['f']) {		
+
+		if ($_GET['s'] && $_GET['f']) {
 			$seach_form .= "<button onclick='window.location=\"$this->url_script\"' style='margin: 0 15px 15px 0; border: 1px solid #000;'>{$this->text['Clear_search']}</button>";
 		}
-		
+
 		$seach_form .= "
 				</td>
 
-			
+
 			</tr>
 			</table>
 		";
@@ -435,12 +435,12 @@ class MySQLtabledit {
 		$this->javascript = "
 			function del_confirm(id) {
 				if (confirm('{$this->text['Delete']} record {$this->show_text_listview[$this->primary_key]} ' + id + '...?')) {
-					window.location='$this->url_script?$query_string&mte_a=del&id=' + id				
+					window.location='$this->url_script?$query_string&mte_a=del&id=' + id
 				}
 			}
 		";
-		
-		
+
+
 		# page content
 		$this->content = "
 			<div style='width: $this->width_editor;background:#454545;margin:0'>$seach_form</div>
@@ -454,8 +454,8 @@ class MySQLtabledit {
 			$this->nav_bottom
 
 		";
-		
-		
+
+
 	}
 
 
@@ -479,7 +479,7 @@ class MySQLtabledit {
 			$this->content = "
 			</div>
 				<div style='padding:2px 20px 20px 20px;margin: 0 0 20px 0; background: #DF0000; color: #fff;'><h3>Error</h3>" .
-				mysqli_error($this->mysqli) . 
+				mysqli_error($this->mysqli) .
 				"</div><a href='$this->url_script'>List records...</a>
 			</div>";
 		}
@@ -498,17 +498,17 @@ class MySQLtabledit {
 		# edit or new?
 		if ($_GET['mte_a'] == 'edit') $edit=1;
 		else $edit = 0;
-		
+
 		$count_required = 0;
 		$rows = '';
-		
+
 		$result = mysqli_query($this->mysqli,"SHOW COLUMNS FROM `$this->table`");
-				
+
 		# get field types
 		while ($rij = mysqli_fetch_assoc($result)) {
 			extract($rij);
 			$field_type[$Field] = $Type;
-		} 
+		}
 
 		if (!$edit) {
 			$rij = $field_type;
@@ -518,10 +518,10 @@ class MySQLtabledit {
 			$result = mysqli_query($this->mysqli,"SELECT * FROM `$this->table` $where_edit LIMIT 1 ;");
 			$rij = mysqli_fetch_assoc($result);
 		}
-		
-		
+
+
 		foreach ($rij AS $key => $value) {
-			if ($this->edit_all) $this->fields_to_edit[] = $key; 
+			if ($this->edit_all) $this->fields_to_edit[] = $key;
 			if (!$edit) $value = '';
 			$field = '';
 			$options = '';
@@ -529,7 +529,7 @@ class MySQLtabledit {
 			$field_id = '';
 			$readonly = '';
 			$value_htmlentities = '';
-			
+
 			if (in_array($key, $this->fields_required,true)) {
 				$count_required++;
 				$style = "class='mte_req'";
@@ -558,7 +558,7 @@ class MySQLtabledit {
 					else {
 						$options .= "<option>$option</option>";
 					}
-				} 
+				}
 				$field = "<select name='$key' $style $field_id>$options</select>";
 			}
 			# input
@@ -572,8 +572,8 @@ class MySQLtabledit {
 					if (!$edit && $key == $this->primary_key) {
 
 						$field = "<input type='hidden' name='$key' value=''>[auto increment]";
-						
-						// if you want to change the value of the primary_key, 
+
+						// if you want to change the value of the primary_key,
 						// remove the <input hidden> and use these 4 lines:
 						/* *** START ***
 						$result = mysqli_query ($this->mysqli, "SELECT $this->primary_key FROM $this->table ORDER BY $this->primary_key DESC LIMIT 1");
@@ -582,7 +582,7 @@ class MySQLtabledit {
 						$field = "<input type='text' name='$key' value='$new_last_id'>[auto increment]";
 						*** END ***
 						Thanks Jules Rommens! */
-					} 
+					}
 					else {
 
 						if (isset($this->lookup_table[$key])) {
@@ -606,7 +606,7 @@ class MySQLtabledit {
 
 							}
 						}
-						else {	
+						else {
 							$field = "<input type='text' name='$key' value='$value_htmlentities' maxlength='{$matches[1]}' $style $readonly $field_id>";
 						}
 					}
@@ -618,28 +618,28 @@ class MySQLtabledit {
 			elseif (preg_match("/blob/", $field_kind)) {
 				$field = '[<i>binary</i>]';
 			}
-			 
+
 			# make table row
 			if (!isset($background)) $background = '';
-			if ($background == '#eee') {$background='#fff';} 
+			if ($background == '#eee') {$background='#fff';}
 				else {$background='#eee';}
 			if ($this->show_text[$key]) {$show_key = $this->show_text[$key];}
 				else {
 					$show_key = $key;
 				}
-				
+
 			if ($key == $this->primary_key || in_array($key,$this->fields_to_edit,true)) {
 				$rows .= "\n\n<tr style='background:$background'>\n<td><b>$show_key</b></td>\n<td>$field</td>\n<td>{$this->help_text[$key]}</td>\n</tr>";
 			}
 		}
-		
+
 		$this->javascript = "
 			function submitform() {
 				var ok = 0;
 				for (f=1;f<=$count_required;f++) {
-					
+
 					var elem = document.getElementById('id_' + f);
-					
+
 					if(elem.options) {
 						if (elem.options[elem.selectedIndex].text!=null && elem.options[elem.selectedIndex].text!='') {
 							ok++;
@@ -659,16 +659,16 @@ class MySQLtabledit {
 				else {
 					alert('{$this->text['Check_the_required_fields']}...')
 					return false;
-				}	
+				}
 			}
 		";
 
 
 		$this->content = "
-			
+
 
 				<div style='width: $this->width_editor;background:#454545'>
-				
+
 					<table cellspacing=0 cellpadding=0 style='border: 0'>
 						<tr>
 						<td>
@@ -678,18 +678,18 @@ class MySQLtabledit {
 							<input type='submit' value='{$this->text['Save']}' style='width: 80px;border: 1px solid #000;float:left; margin: 20px 0 25px 0'></td>
 						</tr>
 					</table>
-					
+
 				</div>
-			
+
 				<div style='width: $this->width_editor'>
 					<table cellspacing=0 cellpadding=10 style='margin: 0'>
 						$rows
 					</table>
 				</div>
 		";
-			
+
 		if (!$edit) $this->content .= "<input type='hidden' name='mte_new_rec' value='1'>";
-		
+
 		$this->content .= "
 				<input type='hidden' name='mte_a' value='save'/>
 	</form>
@@ -697,43 +697,47 @@ class MySQLtabledit {
   <tbody>
     <tr>
       <th>Catergories</th>
-      <th>Font Awesome - https://fontawesome.com/</th>
+      <th>Number</th>
     </tr>
     <tr>
-      <td>design</td>
-      <td>far fa-object-group</td>
+      <td><?php include './functions/config_categories.php';echo$category1_number ?></td>
+      <td><?php include './functions/config_categories.php';echo$category1_name ?></td>
     </tr>
     <tr>
-      <td>environmental</td>
-      <td>fas fa-cloud-sun</td>
+		<td><?php include './functions/config_categories.php';echo$category2_number ?></td>
+		<td><?php include './functions/config_categories.php';echo$category2_name ?></td>
     </tr>
     <tr>
-      <td>finance</td>
-      <td>fas fa-file-invoice-dollar</td>
+		<td><?php include './functions/config_categories.php';echo$category3_number ?></td>
+		<td><?php include './functions/config_categories.php';echo$category3_name ?></td>
     </tr>
     <tr>
-      <td>game</td>
-      <td>fas fa-gamepad</td>
+		<td><?php include './functions/config_categories.php';echo$category4_number ?></td>
+		<td><?php include './functions/config_categories.php';echo$category4_name ?></td>
     </tr>
     <tr>
-      <td>media</td>
-      <td>fas fa-photo-video</td>
+		<td><?php include './functions/config_categories.php';echo$category5_number ?></td>
+		<td><?php include './functions/config_categories.php';echo$category5_name ?></td>
     </tr>
     <tr>
-      <td>medical</td>
-      <td>far fa-hospital</td>
+		<td><?php include './functions/config_categories.php';echo$category6_number ?></td>
+		<td><?php include './functions/config_categories.php';echo$category6_name ?></td>
     </tr>
     <tr>
-      <td>network</td>
-      <td>fas fa-network-wired</td>
+		<td><?php include './functions/config_categories.php';echo$category7_number ?></td>
+		<td><?php include './functions/config_categories.php';echo$category7_name ?></td>
     </tr>
     <tr>
-      <td>productivity</td>
-      <td>far fa-address-card</td>
+		<td><?php include './functions/config_categories.php';echo$category8_number ?></td>
+		<td><?php include './functions/config_categories.php';echo$category8_name ?></td>
     </tr>
     <tr>
-      <td>web</td>
-      <td>fas fa-globe</td>
+		<td><?php include './functions/config_categories.php';echo$category9_number ?></td>
+		<td><?php include './functions/config_categories.php';echo$category9_name ?></td>
+    </tr>
+		<tr>
+		<td><?php include './functions/config_categories.php';echo$category10_number ?></td>
+		<td><?php include './functions/config_categories.php';echo$category10_name ?></td>
     </tr>
   </tbody>
 </table>
@@ -749,11 +753,11 @@ class MySQLtabledit {
 
 		if (isset ($_POST['mte_new_rec'])) $in_mte_new_rec = $_POST['mte_new_rec'];
 		else $in_mte_new_rec = 0;
-		
+
 		$insert_fields = '';
 		$insert_values = '';
 		$updates = '';
-		
+
 		foreach($_POST AS $key => $value) {
 			if ($key == $this->primary_key) {
 				$in_id = $value;
@@ -777,17 +781,17 @@ class MySQLtabledit {
 		$insert_fields = substr($insert_fields,0,-1);
 		$insert_values = substr($insert_values,0,-1);
 		$updates = substr($updates,0,-1);
-		
+
 
 		# new record:
 		if ($in_mte_new_rec) {
-			$sql = "INSERT INTO `$this->table` ($insert_fields) VALUES ($insert_values); ";	
+			$sql = "INSERT INTO `$this->table` ($insert_fields) VALUES ($insert_values); ";
 		}
 		# edit record:
 		else {
-			$sql = "UPDATE `$this->table` SET $updates WHERE $where LIMIT 1; ";	
+			$sql = "UPDATE `$this->table` SET $updates WHERE $where LIMIT 1; ";
 		}
-		
+
 
 		//echo $sql; exit;
 		if (mysqli_query($this->mysqli,$sql)) {
@@ -819,7 +823,7 @@ class MySQLtabledit {
 			$this->content = "
 				<div style='width: $this->width_editor'>
 					<div style='padding:2px 20px 20px 20px;margin: 0 0 20px 0; background: #DF0000; color: #fff;'><h3>Error</h3>" .
-					mysqli_error($this->mysqli) . 
+					mysqli_error($this->mysqli) .
 					"</div><a href='{$_SESSION['hist_page']}'>{$this->text['Go_back']}...</a>
 				</div>";
 		}
@@ -847,13 +851,13 @@ class MySQLtabledit {
 
 		# save page location
 		$session_hist_page = $this->url_script . '?' . $_SERVER['QUERY_STRING'];
-		
-		// no page history on the edit page because after refresh the Go Back is useless 
+
+		// no page history on the edit page because after refresh the Go Back is useless
 		if (!$_GET['mte_a']) {
 			$_SESSION['hist_page'] = $session_hist_page;
 		}
 
-		
+
 		echo "
 			<script language='javascript'>
 				$this->javascript
@@ -869,7 +873,7 @@ class MySQLtabledit {
 					width: $this->width_text_fields;
 					height: $this->height_text_fields;
 				}
-			</style>	
+			</style>
 
 			<div class='mte_content'>
 				<div class='mte_head_1'><a href='$this->url_script'>
@@ -880,8 +884,8 @@ class MySQLtabledit {
 				$this->content_deleted
 				$this->content
 			</div>
-		";	
-		
-	}  
+		";
+
+	}
 }
 ?>
