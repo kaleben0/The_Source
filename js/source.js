@@ -409,7 +409,7 @@ function clear_box2() {
 
 function directory_toggle() {
   $('.letter_title,#directory_section,#up_bar').show(),
-    $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, ").show();
+    $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10").show();
   $(".letter_head, .favorite_center ").hide();
 }
 function toggle_main_menu() {
