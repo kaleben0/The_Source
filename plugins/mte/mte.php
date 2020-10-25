@@ -78,7 +78,7 @@ class MySQLtabledit {
 
 	var $javascript; // Thanks Jules Rommens this and other corrections.
 
-	include '/functions/config_categories.php';
+
 	###########################
 	function database_connect() {
 	###########################
@@ -107,6 +107,7 @@ class MySQLtabledit {
 	################
 	function do_it() {
 	################
+		include '/functions/config_categories.php';
 		require_once("../lang/en.php");
 		require_once("../lang/" . $this->language . ".php");
 
