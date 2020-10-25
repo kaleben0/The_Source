@@ -44,7 +44,7 @@
 * git clone https://github.com/kaleben0/The_Source.git in your webserver directory
 * Create a DB & User in MySQL
 * Import the_source.sql into your new db (usually something like (without quotes) 'mysql -u "username" -p "new database name" < the_source.sql')
-* Update /functions/source_db.php, /functions/db_index.php with your database settings (database name, host, username, password)
+* Update /functions/source_db.php with your database settings (database name, host, username, password)
 * Click the Gear icon in the upper right corner and edit your settings.
 
 <h5>Modify your php.ini (for image uploads)</h5>
