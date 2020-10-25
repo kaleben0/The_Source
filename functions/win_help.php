@@ -145,7 +145,7 @@
     <p>In the Custom Categories section of the Settings Menu, you can customize 10 different categories.</p>
     <p>Customize Options :</p>
     <ul>
-      <li>name</li>
+      <li>Name</li>
       <li>Font Awesome Icon</li>
     </ul>
     <h3><i class="fas fa-window-restore"></i> Custom Frames</h3>
