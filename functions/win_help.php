@@ -80,8 +80,8 @@
     <p>The Main Directory will display all bookmarks. </p>
     <h4><i class="far fa-bookmark"></i> Add Bookmark</h4>
     <p>Add a single bookmark to your collection.</p>
-    <h4><i class="far fa-edit"></i> Edit All Bookmarks</h4>
-    <p>Opens the MTE interface to Add/Remove/Change multiple bookmarks.</p>
+    <h4><i class="far fa-edit"></i> Edit Bookmarks</h4>
+    <p>Opens the interface to change multiple bookmarks.</p>
     <h4><i class="fas fa-cogs"></i> Settings</h4>
     <p>Opens the Settings Panel.</p>
     <h4><i class="fas fa-reply"></i> Keyboard Shortcuts</h4>
@@ -109,7 +109,7 @@
     <h4><i class="far fa-bookmark"></i> Add Bookmark</h4>
     <p>Add a single bookmark to your collection.</p>
     <h4><i class="far fa-edit"></i> Edit Bookmarks</h4>
-    <p>Opens the MTE interface to Add/Remove/Change multiple bookmarks.</p>
+    <p>Opens the interface to change multiple bookmarks.</p>
     <h4><i class="fas fa-list"></i> List View</h4>
     <p>Toggles between List/Grid view.</p>
     <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_settings">
@@ -201,7 +201,6 @@
       <li>HTAM - https://github.com/Maxelweb/HTAM</li>
       <li>JQuery - https://jquery.com/</li>
       <li>JQueryUI - https://jqueryui.com/</li>
-      <li>MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/</li>
       <li>Tipr - https://github.com/lt1946/Tipr</li>
       <li>Weather Widget - https://weatherwidget.io/</li>
     </ul>

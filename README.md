@@ -20,7 +20,6 @@
 * HTAM - https://github.com/Maxelweb/HTAM
 * JQuery - https://jquery.com/
 * JQueryUI - https://jqueryui.com/
-* MySQL Edit Table - https://sourceforge.net/projects/sql-edit-table/
 * Tipr - https://github.com/lt1946/Tipr
 * Weather Widget - https://weatherwidget.io/
 
