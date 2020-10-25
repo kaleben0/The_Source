@@ -2,7 +2,7 @@
   <div class="row">
     <div class="favorite_center">
       <div class="favorite_head" >
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category1_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category1_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category1_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category1_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="favorite_head" >
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category2_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category2_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category2_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category2_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="favorite_head" >
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category3_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category3_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category3_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category3_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
@@ -77,7 +77,7 @@
         </div>
       </div>
       <div class="favorite_head">
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category4_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category4_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category4_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category4_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
@@ -102,7 +102,7 @@
         </div>
       </div>
       <div class="favorite_head">
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category5_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category5_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category5_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category5_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
@@ -127,7 +127,7 @@
         </div>
       </div>
       <div class="favorite_head" >
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category6_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category6_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category6_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category6_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
@@ -152,7 +152,7 @@
         </div>
       </div>
       <div class="favorite_head" >
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category7_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category7_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category7_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category7_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
@@ -177,7 +177,7 @@
         </div>
       </div>
       <div class="favorite_head" >
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category8_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category8_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category8_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category8_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
@@ -202,7 +202,7 @@
         </div>
       </div>
       <div class="favorite_head">
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category9_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category9_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category9_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category9_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
@@ -227,7 +227,7 @@
     </div>
   </div>
   <div class="favorite_head" >
-        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category10_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category10_name ?></div>
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category10_fa ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category10_name ?></div>
     <div class="favorite_container" >
       <?php
   include './functions/source_db.php';
