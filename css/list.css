@@ -29,7 +29,7 @@
     float: left;
     margin-top: -10px;
 }
-.favorite, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
+.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10 {
 	border:none;
 	background:none;
 	height:30px;
@@ -37,6 +37,9 @@
 	margin: unset;
 	left: -15px;
 	backdrop-filter: unset;
+}
+.category_1:hover, .category_2:hover, .category_3:hover, .category_4:hover, .category_5:hover, .category_6:hover, .category_7:hover, .category_8:hover, .category_9:hover, .category_10:hover  {
+	color:#fff;
 }
 .tip {
   text-align: left;
@@ -50,9 +53,5 @@
 .tipr_container_below {
   top: -10px !important;
   left: -130px !important;
-}
-.favorite:hover, .finance:hover, .design:hover, .environmental:hover, .game:hover, .media:hover, .medical:hover, .network:hover, .productivity:hover, .web:hover {
-	color:#fff;
-
 }
 }
