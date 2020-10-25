@@ -304,7 +304,7 @@ function edit_book() {
 
 
 function toggle_category1() {
-$(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),
+$(".favorite,.category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(),  $(".favorite,.category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
 $('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
 $('#directory_section,.g_form').show();
   $('.category_1').toggle();
