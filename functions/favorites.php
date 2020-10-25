@@ -1,13 +1,13 @@
 <div class="container" id="favorite_section">
   <div class="row">
     <div class="favorite_center">
-      <div class="favorite_head" id="category_1_toggle">
-        <div class="fav_icon"> <i class="far fa-object-group favorite_fa"></i> Design</div>
+      <div class="favorite_head" >
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category1_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category1_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
       $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-      $query2 = "SELECT * FROM bookmark WHERE category = 'design' AND favorite= 'yes' AND status = 'enabled' ORDER BY title";
+      $query2 = "SELECT * FROM bookmark WHERE category = '1' AND favorite= 'yes' AND status = 'enabled' ORDER BY title";
       if ( $result = $mysqli->query( $query2 ) ) {
         while ( $row = $result->fetch_assoc() ) {
           $letter = $row[ "letter" ];
@@ -26,13 +26,13 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="category_2_toggle">
-        <div class="fav_icon"> <i class="fas fa-cloud-sun favorite_fa"></i> Environmental</div>
+      <div class="favorite_head" >
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category2_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category2_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
       $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-      $query3 = "SELECT * FROM bookmark WHERE category = 'environmental' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+      $query3 = "SELECT * FROM bookmark WHERE category = '2' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
       if ( $result = $mysqli->query( $query3 ) ) {
         while ( $row = $result->fetch_assoc() ) {
           $letter = $row[ "letter" ];
@@ -51,13 +51,13 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="category_3_toggle">
-        <div class="fav_icon"> <i class="fas fa-file-invoice-dollar  favorite_fa"></i> Finance</div>
+      <div class="favorite_head" >
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category3_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category3_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
       $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-      $query4 = "SELECT * FROM bookmark WHERE category = 'finance' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+      $query4 = "SELECT * FROM bookmark WHERE category = '3' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
       if ( $result = $mysqli->query( $query4 ) ) {
         while ( $row = $result->fetch_assoc() ) {
           $letter = $row[ "letter" ];
@@ -76,13 +76,13 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="category_4_toggle">
-        <div class="fav_icon"> <i class="fas fa-gamepad favorite_fa"></i> Games</div>
+      <div class="favorite_head">
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category4_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category4_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
       $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-      $query5 = "SELECT * FROM bookmark WHERE category = 'game' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+      $query5 = "SELECT * FROM bookmark WHERE category = '4' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
       if ( $result = $mysqli->query( $query5 ) ) {
         while ( $row = $result->fetch_assoc() ) {
           $letter = $row[ "letter" ];
@@ -101,13 +101,13 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="category_5_toggle">
-        <div class="fav_icon"><i class="fas fa-photo-video favorite_fa"></i> Media</div>
+      <div class="favorite_head">
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category5_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category5_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
       $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-      $query6 = "SELECT * FROM bookmark WHERE category = 'media' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+      $query6 = "SELECT * FROM bookmark WHERE category = '5' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
       if ( $result = $mysqli->query( $query6 ) ) {
         while ( $row = $result->fetch_assoc() ) {
           $letter = $row[ "letter" ];
@@ -126,13 +126,13 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="category_6_toggle">
-        <div class="fav_icon"><i class="far fa-hospital favorite_fa"></i> Medical</div>
+      <div class="favorite_head" >
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category6_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category6_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
       $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-      $query7 = "SELECT * FROM bookmark WHERE category = 'medical' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+      $query7 = "SELECT * FROM bookmark WHERE category = '6' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
       if ( $result = $mysqli->query( $query7 ) ) {
         while ( $row = $result->fetch_assoc() ) {
           $letter = $row[ "letter" ];
@@ -151,13 +151,13 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="category_7_toggle">
-        <div class="fav_icon"><i class="fas fa-network-wired favorite_fa"></i> Network</div>
+      <div class="favorite_head" >
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category7_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category7_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
       $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-      $query8 = "SELECT * FROM bookmark WHERE category = 'network' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+      $query8 = "SELECT * FROM bookmark WHERE category = '7' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
       if ( $result = $mysqli->query( $query8 ) ) {
         while ( $row = $result->fetch_assoc() ) {
           $letter = $row[ "letter" ];
@@ -176,13 +176,13 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="category_8_toggle">
-        <div class="fav_icon"><i class="far fa-address-card favorite_fa"></i> Productivity</div>
+      <div class="favorite_head" >
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category8_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category8_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
       $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-      $query9 = "SELECT * FROM bookmark WHERE category = 'productivity' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+      $query9 = "SELECT * FROM bookmark WHERE category = '8' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
       if ( $result = $mysqli->query( $query9 ) ) {
         while ( $row = $result->fetch_assoc() ) {
           $letter = $row[ "letter" ];
@@ -201,13 +201,13 @@
       ?>
         </div>
       </div>
-      <div class="favorite_head" id="category_9_toggle"
-        <div class="fav_icon"><i class="fas fa-globe favorite_fa"></i> Web</div>
+      <div class="favorite_head">
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category9_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category9_name ?></div>
         <div class="favorite_container" >
           <?php
       include './functions/source_db.php';
       $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-      $query10 = "SELECT * FROM bookmark WHERE category = 'web' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+      $query10 = "SELECT * FROM bookmark WHERE category = '9' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
       if ( $result = $mysqli->query( $query10 ) ) {
         while ( $row = $result->fetch_assoc() ) {
           $letter = $row[ "letter" ];
@@ -226,13 +226,13 @@
       ?>
     </div>
   </div>
-  <div class="favorite_head" id="category_10_toggle"
-    <div class="fav_icon"><i class="fas fa-globe favorite_fa"></i> Web</div>
+  <div class="favorite_head" >
+        <div class="fav_icon"> <i class="<?php include './functions/config_categories.php';echo$category10_title ?> favorite_fa"></i> <?php include './functions/config_categories.php';echo$category10_name ?></div>
     <div class="favorite_container" >
       <?php
   include './functions/source_db.php';
   $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-  $query10 = "SELECT * FROM bookmark WHERE category = 'web' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
+  $query10 = "SELECT * FROM bookmark WHERE category = '10' AND favorite= 'yes'  AND status = 'enabled' ORDER BY title";
   if ( $result = $mysqli->query( $query10 ) ) {
     while ( $row = $result->fetch_assoc() ) {
       $letter = $row[ "letter" ];
