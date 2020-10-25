@@ -107,7 +107,6 @@ class MySQLtabledit {
 	################
 	function do_it() {
 	################
-		require_once("../functions/config_categories.php");
 		require_once("../lang/en.php");
 		require_once("../lang/" . $this->language . ".php");
 
@@ -693,6 +692,7 @@ class MySQLtabledit {
 		$this->content .= "
 				<input type='hidden' name='mte_a' value='save'/>
 	</form>
+include '/functions/config_categories.php';
 <table border='1' class='info_table'>
   <tbody>
     <tr>
