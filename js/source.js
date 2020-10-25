@@ -295,7 +295,7 @@ document.addEventListener("keydown", function (zEvent) {
   }
 });
 document.addEventListener("keydown", function (zEvent) {
-  if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "e") {
+  if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "f") {
     toggle_edit_book();
   }
 });
