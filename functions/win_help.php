@@ -141,7 +141,7 @@
     <p>Wallpaper, Mobile Wallpaper, and Logo can be customized in the Media section of the Settings Menu.</p>
     <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
     <p>In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS.</p>
-    <h3><i class="fas fa-window-restore"></i> Custom Categories</h3>
+    <h3><i class="fas fa-th-list"></i> Custom Categories</h3>
     <p>In the Custom Categories section of the Settings Menu, you can customize 10 different categories.</p>
     <p>Customize Options :</p>
     <ul>
