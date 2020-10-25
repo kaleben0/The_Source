@@ -282,7 +282,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
-  max-width: 1400px;
+  max-width: 1500px;
 }
 .favorite_container {
   align-items: center;
@@ -315,7 +315,7 @@
   margin: 2px;
   user-select: none;
   vertical-align: middle;
-  width: 210px;
+  width: 200px;
   text-shadow: 2px 2px #000;
   box-shadow: 2px 2px #000;
   backdrop-filter: blur(10px);
