@@ -19,7 +19,7 @@ echo"<div class='book_box'>";
             $title = $row[ "title" ];
 	          $favor = $row[ "favorite" ];
 echo "<hr class='book_hr'/>";
-echo "<div class='book_update_field_box'><form action='../functions/edit_book.php' method='post' target='_blank' id='book_edit_form'>";	 
+echo "<div class='book_update_field_box'><form action='../functions/edit_book.php' method='post' target='_blank' id='book_edit_form'>";
 echo "<input type='submit' name='submit' class='far fa-save button_add_update' value='' title='Save Changes'>";
 echo "<input type='text' name='title' class='book_update_field' placeholder='Name (20 Char Max)' maxlength='20' value='$title'>";
 echo "<input type='hidden' name='id' value='$id'>";
@@ -46,4 +46,5 @@ echo "</form></div>";
           $result->free();
         }
 ?>
+</div>
 </div>
