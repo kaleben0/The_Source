@@ -130,6 +130,12 @@
 .book_fields:focus, .book_update_field:focus, .set_fields:focus, .pass_put:focus {
   outline: 0;
 }
+.book_remove_button {
+  display:block !important;
+  left: 0 !important;
+  z-index:1000 !important;
+  margin-right: 10px;
+}
 .book_title_field {
   font-size:18px;
 }
@@ -151,6 +157,7 @@
   max-height: 30px;
   height: 30px;
 }
+
 .book_head, .pass_head, .red_head, .cal_head, .search_head, .spot_head, .bin_head, .set_head {
   cursor: move;
   font-size: 30px;

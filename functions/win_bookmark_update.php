@@ -19,7 +19,7 @@ echo"<div class='book_box'>";
             $title = $row[ "title" ];
 	          $favor = $row[ "favorite" ];
 echo "<hr class='book_hr'/>";
-echo "<div class='book_update_field_box'><form action='../functions/edit_book.php' method='post' target='_blank' id='book_edit_form'>";
+echo "<div class='book_update_field_box'><form action='../functions/edit_book.php' method='post' target='_blank' id='book_edit_form'>";	 
 echo "<input type='submit' name='submit' class='far fa-save button_add_update' value='' title='Save Changes'>";
 echo "<input type='text' name='title' class='book_update_field' placeholder='Name (20 Char Max)' maxlength='20' value='$title'>";
 echo "<input type='hidden' name='id' value='$id'>";
@@ -40,6 +40,7 @@ echo "<option value='$category10_number'>$category10_name</option>";
 echo "</select>";
 echo "<input type='text' name='subcategory' class='book_update_field' placeholder='Subcategory (10 Char Max)' maxlength='10' value='$subcategory'>";
 echo "<input type='text' name='favorite' class='book_update_field' placeholder='Favorite (Yes/No)' maxlength='10' value='$favor'>";
+echo "<div class='remove book_remove_button'><a href='./functions/remove_book.php?id=$id&title=$title' target='_blank' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
 echo "</form></div>";
         }
           $result->free();
