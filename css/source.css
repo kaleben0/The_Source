@@ -304,8 +304,9 @@
 .favorite_head {
   font-size: 22px;
   margin-bottom: 25px;
-  margin-left: 75px;
-  margin-right: auto;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 50px;
   text-shadow: 2px 2px #000;
 }
 .fav_icon {
