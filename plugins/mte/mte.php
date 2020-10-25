@@ -78,7 +78,7 @@ class MySQLtabledit {
 
 	var $javascript; // Thanks Jules Rommens this and other corrections.
 
-
+	include '/functions/config_categories.php';
 	###########################
 	function database_connect() {
 	###########################
@@ -692,7 +692,7 @@ class MySQLtabledit {
 		$this->content .= "
 				<input type='hidden' name='mte_a' value='save'/>
 	</form>
-include '/functions/config_categories.php';
+
 <table border='1' class='info_table'>
   <tbody>
     <tr>
