@@ -294,6 +294,11 @@ document.addEventListener("keydown", function (zEvent) {
     toggle_book();
   }
 });
+document.addEventListener("keydown", function (zEvent) {
+  if (zEvent.ctrlKey && zEvent.altKey && zEvent.key === "e") {
+    toggle_edit_book();
+  }
+});
 
 
 //Header Toggles
@@ -422,11 +427,9 @@ function toggle_edit_book() {
 function toggle_pass() {
   $(".win_pass").toggle();
 }
-
 function search_toggle() {
   $('.win_search').toggle();
 }
-
 function toggle_sc() {
   $('.win_sc').toggle();
 }
@@ -436,23 +439,18 @@ function toggle_help() {
 function toggle_frame1() {
   $(".win_frame1").toggle();
 }
-
 function toggle_frame2() {
   $(".win_frame2").toggle();
 }
-
 function toggle_frame3() {
   $(".win_frame3").toggle();
 }
-
 function toggle_frame4() {
   $(".win_frame4").toggle();
 }
-
 function toggle_frame5() {
   $(".win_frame5").toggle();
 }
-
 
 function favorite_edit() {
   if ($(".book_icon i").is(":visible")) {
