@@ -47,5 +47,3 @@ echo "</form></div>";
         }
 ?>
 </div>
-</div>
-</div>
