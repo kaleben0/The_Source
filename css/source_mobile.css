@@ -44,7 +44,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .admin, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
+  .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2px;
@@ -192,7 +192,7 @@
   }
 }
 @media (min-width:900px) and (max-width:1300px) {
-  .admin, .finance, .design, .environmental, .game, .media, .medical, .network, .productivity, .web {
+  .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10 {
     width: 195px;
     max-width: 195px;
   }
