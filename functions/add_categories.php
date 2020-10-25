@@ -64,6 +64,17 @@ if(isset($_POST['submit']))
         $category9_name=trim($category9_name);
         $category10_name=trim($category10_name);
 
+        $category1_number=trim($category1_number);
+        $category2_number=trim($category2_number);
+        $category3_number=trim($category3_number);
+        $category4_number=trim($category4_number);
+        $category5_number=trim($category5_number);
+        $category6_number=trim($category6_number);
+        $category7_number=trim($category7_number);
+        $category8_number=trim($category8_number);
+        $category9_number=trim($category9_number);
+        $category10_number=trim($category10_number);
+
 
      $sql = "UPDATE categories SET category1_name = '$category1_name', category1_fa = '$category1_fa', category1_height = , category1_number = '$category1_number', category2_name = '$category2_name', category2_fa = '$category2_fa', category2_number = '$category2_number', category3_name = '$category3_name', category3_fa = '$category3_fa', category3_number = '$category3_number', category4_name = '$category4_name', category4_fa = '$category4_fa', category4_number = '$category4_number', category5_name = '$category5_name', category5_fa = '$category5_fa', category5_number = '$category5_number , category6_name = '$category6_name', category6_fa = '$category6_fa', category6_number = '$category6_number', category7_name = '$category7_name', category7_fa = '$category5_fa', category7_number = '$category7_number' , category8_name = '$category8_name', category8_fa = '$category8_fa', category8_number = '$category8_number' , category9_name = '$category9_name', category9_fa = '$category9_fa', category9_number = '$category10_number' , category10_name = '$category10_name', category10_fa = '$category10_fa', category10_number = '$category10_number' WHERE id='$id' ";
 }
