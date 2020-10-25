@@ -32,17 +32,6 @@ include './functions/settings_frames.php';
 include './functions/settings_search.php';
 ?>
 <br/>
-<div class="section_label" onclick="$('#set_cat').toggle();">Categories</div>
-<div class="settings_box" id="set_cat">
-<div class="settings_categories">
-<div id="category_box">
-<?php
-include './functions/categories.php';
-?>
-</div>
-</div>
-</div>
-<br/>
 <div class="section_label" onclick="$('#set_feat').toggle();">Features</div>
 <div class="settings_box" id="set_feat">
 <div class="settings_features" >
