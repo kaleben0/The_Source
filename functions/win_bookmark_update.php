@@ -50,7 +50,7 @@
           </option>
         </select>
         <input type="text" name="subcategory" class='book_update_field' placeholder="Subcategory-10 Char Max" maxlength="10">
-        <input type='text' name='favorite' class='book_update_field' placeholder='Favorite (Yes/No)' maxlength='10' >
+        <input type='text' name='favorite' class='book_update_field' placeholder='Favorite (yes/no)' maxlength='10' >
       </form>
     </div>
     <?php
