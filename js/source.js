@@ -67,7 +67,7 @@ function update_db_category() {
 }
 
 $(document).ready(function () {
-  $('#general_form, #weather_form, #media_form, #category_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #mobile_form, #logo_form, #search_feature_form, #book_add_form').submit(function () {
+  $('#general_form, #weather_form, #media_form, #cat_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #mobile_form, #logo_form, #search_feature_form, #book_add_form').submit(function () {
     window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
     this.target = 'formpopup';
   });

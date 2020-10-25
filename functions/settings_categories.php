@@ -1,5 +1,5 @@
 <?php ?>
-<form action="./functions/add_categories.php" method="post" id="category_form" >
+<form action="./functions/add_categories.php" method="post" id="cat_form" >
   <div class="section_label" onclick="$('#set_cat,#save_cat').toggle();">Custom Categories
     <input type="submit" name="submit" id="save_cat" class="far fa-save" value="&#xf0c7" title="Save Changes">
   </div>
