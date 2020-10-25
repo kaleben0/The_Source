@@ -107,7 +107,6 @@ class MySQLtabledit {
 	################
 	function do_it() {
 	################
-		include '/functions/config_categories.php';
 		require_once("../lang/en.php");
 		require_once("../lang/" . $this->language . ".php");
 
@@ -694,54 +693,6 @@ class MySQLtabledit {
 				<input type='hidden' name='mte_a' value='save'/>
 	</form>
 
-<table border='1' class='info_table'>
-  <tbody>
-    <tr>
-      <th>Catergories</th>
-      <th>Number</th>
-    </tr>
-    <tr>
-		<td>$category1_number</td>
-		<td>$category1_name</td>
-	</tr>
-	<tr>
-	<td>$category2_number</td>
-	<td>$category2_name</td>
-	</tr>
-	<tr>
-	<td>$category3_number</td>
-	<td>$category3_name</td>
-	</tr>
-	<tr>
-	<td>$category4_number</td>
-	<td>$category4_name</td>
-	</tr>
-	<tr>
-	<td>$category5_number</td>
-	<td>$category5_name</td>
-	</tr>
-	<tr>
-	<td>$category6_number</td>
-	<td>$category6_name</td>
-	</tr>
-	<tr>
-	<td>$category7_number</td>
-	<td>$category7_name</td>
-	</tr>
-	<tr>
-	<td>$category8_number</td>
-	<td>$category8_name</td>
-    </tr>
-    <tr>
-		<td>$category9_number</td>
-		<td>$category9_name</td>
-    </tr>
-		<tr>
-		<td>$category10_number</td>
-		<td>$category10_name</td>
-    </tr>
-  </tbody>
-</table>
 		";
 	}
 
