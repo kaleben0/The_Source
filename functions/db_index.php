@@ -98,7 +98,7 @@ $tabledit->show_text_listview = array(
 # Make selectlist on inputfield based on another table
 # in this example: `employees`.`job` is based on `jobs`.`jobname`:
 $tabledit->lookup_table = array(
-	'category' => array(
+	'none' => array(
 		'query' => "SELECT `id`, `type` FROM `category`;",
 		'option_value' => 'type',
 		'option_text' => 'type'
