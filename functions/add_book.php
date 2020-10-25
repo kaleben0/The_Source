@@ -36,6 +36,7 @@ if(isset($_POST['submit']))
 
         $letter = $title[0];
         $letter = strtolower($letter);
+        $favorite = strtolower($favorite);
 
      $sql = "INSERT INTO bookmark (letter, category, url, fonta, subcategory, title, status, favorite)
      VALUES ('$letter','$category','$url','$fonta','$subcategory','$title','$status','$favorite')";
