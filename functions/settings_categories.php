@@ -4,7 +4,7 @@
     <input type="submit" name="submit" id="save_cat" class="far fa-save" value="&#xf0c7" title="Save Changes">
   </div>
   <div class="settings_box" id="set_cat">
-    <div class="set_label">Category 1 accesskey=""
+    <div class="set_label">Category 1
       <div class='tooltip'><i class='fas fa-info-circle fa-sm'></i><span class='tooltiptext'>Change Title to 'empty' (without quotes) to disable</span></div>
     </div>
     <div class="category_field">Name
