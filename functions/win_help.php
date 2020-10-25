@@ -141,6 +141,13 @@
     <p>Wallpaper, Mobile Wallpaper, and Logo can be customized in the Media section of the Settings Menu.</p>
     <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
     <p>In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS.</p>
+    <h3><i class="fas fa-window-restore"></i> Custom Categories</h3>
+    <p>In the Custom Categories section of the Settings Menu, you can customize 10 different categories.</p>
+    <p>Customize Options :</p>
+    <ul>
+      <li>name</li>
+      <li>Font Awesome Icon</li>
+    </ul>
     <h3><i class="fas fa-window-restore"></i> Custom Frames</h3>
     <p>In the Custom Frames section of the Settings Menu, you can customize 5 different iframes.</p>
     <p><b>Note: Some websites have restrictions that prevent their pages from displaying in an iframe.</b></p>
@@ -160,8 +167,6 @@
       <li>Font Awesome Icon</li>
     </ul>
     <p><b>Note: To disable a search, clear the fields and type empty into the title.</b></p>
-    <h3><i class="fas fa-th-list"></i> Categories</h3>
-    <p>In the Categories section of the Settings Menu, unused categories can be enabled/disabled.</p>
     <h3><i class="fas fa-tools"></i> Features</h3>
     <p>In the Features section of the Settings Menu, unused features can be enabled/disabled.</p>
     <h3><i class="fab fa-google"></i> Google Search</h3>
@@ -185,7 +190,7 @@
 
     <hr style="width:95%;margin-left:auto;margin-right:auto;" id="help_credits">
     <h2><i class="fas fa-info-circle"></i> Credits</h2>
-    <h4>The Source v1.3</h4>
+    <h4>The Source v1.5</h4>
     <p>Developed by Doug Redman</p>
     <p>GitHub : https://github.com/kaleben0/The_Source</p>
     <h4>Software/Plugins Utilized</h4>

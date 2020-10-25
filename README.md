@@ -26,6 +26,7 @@
 
 <h5>Features</h5>
 
+* 10 Custom Categories
 * 5 Custom Draggable Frames <---New!
 * Google Multi-Search w/ 24 Custom Searches <---New!
 * Customize Your CSS <---New!
