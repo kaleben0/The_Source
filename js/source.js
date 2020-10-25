@@ -305,87 +305,88 @@ function edit_book() {
 
 function toggle_category1() {
 $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
-$('#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters').hide();
-$('#directory_section,.g_form').show();
-  $('#cat_1').toggle();
+$("#search_section,#settings_section,#network_section,#letter_mobile,#favorite_section,.servers,.letter_title,.letters").hide();
+$("#directory_section,.g_form").show();
+  $("#cat_1").toggle();
 }
 
 function toggle_category2() {
   $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_1, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
-  $('#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters').hide();
-  $('#directory_section,.g_form').show();
-    $('#cat_2').toggle();
+  $("#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters").hide();
+  $("#directory_section,.g_form").show();
+    $("#cat_2").toggle();
 }
 
 function toggle_category3() {
   $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_1, .category_2, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
-  $('#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters').hide();
-  $('#directory_section,.g_form').show();
-    $('#cat_3').toggle();
+  $("#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters").hide();
+  $("#directory_section,.g_form").show();
+    $("#cat_3").toggle();
 }
 
 function toggle_category4() {
   $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_1, .category_2, .category_3, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
-  $('#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters').hide();
-  $('#directory_section,.g_form').show();
-    $('#cat_4').toggle();
+  $("#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters").hide();
+  $("#directory_section,.g_form").show();
+    $("#cat_4").toggle();
 }
 
 function toggle_category5() {
   $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
-  $('#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters').hide();
-  $('#directory_section,.g_form').show();
-    $('#cat_5').toggle();
+  $("#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters").hide();
+  $("#directory_section,.g_form").show();
+    $("#cat_5").toggle();
 }
 
 function toggle_category6() {
   $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_7, .category_8, .category_9, .category_10, .letter_head").toggle();
-  $('#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters').hide();
-  $('#directory_section,.g_form').show();
-    $('#cat_6').toggle();
+  $("#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters").hide();
+  $("#directory_section,.g_form").show();
+    $("#cat_6").toggle();
 }
 
 function toggle_category7() {
   $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_8, .category_9, .category_10, .letter_head").toggle();
-  $('#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters').hide();
-  $('#directory_section,.g_form').show();
-    $('#cat_7').toggle();
+  $("#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters").hide();
+  $("#directory_section,.g_form").show();
+    $("#cat_7").toggle();
 }
 
 function toggle_category8() {
   $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_9, .category_10, .letter_head").toggle();
-  $('#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters').hide();
-  $('#directory_section,.g_form').show();
-    $('#cat_8').toggle();
+  $("#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters").hide();
+  $("#directory_section,.g_form").show();
+    $("#cat_8").toggle();
 }
 
 function toggle_category9() {
   $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_10, .letter_head").toggle();
-  $('#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters').hide();
-  $('#directory_section,.g_form').show();
-    $('#cat_9').toggle();
+  $("#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters").hide();
+  $("#directory_section,.g_form").show();
+    $("#cat_9").toggle();
 }
 
 function toggle_category10() {
   $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10, .letter_head").show(), $(".favorite, .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .letter_head").toggle();
-  $('#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters').hide();
-  $('#directory_section,.g_form').show();
-    $('#cat_10').toggle();
+  $("#search_section, #settings_section, #network_section, #letter_mobile, #favorite_section, .servers, .letter_title, .letters").hide();
+  $("#directory_section,.g_form").show();
+    $("#cat_10").toggle();
 }
 
 function togglesettings() {
-  $('#search_section,#settings_section,#favorite_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#letter_row,#up_bar').hide();
-  $('#settings_section,.g_form,#letter_mobile,.letters,.favorite_center').show();
-  $('#settings').toggle();
+  $("#search_section,#settings_section,#favorite_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#letter_row,#up_bar").hide();
+  $("#settings_section,.g_form,#letter_mobile,.letters,.favorite_center").show();
+  $("#settings").toggle();
 }
 function togglefavorite() {
-  $('#search_section,#settings_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar').hide();
-  $('#favorite_section,.g_form,#letter_mobile,.letters,.favorite_center,#letter_row').show();
-  $('#favorite').toggle();
+  $("#search_section,#settings_section,#network_section,#letter_mobile,#search,#directory_section,.letter_head,#up_bar").hide();
+  $("#favorite_section,.g_form,#letter_mobile,.letters,.favorite_center,#letter_row").show();
+  $("#favorite").toggle();
 }
 function toggle_weather() {
-  $('.weather').fadeToggle("slow", "linear");
+  $(".weather").fadeToggle("slow", "linear");
 }
+
 
 
 // Google Search Box
