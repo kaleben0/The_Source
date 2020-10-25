@@ -700,36 +700,36 @@ class MySQLtabledit {
       <th>Number</th>
     </tr>
     <tr>
-      <td><?php include '../functions/config_categories.php';echo$category1_number ?></td>
-      <td><?php include '../functions/config_categories.php';echo$category1_name ?></td>
-    </tr>
-    <tr>
-		<td><?php include '../functions/config_categories.php';echo$category2_number ?></td>
-		<td><?php include '../functions/config_categories.php';echo$category2_name ?></td>
-    </tr>
-    <tr>
-		<td><?php include '../functions/config_categories.php';echo$category3_number ?></td>
-		<td><?php include '../functions/config_categories.php';echo$category3_name ?></td>
-    </tr>
-    <tr>
-		<td><?php include '../functions/config_categories.php';echo$category4_number ?></td>
-		<td><?php include '../functions/config_categories.php';echo$category4_name ?></td>
-    </tr>
-    <tr>
-		<td><?php include '../functions/config_categories.php';echo$category5_number ?></td>
-		<td><?php include '../functions/config_categories.php';echo$category5_name ?></td>
-    </tr>
-    <tr>
-		<td><?php include '../functions/config_categories.php';echo$category6_number ?></td>
-		<td><?php include '../functions/config_categories.php';echo$category6_name ?></td>
-    </tr>
-    <tr>
-		<td><?php include '../functions/config_categories.php';echo$category7_number ?></td>
-		<td><?php include '../functions/config_categories.php';echo$category7_name ?></td>
-    </tr>
-    <tr>
-		<td><?php include '../functions/config_categories.php';echo$category8_number ?></td>
-		<td><?php include '../functions/config_categories.php';echo$category8_name ?></td>
+		<td><?php include '/functions/config_categories.php';echo$category1_number ?></td>
+		<td><?php include '/functions/config_categories.php';echo$category1_name ?></td>
+	</tr>
+	<tr>
+	<td><?php include '/functions/config_categories.php';echo$category2_number ?></td>
+	<td><?php include '/functions/config_categories.php';echo$category2_name ?></td>
+	</tr>
+	<tr>
+	<td><?php include '/functions/config_categories.php';echo$category3_number ?></td>
+	<td><?php include '/functions/config_categories.php';echo$category3_name ?></td>
+	</tr>
+	<tr>
+	<td><?php include '/functions/config_categories.php';echo$category4_number ?></td>
+	<td><?php include '/functions/config_categories.php';echo$category4_name ?></td>
+	</tr>
+	<tr>
+	<td><?php include '/functions/config_categories.php';echo$category5_number ?></td>
+	<td><?php include '/functions/config_categories.php';echo$category5_name ?></td>
+	</tr>
+	<tr>
+	<td><?php include '/functions/config_categories.php';echo$category6_number ?></td>
+	<td><?php include '/functions/config_categories.php';echo$category6_name ?></td>
+	</tr>
+	<tr>
+	<td><?php include '/functions/config_categories.php';echo$category7_number ?></td>
+	<td><?php include '/functions/config_categories.php';echo$category7_name ?></td>
+	</tr>
+	<tr>
+	<td><?php include '/functions/config_categories.php';echo$category8_number ?></td>
+	<td><?php include '/functions/config_categories.php';echo$category8_name ?></td>
     </tr>
     <tr>
 		<td><?php include '../functions/config_categories.php';echo$category9_number ?></td>
