@@ -228,7 +228,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'thesource.rednet.dev','Good Morning','How are ya now?','Good Evening','Why are you awake?','The Source','Quicksand','<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/42d28n83d74/ann-arbor/?unit=us\" data-label_1=\"ANN ARBOR\" data-label_2=\"WEATHER\" data-font=\"Fira Sans\" data-icons=\"Climacons Animated\" data-theme=\"dark\" data-basecolor=\"\" >ANN ARBOR WEATHER</a>\n<script>\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');\n</script>','disabled');
+INSERT INTO `settings` VALUES (1,'source.rednet.dev','Good Morning','How are ya now?','Good Evening','Why are you awake?','Rednet.Dev','Quicksand','<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/42d28n83d74/ann-arbor/?unit=us\" data-label_1=\"ANN ARBOR\" data-label_2=\"WEATHER\" data-font=\"Fira Sans\" data-icons=\"Climacons Animated\" data-theme=\"dark\" data-basecolor=\"\" >ANN ARBOR WEATHER</a>\n<script>\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');\n</script>','disabled');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -249,4 +249,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-24 22:21:16
+-- Dump completed on 2020-10-24 23:57:47
