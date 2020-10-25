@@ -26,50 +26,6 @@
             </div>
       <br/>
     <div>
-    <table class='info_table'>
-      <tbody>
-        <tr>
-          <th>Catergories</th>
-          <th>Font Awesome Icons <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">These are just suggestions. You can you use any Font Awesome Icon</span></div></th>
-        </tr>
-        <tr>
-          <td>design</td>
-          <td>far fa-object-group</td>
-        </tr>
-        <tr>
-          <td>environmental</td>
-          <td>fas fa-cloud-sun</td>
-        </tr>
-        <tr>
-          <td>finance</td>
-          <td>fas fa-file-invoice-dollar</td>
-        </tr>
-        <tr>
-          <td>game</td>
-          <td>fas fa-gamepad</td>
-        </tr>
-        <tr>
-          <td>media</td>
-          <td>fas fa-photo-video</td>
-        </tr>
-        <tr>
-          <td>medical</td>
-          <td>far fa-hospital</td>
-        </tr>
-        <tr>
-          <td>network</td>
-          <td>fas fa-network-wired</td>
-        </tr>
-        <tr>
-          <td>productivity</td>
-          <td>far fa-address-card</td>
-        </tr>
-        <tr>
-          <td>web</td>
-          <td>fas fa-globe</td>
-        </tr>
-      </tbody>
-    </table>
   </form>
 </div>
 </div>
