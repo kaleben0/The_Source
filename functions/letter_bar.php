@@ -2,6 +2,7 @@
 <div id="letter_row">
   <div class="letter_center">
     <div class="letters" >
+      <div class="letter_space"><a class="letter_btn" onclick="directory_toggle();" href="#numbers">#</a> </div>
       <div class="letter_space"><a class="letter_btn" onclick="directory_toggle();" href="#a">A</a> </div>
       <div class="letter_space"><a class="letter_btn" onclick="directory_toggle();" href="#b">B</a> </div>
       <div class="letter_space"><a class="letter_btn" onclick="directory_toggle();" href="#c">C</a> </div>

@@ -4,6 +4,7 @@
         include 'source_db.php';
         include './functions/config_categories.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
+        $query0 = "SELECT * FROM bookmark WHERE letter = '0' OR letter = '1' OR letter = '2' OR letter = '3' OR letter = '4' OR letter = '5' OR letter = '6' OR letter = '7' OR letter = '8' OR letter = '9' AND status = 'enabled' ORDER BY title";
         $querya = "SELECT * FROM bookmark WHERE letter = 'a' AND status = 'enabled' ORDER BY title";
         $queryb = "SELECT * FROM bookmark WHERE letter = 'b' AND status = 'enabled' ORDER BY title";
         $queryc = "SELECT * FROM bookmark WHERE letter = 'c' AND status = 'enabled' ORDER BY title";
@@ -31,6 +32,43 @@
         $queryy = "SELECT * FROM bookmark WHERE letter = 'y' AND status = 'enabled' ORDER BY title";
         $queryz = "SELECT * FROM bookmark WHERE letter = 'z' AND status = 'enabled' ORDER BY title";
 
+        echo "<div class='letter_title' id='numbers'>";
+        echo "0-9";
+        echo "</div>";
+
+
+        if ( $result = $mysqli->query( $query0 ) ) {
+          while ( $row = $result->fetch_assoc() ) {
+      	    $id = $row[ "id" ];
+            $letter = $row[ "letter" ];
+            $category = $row[ "category" ];
+            $url = $row[ "url" ];
+            $fonta = $row[ "fonta" ];
+            $subcategory = $row[ "subcategory" ];
+            $title = $row[ "title" ];
+	          $favor = $row[ "favorite" ];
+	          $search = $title;
+	          $search = strtolower($search);
+	          if ($favor == 'yes'){
+	            $sub_icon = 'fas fa-star fa-2x';
+	            $change = './functions/remove_fav.php';
+	            }
+	            elseif ($favor == 'no') {
+	            $sub_icon = 'far fa-star fa-2x';
+	            $change = './functions/add_fav.php';
+	            }
+	          echo "<div class='bookmark_box'  id='$search' >";
+            echo "<div class='category_$category' >";
+            echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
+            echo "<div class='book_icon'><i class='$fonta'></i></div>";
+            echo "<hr class='dir_hr' />";
+            echo "<div class='tip'>$title</div>";
+            echo "</div></div></div>";
+          }
+          $result->free();
+        }
 
         echo "<div class='letter_title' id='a'>";
         echo "A";

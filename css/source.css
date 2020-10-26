@@ -112,7 +112,7 @@
   border: 1px solid #fff;
   color: #fff;
 }
-.a:hover ~ .favorite, .b:hover ~ .favorite, .c:hover ~ .favorite, .d:hover ~ .favorite, .e:hover ~ .favorite, .f:hover ~ .favorite, .g:hover ~ .favorite, .h:hover ~ .favorite, .i:hover ~ .favorite, .j:hover ~ .favorite, .k:hover ~ .favorite, .l:hover ~ .favorite, .m:hover ~ .favorite, .misc:hover ~ .favorite, .n:hover ~ .favorite, .o:hover ~ .favorite, .p:hover ~ .favorite, .q:hover ~ .favorite, .r:hover ~ .favorite, .s:hover ~ .favorite, .t:hover ~ .favorite, .u:hover ~ .favorite, .v:hover ~ .favorite, .w:hover ~ .favorite, .x:hover ~ .favorite, .y:hover ~ .favorite, .z:hover ~ .favorite {
+.0:hover ~ .favorite, .1:hover ~ .favorite, .2:hover ~ .favorite, .3:hover ~ .favorite, .4:hover ~ .favorite, .5:hover ~ .favorite, .6:hover ~ .favorite, .7:hover ~ .favorite, .8:hover ~ .favorite, .9:hover ~ .favorite, .a:hover ~ .favorite, .b:hover ~ .favorite, .c:hover ~ .favorite, .d:hover ~ .favorite, .e:hover ~ .favorite, .f:hover ~ .favorite, .g:hover ~ .favorite, .h:hover ~ .favorite, .i:hover ~ .favorite, .j:hover ~ .favorite, .k:hover ~ .favorite, .l:hover ~ .favorite, .m:hover ~ .favorite, .misc:hover ~ .favorite, .n:hover ~ .favorite, .o:hover ~ .favorite, .p:hover ~ .favorite, .q:hover ~ .favorite, .r:hover ~ .favorite, .s:hover ~ .favorite, .t:hover ~ .favorite, .u:hover ~ .favorite, .v:hover ~ .favorite, .w:hover ~ .favorite, .x:hover ~ .favorite, .y:hover ~ .favorite, .z:hover ~ .favorite {
   color: #000;
 }
 .add_line_box {
@@ -980,7 +980,7 @@
 }
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 230px;
+  width: 330px;
   background-color: black;
   color: #fff;
   text-align: left;

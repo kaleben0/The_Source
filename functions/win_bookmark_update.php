@@ -3,7 +3,7 @@
   <div class='book_title_field'>
     <div class='book_update_field table_head'>Title</div>
     <div class='book_update_field table_head'>URL</div>
-    <div class='book_update_field table_head'>FA Icon</div>
+    <div class='book_update_field table_head'>FA Icon <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add an icon class from <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank" style="font-weight:bold;font-style: italic;">Font Awesome</a>.<br/>Example: far fa-smile</span></div></div>
     <div class='book_update_field table_head'>Category</div>
     <div class='book_update_field table_head'>Subcategory</div>
     <div class='book_update_field table_head'>Favorite</div>

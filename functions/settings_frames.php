@@ -13,7 +13,7 @@
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame1_url" value="<?php include './functions/config_frames.php';echo$frame1_url ?>">
     </div>
-    <div class="frame_field">Font Awesome Icon
+    <div class="frame_field">Font Awesome Icon <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add a icon class from <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank" style="font-weight:bold;font-style: italic;">Font Awesome</a>.<br/>Example: far fa-smile</span></div>
       <input type="text" class="set_fields frame_icon" name="frame1_icon" value="<?php include './functions/config_frames.php';echo$frame1_icon ?>">
     </div>
     <div class="frame_field">Dimensions
@@ -32,7 +32,7 @@
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame2_url" value="<?php include './functions/config_frames.php';echo$frame2_url ?>">
     </div>
-    <div class="frame_field">Font Awesome Icon
+    <div class="frame_field">Font Awesome Icon <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add a icon class from <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank" style="font-weight:bold;font-style: italic;">Font Awesome</a>.<br/>Example: far fa-smile</span></div>
       <input type="text" class="set_fields frame_icon" name="frame2_icon" value="<?php include './functions/config_frames.php';echo$frame2_icon ?>">
     </div>
     <div class="frame_field">Dimensions
@@ -51,7 +51,7 @@
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame3_url" value="<?php include './functions/config_frames.php';echo$frame3_url ?>">
     </div>
-    <div class="frame_field">Font Awesome Icon
+    <div class="frame_field">Font Awesome Icon <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add a icon class from <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank" style="font-weight:bold;font-style: italic;">Font Awesome</a>.<br/>Example: far fa-smile</span></div>
       <input type="text" class="set_fields frame_icon" name="frame3_icon" value="<?php include './functions/config_frames.php';echo$frame3_icon ?>">
     </div>
     <div class="frame_field">Dimensions
@@ -70,7 +70,7 @@
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame4_url" value="<?php include './functions/config_frames.php';echo$frame4_url ?>">
     </div>
-    <div class="frame_field">Font Awesome Icon
+    <div class="frame_field">Font Awesome Icon <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add a icon class from <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank" style="font-weight:bold;font-style: italic;">Font Awesome</a>.<br/>Example: far fa-smile</span></div>
       <input type="text" class="set_fields frame_icon" name="frame4_icon" value="<?php include './functions/config_frames.php';echo$frame4_icon ?>">
     </div>
     <div class="frame_field">Dimensions
@@ -89,7 +89,7 @@
     <div class="frame_field">URL
       <input type="text" class="set_fields url" name="frame5_url" value="<?php include './functions/config_frames.php';echo$frame5_url ?>">
     </div>
-    <div class="frame_field">Font Awesome Icon
+    <div class="frame_field">Font Awesome Icon <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Add a icon class from <a href="https://fontawesome.com/icons?d=gallery&m=free" target="_blank" style="font-weight:bold;font-style: italic;">Font Awesome</a>.<br/>Example: far fa-smile</span></div>
       <input type="text" class="set_fields frame_icon" name="frame5_icon" value="<?php include './functions/config_frames.php';echo$frame5_icon ?>">
     </div>
     <div class="frame_field">Dimensions
