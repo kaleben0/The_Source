@@ -122,7 +122,7 @@ CREATE TABLE `features` (
 
 LOCK TABLES `features` WRITE;
 /*!40000 ALTER TABLE `features` DISABLE KEYS */;
-INSERT INTO `features` VALUES (1,'#cal_search','block','search','Google Calendar'),(2,'#contacts','block','search','Google Contacts'),(3,'#drive','block','search','Google Drive'),(4,'#earth','block','search','Google Earth'),(5,'#keep','block','search','Google Keep'),(6,'#gmail','block','search','Google Keep'),(7,'#hangouts','block','search','Google Hangouts'),(8,'#maps','block','search','Google Maps'),(9,'#photos','block','search','Google Photos'),(10,'#play','block','search','Google Play'),(11,'#scholar','block','search','Google Scholar'),(12,'#g_search','block','search','Google Search'),(13,'#translate','block','search','Google Translate'),(14,'#youtube','block','search','YouTube'),(32,'#shortcut_nav','block','feature','Shortcuts'),(33,'#password_nav','block','feature','Password'),(34,'#search_nav','block','feature','Search'),(35,'#design_toggle','block','category','Design'),(36,'#enviro_toggle','block','category','Environmental'),(37,'#game_toggle','block','category','Games'),(38,'#media_toggle','block','category','Media'),(39,'#medical_toggle','block','category','Medical'),(40,'#network_toggle','block','category','Network'),(41,'#prod_toggle','block','category','Productivity'),(42,'#web_toggle','block','category','Web'),(46,'#finance_toggle','block','category','Finance');
+INSERT INTO `features` VALUES (1,'#cal_search','block','search','Google Calendar'),(2,'#contacts','block','search','Google Contacts'),(3,'#drive','block','search','Google Drive'),(4,'#earth','block','search','Google Earth'),(5,'#keep','block','search','Google Keep'),(6,'#gmail','block','search','Google Keep'),(7,'#hangouts','block','search','Google Hangouts'),(8,'#maps','block','search','Google Maps'),(9,'#photos','block','search','Google Photos'),(10,'#play','block','search','Google Play'),(11,'#scholar','block','search','Google Scholar'),(12,'#g_search','block','search','Google Search'),(13,'#translate','block','search','Google Translate'),(14,'#youtube','block','search','YouTube'),(33,'#password_nav','block','feature','Password'),(34,'#search_nav','block','feature','Search'),(35,'#design_toggle','block','category','Design'),(36,'#enviro_toggle','block','category','Environmental'),(37,'#game_toggle','block','category','Games'),(38,'#media_toggle','block','category','Media'),(39,'#medical_toggle','block','category','Medical'),(40,'#network_toggle','block','category','Network'),(41,'#prod_toggle','block','category','Productivity'),(42,'#web_toggle','block','category','Web'),(46,'#finance_toggle','block','category','Finance');
 /*!40000 ALTER TABLE `features` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -228,7 +228,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'source.rednet.dev','Good Morning','How are ya now?','Good Evening','Why are you awake?','Rednet.Dev','Quicksand','<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/42d28n83d74/ann-arbor/?unit=us\" data-label_1=\"ANN ARBOR\" data-label_2=\"WEATHER\" data-font=\"Fira Sans\" data-icons=\"Climacons Animated\" data-theme=\"dark\" data-basecolor=\"\" >ANN ARBOR WEATHER</a>\n<script>\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');\n</script>','disabled');
+INSERT INTO `settings` VALUES (1,'https://thesource.rednet.dev/','Good Morning','How are ya now?','Good Evening','Why are you awake?','The Source','Quicksand','<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/42d28n83d74/ann-arbor/?unit=us\" data-label_1=\"ANN ARBOR\" data-label_2=\"WEATHER\" data-font=\"Fira Sans\" data-icons=\"Climacons Animated\" data-theme=\"dark\" data-basecolor=\"\" >ANN ARBOR WEATHER</a>\n<script>\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\'https://weatherwidget.io/js/widget.min.js\';fjs.parentNode.insertBefore(js,fjs);}}(document,\'script\',\'weatherwidget-io-js\');\n</script>','disabled');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -249,4 +249,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-24 23:57:47
+-- Dump completed on 2020-10-26 13:46:43
