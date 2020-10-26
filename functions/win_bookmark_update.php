@@ -1,4 +1,4 @@
-<div class="win_book_edit"> <span class="exit_book_edit" ><i class="fas fa-window-close fa-lg"></i></span>
+<div class="win_book_edit"><span class="add_line_box"><i class="fas fa-plus" style="font-size: 18px;" title="Add Lines" id="add_line"></i></span> <span class="exit_book_edit" ><i class="fas fa-window-close fa-lg"></i></span>
   <div class='book_head'>Edit Bookmarks</div>
   <div class='book_title_field'>
     <div class='book_update_field table_head'>Title</div>
@@ -8,10 +8,11 @@
     <div class='book_update_field table_head'>Subcategory</div>
     <div class='book_update_field table_head'>Favorite</div>
   </div>
-  <div class='book_box'>
-    <hr class='book_hr'/>
-    <div class='book_update_field_box'>
-      <form action="./functions/add_book.php" method="post" target="_blank" id="book_add_form">
+  <div class="book_box">
+  <div class="clone_box">
+    <hr class="book_hr" id="new_record_hr"/>
+    <div class="book_update_field_box">
+      <form action="./functions/add_book.php" method="post" target="message_frame" >
         <input type="submit" name="submit" class='far fa-save button_add_update' value="" title="Save Changes">
         <input type="text" name="title" class='book_update_field' placeholder="Name-20 Char Max" maxlength="20">
         <input type="url" name="url" class='book_update_field' placeholder="Full URL">
@@ -53,6 +54,7 @@
         <input type='text' name='favorite' class='book_update_field' placeholder='Favorite (yes/no)' maxlength='10' >
       </form>
     </div>
+    </div>
     <?php
 include 'source_db.php';
 include 'config_categories.php';
@@ -69,7 +71,7 @@ include 'config_categories.php';
             $title = $row[ "title" ];
 	          $favor = $row[ "favorite" ];
 echo "<hr class='book_hr'/>";
-echo "<div class='book_update_field_box'><form action='../functions/edit_book.php' method='post' target='_blank' id='book_edit_form'>";
+echo "<div class='book_update_field_box'><form action='../functions/edit_book.php' method='post' target='message_frame' id='book_edit_form'>";	 
 echo "<input type='submit' name='submit' class='far fa-save button_add_update' value='' title='Save Changes'>";
 echo "<input type='text' name='title' class='book_update_field' placeholder='Name-20 Char Max' maxlength='20' value='$title'>";
 echo "<input type='hidden' name='id' value='$id'>";
@@ -90,7 +92,7 @@ echo "<option value='$category10_number'>$category10_name</option>";
 echo "</select>";
 echo "<input type='text' name='subcategory' class='book_update_field' placeholder='Subcategory-10 Char Max' maxlength='10' value='$subcategory'>";
 echo "<input type='text' name='favorite' class='book_update_field' placeholder='Favorite (yes/no)' maxlength='10' value='$favor'>";
-echo "<div class='remove book_remove_button'><a href='./functions/remove_book.php?id=$id&title=$title' target='_blank' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+echo "<div class='remove book_remove_button'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
 echo "</form></div>";
         }
           $result->free();
@@ -99,6 +101,6 @@ echo "</form></div>";
   </div>
   <br/>
   <div>
-    </form>
+</form>
   </div>
 </div>

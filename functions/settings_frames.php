@@ -1,5 +1,5 @@
 <?php ?>
-<form action="./functions/add_frames.php" method="post" id="frame_form">
+<form action="./functions/add_frames.php" method="post" id="frame_form" target="message_frame">
   <div class="section_label" onclick="$('#set_frames,#save_frames').toggle();">Custom Frames
     <input type="submit" name="submit" id="save_frames" class="far fa-save" value="&#xf0c7" title="Save Changes">
   </div>

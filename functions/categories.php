@@ -1,7 +1,7 @@
 <?php
         include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-        $query1 = "SELECT * FROM features WHERE type = 'feature' ORDER BY title ";
+        $query1 = "SELECT * FROM features WHERE type = 'category' ORDER BY title ";
         if ($result=$mysqli->query($query1)){
           while ($row=$result->fetch_assoc()){
             $id=$row["id"];
@@ -19,8 +19,9 @@
 	            $color = 'red';
 	            $change = './functions/add_feat.php';
 	            }
-        echo "<div class='feat_container'><div class='feat_title'>$title</div><div class='feat_url' ><a href='$change?id=$id&title=$title&status=$status' target='message_frame' id='feature_form' onclick='update_db_features();' ><i class='$sub_icon' style='color:$color !important;'></i></a></div></div>";
+        echo "<div class='cat_container'><div class='cat_title'>$title</div><div class='cat_url'><a href='$change?id=$id&title=$title&status=$status' target='message_frame' id='category_form' onclick='update_db_category();'><i class='$sub_icon' style='color:$color !important;'></i></a></div></div>";
           }
           $result->free();
         }
 ?>
+

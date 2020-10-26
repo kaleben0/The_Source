@@ -1,5 +1,14 @@
 // JavaScript Document
 
+// Duplicate Edit Bookmark Lines 
+
+$(document).ready(function() {
+  $("#add_line").click(function() {
+    var newel = $('.clone_box:first').clone();
+  $(newel).insertAfter($(".clone_box:first"));
+   });
+});
+
 // Code Mirror
 
 $(document).ready(function() {
@@ -66,54 +75,11 @@ function update_db_category() {
   $("#css_search").load('./functions/search_css.php');
 }
 
-$(document).ready(function () {
-  $('#general_form, #weather_form, #media_form, #cat_form, #frame_form, #morn_form, #day_form, #dusk_form, #evening_form, #mobile_form, #logo_form, #search_feature_form, #book_add_form, #book_edit_form').submit(function () {
-    window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
-    this.target = 'formpopup';
-  });
-});
+function frame_fade() {
+        $("#message_frame").fadeIn(1000);
+        $("#message_frame").fadeOut(3000);
+}
 
-$(document).ready(function () {
-  $('#search_form1, #search_form2, #search_form3, #search_form4, #search_form4, #search_form5, #search_form6, #search_form7, #search_form8, #search_form9, #search_form10, #search_form11, #search_form12, #search_form13, #search_form14, #search_form15, #search_form16, #search_form17, #search_form18, #search_form19, #search_form20, #search_form21, #search_form22, #search_form23, #search_form24, #search_form25').submit(function () {
-    window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
-    this.target = 'formpopup';
-  });
-});
-
-
-$(document).ready(function () {
-  $(document).on('click', '#search_feature_form', '#book_edit_form', function () {
-    window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
-    this.target = 'formpopup';
-  });
-});
-
-$(document).ready(function () {
-  $(document).on('click', '#feature_form', function () {
-    window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
-    this.target = 'formpopup';
-  });
-});
-
-$(document).ready(function () {
-  $(document).on('click', '#category_form', function () {
-    window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
-    this.target = 'formpopup';
-  });
-});
-
-$(document).ready(function () {
-  $(document).on('click', '#add_form', function () {
-    window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
-    this.target = 'formpopup';
-  });
-});
-$(document).ready(function () {
-  $(document).on('click', '#remove_form', function () {
-    window.open('', 'formpopup', 'width=400,height=300,resizeable,scrollbars');
-    this.target = 'formpopup';
-  });
-});
 
 
 // Clear Search Boxes

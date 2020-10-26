@@ -2,10 +2,10 @@
 <div class="win_book_add">
 <span class="exit_book_add" ><i class="fas fa-window-close fa-lg"></i></span>
   <div class="book_head">Add Bookmark</div>
-  <form action="./functions/add_book.php" method="post" target="_blank" id="book_add_form">
+  <form action="./functions/add_book.php" method="post" target='message_frame' id="book_add_form">
     <div>
           <input type="text" name="title" class="book_fields" placeholder="Name (20 Char Max)" maxlength="20"><br/>
-          <input type="ur" name="url" class="book_fields" placeholder="Full URL"><br/>
+          <input type="url" name="url" class="book_fields" placeholder="Full URL"><br/>
           <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome Icon"><br/>
           <select name="category" class="book_fields picker">
               <option value=' ' disabled selected>Category</option>

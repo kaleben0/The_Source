@@ -30,7 +30,5 @@ if (mysqli_query($conn, $sql)) {
 }
 mysqli_close($conn);
 ?>
-<br/>
-<i class="far fa-star"></i>
 </body>
 </html>

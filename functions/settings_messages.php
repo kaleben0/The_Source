@@ -1,5 +1,5 @@
 <?php ?>
-<form action="./functions/add_media.php" method="post" id="media_form" >
+<form action="./functions/add_media.php" method="post" id="media_form" target="message_frame" >
   <div class="section_label" onclick="$('#set_mess,#save_mess').toggle();">Messages
     <input type="submit" name="submit" id="save_mess" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
   </div>

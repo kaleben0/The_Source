@@ -3,7 +3,7 @@
   <div id="scwinheader" class="sc_head" >Keyboard Shortcuts</div>
   <div class="sc_container">
       <div class="sc_box"><span class="sc_function">Add Bookmark</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">B</span></div>
-       <div class="sc_box"><span class="sc_function">Edit Bookmarks</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">E</span></div>
+       <div class="sc_box"><span class="sc_function">Edit Bookmarks</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">E</span></div>     
     <div class="sc_box"><span class="sc_function">Help</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">H</span></div>
     <div class="sc_box"><span class="sc_function">Shortcuts</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">0</span></div>
     <div class="sc_box"><span class="sc_function">Favorites</span><span class="main_key"> Ctrl </span><i class="fas fa-plus"></i><span class="main_key"> Alt </span><i class="fas fa-plus"></i><span class="sec_key">1</span></div>

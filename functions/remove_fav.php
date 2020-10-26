@@ -8,9 +8,6 @@ include 'config.php';
 <title>Favorite Removed</title>
 <link rel="stylesheet" href="../css/source.css" >
 <link rel="stylesheet" href="../css/all.css" >
-<script>
-setTimeout("self.close()", 3000 )
-</script>
 <html>
 <body class="quickpage">
 <?php
@@ -30,7 +27,5 @@ if (mysqli_query($conn, $sql)) {
 }
 mysqli_close($conn);
 ?>
-<br/>
-<i class="far fa-star"></i>
 </body>
 </html>

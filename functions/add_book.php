@@ -8,9 +8,6 @@ include 'config.php';
 <link rel="stylesheet" href="../css/source.css" >
 <title>Bookmark Added</title>
 <link rel="stylesheet" href="../css/all.css" >
-<script>
-setTimeout("self.close()", 3000 )
-</script>
 <html>
 <body class="quickpage">
 <?php

@@ -12,13 +12,20 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="robots" content="noindex, nofollow">
 <title><?php include './functions/config.php';echo$pagetitle?></title>
+<link rel="manifest" crossorigin="use-credentials" href="./manifest.json" type="application/json" >
+<!-- Rednet Customizations -->
+<?php
+include './plugins/rednet/rednet_appicons.php';
+?>
+<script src="./plugins/rednet/rednet.js"></script>
+<link rel="stylesheet" href="./plugins/rednet/rednet.css">
 <!-- JQuery -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <!-- Tipr -->
 <link rel="stylesheet" href="./plugins/tipr/tipr.css">
-<script src="./plugins/tipr/tipr.min.js"></script>
+<script src="./plugins/tipr/tipr.min.js"></script> 
 <!-- CodeMirror -->
 <link rel="stylesheet" href="./plugins/codemirror/lib/codemirror.css">
 <link rel="stylesheet" href="./plugins/codemirror/theme/twilight.css">
@@ -35,6 +42,8 @@
 <!-- Custom -->
 <link rel="stylesheet" href="./css/custom.css" >
 <script>
+
+
 $(document).ready(function() {
      $('.url_box').tipr({
           'alt': false,
@@ -45,6 +54,7 @@ $(document).ready(function() {
           'speed': 300
      });
 });
+
 </script>
 </head>
 <body id='page-top' onload="startTime()">
@@ -56,6 +66,9 @@ include './functions/favorites.php';
 include './functions/win_search.php';
 include './functions/directory.php';
 include './functions/settings.php';
+// Rednet Customizations
+include './plugins/rednet/rednet_network.php';
+// Rednet Customizations
 include './functions/win_bookmark_add.php';
 include './functions/win_bookmark_update.php';
 include './functions/win_password.php';
@@ -68,5 +81,6 @@ include './functions/search_css.php';
 echo "</div>";
 include './functions/font.php';
 ?>
+<iframe id="message_frame" name="message_frame" width="400" height="300" frameborder="0" onLoad="frame_fade();"></iframe>
 </body>
 </html>

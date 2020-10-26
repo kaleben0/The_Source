@@ -1,5 +1,5 @@
 <?php ?>
-<form action="./functions/add_weather.php" method="post" id="weather_form" >
+<form action="./functions/add_weather.php" method="post" id="weather_form"  target="message_frame">
  <div class="section_label" onclick="$('#set_weather,#save_weather').toggle();">Weather
    <input type="submit" name="submit" id="save_weather" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
  </div>

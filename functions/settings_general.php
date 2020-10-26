@@ -1,5 +1,5 @@
 <div>
-<form action="./functions/add_main.php" method="post" id="general_form" >
+<form action="./functions/add_main.php" method="post" id="general_form" target="message_frame" >
   <div class="section_label" onclick="$('#set_general, #save_general').toggle();">General
     <input type="submit" name="submit" id="save_general" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
   </div>

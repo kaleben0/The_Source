@@ -45,6 +45,15 @@
   border: 1px solid #fff;
   color: #fff;
 }
+#message_frame {
+  z-index: 4000;
+  text-align: center;
+  position: fixed;
+  left: 100px;
+  width: 500px;
+  height: 100px;
+  bottom: 25px;
+}
 #save_cat, #save_frames, #save_mess, #save_weather, #save_general, #save_css_custom {
   display:none;
 }
@@ -105,6 +114,12 @@
 }
 .a:hover ~ .favorite, .b:hover ~ .favorite, .c:hover ~ .favorite, .d:hover ~ .favorite, .e:hover ~ .favorite, .f:hover ~ .favorite, .g:hover ~ .favorite, .h:hover ~ .favorite, .i:hover ~ .favorite, .j:hover ~ .favorite, .k:hover ~ .favorite, .l:hover ~ .favorite, .m:hover ~ .favorite, .misc:hover ~ .favorite, .n:hover ~ .favorite, .o:hover ~ .favorite, .p:hover ~ .favorite, .q:hover ~ .favorite, .r:hover ~ .favorite, .s:hover ~ .favorite, .t:hover ~ .favorite, .u:hover ~ .favorite, .v:hover ~ .favorite, .w:hover ~ .favorite, .x:hover ~ .favorite, .y:hover ~ .favorite, .z:hover ~ .favorite {
   color: #000;
+}
+.add_line_box {
+  float: left;
+  margin-left: 5px;
+  margin-top: 0;
+  text-shadow: 2px 2px #000;
 }
 .book_box {
   overflow: auto;
@@ -744,8 +759,9 @@
   background-color: #000;
   background-image: none;
   color: #fff;
-  font-size: 40px;
-  text-align: center;
+  font-size: 30px;
+  text-align: left;
+  background: none;
 }
 .remove {
   float: right;
