@@ -40,9 +40,9 @@ include 'config.php';
         $didUpload = move_uploaded_file($fileTmpName, '../images/logo.png');
 
         if ($didUpload) {
-          echo "<div class='message_change'>The image has been uploaded</div>";
+          echo "<div class='message_change'>Image Uploaded</div>";
         } else {
-          echo "<div class='message_change'>An error occurred. Please contact the administrator.</div>";
+          echo "<div class='message_change'>Error. Contact Administrator.</div>";
         }
       } else {
         foreach ($errors as $error) {
