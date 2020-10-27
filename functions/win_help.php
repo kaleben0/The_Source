@@ -105,7 +105,7 @@
     <p>Toggles the "favorite" icon to be displayed. Allows the selection of favorite bookmarks.</p>
     <h4><i class="far fa-trash-alt"></i> Remove</h4>
     <p>Toggles the "Remove" icon to be displayed. Allows the removal of bookmarks.</p>
-    <p><b>Warning: Once removed, you will need to re-add the bookmark via the Add Bookmark window.</b></p>
+    <p><b>Warning: Once removed, you will need to re-add the bookmark.</b></p>
     <h4><i class="far fa-bookmark"></i> Add Bookmark</h4>
     <p>Add a single bookmark to your collection.</p>
     <h4><i class="far fa-edit"></i> Edit Bookmarks</h4>
