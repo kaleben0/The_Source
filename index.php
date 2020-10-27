@@ -13,12 +13,6 @@
 <meta name="robots" content="noindex, nofollow">
 <title><?php include './functions/config.php';echo$pagetitle?></title>
 <link rel="manifest" crossorigin="use-credentials" href="./manifest.json" type="application/json" >
-<!-- Rednet Customizations -->
-<?php
-include './plugins/rednet/rednet_appicons.php';
-?>
-<script src="./plugins/rednet/rednet.js"></script>
-<link rel="stylesheet" href="./plugins/rednet/rednet.css">
 <!-- JQuery -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
