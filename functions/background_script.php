@@ -11,7 +11,7 @@ $(document).ready(function () {
   else if (n > 21 && n < 25)
     $("body").css("background-image", "url('images/background-night.png')"),
     $('#time_message').text("<?php include './functions/config.php';echo $evening ?>");
-  else if (n > 0 && n < 5)
+  else if (n >= 0 && n < 5)
     $("body").css("background-image", "url('images/background-night.png')"),
     $('#time_message').text("<?php include './functions/config.php';echo $evening ?>");
   else

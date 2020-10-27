@@ -1,7 +1,7 @@
 <?php ?>
 <form action="./functions/add_media.php" method="post" id="media_form" target="message_frame" >
   <div class="section_label" onclick="$('#set_mess,#save_mess').toggle();">Messages
-    <input type="submit" name="submit" id="save_mess" class="far fa-save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
+    <input type="submit" name="submit" id="save_mess" class="far fa-save button_save" value="&#xf0c7" title="Save Changes" onclick='update_db();'>
   </div>
   <div class="settings_box" id="set_mess">
     <div class="set_label">Morning 5am-10am</div>

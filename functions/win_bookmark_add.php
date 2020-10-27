@@ -6,7 +6,8 @@
     <div>
           <input type="text" name="title" class="book_fields" placeholder="Name (20 Char Max)" maxlength="20"><br/>
           <input type="url" name="url" class="book_fields" placeholder="Full URL"><br/>
-          <input type="text" name="fonta" class="book_fields" placeholder="Font Awesome Icon"><br/>
+          <i class='fab fa-font-awesome-alt book_fa_icons' onclick='toggle_fa();'></i><input type='text' name='fonta' class='book_fields book_fa' placeholder='Font Awesome Icon' >
+          <br/>
           <select name="category" class="book_fields picker">
               <option value=' ' disabled selected>Category</option>
               <option value='<?php include './functions/config_categories.php';echo$category1_number ?>'><?php include './functions/config_categories.php';echo$category1_name ?></option>

@@ -74,6 +74,7 @@ include './functions/win_bookmark_update.php';
 include './functions/win_password.php';
 include './functions/win_shortcut.php';
 include './functions/win_help.php';
+include './functions/win_fa.php';
 include './functions/win_frames.php';
 include './functions/background_script.php';
 echo "<div id='css_search'>";

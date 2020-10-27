@@ -1,5 +1,22 @@
 // JavaScript Document
 
+// Font Awesome Icon Pickker
+
+$(document).ready(function() {
+var search="bla";
+$('.searchable').hide();
+$('.searchable[id*="' + search + '"]').show();
+   });
+
+function copyToClipboard(text) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val(text).select();
+    document.execCommand("copy");
+    $temp.remove();
+}
+
+
 // Duplicate Edit Bookmark Lines 
 
 $(document).ready(function() {
@@ -399,6 +416,9 @@ function search_toggle() {
 function toggle_sc() {
   $('.win_sc').toggle();
 }
+function toggle_fa() {
+  $('.win_fa').toggle();
+}
 function toggle_help() {
   $('.win_help').toggle();
 }
@@ -499,6 +519,9 @@ $(document).ready(function () {
   $(".win_search").draggable();
 });
 $(document).ready(function () {
+  $(".win_fa").draggable();
+});
+$(document).ready(function () {
   $(".win_sc").draggable();
 });
 $(document).ready(function () {
@@ -553,6 +576,11 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.exit_sc').click(function () {
     $('.win_sc').css('display', 'none');
+  });
+});
+$(document).ready(function () {
+  $('.exit_fa').click(function () {
+    $('.win_fa').css('display', 'none');
   });
 });
 $(document).ready(function () {
