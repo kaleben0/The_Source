@@ -1,10 +1,10 @@
 <script>
 $(document).ready(function() {
-jQuery.expr[':'].Contains = function(a, i, m) { 
-  return jQuery(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0; 
+jQuery.expr[':'].Contains = function(a, i, m) {
+  return jQuery(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
 };
-jQuery.expr[':'].contains = function(a, i, m) { 
-  return jQuery(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0; 
+jQuery.expr[':'].contains = function(a, i, m) {
+  return jQuery(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
 };
 $('#inpSearch').on('keyup',function(){
     $('#content div').not('#search-block').hide();
@@ -24,8 +24,8 @@ $('#inpSearch').on('keyup',function(){
 <div class='icon_container'>
 <section id="content">
 <div id="search-block">
-<input class="book_fields icon_input" type="text" id="inpSearch" placeholder="Font Awesome Search" />  
-</div>
+<input class="book_fields icon_input" type="text" id="inpSearch" placeholder="Font Awesome Search" />
+</div><br/>
 <div class="icon_results">
 <?php
 include 'source_db.php';
@@ -37,10 +37,10 @@ include 'source_db.php';
             $fa_name = $row[ "fa_name" ];
             $fa_id = $row[ "fa_name" ];
             $fa_code = $row[ "fa_code" ];
-            $fa_name = str_replace('-',' ', $fa_name);           
+            $fa_name = str_replace('-',' ', $fa_name);
             $fa_name = ucwords($fa_name);
 
-            
+
 echo "<div id='$fa_id'><div class='tooltip_copy'><div class='icon_box' ><i class='$fa_code'></i><span class='tooltiptext_copy' id='$id'>Click to Copy</span><span class='icon_name'>$fa_name</span>";
 echo "<script>";
 echo "$('#$fa_id').click(function () {";

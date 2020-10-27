@@ -634,6 +634,8 @@
 .icon_results {
   height: 500px;
   overflow: auto;
+  border: 1px solid #7d7474;
+  border-radius:5px;
 }
 .info_table {
   margin-left: auto;
