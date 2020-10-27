@@ -41,8 +41,4 @@
 <div class="main_menu_item" onclick="toggle_help();toggle_main_menu();"><i class="far fa-question-circle fa-1x" title="Help"></i>Help</div>
 <div class="main_menu_item" onclick="location.reload();"><i class="fas fa-redo-alt fa-1x" title="Reload"></i>Reload Page</div>
 </div>
-<?php
-// Rednet Customizations
-include './plugins/rednet/rednet_servers.php';
-// Rednet Customizations
-?>
+

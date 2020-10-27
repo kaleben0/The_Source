@@ -1,10 +1,5 @@
 <div id="sidenav" >
 <ul class="header_block" >
-<?php
-// Rednet Customizations
-include './plugins/rednet/rednet_side_nav.php';
-// Rednet Customizations
-?>
 <div class="nav_mini_header">
   <hr class="side_nav_hr_left"/>
   <i class="far fa-bookmark"></i>
