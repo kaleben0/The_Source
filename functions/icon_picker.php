@@ -30,7 +30,7 @@ $('#inpSearch').on('keyup',function(){
 <?php
 include 'source_db.php';
         $mysqli = new mysqli( "localhost", $username, $password, $dbname );
-        $query_icon = "SELECT * FROM fa_icons ORDER BY id";
+        $query_icon = "SELECT * FROM fa_icons ORDER BY fa_name";
         if ( $result = $mysqli->query( $query_icon ) ) {
           while ( $row = $result->fetch_assoc() ) {
       	    $id = $row[ "id" ];
