@@ -13,7 +13,7 @@ function copyToClipboard(text) {
 	document.execCommand("copy");
 	$temp.remove();
 }
-// Duplicate Edit Bookmark Lines 
+// Duplicate Edit Bookmark Lines
 $(document).ready(function() {
 	$("#add_line").click(function() {
 		var newel = $('.clone_box:first').clone();
@@ -589,9 +589,13 @@ function startTime() {
 	var h = today.getHours();
 	var m = today.getMinutes();
 	var s = today.getSeconds();
+	var mo = today.getMonth();
+	var mo = mo + 1;
+	var da = today.getDate();
+	var yr = today.getFullYear();
 	m = checkTime(m);
 	s = checkTime(s);
-	document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
+	document.getElementById('txt').innerHTML = h + ":" + m + ":" + s + " | " + mo + "/" + da + "/" + yr;
 	var t = setTimeout(startTime, 500);
 }
 
