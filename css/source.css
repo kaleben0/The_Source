@@ -470,6 +470,7 @@
 	margin-left: 2px;
 	text-align: center;
 	transition: .5s;
+	user-select: none;
 }
 
 .favorite_space {
