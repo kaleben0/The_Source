@@ -1222,12 +1222,12 @@
 }
 
 .table_head {
-	border: none !important;
-	margin-right: -30px;
-	width: 150px !important;
-	margin-left: 95px;
-	background: none !important;
-	user-select: none;
+  border: none !important;
+  margin-right: -30px;
+  width: 150px !important;
+  margin-left: 90px;
+  background: none !important;
+  user-select: none;
 }
 
 .tip {
