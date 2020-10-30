@@ -401,6 +401,7 @@
 .category_field {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	user-select: none;
 }
 
 .fa_head {
@@ -527,6 +528,7 @@
 
 .feat_title {
 	float: left;
+	user-select: none;
 }
 
 .feat_url {
@@ -564,6 +566,7 @@
 .frame_field {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	user-select: none;
 }
 
 .frame_reload {
@@ -1116,6 +1119,7 @@
 	backdrop-filter: blur(10px);
 	border: 1px solid #7d7474;
 	background-color: #0e0e0e99;
+	user-select: none;
 }
 
 .settings_center {
@@ -1193,6 +1197,7 @@
 	font-size: 20px;
 	text-align: left;
 	max-width: 700px;
+	user-select: none;
 }
 
 .short {
@@ -1221,6 +1226,7 @@
 	width: 150px !important;
 	margin-left: 95px;
 	background: none !important;
+	user-select: none;
 }
 
 .tip {
@@ -1344,6 +1350,7 @@
 	float: left;
 	width: 290px;
 	font-size: 17px;
+	user-select: none;
 }
 
 .weather {
