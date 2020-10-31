@@ -1,3 +1,5 @@
+![SS1](/screenshots/capture-main.png)
+
 <h1>The Source - Customizable Startpage</h1>
 
 <h4>Built with HTML/CSS/PHP/JS/JQuery</h4>
@@ -22,6 +24,8 @@
 * JQueryUI - https://jqueryui.com/
 * Tipr - https://github.com/lt1946/Tipr
 * Weather Widget - https://weatherwidget.io/
+
+![SS2](/screenshots/capture-search.png)
 
 <h5>Features</h5>
 
@@ -68,7 +72,3 @@
 * HTAM (HTAccess Manager) can be accessed in the Main Menu, which you can use to create a .htaccess and add a username & password.
 
 <h2>Screen Shots</h2>
-
-![SS1](/screenshots/capture-main.png)
-
-![SS2](/screenshots/capture-search.png)
