@@ -138,7 +138,7 @@
     <p>The message that appears in the Quick Access Bar can be customized here.</p>
     <p>The message that is displayed is determined by the time of day.</p>
     <h3><i class="fas fa-photo-video"></i> Media</h3>
-    <p>Wallpaper, Mobile Wallpaper, and Logo can be customized in the Media section of the Settings Menu.</p>
+    <p>Wallpaper, Mobile Wallpaper, and Avatar/Logo can be customized in the Media section of the Settings Menu.</p>
     <h3><i class="fab fa-css3-alt"></i> Custom CSS</h3>
     <p>In the Custom CSS section of the Settings Menu, CSS for The Source can be overwritten with your own CSS.</p>
     <h3><i class="fas fa-th-list"></i> Custom Categories</h3>

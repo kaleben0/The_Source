@@ -72,7 +72,7 @@
     </form>
   </div>
   <div class="wall_box">
-    <div class="wall_head">Logo
+    <div class="wall_head">Avatar / Logo
       <div class="tooltip"><i class="fas fa-info-circle fa-sm"></i><span class="tooltiptext">Recommended Dimensions: 40x40 <br/>
         File Types:<br/>
         jpg, jpeg, png, or gif only</span></div>
