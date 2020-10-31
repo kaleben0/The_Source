@@ -321,15 +321,15 @@
 
 .directory_bar {
 	height: 45px;
-	font-size: 22px;
-	padding-top: 10px;
-	padding-right: 10px;
-	text-align: right;
-	margin-bottom: 10px;
-	position: fixed;
-	top: -5px;
-	z-index: 100;
-	right: 24%;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: right;
+  margin-bottom: 10px;
+  position: fixed;
+  top: -5px;
+  z-index: 100;
+  right: 28%;
 }
 
 .directory_block {
