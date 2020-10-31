@@ -25,15 +25,15 @@
 * Tipr - https://github.com/lt1946/Tipr
 * Weather Widget - https://weatherwidget.io/
 
-![SS2](/screenshots/capture-search.png)
-
 <h5>Features</h5>
 
-* 10 Custom Categories
+![SS2](/screenshots/capture-search.png)
+
+* 10 Custom Categories <---New!
 * 5 Custom Draggable Frames <---New!
 * Google Multi-Search w/ 24 Custom Searches <---New!
 * Customize Your CSS <---New!
-* Customizable Wallpaper & Logo
+* Customizable Wallpaper & Avatar/Logo
 * Wallpaper / Message changes based on time of day
 * Wallpaper now supports animated GIF format (Sample Collection - https://imgur.com/a/A14dP6h)
 * Customizable Weather Widget from https://weatherwidget.io/
