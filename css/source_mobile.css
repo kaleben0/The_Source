@@ -183,9 +183,9 @@
     background-image: url(../images/background-mobile.png) !important;
     background-repeat: repeat repeat;
     background-size: auto;
-    padding: 30px;
-    max-width: 340px;
-    min-width: 340px;
+    padding: 25px;
+    margin-left:auto;
+    margin-right:auto;
   }
   iframe {
     max-width: 350px;
