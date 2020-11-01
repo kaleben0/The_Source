@@ -320,7 +320,7 @@
 }
 
 .directory_bar {
-	height: 45px;
+  height: 45px;
   font-size: 22px;
   padding-top: 10px;
   padding-right: 10px;
@@ -667,13 +667,29 @@
 	scroll-behavior: smooth;
 }
 
+.help_box .help_top_list {
+  text-indent: unset;
+}
+
+.help_box ul {
+  text-indent:65px;
+}
+
+.help_box p {
+  text-indent:65px;
+}
+
 .help_box h2 {
 	text-align: center;
 }
 
+.help_box h5 {
+	text-indent: 25px;
+	font-style: italic;
+}
+
 .help_box h4 {
 	text-indent: 15px;
-	font-style: italic;
 }
 
 .help_box h4 i {
@@ -1527,10 +1543,6 @@
 a:active, a:hover, a:link, a:visited {
 	text-decoration: none;
 	color: #ffffff;
-}
-
-p {
-	text-indent: 35px;
 }
 
 body {
