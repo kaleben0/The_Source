@@ -44,6 +44,13 @@ echo "<div class='nav_label'>$category10_name</div></li>";
   <li class="header_menu" title="Search" onclick="search_toggle();" id="search_nav"> <i class="fas fa-search icons3"></i>
     <div class="nav_label">Search</div>
   </li>
+  </ul>
+<ul class="sub_block" >
+  <div class="nav_mini_header">
+    <hr class="side_nav_hr_left"/>
+    <i class="fas fa-vector-square"></i>
+    <hr class="side_nav_hr_right"/>
+  </div>
 <?php
 include './functions/config_frames.php';
 echo "<li class='header_menu' title='$frame1_title' id='$frame1_title' onclick='toggle_frame1();'><i class='$frame1_icon'></i>";

@@ -32,7 +32,7 @@ include './functions/settings_frames.php';
 include './functions/settings_search.php';
 ?>
 <br/>
-<div class="section_label" onclick="$('#set_feat').toggle();">Features</div>
+<div class="section_label" onclick="$('#set_feat').toggle();">Tools</div>
 <div class="settings_box" id="set_feat">
 <div class="settings_features" >
 <div id="features_box">
