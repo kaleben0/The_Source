@@ -935,6 +935,7 @@
 .main_menu_item {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	user-select: none;
 }
 
 .main_menu_item:hover {
