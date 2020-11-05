@@ -1,7 +1,6 @@
-
 <?php
 if (isset($_POST['submit'])) {
-$open = fopen("./css/custom.css","w+");
+$open = fopen("/css/custom.css","w+");
 $text = $_POST['update'];
 fwrite($open, $text);
 fclose($open);
