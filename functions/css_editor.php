@@ -1,10 +1,10 @@
 <?php
 if (isset($_POST['submit'])) {
-$open = fopen("/css/custom.css","w+");
+$open = fopen("./css/custom.css","w+");
 $text = $_POST['update'];
 fwrite($open, $text);
 fclose($open);
-$file = file("./css/custom.css");
+$file = file("/css/custom.css");
 echo "<form action=\"".$_SERVER['PHP_SELF']."\" method=\"post\">";
 echo "<div class='section_label' onclick=\"$('#set_css_custom, #save_css_custom').toggle();\">Custom CSS";
 echo "<input type='submit' name='submit' id='save_css_custom' class='far fa-save button_save' value='&#xf0c7' title='Save Changes'></div>";
