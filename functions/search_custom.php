@@ -9,6 +9,8 @@
             $search_icon=$row["search_icon"];
             $search_url=$row["search_url"];
             $titlesquish = str_replace(' ', '', $search_title);
+            $titlesquish = str_replace('-', '', $titlesquish);
+            $titlesquish = strtolower($titlesquish);
 
      echo "<script>";
      echo "function $titlesquish() { ";
