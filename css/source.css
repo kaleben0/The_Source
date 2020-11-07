@@ -209,7 +209,7 @@
 	background-position: left;
 	font-size: 16px;
 	height: 30px;
-	width: 200px;
+	width:150px;
 	border: 1px solid #7d7474;
 	border-radius: 5px;
 	text-indent: 4px;
@@ -1241,9 +1241,9 @@
 
 .table_head {
   border: none !important;
-  margin-right: -30px;
+  margin-right: -56px;
   width: 150px !important;
-  margin-left: 90px;
+  margin-left: 66px;
   background: none !important;
   user-select: none;
 }
@@ -1408,7 +1408,7 @@
 	display: none;
 	left: 200px;
 	margin-right: auto;
-	max-width: 1400px;
+	max-width: 1100px;
 	max-height: 600px;
 	padding: 20px;
 	position: fixed;
