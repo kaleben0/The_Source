@@ -71,4 +71,3 @@
 <h3>It is HIGHLY recommended that you protect your site with at least Basic Authentication </h3>
 * HTAM (HTAccess Manager) can be accessed in the Main Menu, which you can use to create a .htaccess and add a username & password.
 
-<h2>Screen Shots</h2>
