@@ -87,7 +87,7 @@
 
     <h3 id="help_top"><i class="fas fa-ellipsis-h"></i> Top Bar</h3>
     <p>Contains Custom Logo, Google Search Box, Clock, Weather, Custom Message, and Main Menu</p>
-    <p><b>Note: Clicking on Custom Logo will reload the page</b></p>
+    <p><b>Note: Clicking on Custom Logo will reload the page. Clicking the Time/Date will open WorldTimeBuddy.com </b></p>
 
     <h3 id="help_side"><i class="fas fa-ellipsis-v"></i> Side Menu</h3>
     <p>The Side Menu is a quick menu that allows access to Categories, Features, and Frames.</p>
