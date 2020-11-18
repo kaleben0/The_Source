@@ -20,7 +20,7 @@
   echo"<div class='letter_head' id='cat_10'>$category10_name</div>";
   ?>
   <div class="letter_head" id="settings">Settings</div>
-  <div class="tzone"><span id="txt"></span>&nbsp;|&nbsp;<i class="fas fa-cloud-sun fa-1x" title="Weather" onclick="toggle_weather();"></i>&nbsp;|&nbsp;<span id="time_message">Good Morning</span>&nbsp;|&nbsp;&nbsp;<i class="fas fa-bars fa-1x" onclick="toggle_main_menu();"></i>&nbsp;&nbsp;</div>
+  <div class="tzone"><span id="txt" onclick="window.open('https://www.worldtimebuddy.com/','_blank')"></span>&nbsp;|&nbsp;<i class="fas fa-cloud-sun fa-1x" title="Weather" onclick="toggle_weather();"></i>&nbsp;|&nbsp;<span id="time_message">Good Morning</span>&nbsp;|&nbsp;&nbsp;<i class="fas fa-bars fa-1x" onclick="toggle_main_menu();"></i>&nbsp;&nbsp;</div>
   </div>
 <div class="weather"><?php include './functions/config.php';echo $weather;?></div>
 <div class="main">
@@ -41,4 +41,3 @@
 <div class="main_menu_item" onclick="toggle_help();toggle_main_menu();"><i class="far fa-question-circle fa-1x" title="Help"></i>Help</div>
 <div class="main_menu_item" onclick="location.reload();"><i class="fas fa-redo-alt fa-1x" title="Reload"></i>Reload Page</div>
 </div>
-
