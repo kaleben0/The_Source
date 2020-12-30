@@ -240,6 +240,9 @@
   .googlesearch2 {
     display: none;
   }
+  .favorite_center {
+    max-width: 500px;
+  }
   .letter_head {
     display: none !important;
   }
