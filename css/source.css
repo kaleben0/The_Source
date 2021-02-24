@@ -724,6 +724,10 @@
 	flex-direction: column;
 }
 
+.icons{
+	width:30px;
+}
+
 .icon_box {
 	border: 1px solid #7d7474;
 	border-radius: 10px;
