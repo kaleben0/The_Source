@@ -31,7 +31,7 @@
 - Customize Your CSS <---New!
 - Customizable Wallpaper & Avatar/Logo
 - Wallpaper / Message changes based on time of day
-- Wallpaper now supports animated GIF format [Imgur Sample Collection](https://imgur.com/a/A14dP6h)
+- Wallpaper now supports animated GIF format - [Imgur Sample Collection](https://imgur.com/a/A14dP6h)
 - [Customizable Weather Widget](https://weatherwidget.io/)
 - Password Generator
 - Keyboard Shortcut Keys
