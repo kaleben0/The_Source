@@ -238,7 +238,7 @@
 
     <hr style="width:95%;margin-left:auto;margin-right:auto;" >
     <h2 id="help_credits"><i class="fas fa-info-circle"></i> Credits</h2>
-    <h3>The Source v1.5</h3>
+    <h3>The Source v1.7.5</h3>
     <p>Developed by Doug Redman</p>
     <p>GitHub : https://github.com/kaleben0/The_Source</p>
     <h4>Software/Plugins Utilized</h4>
