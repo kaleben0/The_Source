@@ -13,21 +13,24 @@
   margin-bottom: 15px;
 }
 .favorite_icon, .remove {
-	float: left;
+	float: right;
 	left:15px;
 	width: 0;
 	margin-left: auto;
   margin-right: auto;
-  margin-top: -12px;
+  margin-top: -9px;
 }
 .book_icon {
-    font-size: 26px;
+    font-size: 20px;
     height: 40px;
     margin-left: auto;
     margin-right: auto;
     width: 60px;
     float: left;
     margin-top: -10px;
+}
+.bookmark_box:hover {
+	font-style: italic;
 }
 .category_1, .category_2, .category_3, .category_4, .category_5, .category_6, .category_7, .category_8, .category_9, .category_10 {
 	border:none;

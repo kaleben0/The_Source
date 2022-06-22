@@ -509,10 +509,9 @@
 
 .favorite_icon {
 	float: left;
-	left: 82px;
+	left: 10px;
 	position: relative;
 	z-index: 100;
-	display: none;
 }
 
 .favorite_icon a {

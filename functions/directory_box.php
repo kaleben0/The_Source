@@ -50,17 +50,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category' >";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -88,17 +88,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category' >";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -124,17 +124,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -161,17 +161,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+             echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -198,17 +198,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -234,17 +234,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -270,17 +270,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -306,17 +306,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -342,17 +342,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -378,17 +378,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -414,17 +414,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -450,17 +450,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -486,17 +486,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -522,17 +522,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -558,17 +558,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -594,17 +594,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -630,17 +630,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -666,17 +666,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -702,17 +702,17 @@
 		        $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -738,17 +738,17 @@
 		        $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -774,17 +774,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -810,17 +810,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -846,17 +846,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -882,17 +882,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -918,17 +918,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -954,17 +954,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
@@ -990,17 +990,17 @@
 	          $search = $title;
 	          $search = strtolower($search);
 	          if ($favor == 'yes'){
-	            $sub_icon = 'fas fa-star fa-2x';
+	            $sub_icon = 'fas fa-star';
 	            $change = './functions/remove_fav.php';
 	            }
 	            elseif ($favor == 'no') {
-	            $sub_icon = 'far fa-star fa-2x';
+	            $sub_icon = 'far fa-star';
 	            $change = './functions/add_fav.php';
 	            }
 	          echo "<div class='bookmark_box'  id='$search' >";
             echo "<div class='category_$category'>";
             echo "<div class='favorite_icon'><a href='$change?id=$id&title=$title' target='message_frame' id='add_form'><i class='$sub_icon'></i></a></div>";
-            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt fa-2x'></i></a></div>";
+            echo "<div class='remove'><a href='./functions/remove_book.php?id=$id&title=$title' target='message_frame' id='remove_form' onclick=\"return confirm('Are you sure?')\"><i class='far fa-trash-alt'></i></a></div>";
             echo "<div class='url_box' data-tip='$subcategory' onclick=\"window.open('" . $url . "','_blank')\">";
             echo "<div class='book_icon'><i class='$fonta'></i></div>";
             echo "<hr class='dir_hr' />";
