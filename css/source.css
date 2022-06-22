@@ -1005,8 +1005,8 @@
 }
 
 .remove {
-	float: right;
-	left: -82px;
+	float: left;
+	left: 10px;
 	position: relative;
 	z-index: 100;
 	display: none;
@@ -1018,11 +1018,11 @@
 }
 
 .remove i {
-	color: #7d0000;
+	color: #ff0000;
 	position: relative;
 	z-index: 100;
-	text-shadow: 2px 2px #000;
 }
+
 
 .sc_box {
 	margin-bottom: 5px;

@@ -445,26 +445,22 @@ function toggle_frame5() {
 }
 
 function favorite_edit() {
-	if($(".book_icon i").is(":visible")) {
-		$('.favorite_icon').show();
-		$('.book_icon i').hide();
+	if($(".favorite_icon").is(":hidden")) {
+		$('.favorite_icon').show()
 		$('.remove').hide();
 	} else {
-		$('.book_icon i').show();
-		$('.favorite_icon').hide();
+		$('.favorite_icon').hide()
 		$('.remove').hide();
 	}
 }
 
 function delete_edit() {
-	if($(".book_icon i").is(":visible")) {
-		$('.remove').show();
-		$('.favorite_icon').hide();
-		$('.book_icon i').hide();
+	if($(".remove").is(":hidden")) {
+		$('.remove').toggle()
+		$('.favorite_icon').toggle();
 	} else {
-		$('.book_icon i').show();
-		$('.remove').hide();
-		$('.favorite_icon').hide();
+		$('.remove').toggle()
+		$('.favorite_icon').toggle();
 	}
 }
 //Password Generator
