@@ -61,15 +61,15 @@
 
 Set the owner/group of the directory as the default for your webserver (www-data)
 
-  <pre><span>sudo chown -R www-data:www-data the_source</span></pre>
+  <pre><span>sudo chown -R www-data:www-data The_Source</span></pre>
 
 Set your images directory as writable so that you can upload your images
 
-  <pre><span>sudo chmod -R 755 the_source/images/</span></pre>
+  <pre><span>sudo chmod -R 755 The_Source/images/</span></pre>
 
 Set your custom.css file as writable so that you can customize your css
 
-  <pre><span>sudo chmod 777 the_source/css/custom.css</span></pre>
+  <pre><span>sudo chmod 777 The_Source/css/custom.css</span></pre>
 
 #### HIGHLY recommended that you protect your site with at least Basic Authentication
 - HTAM (HTAccess Manager) can be accessed in the Main Menu, which you can use to
