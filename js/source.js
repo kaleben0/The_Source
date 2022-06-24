@@ -585,13 +585,16 @@ function startTime() {
 	var h = today.getHours();
 	var m = today.getMinutes();
 	var s = today.getSeconds();
+	var ampm = h >= 12 ? 'pm' : 'am';
+  h = h % 12;
+  h = h ? h : 12;
 	var mo = today.getMonth();
 	var mo = mo + 1;
 	var da = today.getDate();
 	var yr = today.getFullYear();
 	m = checkTime(m);
 	s = checkTime(s);
-	document.getElementById('txt').innerHTML = h + ":" + m + ":" + s + " | " + mo + "/" + da + "/" + yr;
+	document.getElementById('txt').innerHTML = h + ":" + m + ":" + s + ampm + " | " + mo + "/" + da + "/" + yr;
 	var t = setTimeout(startTime, 500);
 }
 
