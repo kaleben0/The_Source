@@ -84,6 +84,7 @@
     left: 14px;
     position: relative;
     z-index: 100;
+    display:none;
   }
   .googlesearch {
     margin-left: auto;
