@@ -580,25 +580,52 @@ $(document).ready(function() {
 	});
 });
 //Clock
-function startTime() {
+$(document).ready(function() {
+	$('.timeclock').click(function() {
+    $('#txt').toggle(),
+    $('#txt2').toggle();
+	});
+});
+
+function startTime2() {
 	var today = new Date();
 	var h = today.getHours();
 	var m = today.getMinutes();
 	var s = today.getSeconds();
-	var ampm = h >= 12 ? 'pm' : 'am';
-  h = h % 12;
-  h = h ? h : 12;
 	var mo = today.getMonth();
 	var mo = mo + 1;
 	var da = today.getDate();
 	var yr = today.getFullYear();
 	m = checkTime(m);
 	s = checkTime(s);
-	document.getElementById('txt').innerHTML = h + ":" + m + ":" + s + ampm + " | " + mo + "/" + da + "/" + yr;
-	var t = setTimeout(startTime, 500);
+	document.getElementById('txt').innerHTML = h + ":" + m + ":" + s + " | " + mo + "/" + da + "/" + yr;
+	var t = setTimeout(startTime2, 500);
+}
+function checkTime(i) {
+	if(i < 10) {
+		i = "0" + i
+	};
+	return i;
 }
 
-function checkTime(i) {
+function startTime() {
+	var today2 = new Date();
+	var h2 = today2.getHours();
+	var m2 = today2.getMinutes();
+	var s2 = today2.getSeconds();
+	var ampm2 = h2 >= 12 ? 'pm' : 'am';
+  h2 = h2 % 12;
+  h2 = h2 ? h2 : 12;
+	var mo2 = today2.getMonth();
+	var mo2 = mo2 + 1;
+	var da2 = today2.getDate();
+	var yr2 = today2.getFullYear();
+	m2 = checkTime2(m2);
+	s2 = checkTime2(s2);
+	document.getElementById('txt2').innerHTML = h2 + ":" + m2 + ":" + s2 + ampm2 + " | " + mo2 + "/" + da2 + "/" + yr2;
+	var t = setTimeout(startTime, 500);
+}
+function checkTime2(i) {
 	if(i < 10) {
 		i = "0" + i
 	};
