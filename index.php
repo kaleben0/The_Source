@@ -50,7 +50,7 @@ $(document).ready(function() {
 
 </script>
 </head>
-<body id='page-top' onload="startTime()">
+<body id='page-top' onload="startTime();startTime2()">
 <?php
 include './functions/side_nav.php';
 include './functions/top_nav.php';
