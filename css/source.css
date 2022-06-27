@@ -1585,3 +1585,12 @@ input[type="checkbox"] {
 	width: 30px;
 	height: 20px;
 }
+#txt2 {
+  display:inline;
+}
+#txt {
+  display:none;
+}
+.timeclock {
+  display:inline;
+}
